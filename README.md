@@ -1,8 +1,10 @@
 # Notio Assistant — единый проект Android и Windows
 [Русский](README.md) · [English](README.en.md)
 
-**GitHub About / English:** A cross-platform Notio organizer with an optional Windows AI assistant powered by a local model. Actions use configurable permissions, user confirmation, and an undo log.
-**Описание GitHub / Русский:** Кроссплатформенный органайзер Notio с дополнительным ИИ-помощником для Windows на локальной модели. Действия ограничиваются правами, подтверждаются пользователем и записываются для отмены.
+**GitHub About / English:** Notio growing into something larger: already with AI, still an early MVP.
+**Описание GitHub / Русский:** Развитие Notio в нечто большее: уже с ИИ, пока ранний MVP.
+
+Notio-Assistant — развитие Notio в нечто большее. ИИ уже внутри, но это пока ранний MVP.
 
 Этот репозиторий объединяет Android и Windows варианты Notio в одном Git/Gradle-проекте. Общую логику переносим постепенно; платформенные интерфейсы и системные функции сохраняем в Android и Windows слоях.
 

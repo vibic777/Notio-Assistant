@@ -2,6 +2,8 @@
 
 [Русский](README.md) · **English**
 
+Notio Assistant is Notio growing into something larger. AI is already in it, and this is still an early MVP.
+
 This repository contains a combined Android and Windows Notio project. Shared functionality is being consolidated gradually, while platform interfaces and system integrations remain in the Android and Windows layers.
 
 Build from the repository root:
