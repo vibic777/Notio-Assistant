@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The installer in one of Notio's ten languages (D80). The pages of WiX itself come from its own translation of this culture;
+     these are the texts of jpackage's pages and ours. NotioLanguage is the language number Windows chooses the texts by. -->
+<WixLocalization Culture="ja-jp" Codepage="932" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+  <String Id="NotioLanguage">1041</String>
+  <!-- The name in "Installed apps" and of the Start menu shortcut (D133): Russian has its own, the others the English one. -->
+  <String Id="NotioProductName">Notio by vibic</String>
+  <String Id="MainFeatureTitle">主な機能</String>
+  <String Id="DowngradeErrorMessage">[ProductName]のより上位のバージョンがすでにインストールされています。ダウングレードは無効です。セットアップを終了します。</String>
+  <String Id="DisallowUpgradeErrorMessage">[ProductName]のより下位のバージョンがすでにインストールされています。アップグレードは無効です。セットアップを終了します。</String>
+  <String Id="ShortcutPromptDlg_Title">[ProductName]セットアップ</String>
+  <String Id="ShortcutPromptDlgTitle">{\WixUI_Font_Title}ショートカット</String>
+  <String Id="ShortcutPromptDlgBannerBitmap">WixUI_Bmp_Banner</String>
+  <String Id="ShortcutPromptDlgDescription">作成するショートカットを選択します。</String>
+  <String Id="ShortcutPromptDlgDesktopShortcutControlLabel">デスクトップ・ショートカットの作成</String>
+  <String Id="ShortcutPromptDlgStartMenuShortcutControlLabel">スタート・メニューのショートカットの作成</String>
+  <String Id="InstallDirNotEmptyDlg_Title">[ProductName]セットアップ</String>
+  <String Id="InstallDirNotEmptyDlgInstallDirExistMessage">フォルダ[INSTALLDIR]はすでに存在します。そのフォルダにインストールしますか?</String>
+  <String Id="ContextMenuCommandLabel">[ProductName]で開く</String>
+  <String Id="OsConditionMessage">[ProductName][ProductVersion]は、 このバージョンのWindowsでサポートされていません</String>
+  <String Id="LaunchAppCheckbox">Notio を起動</String>
+</WixLocalization>

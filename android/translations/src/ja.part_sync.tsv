@@ -1,0 +1,98 @@
+settings_cat_sync	同期
+settings_cat_sync_hint	同じ Wi-Fi 上のあなたの端末どうし
+settings_sync	端末間の同期
+settings_sync_hint	同じ Wi-Fi 上で Notio を入れた 2 台のスマホ（またはタブレット）の両方でこのページを開きます。最初に一度コードでつなげば、その後の同期は保存した接続を使います。すべて暗号化され、インターネットやクラウドを通らず端末間で直接送られます。相手の端末はデータが変わる前に確認を求めます。
+sync_wait	端末を待つ
+sync_find	端末を探す
+sync_connections	接続
+sync_this_device	この端末：%1$s
+sync_not_listening	他の端末から見えません
+sync_no_wifi	Wi-Fi なし：両方の端末を同じネットワークにつないでください
+sync_listening	このページを開いている間は表示されます：%1$s
+sync_rename_device	端末名
+sync_device_name	他の端末に表示される名前
+sync_new_connection	新しい接続
+sync_roles_hint	最初の接続のときだけ：一方の端末で「端末を待つ」（コードが表示されます）、もう一方で「端末を探す」を押してそのコードを入力します。
+sync_code_title	相手の端末に入力するコード
+sync_code_hint	相手の端末で：設定 → 同期 → 端末を探す、この端末を選んでコードを入力。待機中…
+sync_paired_with	%1$s と接続しました
+sync_no_connections	まだ接続はありません。
+sync_online	現在オンライン
+sync_offline	今は見えません（相手でこのページを開いてください）
+sync_last	最後の同期：%1$s
+sync_never	まだ同期していません
+sync_sync	同期…
+sync_test	接続テスト
+sync_testing	接続をテスト中…
+sync_remove	削除
+sync_remove_title	%1$s との接続を削除しますか？
+sync_remove_message	相手が今つながる場合は両方の端末で、そうでなければこの端末だけで接続を削除します。ノートはそのままです。再び同期するには新しいコードで接続します。
+sync_removed_both	両方の端末で接続を削除しました
+sync_removed_here	この端末で接続を削除しました（相手につながりませんでした）
+sync_log	同期ログ
+sync_log_empty	まだありません。
+sync_log_clear	消去
+sync_copy_report	コピー
+sync_copied	コピーしました
+sync_pairing_progress	接続中…
+sync_failed	うまくいきませんでした：%1$s
+sync_running	%1$s と同期中…
+sync_status_receiving	相手の端末からデータを受信中…
+sync_status_sending	相手の端末へデータを送信中…
+sync_done_title	%1$s と同期しました
+sync_received	この端末で受信：
+sync_sent	相手の端末で受信：
+sync_stats	新しいフォルダー %1$d、新しいノート %2$d、更新 %3$d、変更なし %4$d、ファイル %5$d
+sync_clock_warning	2 台の時計が約 %1$s 分ずれています。統合は変更時刻で行うので、両方の時刻を正しく設定してください。
+sync_test_ok	すべて正常です。
+sync_test_failed	最初の ✗ が原因です。
+sync_prompt_pair	%1$s と接続しますか？
+sync_prompt_pair_hint	正しいコードが入力されました。この後 2 台は同期できます。同期のたびにここで確認します。
+sync_prompt_sync	%1$s が同期を求めています
+sync_prompt_send	データはこの端末から相手へ送られます。この端末は変わりません。
+sync_prompt_receive	データは相手からこの端末に届きます。
+sync_prompt_both	データは双方向に送られます。
+sync_mode_label	方法：
+sync_folders_label	フォルダー：
+sync_all_folders	すべてのフォルダー
+sync_replace_warning	置き換えは受け取る端末のデータをまずすべて削除します。
+sync_allow	許可
+sync_deny	拒否
+sync_manual_hint	一覧にない場合は、相手の端末に表示されたアドレスを入力します。
+sync_address	アドレス
+sync_use_address	このアドレスを使う
+sync_enter_code	%1$s に表示されたコードを入力：
+sync_code	コード
+sync_connect	接続
+sync_with	%1$s と同期
+sync_direction	方向
+sync_dir_send	この端末から %1$s へ
+sync_dir_receive	%1$s からこの端末へ
+sync_dir_both	双方向
+sync_mode	方法
+sync_mode_merge	統合
+sync_mode_copies	コピーとして追加
+sync_mode_replace	置き換え
+sync_mode_merge_hint	同じノートとフォルダーを対応させ、それぞれ新しい変更を採用し、足りないものを追加します。
+sync_mode_copies_hint	何も上書きしません。届いたものはすべて新しいコピーとして追加されます（重複の可能性あり）。
+sync_mode_replace_hint	受け取る端末は完全なコピーになります。まず全データが削除されます。
+sync_replace_rule	置き換えは片方向のときだけ可能です。
+sync_folders	フォルダー
+sync_refresh_folders	%1$s のフォルダーを取得
+sync_start	開始
+sync_step_network	この端末の Wi-Fi
+sync_step_listening	このページは待ち受け中
+sync_step_find	相手の端末を検出
+sync_step_connect	接続
+sync_step_handshake	暗号化と鍵
+sync_step_clock	時計のずれ
+sync_step_reply	応答
+sync_step_pairing	接続の記録
+sync_err_not_found	相手の端末が見つかりません：同じ Wi-Fi で相手の 設定 → 同期 を開いてください
+sync_err_not_waiting	相手の端末は今コードを表示して待っていません
+sync_err_unknown_pairing	相手の端末はこの接続を知りません（相手側で削除？）：ここで削除してコードで接続し直してください
+sync_err_version	相手の端末の Notio のバージョンが違います：両方を更新してください
+sync_err_wrong_code	コードが違います
+sync_err_denied	相手の端末で拒否されました
+help_sync_title	端末間の同期
+help_sync_body	設定 → 同期 は、同じ Wi-Fi 上の Notio を入れた 2 台をインターネットやクラウドを通さず直接つなぎます。両方でこのページを開いておきます。初回は一方が「端末を待つ」でコードを表示し、もう一方が「端末を探す」でその端末を選び（またはアドレスを入力し）コードを入力、最初の端末が確認します。接続は一覧に保存され、その後は「同期…」で方向（ここから、ここへ、双方向）、方法（統合 — 新しい変更を採用、コピーとして追加、置き換え — 受け取る側を完全なコピーに。片方向のみ。フォルダーを選んだ場合はそのフォルダーだけを置き換え）、すべてまたは選んだフォルダーを選ぶだけです。相手の端末は毎回確認します。「接続テスト」はどこで失敗するかを手順ごとに表示し、「削除」で接続を切ります。すべて暗号化され（AES-256-GCM、ECDH による鍵）、コードはネットワークに送られません。 Wi-Fi が相手のデバイスに新しいアドレス（ある日は「.152」、次の日は「.153」）を割り当て、自動で見つからない場合は、保存済みの接続の「アドレス…」を押し、相手の「同期」ページ上部に表示されるアドレスとポートを入力します。ペアリングの鍵は変わらず、そのアドレスにいる鍵のないデバイスは拒否されます。Notio を開いている間にネットワークが変わった場合（モバイル通信や VPN から Wi-Fi へ）は、「接続を再確認」を押してください。この端末のアドレスと近くの端末の一覧が読み直されます。この端末が接続を待つポートは自動で選ばれます。「この端末のポート…」で自分のポートを手動で設定でき（ファイアウォールやルーターのルール用）、空いているか他のプログラムが使用中かが表示されます。

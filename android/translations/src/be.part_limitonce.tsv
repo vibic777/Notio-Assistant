@@ -1,0 +1,6 @@
+rec_limit_change	Змяніць для гэтага запісу
+rec_limit_once_title	Ліміт гэтага запісу
+rec_limit_once_hint	Толькі для наступнага запісу, потым зноў Налады → Запісы. 0 — да «Стоп».
+rec_limit_once_line	Спыніцца сам праз %1$s (толькі гэты запіс)
+rec_limit_once_none	Да «Стоп» (толькі гэты запіс)
+rec_limit_back	Як у Наладах

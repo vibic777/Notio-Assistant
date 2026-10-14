@@ -1,0 +1,31 @@
+budget_kind_title	予算の種類
+budget_kind_account	口座
+budget_kind_income	収入
+budget_kind_expense	支出
+budget_kind_hint	収入または支出は一度だけ口座に合算されます（支出は差し引き）。その後ごみ箱に移ります。
+budget_merge_target	合算先
+budget_merge_target_none	口座を選択
+budget_merge_no_accounts	「口座」の予算がまだありません。作成してください。
+budget_merge_when	日時
+budget_merge_when_none	未設定（「今すぐ合算」のみ）
+budget_merge_clear_time	日時を消す
+budget_merge_sum	金額
+budget_merge_goal	目標
+budget_merge_same	同じ項目：同名の項目に加算
+budget_merge_all	すべての項目を移す：その他は口座に新規作成
+budget_merge_by_name	項目名で
+budget_merge_by_path	グループ / 項目で
+budget_merge_match	項目の照合
+budget_merge_now	今すぐ合算
+budget_merge_now_confirm	項目は「%1$s」に入り、この予算はごみ箱に移ります。口座のログから元に戻せます。
+budget_merge_status	%1$s · %3$s に「%2$s」へ合算
+budget_merge_status_no_time	%1$s · 「今すぐ合算」で「%2$s」へ
+budget_merge_status_no_target	%1$s · 口座未選択：何も起きません
+budget_merge_done	「%1$s」に合算：変更 %2$d 件、新規 %3$d 件。この予算はごみ箱にあります。
+budget_merge_no_target	先に口座を選んでください。
+budget_merge_target_missing	選んだ口座は削除されたか、口座ではなくなりました。
+budget_log_merged	合算：「%1$s」— 変更 %2$d 件、新規 %3$d 件
+budget_log_merged_into	「%1$s」に合算
+budget_log_merge_undone	「%1$s」の合算を取り消しました
+budget_merge_undo	合算を取り消す
+budget_merge_undo_confirm	口座は「%1$s」の合算前に戻り、「%1$s」はごみ箱から戻ります（日時は消去されます）。

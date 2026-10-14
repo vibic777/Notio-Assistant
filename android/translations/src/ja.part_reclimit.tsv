@@ -1,0 +1,17 @@
+settings_cat_recordings	録音・録画
+settings_cat_recordings_hint	録音・録画の最長時間
+settings_rec_limit_audio	録音の最長時間
+settings_rec_limit_video	カメラ動画の最長時間
+settings_rec_limit_screen	画面録画の最長時間
+settings_rec_limit_hint	0 = 停止するまで、1〜65535。この時間が来ると自動で停止して保存されます。停止はいつでも先にできます。止め忘れの保険です。
+settings_rec_limit_amount	長さ
+rec_unit_seconds	秒
+rec_unit_minutes	分
+rec_unit_hours	時間
+rec_limit_s	%1$d 秒
+rec_limit_min	%1$d 分
+rec_limit_h	%1$d 時間
+rec_limit_line	%1$s で自動停止（設定 → 録音・録画）
+rec_limit_none	時間制限なし：停止を押すまで
+rec_limit_warning	録音・録画は %1$s で自動停止します。
+rec_limit_reached	制限時間になりました。停止して保存しました。

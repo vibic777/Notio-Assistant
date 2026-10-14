@@ -1,0 +1,10 @@
+sort_key_tags	标签
+sort_key_type	类型
+sort_key_count	笔记数量
+sort_key_created_date	创建：日期
+sort_key_created_time	创建：时刻
+sort_key_updated_date	修改：日期
+sort_key_updated_time	修改：时刻
+cd_drag_handle	拖动以移动
+stamp_created	创建：%1$s
+stamp_modified	修改：%1$s

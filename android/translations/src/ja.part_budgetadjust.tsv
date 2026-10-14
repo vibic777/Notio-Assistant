@@ -1,0 +1,8 @@
+budget_adjust	金額を変更
+budget_adjust_current	現在の金額：%1$s
+budget_adjust_add	加算
+budget_adjust_subtract	減算
+budget_adjust_amount	金額
+budget_adjust_invalid	0より大きい金額を小数点以下2桁まで入力してください
+budget_adjust_result	変更後：%1$s
+budget_adjust_per_piece	この項目は%1$d回繰り返されます。変更は1個分の金額に適用されます。

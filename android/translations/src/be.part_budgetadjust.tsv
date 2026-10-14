@@ -1,0 +1,8 @@
+budget_adjust	Змяніць суму
+budget_adjust_current	Зараз сума: %1$s
+budget_adjust_add	Дадаць
+budget_adjust_subtract	Адняць
+budget_adjust_amount	Сума
+budget_adjust_invalid	Увядзіце суму больш за нуль, не болей за два знакі пасля коскі
+budget_adjust_result	Стане: %1$s
+budget_adjust_per_piece	Артыкул паўтараецца %1$d раз: змяненне датычыцца сумы адной штукі.

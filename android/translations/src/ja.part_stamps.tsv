@@ -1,0 +1,6 @@
+settings_stamps	タイムスタンプ
+settings_stamps_hint	作成日時と最終変更日時を表示します。変わるのは表示だけで、時刻は保存されます。
+settings_stamps_notes	ノート（録音・写真・動画を含む）
+settings_stamps_folders	フォルダ
+settings_stamp_created	作成日時を表示
+settings_stamp_modified	変更日時を表示

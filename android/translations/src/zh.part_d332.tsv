@@ -1,0 +1,6 @@
+help_cat_start	基础
+help_cat_media	绘图与媒体
+help_cat_data	数据与同步
+help_icons_title	本节的图标和按钮
+help_hints_title	提示
+help_hints_body	长按任意图标或按钮（在电脑上，将鼠标停在上面）：其名称会显示五秒钟。在提示显示时点按它，帮助会打开到对应的章节；关闭帮助后回到原来的位置。在帮助中，每个类别是一个标签页，其章节是下方的标签页；章节末尾列出该章节的图标及名称。

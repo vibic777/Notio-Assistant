@@ -1,0 +1,17 @@
+assistant_telegram_mode_direct	Notio legge il bot da sé con la sua chiave
+assistant_telegram_mode_program	Tramite il tuo programma bot (TelegramBot)
+assistant_telegram_program_url	Indirizzo del programma bot
+assistant_telegram_program_code	Codice di questo Notio per il bot
+assistant_telegram_program_show	Mostra il codice
+assistant_telegram_program_hide	Nascondi il codice
+assistant_telegram_program_hint	Il tuo programma bot legge Telegram, e Notio vi si collega con questo codice. 1) Nel bot, l’amministratore apre /admin, poi Notio, poi «Inserisci un codice Notio», e invia questo codice. 2) Qui premi Verifica: compare il nome del bot. 3) Una persona scrive al bot /notio e questo codice, poi /n e una richiesta; /n_undo annulla, /n_yes conferma. 4) La persona compare qui sotto: spuntala per consentirla. L’indirizzo è quello del programma: su questo computer http://127.0.0.1:8790; in una rete domestica o VPN, l’indirizzo di quel computer. Tra Notio e il programma le parole viaggiano senza cifratura, quindi solo sul tuo computer o rete.
+assistant_telegram_program_new_ask	Il vecchio codice smette subito di funzionare: il bot non accetterà questo Notio finché l’amministratore non inserirà il nuovo codice in /admin, poi Notio, e le persone non scriveranno /notio con il nuovo codice. L’elenco delle persone consentite resta.
+assistant_telegram_people	Persone che hanno scritto tramite il bot
+assistant_telegram_people_hint	Conoscere il codice non basta: il bot risponde solo alle persone spuntate qui. Chi invia /notio con il codice compare qui e attende. Il numero dell’account lo dà Telegram e non cambia con il nome.
+assistant_telegram_people_none	Nessuno ha ancora scritto.
+assistant_telegram_person	%1$s (numero %2$s)
+assistant_telegram_person_allowed	Consentito: il bot risponde
+assistant_telegram_person_waits	Chiede l’accesso: spunta per consentire
+assistant_telegram_person_remove	Rimuovi
+assistant_bot_pending	Notio non ti ha ancora consentito. La tua richiesta di accesso è mostrata in Notio: il proprietario ti spunta lì, poi scrivi di nuovo.
+assistant_bot_help_relay	Scrivi /n e cosa fare con le note, per esempio: /n mostra le note della cartella Lavoro. /n_undo annulla la mia ultima modifica. /n_yes conferma ciò che attende il tuo sì.

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  jpackage's own main.wxs (JDK 25) plus one addition (AGENT.md D15): the last page of the installer has the standard
+  "Launch Notio" check box, ticked by default; Finish then starts the app.
+-->
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"
+     xmlns:util="http://schemas.microsoft.com/wix/UtilExtension">
+
+  <?ifdef JpIsSystemWide ?>
+    <?define JpInstallScope="perMachine"?>
+  <?else?>
+    <?define JpInstallScope="perUser"?>
+  <?endif?>
+
+  <?define JpProductLanguage=1033 ?>
+  <?define JpInstallerVersion=200 ?>
+  <?define JpCompressedMsi=yes ?>
+
+  <?include $(var.JpConfigDir)/overrides.wxi ?>
+
+  <!--
+    D153: overrides.wxi of the packageInstaller task defines what makes a test build of the branch 'assistant' its own program
+    beside the installed Notio: NotioTestBuild ("yes" in a test build), NotioProductCode (a new one at every test build) and
+    NotioFirewallRule. A test build replaces the earlier one of the same version (the upgrade takes the same version in, the
+    check of a downgrade leaves it out), and its uninstall takes the start with Windows away only when it names its own folder.
+    The installers of main get the values jpackage gives.
+  -->
+
+  <?ifdef JpAllowUpgrades ?>
+    <?define JpUpgradeVersionOnlyDetectUpgrade="no"?>
+  <?else?>
+    <?define JpUpgradeVersionOnlyDetectUpgrade="yes"?>
+  <?endif?>
+  <?ifdef JpAllowDowngrades ?>
+    <?define JpUpgradeVersionOnlyDetectDowngrade="no"?>
+  <?else?>
+    <?define JpUpgradeVersionOnlyDetectDowngrade="yes"?>
+  <?endif?>
+  <?if $(var.NotioTestBuild) = "yes" ?>
+    <?define NotioIncludeMaximum="yes"?>
+    <?define NotioIncludeMinimum="no"?>
+  <?else?>
+    <?define NotioIncludeMaximum="$(var.JpUpgradeVersionOnlyDetectUpgrade)"?>
+    <?define NotioIncludeMinimum="$(var.JpUpgradeVersionOnlyDetectDowngrade)"?>
+  <?endif?>
+
+  <Product
+    Id="$(var.NotioProductCode)"
+    Name="!(loc.NotioProductName)"
+    Language="!(loc.NotioLanguage)"
+    Version="$(var.JpAppVersion)"
+    Manufacturer="$(var.JpAppVendor)"
+    UpgradeCode="$(var.JpProductUpgradeCode)">
+
+    <Package
+      Description="$(var.JpAppDescription)"
+      Manufacturer="$(var.JpAppVendor)"
+      InstallerVersion="$(var.JpInstallerVersion)"
+      Compressed="$(var.JpCompressedMsi)"
+      InstallScope="$(var.JpInstallScope)" Platform="x64"
+    />
+
+    <Media Id="1" Cabinet="Data.cab" EmbedCab="yes" />
+
+    <Upgrade Id="$(var.JpProductUpgradeCode)">
+      <UpgradeVersion
+        OnlyDetect="$(var.JpUpgradeVersionOnlyDetectUpgrade)"
+        Property="JP_UPGRADABLE_FOUND"
+        Maximum="$(var.JpAppVersion)"
+        MigrateFeatures="yes"
+        IncludeMaximum="$(var.NotioIncludeMaximum)" />
+      <UpgradeVersion
+        OnlyDetect="$(var.JpUpgradeVersionOnlyDetectDowngrade)"
+        Property="JP_DOWNGRADABLE_FOUND"
+        Minimum="$(var.JpAppVersion)"
+        MigrateFeatures="yes"
+        IncludeMinimum="$(var.NotioIncludeMinimum)" />
+    </Upgrade>
+
+    <?ifndef JpAllowUpgrades ?>
+    <CustomAction Id="JpDisallowUpgrade" Error="!(loc.DisallowUpgradeErrorMessage)" />
+    <?endif?>
+    <?ifndef JpAllowDowngrades ?>
+    <CustomAction Id="JpDisallowDowngrade" Error="!(loc.DowngradeErrorMessage)" />
+    <?endif?>
+
+    <Binary Id="JpCaDll" SourceFile="wixhelper.dll"/>
+
+    <CustomAction Id="JpFindRelatedProducts" BinaryKey="JpCaDll" DllEntry="FindRelatedProductsEx" />
+
+    <!-- Standard required root -->
+    <Directory Id="TARGETDIR" Name="SourceDir"/>
+
+    <Feature Id="DefaultFeature" Title="!(loc.MainFeatureTitle)" Level="1">
+      <ComponentGroupRef Id="Shortcuts"/>
+      <ComponentGroupRef Id="Files"/>
+      <ComponentGroupRef Id="FileAssociations"/>
+      <ComponentGroupRef Id="FragmentOsCondition"/>
+    </Feature>
+
+    <CustomAction Id="JpSetARPINSTALLLOCATION" Property="ARPINSTALLLOCATION" Value="[INSTALLDIR]" />
+    <CustomAction Id="JpSetARPCOMMENTS" Property="ARPCOMMENTS" Value="$(var.JpAppDescription)" />
+    <CustomAction Id="JpSetARPCONTACT" Property="ARPCONTACT" Value="$(var.JpAppVendor)" />
+    <CustomAction Id="JpSetARPSIZE" Property="ARPSIZE" Value="$(var.JpAppSizeKb)" />
+
+    <?ifdef JpHelpURL ?>
+      <CustomAction Id="JpSetARPHELPLINK" Property="ARPHELPLINK" Value="$(var.JpHelpURL)" />
+    <?endif?>
+
+    <?ifdef JpAboutURL ?>
+      <CustomAction Id="JpSetARPURLINFOABOUT" Property="ARPURLINFOABOUT" Value="$(var.JpAboutURL)" />
+    <?endif?>
+
+    <?ifdef JpUpdateURL ?>
+      <CustomAction Id="JpSetARPURLUPDATEINFO" Property="ARPURLUPDATEINFO" Value="$(var.JpUpdateURL)" />
+    <?endif?>
+
+    <?ifdef JpIcon ?>
+    <Property Id="ARPPRODUCTICON" Value="JpARPPRODUCTICON"/>
+    <Icon Id="JpARPPRODUCTICON" SourceFile="$(var.JpIcon)"/>
+    <?endif?>
+
+    <UIRef Id="JpUI"/>
+
+    <!--
+      D91: every file is written again whatever is in place. An upgrade over a running Notio leaves the old version's files to be
+      deleted at the next restart; the libraries that did not change between the versions were found in place, not written again,
+      and the restart deleted them: Notio no longer started. With "a" a file in use is replaced at the restart, after its
+      deletion, and stays.
+    -->
+    <Property Id="REINSTALLMODE" Value="amus" />
+
+    <!-- D15: "Launch Notio" on the last page, ticked by default (WixUI ExitDialog + WixUtilExtension's WixShellExec). -->
+    <Property Id="WIXUI_EXITDIALOGOPTIONALCHECKBOXTEXT" Value="!(loc.LaunchAppCheckbox)" />
+    <Property Id="WIXUI_EXITDIALOGOPTIONALCHECKBOX" Value="1" />
+    <Property Id="WixShellExecTarget" Value="[INSTALLDIR]$(var.JpAppName).exe" />
+    <CustomAction Id="NotioLaunchApplication" BinaryKey="WixCA" DllEntry="WixShellExec" Impersonate="yes" />
+
+    <!--
+      D18: sync (Android D226) needs the phone to reach this computer on the local network. An inbound firewall rule for
+      Notio.exe, private and domain networks only, added on install and removed on uninstall (netsh, as the installing admin).
+    -->
+    <CustomAction Id="NotioFirewallAddCmd" Property="NotioFirewallAdd"
+      Value="&quot;[SystemFolder]netsh.exe&quot; advfirewall firewall add rule name=&quot;$(var.NotioFirewallRule)&quot; dir=in action=allow program=&quot;[INSTALLDIR]Notio.exe&quot; profile=private,domain enable=yes" />
+    <CustomAction Id="NotioFirewallAdd" BinaryKey="WixCA" DllEntry="WixQuietExec64" Execute="deferred" Impersonate="no" Return="ignore" />
+    <CustomAction Id="NotioFirewallRemoveCmd" Property="NotioFirewallRemove"
+      Value="&quot;[SystemFolder]netsh.exe&quot; advfirewall firewall delete rule name=&quot;$(var.NotioFirewallRule)&quot;" />
+    <CustomAction Id="NotioFirewallRemove" BinaryKey="WixCA" DllEntry="WixQuietExec64" Execute="deferred" Impersonate="no" Return="ignore" />
+    <!--
+      D61: start with Windows is a value under the user's HKCU Run key, set by Notio itself; an uninstall (not an upgrade) takes it
+      away, as the user who uninstalls (impersonated, so it is that user's hive).
+    -->
+    <?if $(var.NotioTestBuild) = "yes" ?>
+    <CustomAction Id="NotioAutoStartRemoveCmd" Property="NotioAutoStartRemove"
+      Value="&quot;[System64Folder]WindowsPowerShell\v1.0\powershell.exe&quot; -NoProfile -NonInteractive -Command &quot;Get-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Run' -Name Notio -ErrorAction SilentlyContinue | Where-Object Notio -Like '*[INSTALLDIR]*' | Remove-ItemProperty -Name Notio&quot;" />
+    <?else?>
+    <CustomAction Id="NotioAutoStartRemoveCmd" Property="NotioAutoStartRemove"
+      Value="&quot;[SystemFolder]reg.exe&quot; delete &quot;HKCU\Software\Microsoft\Windows\CurrentVersion\Run&quot; /v Notio /f" />
+    <?endif?>
+    <CustomAction Id="NotioAutoStartRemove" BinaryKey="WixCA" DllEntry="WixQuietExec64" Execute="deferred" Impersonate="yes" Return="ignore" />
+    <!--
+      D72: a running installed Notio holds its files. After "Install" is pressed and before the files are touched, close-running.ps1
+      (packed into NotioCloseCmd by the packageInstaller task) asks whether to close it and, if so, asks Notio to end as by Exit of the
+      tray (an older Notio is ended the hard way). Synchronous, in the person's session; its result never stops the installation.
+    -->
+    <CustomAction Id="NotioSetPowerShell" Property="NOTIO_POWERSHELL" Value="[System64Folder]WindowsPowerShell\v1.0\powershell.exe" />
+    <CustomAction Id="NotioCloseRunning" Property="NOTIO_POWERSHELL" Execute="immediate" Impersonate="yes" Return="ignore"
+      ExeCommand="-NoProfile -NonInteractive -ExecutionPolicy Bypass -WindowStyle Hidden -EncodedCommand $(var.NotioCloseCmd)" />
+    <UI>
+      <Publish Dialog="ExitDialog" Control="Finish" Event="DoAction" Value="NotioLaunchApplication">WIXUI_EXITDIALOGOPTIONALCHECKBOX = 1 and NOT Installed</Publish>
+    </UI>
+
+    <InstallExecuteSequence>
+      <Custom Action="JpSetARPINSTALLLOCATION" After="CostFinalize">Not Installed</Custom>
+      <Custom Action="JpSetARPCOMMENTS" After="CostFinalize">Not Installed</Custom>
+      <Custom Action="JpSetARPCONTACT" After="CostFinalize">Not Installed</Custom>
+      <Custom Action="JpSetARPSIZE" After="CostFinalize">Not Installed</Custom>
+      <?ifdef JpHelpURL ?>
+        <Custom Action="JpSetARPHELPLINK" After="CostFinalize">Not Installed</Custom>
+      <?endif?>
+      <?ifdef JpAboutURL ?>
+        <Custom Action="JpSetARPURLINFOABOUT" After="CostFinalize">Not Installed</Custom>
+      <?endif?>
+      <?ifdef JpUpdateURL ?>
+        <Custom Action="JpSetARPURLUPDATEINFO" After="CostFinalize">Not Installed</Custom>
+      <?endif?>
+
+      <?ifndef JpAllowUpgrades ?>
+      <Custom Action="JpDisallowUpgrade" After="JpFindRelatedProducts">JP_UPGRADABLE_FOUND</Custom>
+      <?endif?>
+      <?ifndef JpAllowDowngrades ?>
+      <Custom Action="JpDisallowDowngrade" After="JpFindRelatedProducts">JP_DOWNGRADABLE_FOUND</Custom>
+      <?endif?>
+      <Custom Action="NotioFirewallRemoveCmd" Before="NotioFirewallRemove">REMOVE="ALL"</Custom>
+      <Custom Action="NotioFirewallRemove" Before="RemoveFiles">REMOVE="ALL"</Custom>
+      <Custom Action="NotioAutoStartRemoveCmd" Before="NotioAutoStartRemove">REMOVE="ALL" AND NOT UPGRADINGPRODUCTCODE</Custom>
+      <Custom Action="NotioAutoStartRemove" Before="RemoveFiles">REMOVE="ALL" AND NOT UPGRADINGPRODUCTCODE</Custom>
+      <Custom Action="NotioFirewallAddCmd" Before="NotioFirewallAdd">NOT REMOVE="ALL"</Custom>
+      <Custom Action="NotioFirewallAdd" After="InstallFiles">NOT REMOVE="ALL"</Custom>
+      <LaunchConditions Before="AppSearch"/>
+      <RemoveExistingProducts Before="CostInitialize"/>
+      <Custom Action="JpFindRelatedProducts" After="FindRelatedProducts"/>
+    </InstallExecuteSequence>
+
+    <InstallUISequence>
+      <Custom Action="JpFindRelatedProducts" After="FindRelatedProducts"/>
+      <Custom Action="NotioSetPowerShell" Before="NotioCloseRunning"/>
+      <Custom Action="NotioCloseRunning" Before="ExecuteAction"/>
+    </InstallUISequence>
+
+  </Product>
+</Wix>

@@ -1,0 +1,336 @@
+note_color_title	ノートの色
+note_color_hint	このノートの色を選びます。「フォルダの色」を選ぶと、フォルダの色が使われます。
+note_color_none	フォルダの色
+folder_icon_hint	ここをタップし、キーボードの絵文字キーを押して絵文字（例：📚 や 🏠）を選びます。絵文字は1つがきれいに見えますが、短い言葉でも構いません。空欄の場合は名前の最初の文字が表示されます。
+help_emoji_title	フォルダの絵文字と色
+help_emoji_body	フォルダのカードには、絵文字または短い言葉を表示できます。フォルダを編集し（カードの ⋮）、「アイコンまたは絵文字」欄をタップして、キーボードの絵文字キー（スペースキーの隣）を押し、絵を選びます。キーボードに絵文字キーがない場合は、キーボードの設定で絵文字を有効にするか、コピーした絵文字を貼り付けてください。欄が空のときは名前の最初の文字が表示されます。色：ノートには ⋮ → 色 から独自の色を付けられます（用意された色でも自分の RGB の色でも可。「フォルダの色」を選ぶとフォルダの色に戻ります）。アプリ全体のカラーテーマは設定で選べます。
+list_view_empty	このリストは空です。「編集」タブを開いて項目を追加してください。
+budget_group_label	グループ
+search_open	検索
+search_scope_notes	ノート
+search_scope_folders	フォルダ
+search_hint_notes	タイトルと本文から検索
+search_hint_folders	フォルダを名前で検索
+search_clear	クリア
+search_no_tags	タグはまだありません。ノートの ⋮ メニュー → タグ から追加すると、ここで絞り込めます。
+search_found	見つかった件数：%1$d
+search_no_results	見つかりませんでした
+action_tags	タグ
+tags_dialog_title	このノートのタグ
+tags_new_hint	新しいタグ
+tags_add	追加
+tags_none_yet	タグはまだありません。上の欄に入力してください。
+error_tag_name	1〜32文字のタグを入力してください
+error_tag_duplicate	このタグはすでにあります
+settings_tags	タグ
+settings_tags_hint	ノートのラベルです。1つのノートにいくつでもタグを付けて、タグで検索できます。
+settings_tags_open	タグを管理
+tags_title	タグ
+tags_hint	タグはノートの ⋮ メニュー → タグ から付けます。ここではタグの名前を変えたり、すべてのノートから削除したりできます。
+tags_none_yet_manage	タグはまだありません。
+tags_rename	名前を変更
+tags_rename_title	タグの名前を変更
+tags_delete	タグを削除
+tags_delete_title	このタグを削除しますか？
+tags_renamed	タグの名前を変更しました：%1$s
+tags_deleted	タグを削除しました：%1$s
+plural:tags_used_by:other	ノート %1$d 件
+plural:tags_delete_message:other	「%1$s」を %2$d 件のノートから外します。ノート自体は残ります。
+audio_default_name	録音 %1$d
+audio_clip_menu	録音のオプション
+audio_edit	名前とコメント
+audio_edit_title	録音の詳細
+audio_name_label	名前
+audio_comment_label	コメント
+audio_export_clip	この録音をエクスポート
+audio_delete_title	この録音を削除しますか？
+audio_delete_message	「%1$s」はごみ箱に移動します。そこからこのノートに戻せます。
+export_format_audio_zip	すべての録音 (.zip)
+list_mode_quantity	数量
+list_mode_price	価格
+list_price	単価
+list_summary_title	合計
+list_summary_none	数量と価格を追加すると合計が表示されます。
+list_summary_quantity	数量：%1$s
+list_summary_price	価格：%1$s
+export_format_txt	テキスト (.txt)
+export_format_pdf	PDF 文書 (.pdf)
+help_price_title	価格リスト
+help_price_body	リストで「編集」タブを開き、「数量」の代わりに「価格」を選びます。すると各項目に単価と価格の単位も付き、価格の単位は数量と同じ単位（ルーブル、ユーロ、キログラムでも可）から選びます。項目の金額は数量×単価です。50のりんごを2個なら100になります。リストの最後には、単位ごとの数量の合計と、価格の単位ごとの金額の合計（例：5個と400ルーブル）が表示されます。「単位ごとの合計」の行には、その単位の項目の金額も表示されます。
+help_search_title	検索とタグ
+help_search_body	メイン画面上部の虫眼鏡で検索を開きます。「ノート」（すべてのフォルダのノートのタイトル、本文、タグを検索）と「フォルダ」（名前でフォルダを検索）を切り替えられます。複数の語を入力したときは、すべてが見つかる必要があります。検索欄の下でタグをタップすると、そのすべてのタグを持つノートだけに絞り込めます。ノートにタグを付けるには、⋮ メニュー → タグ を使い、タグにチェックを入れるか新しいタグを入力します。1つのノートにいくつでもタグを付けられます。設定 → タグを管理 で、タグの名前変更や削除ができます。
+help_export_title	ノートのエクスポート
+help_export_body	ノートを開き、⋮ メニュー → エクスポート を使います。Markdown ノート：Markdown（記法つき）、テキスト、PDF（後の2つは読んだとおりの文章）。リスト：専用の JSON ファイル（数量と価格ごと戻せます）、Markdown、テキスト、PDF。予算、お絵かき、音声には、それぞれ専用の形式があります。複数の録音がある音声ノートは、すべてを1つの .zip にまとめてエクスポートし、ファイル名は「ノートのタイトル - 録音名」になります。録音1つだけなら、その録音の ⋮ メニューからエクスポートします。
+search_close	検索を終了
+theme_black	ブラック
+theme_gray	グレー
+theme_white	ホワイト
+search_scope_tags	タグ
+search_hint_tags	タグ名で検索
+settings_font_size	文字サイズ
+settings_font_size_hint	アプリ全体の文字サイズを変更します。システム設定の文字サイズに上乗せされます。
+font_small	小
+font_normal	標準
+font_medium	中
+font_large	大
+font_extra_large	特大
+zoom_normal	標準
+action_done	完了
+sort_title	並べ替え
+sort_hint	固定したノートは常に先頭に並び、最後に固定したものが一番上になります。
+sort_notes	このフォルダのノート
+sort_folders	フォルダ
+sort_key_manual	自分の順序
+sort_key_updated	更新日
+sort_key_created	作成日
+sort_key_name	名前
+sort_key_color	色
+sort_ascending	昇順
+sort_descending	降順
+folder_move_earlier	前へ移動
+folder_move_later	後ろへ移動
+featured_menu	注目ノート…
+featured_title	「%1$s」の注目ノート
+featured_hint	フォルダのカードにこのノートを表示します。予算の場合は、合計、目標、残りも表示できます。
+featured_none	なし
+featured_layout	表示する量
+featured_layout_title	タイトル
+featured_layout_compact	コンパクト
+featured_layout_full	フル
+featured_metrics	表示する項目
+featured_metric_sum	合計
+featured_metric_goal	目標
+featured_metric_remainder	残り
+featured_only_budget	合計、目標、残りは予算ノートにのみあります。
+settings_backgrounds	背景
+settings_backgrounds_hint	アプリ全体、フォルダのカード、各種類のノートの背景に、色または画像を設定します。
+settings_backgrounds_open	背景を選ぶ
+bg_title	背景
+bg_hint	各場所に色または PNG/JPG 画像を選びます。画像は文字が読みやすいように少し暗くされます。単色はそのまま描かれるので、文字に合う色を選んでください。画像はこのスマートフォンにだけ保存され、バックアップには含まれません。
+bg_slot_app	アプリ全体
+bg_slot_folders	フォルダのカード
+bg_slot_note_text	Markdown ノート
+bg_slot_note_list	リスト
+bg_slot_note_budget	予算
+bg_slot_note_drawing	お絵かき
+bg_slot_note_blueprint	図面
+bg_slot_note_audio	音声ノート
+bg_state_default	初期設定
+bg_state_color	色
+bg_state_image	画像
+bg_colour	色…
+bg_picture	画像…
+bg_reset	リセット
+bg_error	この画像は使えませんでした。PNG または JPG ファイルを選んでください。
+note_type_blueprint	図面
+layers_title	レイヤー
+layer_default_name	レイヤー %1$d
+layer_add	レイヤーを追加
+layer_show	表示
+layer_hide	非表示
+layer_lock	ロック
+layer_unlock	ロック解除
+layer_rename	名前を変更
+layer_name_label	レイヤー名
+layer_up	上へ移動
+layer_down	下へ移動
+layer_move_shape_here	選択した図形をここへ移動
+layer_delete_title	このレイヤーを削除しますか？
+layer_delete_message	レイヤー上の図形も一緒に削除されます。元に戻せません。
+layer_cannot_draw	選択中のレイヤーは非表示またはロックされています。描画するには別のレイヤーを選んでください。
+action_reminders	リマインダー
+reminders_title	リマインダー
+reminders_add	リマインダーを追加
+reminders_edit	リマインダーを編集
+reminders_empty	リマインダーはまだありません。「リマインダーを追加」をタップしてください。
+reminders_cancel	リマインダーを取り消す
+reminders_delete_title	このリマインダーを削除しますか？
+reminders_delete_message	「%1$s」のリマインダーを削除します。ノートは残ります。
+reminders_exact_hint	Android がこのアプリに正確なアラームを許可していないため、リマインダーが少し遅れることがあります。システム設定でこのアプリに「アラームとリマインダー」を許可してください。
+reminders_exact_open	システム設定を開く
+reminder_note	ノート
+reminder_pick_note	ノートを選択
+reminder_sound	音
+reminder_vibration	バイブレーション
+reminder_popup	ポップアップ
+reminder_confirm_short	確認が必要
+reminder_repeat_short	%1$d 分ごとに繰り返し
+reminder_sound_long	音を鳴らす
+reminder_vibration_long	バイブレーションを鳴らす
+reminder_popup_long	ポップアップを表示する
+reminder_confirm_long	確認を求める
+reminder_repeat_long	確認するまで繰り返す
+reminder_every_minutes	%1$d 分
+reminder_status_scheduled	時刻待ち
+reminder_status_fired	通知済み
+reminder_status_waiting	確認待ち
+reminder_status_done	完了
+reminder_status_cancelled	取り消し済み
+reminder_error_past	時刻は未来にしてください
+reminder_error_repeat	「確認するまで繰り返す」には「確認を求める」と繰り返しの間隔が必要です
+settings_lock	アプリロック
+settings_lock_hint	アプリを開くときに、パスワード、パターン、またはログインを求めます。
+settings_lock_open	ロックを設定
+lock_settings_title	アプリロック
+lock_title	ロック中
+lock_intro	ロックをオンにすると、アプリを開くたびに、また下で設定した時間が過ぎたあとにも、ロックの解除を求めます。メールでの復旧を設定しない限り、何もスマートフォンの外に出ません。この端末には秘密情報のハッシュ（変換した形）だけが保存されます。
+lock_status_off	ロックはオフです
+lock_status_on	ロックはオンです：%1$s
+lock_method_password	パスワード
+lock_method_pattern	パターン
+lock_method_login	ログインとパスワード
+lock_biometric_option	指紋または顔でも解除する
+lock_biometric_title	ロック解除
+lock_use_biometric	指紋または顔を使う
+lock_timeout_title	アプリを離れてからこの時間が過ぎたら再度求める
+lock_timeout_immediate	すぐに
+lock_timeout_30s	30秒
+lock_timeout_1m	1分
+lock_timeout_5m	5分
+lock_timeout_15m	15分
+lock_timeout_never	アプリの起動時のみ
+lock_question_title	秘密の質問（忘れた場合の復旧用）
+lock_question_none	質問なし
+lock_q1	最初に飼ったペットの名前は？
+lock_q2	生まれた都市は？
+lock_q3	母親の旧姓は？
+lock_q4	最初に通った学校の名前は？
+lock_q5	好きな本は？
+lock_answer	答え
+lock_warning_no_recovery	質問がない場合、忘れた秘密情報は復旧できません。その場合はアプリを再インストールするしかなく、このスマートフォン上のすべてが削除されます（以前に作ったバックアップファイルはインポートできます）。
+lock_recovery_on	秘密の質問が設定されています。
+lock_recovery_off	秘密の質問がありません。忘れた秘密情報は復旧できません。
+lock_secure_hint	ロックがオンの間は、スクリーンショットと最近使ったアプリの画像が無効になります。
+lock_turn_on	ロックをオンにする
+lock_turn_off	ロックをオフにする
+lock_change	パスワードまたはパターンを変更
+lock_current	まず現在のものを入力してください。
+lock_new	次に新しいものを入力してください。
+lock_next	次へ
+lock_unlock	ロック解除
+lock_login	ログイン
+lock_password	パスワード
+lock_password_again	パスワード（再入力）
+lock_password_differs	2つのパスワードが一致しません
+lock_new_password_hint	新しいパスワードを決めてください：
+lock_pattern_draw	4つ以上の点を通るパターンを描いてください
+lock_pattern_again	同じパターンをもう一度描いてください
+lock_pattern_unlock	パターンを描いてください
+lock_pattern_short	異なる4つ以上の点をつないでください
+lock_pattern_differs	2つのパターンが一致しません。最初からやり直してください。
+lock_error_length	パスワードは4〜64文字にしてください
+lock_error_login	1〜32文字のログイン名を入力してください
+lock_error_answer	質問への答えを入力してください
+lock_no_recovery	秘密の質問が設定されていないため、復旧できません。
+lock_wrong	違います。
+lock_wrong_answer	答えが違います
+lock_blocked	失敗が多すぎます。%1$d 秒お待ちください。
+lock_blocked_short	失敗が多すぎます。しばらくお待ちください。
+lock_forgot	忘れました
+plural:lock_tries_left:other	一時停止まであと %1$d 回試せます。
+home_more_actions	並べ替えとインポート
+help_blueprint_title	お絵かきと図面
+help_blueprint_body	お絵かきは、鉛筆、ブラシ、消しゴム、塗りつぶしで好きな色を塗れるシートです。図面は図形（「図形」ツール：長方形、正方形、楕円、円、三角形、ひし形、五角形、六角形、星、線、矢印、塗りつぶし可；と文字）でできていて、選択、移動、変形、塗りつぶしができ、レイヤーに置かれます。「編集」で「レイヤー」をタップすると、描くレイヤーの選択、レイヤーの表示/非表示やロック、上下への移動、名前の変更や削除、新規追加ができます。図形は、そのレイヤーの ⋮ メニューから別のレイヤーへ移せます。古いバージョンで作ったお絵かきは図形が残りますが、今は見るだけで変更はできません。どちらもまず「表示」で開きます。＋と−のボタンか2本指で拡大縮小し、拡大したシートは2本指で動かします。 選択した図形は1段ずつ前面・背面へ、または一気に最前面・最背面へ移せます。レイヤーは1つずつ上下へ、または一番上・一番下へ移せます。 ツールパネルの半分塗られた四角のアイコンで用紙の背景を設定します：色と「透明」およびその透明度（100 % = 背景なし）。画像はこの背景付きで保存・共有されます。 選択した図形にはアイコンがあります：ごみ箱で削除、2枚の紙で複製、重なった四角で1段前／後ろへ、線への矢印で最前面／最背面へ。レイヤーには目（表示／非表示）と錠（ロック／解除）があり、プラス付きの重なりでレイヤーを追加します。
+help_zoom_title	拡大縮小と文字サイズ
+help_zoom_body	テキスト、リスト、予算のノートでは、上部の「表示」「編集」の隣に − と + のボタンがあり、2本指のピンチでも拡大縮小できます。そのノートの文字が大きく、または小さくなります。パーセントをタップすると元に戻ります。お絵かきと設計図では、同じボタンでシート自体を拡大縮小します。ノートを開いている間はズームが保たれます。アプリ全体の大きさは 設定 → 外観 → 文字サイズ で選びます。システム設定の文字サイズに加算されます。 描画と図面のシートはノート全体に置かれます。ピンチまたは − / + で拡大・縮小（領域より小さくも可）、2本指で移動します。拡大率をタップするとシート全体が空いている部分に収まります。編集ではツールパネルがシートの上に重なり、下または右に置けます（パネルの枠アイコンで切り替え）。矢印アイコンで丸いボタン1つに畳めます。シートがボタンを覆うことはありません。 ツールパネルの枠アイコンでシートのサイズを設定できます：16:9、9:16、4:3、3:4、または px・mm・cm で任意の幅と高さ（1インチあたり150ピクセル）。絵は左上に残ります。 ツールパネルの帯付きの枠アイコンで、パネルの位置（下・右・上・左）を選べます。選択は保存されます。
+help_sort_title	並べ替えと注目ノート
+help_sort_body	メイン画面上部の⋮メニューに「並べ替え」があります：ノートは更新日・作成日・名前・色、フォルダは自分の順序・名前・日付・色で、昇順または降順に並べ替えられます。固定したノートは常に先頭で、最後に固定したものが一番上です。「自分の順序」では、四方向矢印のハンドルでフォルダやノートをドラッグして動かせます。フォルダカードの⋮メニューでも前後に移動できます。各フォルダはノートの並べ替えを個別に記憶します。
+help_backgrounds_title	背景
+help_backgrounds_body	設定 → 背景 で、アプリ全体、フォルダのカード、各種類のノートに、色またはスマートフォン内の PNG/JPG 画像を設定できます。画像は文字が読みやすいように少し暗くされます。単色はそのまま使われるので、文字に合う色を選んでください（「リセット」で初期設定に戻ります）。画像はこのスマートフォンにだけ保存され、バックアップには含まれません。色は含まれます。
+help_reminders_title	リマインダー
+help_reminders_body	メイン画面上部の時計アイコン（またはノートの ⋮ メニューの「リマインダー」）でリマインダーを開きます。追加するには、ノート、日付と時刻、そして知らせ方を選びます。知らせ方は、メロディ（スマートフォンの音または自分の音声ファイル。音量と徐々に大きくする設定つき）、バイブレーション、ポップアップ、確認を求める、確認するまで数分ごとに繰り返す、などです。「アラームのように繰り返す」では、N分ごとにさらにX回鳴ります。リマインダーは、毎日、選んだ曜日、または毎月の指定した日に繰り返せます（その日がない月は飛ばされます）。リマインダーの編集、取り消し、削除ができ、確認待ちのときは「完了」をタップします。Android 13 以降では通知の許可を一度求められます。スマートフォンが正確なアラームを許可していない場合は、画面のメモで説明され設定を開けますが、リマインダーが少し遅れることがあります。削除したノートのリマインダーは取り消されます。 時計の隣のカレンダーアイコンで月表示が開き、リマインダーのある日にベルが表示されます（繰り返しのものはその各日に）。日をタップするとノート名が吹き出しと月の下の一覧に表示され、名前をタップするとノートが開きます。矢印やスワイプで月を切り替え、「今日」で今月に戻ります。 カレンダーの虫眼鏡は、すべての月からノート名でリマインダーと予算の合算を検索します：見つかったものは日付付きで一覧表示され、タップまたは矢印でその日が表示されます。 まだ鳴る予定のリマインダーのカードにはオン／オフのスイッチがあります：オフにすると時刻と設定は残りますが鳴りません。再びオンにすると戻ります（繰り返しのものは次の日に）。「取り消す」は確認を求めます。リマインダーの通知をタップすると、その日のカレンダーがリマインダーを枠で示して開き、そこからタップでメモやタスクを開けます。 リマインダーのカードのアイコン：チェックは「完了」、鉛筆は編集、斜線付きのベルは取り消し、ごみ箱は削除です（後の2つは先に確認します）。 Notio をインストールした直後は、すべてのリマインダーがオフです。リマインダーのページ上部のスイッチでオンにしてください。リマインダーを追加しようとしたときにも案内します。応答のないまま繰り返し鳴る場合、画面を点灯しておく時間は回を追うごとに短くなります。最初は1分、次は15秒、その後は5秒です。メロディーはいつもどおり鳴ります。
+help_lock_title	アプリロック
+help_lock_body	設定 → アプリロック で、パスワード、3×3のパターン、またはログインとパスワードを選びます。スマートフォンが対応していれば、指紋や顔による解除も追加できます。これは早い方法が増えるだけで、パスワードやパターンは常に残ります。アプリがバックグラウンドにいられる時間を、あらかじめ用意された値、または任意の分と秒（「その他…」）から選びます。秘密情報を忘れたときは、3つの方法で戻れます（どれも任意）。秘密の質問に答える、ご自身の SMTP サーバー経由でメールに届くコード（アプリ独自のサーバーはありません）、または認証アプリのコード（QR コード）です。どの方法もない場合、忘れた秘密情報は復旧できません。その場合はアプリを再インストールするしかなく、スマートフォン上のすべてが削除されます（その後バックアップファイルをインポートしてください）。5回続けて間違えると、そのたびに長くなる待ち時間が入ります。保存されるのは秘密情報のハッシュ（変換した形）だけで、アプリの専用領域に置かれ、バックアップには入りません。ロックがオンの間は、スクリーンショットと最近使ったアプリの画像が無効になります。復旧コードのメールには、この端末に暗号化データベースのパスワードとバックアップのパスワードがあれば、それらも記載されます。データを取り戻すための最後の手段です。「忘れました」を押してコードを求めたときにだけ送信されます。用が済んだら削除してください。
+channel_reminders_generic	リマインダー
+reminder_sound_default	通知音の初期設定
+reminder_melody	メロディ：%1$s
+reminder_sound_play	試聴
+reminder_sound_system	スマートフォンの音…
+reminder_sound_file	自分のファイル (mp3…)…
+reminder_sound_reset	初期設定の音
+reminder_sound_bad_file	このファイルはメロディとして使えませんでした。25 MB までの音声ファイル（mp3、m4a、ogg、wav）を選んでください。
+lock_recovery_choose	どの方法で戻りますか？
+lock_recovery_question_option	秘密の質問に答える
+lock_recovery_email_option	メールにコードを送る
+lock_recovery_totp_option	認証アプリを使う
+smtp_code_subject	Notio：復旧コード
+smtp_code_body	Notio のアプリロックの復旧コード：%1$s\n\nこのコードは %2$d 分間、1回だけ使えます。心当たりがない場合は、このメッセージを無視してください。
+lock_code_wrong	コードが違います
+lock_code_expired	コードの有効期限が切れました。新しいコードを請求してください
+mail_error_not_configured	メールの設定が完了していません。
+mail_error_connection	メールサーバーに接続できませんでした。サーバー名、ポート、インターネット接続を確認してください。
+mail_error_timeout	メールサーバーから時間内に応答がありませんでした。
+mail_error_tls	セキュアな接続に失敗しました。暗号化の種類とポート（STARTTLS は 587、SSL/TLS は 465）を確認してください。
+mail_error_auth	サーバーがログイン名またはパスワードを拒否しました。
+mail_error_rejected	サーバーがメッセージを拒否しました。
+mail_error_protocol	サーバーが想定外の応答をしました。
+lock_email_wait	別のコードを請求するには %1$d 秒お待ちください。
+lock_email_intro	ワンタイムコードを %1$s に送信します。
+lock_email_send	コードを送信
+lock_email_send_again	新しいコードを送信
+lock_email_code	メールのコード
+lock_totp_recover_intro	認証アプリに今表示されている6桁のコードを入力してください。
+lock_totp_code	6桁のコード
+lock_timeout_custom	その他…
+lock_timeout_custom_value	%1$d 分 %2$d 秒
+lock_timeout_custom_title	バックグラウンドの時間
+lock_minutes	分
+lock_seconds	秒
+lock_timeout_invalid	分と秒を入力してください。秒は0〜59、合計で最大23時間59分59秒です。
+lock_recovery_section	復旧
+lock_recovery_hint	パスワードを忘れたときに戻る方法：秘密の質問、メールに届くコード、認証アプリ。1つでも、すべてでも設定できます。
+lock_email_status_on	メールでの復旧はオンです：%1$s
+lock_email_status_off	メールでの復旧は設定されていません。
+lock_totp_status_on	認証アプリが設定されています。
+lock_totp_status_off	認証アプリは設定されていません。
+lock_recovery_change	復旧オプションを変更
+lock_question_change	秘密の質問…
+lock_email_setup	メールでの復旧 (SMTP)…
+lock_totp_setup	認証アプリを設定…
+lock_totp_manage	認証アプリ…
+smtp_intro	コードはご自身のメールサーバー経由で送信されます。アプリ独自のサーバーはありません。メール事業者が送信用（SMTP）に提供している内容を入力してください。パスワードはこのスマートフォンに暗号化して保存されます。
+smtp_host	サーバー (SMTP)（例：smtp.example.com）
+smtp_security	暗号化
+smtp_sec_none	なし
+smtp_sec_starttls	STARTTLS
+smtp_sec_ssl	SSL/TLS
+smtp_none_warning	暗号化しないと、パスワードとコードが読める状態でネットワークを通ります。信頼できるネットワークかローカルサーバーでのみ使ってください。
+smtp_port	ポート
+smtp_user	ログイン（ユーザー名）
+smtp_password	パスワード
+smtp_from	送信元アドレス（ログインがアドレスなら空欄でも可）
+smtp_to	コードの送信先（あなたのメールアドレス）
+smtp_invalid	サーバー、ポート、そして有効なメールアドレス2つを入力してください。
+smtp_test	テストメールを送信
+smtp_test_ok	テストメッセージを送信しました。受信トレイを確認してください。
+smtp_test_subject	Notio：テストメッセージ
+smtp_test_body	これは Notio by vibic からのテストメッセージです。これが読めていれば、アプリロックのメールでの復旧は機能しています。
+smtp_remove	削除
+lock_totp_account	アプリロック
+lock_totp_title	認証アプリ
+lock_totp_replace_hint	すでにキーが設定されています。新しいキーを保存すると置き換えられます。
+lock_totp_scan	この QR コードを認証アプリ（Google Authenticator、Microsoft Authenticator、Aegis など）で読み取るか、キーを手入力して、アプリに表示される6桁のコードを入力してください。
+lock_totp_remove	削除
+reminder_error_recurrence	曜日を1つ以上選ぶか、1〜31の日を選んでください
+reminder_error_sound	音量は10〜100 %、徐々に大きくする時間は最大5分にしてください
+rem_volume	音量：%1$d %%
+rem_volume_hint	スマートフォンのアラーム音量を基準にします。
+rem_ramp_title	メロディを徐々に大きくする時間
+rem_ramp_off	オフ
+rem_ramp_secs	%1$d 秒
+rem_extra_title	アラームのように繰り返す
+rem_extra_hint	最初に鳴ったあと、確認しない限り、数分ごとにこの回数だけ再び鳴ります。0 = 追加で鳴らしません。
+rem_extra_count	追加の回数 (x)
+rem_extra_every	間隔（分）
+rem_repeat_title	繰り返し
+rem_rec_none	1回だけ
+rem_rec_daily	毎日
+rem_rec_weekdays	選んだ曜日
+rem_rec_monthly	毎月
+rem_month_day	日にち (1〜31)
+rem_month_skip_hint	その日がない月は飛ばされます（31日は4月を飛ばし、30日は2月を飛ばします）。
+reminder_extra_short	さらに %1$d 回、%2$d 分ごと
+reminder_recurs_daily	毎日
+reminder_recurs_weekly	%1$s
+reminder_recurs_monthly	毎月 %1$d 日
+reminder_action_silence	消音

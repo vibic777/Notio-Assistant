@@ -1,0 +1,10 @@
+reminder_action_snooze	%1$d分後に繰り返す
+alarm_dismiss	オフにする
+alarm_open_note	ノートを開く
+reminder_snoozed_until	%1$s まで延期
+settings_alarm	リマインダーのアラーム
+settings_alarm_hint	リマインダーは画面を点灯し、アラームのようにロック画面の上に「再通知」と「閉じる」ボタンを表示します。
+settings_snooze	再通知までの時間
+settings_snooze_minutes	%1$d分
+settings_fullscreen_hint	端末が Notio によるロック画面上のアラーム表示を許可していません。アプリの設定で許可してください。許可しないと通知のみ表示されます。
+settings_fullscreen_open	アラーム画面を許可

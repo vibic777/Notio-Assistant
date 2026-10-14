@@ -1,0 +1,3 @@
+search_ignore_case	Aa 대소문자 무시
+search_regex	.* 정규식
+search_regex_error	식이 올바르지 않습니다: %1$s

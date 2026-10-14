@@ -1,0 +1,10 @@
+app_log_keep	Весці журнал праграмы
+app_log_keep_hint	Падзенні запісваюцца заўсёды, каб можна было знайсці іх прычыну.
+app_log_level	Якія ўзроўні запісваць
+app_log_level_hint	DEBUG — падрабязнасці для распрацоўшчыка; INFO — што рабіла праграма; WARN — папярэджанні; ERROR — збоі, якія праграма перажыла; CRITICAL — тое, што страціла вашу працу; FATAL — падзенні, запісваюцца заўсёды.
+app_log_clear_period	Ачышчаць сам
+app_log_clear_never	ніколі
+app_log_clear_daily	раз у дзень
+app_log_clear_weekly	раз на тыдзень
+app_log_clear_monthly	раз на месяц
+app_log_size_note	У любым выпадку журнал займае не больш за каля паловы мегабайта.

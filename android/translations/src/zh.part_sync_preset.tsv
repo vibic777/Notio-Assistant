@@ -1,0 +1,4 @@
+sync_preset_ask	每次询问
+sync_preset_folders_chosen	已选：%1$d
+sync_preset_choose_folders	选择文件夹…
+sync_preset_hint	为连接设定的内容在同步时不再询问。替换在开始前始终会显示。

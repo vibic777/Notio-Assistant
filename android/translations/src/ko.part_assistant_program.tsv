@@ -1,0 +1,17 @@
+assistant_telegram_mode_direct	Notio가 키로 봇을 직접 읽음
+assistant_telegram_mode_program	내 봇 프로그램(TelegramBot)을 통해
+assistant_telegram_program_url	봇 프로그램 주소
+assistant_telegram_program_code	봇에 줄 이 Notio의 코드
+assistant_telegram_program_show	코드 보기
+assistant_telegram_program_hide	코드 숨기기
+assistant_telegram_program_hint	봇 프로그램이 Telegram을 읽고, Notio는 이 코드로 그 프로그램에 연결합니다. 1) 봇에서 관리자가 /admin → Notio → “Notio 코드 입력”을 열고 이 코드를 보냅니다. 2) 여기에서 “확인”을 누르면 봇 이름이 나타납니다. 3) 사용자가 봇에 /notio와 이 코드를 보낸 뒤 /n과 요청을 보냅니다. /n_undo는 되돌리고 /n_yes는 확인합니다. 4) 사용자가 아래에 나타나면 체크하여 허용합니다. 주소는 프로그램의 주소입니다. 이 컴퓨터라면 http://127.0.0.1:8790, 집 네트워크나 VPN이라면 그 컴퓨터의 주소입니다. Notio와 프로그램 사이의 문장은 암호화되지 않으므로 내 컴퓨터나 네트워크 안에서만 사용하세요.
+assistant_telegram_program_new_ask	이전 코드는 즉시 쓸 수 없게 됩니다. 관리자가 /admin → Notio에서 새 코드를 입력하고 사용자가 새 코드로 /notio를 보낼 때까지 봇은 이 Notio를 받아들이지 않습니다. 허용된 사용자 목록은 유지됩니다.
+assistant_telegram_people	봇을 통해 메시지를 보낸 사람
+assistant_telegram_people_hint	코드를 아는 것만으로는 부족합니다. 봇은 여기에서 체크한 사람에게만 응답합니다. 코드와 함께 /notio를 보낸 사람은 여기에 나타나 기다립니다. 계정 번호는 Telegram이 주며 이름이 바뀌어도 바뀌지 않습니다.
+assistant_telegram_people_none	아직 아무도 메시지를 보내지 않았습니다.
+assistant_telegram_person	%1$s (번호 %2$s)
+assistant_telegram_person_allowed	허용됨: 봇이 응답합니다
+assistant_telegram_person_waits	접근 요청 중: 체크하면 허용
+assistant_telegram_person_remove	제거
+assistant_bot_pending	Notio가 아직 당신을 허용하지 않았습니다. 접근 요청이 Notio에 표시되어 있습니다. 소유자가 그곳에서 체크하면 다시 보내세요.
+assistant_bot_help_relay	/n과 함께 노트에 할 일을 쓰세요. 예: /n 업무 폴더의 노트를 보여 줘. /n_undo는 마지막 변경을 되돌리고 /n_yes는 확인을 기다리는 작업을 확정합니다.

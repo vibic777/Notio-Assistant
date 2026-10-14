@@ -1,0 +1,4 @@
+#!/bin/sh
+# The start of Notio inside an AppImage (D88): the app folder with its own Java is in usr/.
+here=$(dirname "$(readlink -f "$0")")
+exec "$here/usr/bin/Notio" "$@"

@@ -1,0 +1,4 @@
+settings_notices	화면 아래 메시지
+settings_notices_hint	“휴지통으로 이동함” 같은 짧은 메시지는 이 시간이 지나면 저절로 사라지며, 옆으로 밀어서 닫을 수도 있습니다. 0은 전혀 표시하지 않음: 이때는 메시지의 “실행 취소”도 나오지 않습니다.
+settings_notices_value	%1$d초
+settings_notices_off	표시 안 함

@@ -1,0 +1,4 @@
+assistant_nothing_open	没有任何文件夹对助手开放，所以它看不到笔记：设置 → 助手 → 笔记访问权限。
+assistant_status	已允许：%1$s。已开放：文件夹 %2$d，笔记 %3$d。
+assistant_commands_done	模型调用的命令数：%1$d
+assistant_no_commands	模型只用文字作答，没有调用任何命令。如果它本应执行操作，那么这个模型可能不支持调用工具。

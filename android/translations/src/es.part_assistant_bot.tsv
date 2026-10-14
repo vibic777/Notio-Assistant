@@ -1,0 +1,38 @@
+assistant_right_marks	Etiquetas, color, fijar
+assistant_right_lists	Listas: elementos y marcas
+assistant_right_tasks	Tareas: estado y fechas
+assistant_right_budget	Presupuesto: importes (siempre pregunta antes)
+assistant_right_reminders	Recordatorios: crear
+assistant_right_folders	Carpetas: crear y renombrar
+assistant_right_appearance	Apariencia: tema, colores, fuente
+assistant_right_settings	Ajustes de la aplicación
+assistant_confirm	Confirmar y continuar
+assistant_confirm_hint	El asistente se detuvo y espera tu sí: más de cinco notas a la vez o los importes de un presupuesto.
+assistant_telegram	Bot de Telegram
+assistant_telegram_hint	Tu propio bot, que funciona dentro de Notio en este ordenador: escríbele desde el teléfono y hace lo mismo que el chat. Las palabras de tus peticiones y de las respuestas pasan por los servidores de Telegram; allí solo se muestran las notas marcadas con «Permitido en Telegram». Funciona mientras este ordenador y Notio estén encendidos.
+assistant_telegram_key	Clave del bot (de @BotFather)
+assistant_telegram_on	El bot está activado
+assistant_telegram_checked	La clave es correcta: %1$s
+assistant_telegram_bind	Envía este código al bot desde tu Telegram y solo te escuchará a ti: %1$s
+assistant_telegram_bound	El bot solo te escucha a ti (tu id de Telegram: %1$s).
+assistant_telegram_unbind	Desvincular
+assistant_telegram_locked	Responder cuando Notio esté bloqueado
+assistant_telegram_locked_hint	Desactivado: mientras Notio esté bloqueado, el bot lo dice y no hace nada. Activado: el bloqueo deja de proteger lo que está abierto al bot.
+assistant_telegram_outside	Permitir al bot usar un modelo externo
+assistant_telegram_rights	Permisos desde Telegram
+assistant_telegram_rights_hint	Aparte de los permisos del chat: lo que el asistente puede hacer cuando la petición viene de Telegram. Nada, hasta que lo permitas.
+assistant_access_telegram	Permitido en Telegram
+assistant_access_reminders	Recordatorios a Telegram
+assistant_bot_bound	Listo: solo te escucho a ti. Escribe qué hacer con tus notas. /undo revierte mi último cambio, /yes confirma lo que espera tu sí.
+assistant_bot_locked	Notio está bloqueado en el ordenador. Desbloquéalo allí primero.
+assistant_bot_outside_off	El modelo es un servicio externo y al bot no se le permite usarlo.
+assistant_bot_failed	La petición falló. Mira en Notio en el ordenador.
+assistant_bot_changed	Cambiado: %1$s. /undo lo revierte.
+assistant_bot_confirm	Esto necesita tu sí. Envía /yes para continuar.
+assistant_bot_nothing_to_undo	No hay nada que revertir.
+assistant_bot_undone	Revertido: %1$s
+assistant_bot_undo_conflict	No revertido: cambiaste estas notas después: %1$s. Revierte en Notio en el ordenador.
+assistant_bot_help	Escribe qué hacer con tus notas, por ejemplo: muestra las notas de la carpeta Trabajo. /undo revierte mi último cambio. /yes confirma lo que espera tu sí.
+assistant_bot_nothing_to_confirm	Nada espera confirmación.
+assistant_bot_not_ready	El modelo no está configurado en Notio en el ordenador: Ajustes → Asistente → Conexión.
+assistant_bot_reminder	Recordatorio: %1$s

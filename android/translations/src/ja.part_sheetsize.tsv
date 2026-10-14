@@ -1,0 +1,11 @@
+drawing_sheet_size	シートのサイズ
+drawing_sheet_width	幅
+drawing_sheet_height	高さ
+drawing_sheet_pixels	= %1$d × %2$d px
+drawing_sheet_too_small	各辺 %1$d px 以上にしてください。
+drawing_sheet_too_large	大きすぎます：1辺 %1$d px まで、全体で %2$d × %3$d px までです。
+drawing_sheet_ppi	mm と cm は 1 インチあたり %1$d ピクセルで換算します。
+drawing_sheet_note	絵は左上に残ります：大きいシートは空白を足し、小さいシートははみ出た部分を切り取ります（ベクターレイヤーの図形は残ります）。これまでのラスターレイヤーの取り消し手順は絵に統合されます。
+drawing_unit_px	px
+drawing_unit_mm	mm
+drawing_unit_cm	cm

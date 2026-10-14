@@ -1,0 +1,10 @@
+app_log_keep	Llevar un registro de la aplicación
+app_log_keep_hint	Un cierre por error siempre se anota, para poder hallar su causa.
+app_log_level	Niveles que anotar
+app_log_level_hint	DEBUG — detalles para el desarrollador; INFO — lo que hizo la app; WARN — avisos; ERROR — fallos superados; CRITICAL — lo que perdió su trabajo; FATAL — cierres por error, siempre anotados.
+app_log_clear_period	Borrar solo
+app_log_clear_never	nunca
+app_log_clear_daily	cada día
+app_log_clear_weekly	cada semana
+app_log_clear_monthly	cada mes
+app_log_size_note	En cualquier caso, el registro no ocupa más de medio megabyte aproximadamente.

@@ -1,0 +1,8 @@
+settings_media_preview	카드의 이미지
+settings_media_preview_hint	사진, 영상, 화면 녹화 노트의 카드에 이름 외에 무엇을 보여 줄지 정합니다. 그림과 도면은 이미지가 하나라 켜기/끄기만 있습니다.
+settings_media_preview_none	이미지 없음
+settings_media_preview_first	첫 사진 또는 첫 프레임
+settings_media_preview_deck	카드 덱: 첫 번째, 마지막, 무작위 하나
+settings_drawing_preview	그림과 도면
+settings_drawing_preview_on	카드에 이미지 표시
+settings_drawing_preview_off	표시 안 함

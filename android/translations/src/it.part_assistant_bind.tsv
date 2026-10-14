@@ -1,0 +1,6 @@
+assistant_telegram_code_until	Il codice vale fino alle %1$s.
+assistant_telegram_code_gone	Il codice non vale più: sono passati dieci minuti o è stato inserito male cinque volte. Prendine uno nuovo.
+assistant_telegram_new_code	Nuovo codice
+assistant_telegram_bound_who	Il bot ascolta solo questo account Telegram: %1$s (numero %2$s).
+assistant_telegram_strangers	Altri hanno scritto al bot %1$s volte, l’ultima alle %2$s. Non ha risposto loro.
+assistant_telegram_bind_hint	Chiunque può trovare un bot dal suo nome, quindi è Notio a scegliere chi ascoltare: l’account che ha inviato il codice. Notio ricorda il numero di quell’account Telegram, non il nome: un nuovo nome o @nome non lo cambia. Il codice vale dieci minuti e si brucia dopo cinque tentativi errati, quindi non si può indovinare. Agli altri il bot non risponde affatto, nemmeno con un no; quanti hanno scritto è mostrato qui. Vieta anche i gruppi al tuo bot: in @BotFather invia /setjoingroups, scegli il bot, poi Disable. «Scollega» dimentica l’account e dà un nuovo codice.

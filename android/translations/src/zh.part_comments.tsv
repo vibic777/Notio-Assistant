@@ -1,0 +1,11 @@
+action_comment	备注…
+comment_title_note	笔记备注
+comment_title_folder	文件夹备注
+comment_label	备注
+comment_counter	%1$d / %2$d
+comment_hint	卡片显示第一行的前 16 个字符（需在“设置 → 外观”中打开开关）。留空即删除备注。
+settings_comments	卡片上的备注
+settings_comments_hint	任何笔记和文件夹都可以添加简短备注（⋮ 菜单 → 备注）。卡片在最后一行显示其前 16 个字符。
+settings_comments_notes	在笔记卡片上显示
+settings_comments_folders	在文件夹卡片上显示
+budget_layout_comments	显示备注（前 16 个字符）

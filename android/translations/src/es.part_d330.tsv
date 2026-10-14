@@ -1,0 +1,5 @@
+budget_item_merge	Fusionar con otra partida…
+budget_item_merge_hint	La partida «%1$s» se eliminará; la partida elegida abajo se queda y recibe lo que esté activado aquí.
+budget_item_merge_into	La partida que se queda
+budget_item_merge_confirm	Fusionar
+budget_log_item_merged	Partida «%1$s» fusionada con «%2$s»

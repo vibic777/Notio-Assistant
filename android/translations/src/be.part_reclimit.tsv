@@ -1,0 +1,17 @@
+settings_cat_recordings	Запісы
+settings_cat_recordings_hint	Колькі можа доўжыцца запіс
+settings_rec_limit_audio	Даўжыня запісу аўдыя
+settings_rec_limit_video	Даўжыня запісу відэа
+settings_rec_limit_screen	Даўжыня запісу экрана
+settings_rec_limit_hint	0 — да спынення; 1–65535. Запіс сам спыніцца праз гэты час і захаваецца; «Стоп» можна націснуць і раней. Страхоўка ад забытага запісу.
+settings_rec_limit_amount	Даўжыня
+rec_unit_seconds	секунды
+rec_unit_minutes	хвіліны
+rec_unit_hours	гадзіны
+rec_limit_s	%1$d с
+rec_limit_min	%1$d хв
+rec_limit_h	%1$d гадз
+rec_limit_line	Спыніцца сам праз %1$s (Налады → Запісы)
+rec_limit_none	Без абмежавання: да націскання «Стоп»
+rec_limit_warning	Запіс спыніцца сам праз %1$s.
+rec_limit_reached	Час запісу скончыўся: запіс спынены і захаваны.

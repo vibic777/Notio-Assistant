@@ -1,0 +1,16 @@
+note_type_schedule	일정
+schedule_empty	아직 비어 있습니다. “편집”을 열어 시간을 추가하세요.
+schedule_add_item	시간 추가
+schedule_add_calc	계산기 추가
+schedule_item_hint	내용
+schedule_calc_hint	계산기가 재는 것
+schedule_calc_default	계산기
+schedule_from	시작
+schedule_to	끝
+schedule_pick_item	시간 선택
+schedule_no_items	먼저 시간을 추가하세요
+schedule_clear_time	시간 없음
+schedule_unknown	?
+schedule_duration_hm	%1$d시간 %2$d분
+schedule_duration_h	%1$d시간
+schedule_duration_m	%1$d분

@@ -1,0 +1,7 @@
+alarm_status_fullscreen_ok	잠금 화면 알람 화면: 허용됨
+alarm_status_fullscreen_no	잠금 화면 알람 화면: 허용 안 됨
+alarm_status_overlay_ok	다른 앱 위에 표시: 허용됨
+alarm_status_overlay_no	다른 앱 위에 표시: 허용 안 됨
+alarm_overlay_hint	일부 휴대폰은 이것도 허용해야 잠금 화면에 알람이 나타납니다. 허용하면 앱이 알람 화면을 직접 엽니다.
+alarm_test	10초 후 알람 테스트
+alarm_test_started	지금 휴대폰을 잠그세요. 10초 후 알람이 울립니다.

@@ -1,0 +1,5 @@
+budget_item_merge	Зліць з іншым пунктам…
+budget_item_merge_hint	Пункт «%1$s» будзе выдалены; выбраны ніжэй пункт застанецца і атрымае тое, што тут уключана.
+budget_item_merge_into	Пункт, які застанецца
+budget_item_merge_confirm	Зліць
+budget_log_item_merged	Пункт «%1$s» зліты з пунктам «%2$s»

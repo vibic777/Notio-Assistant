@@ -1,0 +1,50 @@
+action_close	閉じる
+media_default_name	項目 %1$d
+media_empty_photo	写真はまだありません。「写真を撮る」をタップ。
+media_empty_video	動画はまだありません。「動画を撮影」をタップ。
+media_empty_screen	画面録画はまだありません。「画面を録画」をタップ。
+media_take_photo	写真を撮る
+media_record_video	動画を撮影
+media_record_screen	画面を録画
+media_full_screen	全画面
+media_place	場所: %1$s
+media_delete_title	この項目を削除しますか？
+media_delete_message	この項目はごみ箱に移動します。そこから戻せます。
+rec_channel	画面録画
+rec_notification_title	Notio が録画中
+rec_notification_text	「停止」をタップすると録画を終了して保存します。
+rec_action_stop	停止
+rec_processing	録画を保存中…
+rec_saved	録画をノートに保存しました。
+rec_failed	録画を保存できませんでした。
+rec_recording	録画中…
+rec_start	録画
+rec_sound	音声
+rec_sound_none	音声なし
+rec_sound_mic	マイク
+rec_sound_system	端末の音
+rec_sound_both	マイク + 端末の音
+rec_floating_hint	他のウィンドウの上に「停止」ボタンを浮かべるには、「他のアプリの上に表示」を許可してください。許可しない場合は通知から停止します。
+rec_floating_allow	フローティングボタンを許可
+camera_back	背面カメラ
+camera_front	前面カメラ
+camera_other	その他のカメラ
+camera_choose	カメラ
+camera_failed	カメラで実行できませんでした。
+camera_saved_count	保存済み: %1$d
+overlay_title	オーバーレイ
+overlay_hint	新しい写真や動画すべてに重ねます。すでにあるものは変わりません。
+overlay_stamp	日付と時刻
+overlay_geo	場所（座標）
+overlay_geo_hint	位置情報の許可が必要です。撮影・録画のときに求められます。
+overlay_text	テキスト（署名）
+overlay_text_field	表示するテキスト
+overlay_image	画像（ロゴ、署名）
+overlay_pick_image	画像を選ぶ
+overlay_remove_image	画像を外す
+overlay_color	色
+overlay_size	サイズ: %1$d
+overlay_width	幅: %1$d%%
+overlay_opacity	不透明度: %1$d%%
+overlay_plate	下地（オフ = 透明）
+overlay_position	位置

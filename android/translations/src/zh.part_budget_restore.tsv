@@ -1,0 +1,5 @@
+budget_delete_restorable	可以在预算的变更记录中恢复。
+budget_log_restore	恢复
+budget_log_was_restored	已恢复
+budget_log_restored	已恢复“%1$s”
+budget_log_restore_failed	无法恢复：预算中已经有它。

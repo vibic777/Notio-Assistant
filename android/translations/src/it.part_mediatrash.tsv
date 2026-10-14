@@ -1,0 +1,11 @@
+trash_media_from_note	Dalla nota «%1$s»
+trash_media_note_in_trash	La nota «%1$s» è nel cestino: ripristina prima la nota
+trash_media_note_gone	La nota «%1$s» è stata eliminata definitivamente: non si può rimettere, solo esportare
+trash_media_file_missing	Il file non è più su questo telefono: impossibile ripristinarlo o esportarlo.
+trash_media_cannot_restore_trash	Ripristina prima la nota dal cestino.
+trash_media_cannot_restore_gone	La nota non esiste più: l’elemento si può solo esportare.
+trash_media_cannot_restore_file	Il file manca: impossibile ripristinare.
+trash_export	Esporta
+trash_purge_media_title	Eliminare questo elemento definitivamente?
+trash_purge_media_body	«%1$s» e il suo file verranno eliminati definitivamente. L’operazione non si può annullare.
+settings_backup_media_note	Le foto, i video e le registrazioni nel cestino non entrano nel backup, solo il loro elenco. Dopo l’importazione su questo stesso telefono si possono ripristinare finché i loro file sono ancora qui.

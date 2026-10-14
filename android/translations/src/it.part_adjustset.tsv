@@ -1,0 +1,12 @@
+budget_adjust_set	Inserisci
+budget_adjust_new_value	Nuovo valore
+budget_adjust_negative	Il risultato non può essere inferiore a zero
+list_change_quantity	Quantità
+list_change_price	Prezzo
+list_adjust_quantity_title	Modifica la quantità
+list_adjust_price_title	Modifica il prezzo
+list_adjust_current_quantity	Quantità attuale: %1$s
+list_adjust_current_price	Prezzo attuale: %1$s
+list_adjust_not_set	Non ancora impostato (vale zero)
+list_adjust_invalid	Inserisci un numero maggiore di zero, con al massimo tre decimali
+list_adjust_invalid_set	Inserisci un numero con al massimo tre decimali

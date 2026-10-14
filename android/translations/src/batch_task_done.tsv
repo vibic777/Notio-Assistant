@@ -1,0 +1,5 @@
+# The tick "completed" of a task (D358)
+task_completed	Completed	Завершено	Завершана	Terminée	Abgeschlossen	Completada	Completata	已完成	完了	완료
+task_filter_done	Completed	Завершённые	Завершаныя	Terminées	Abgeschlossene	Completadas	Completate	已完成	完了	완료
+task_filter_open	Not completed	Не завершённые	Не завершаныя	Non terminées	Nicht abgeschlossene	Sin completar	Non completate	未完成	未完了	미완료
+sort_key_completed	Completed	Завершено	Завершана	Terminée	Abgeschlossen	Completada	Completata	已完成	完了	완료

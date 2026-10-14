@@ -1,0 +1,7 @@
+rec_restricted_title	Notio의 백그라운드 사용이 제한되어 있습니다
+rec_restricted_text	휴대폰의 배터리 설정 때문에 Notio가 백그라운드에서 작동할 수 없어, 앱을 나가면 바로 녹음·녹화가 멈춥니다. 설정 → 애플리케이션 → Notio → 배터리에서 “제한 없음”을 선택하세요(삼성은 “절전 상태 앱”에서도 Notio를 빼세요).
+rec_restricted_open	설정 열기
+rec_restricted_anyway	그래도 녹화
+rec_restricted_stopped	Android가 녹화를 멈췄습니다: Notio의 백그라운드 사용이 제한되어 있습니다(배터리 설정). 설정 → 애플리케이션 → Notio → 배터리에서 “제한 없음”을 선택하세요.
+settings_background_ok	백그라운드 작업: 허용됨
+settings_background_restricted	백그라운드 작업: 제한됨 — 앱을 나가면 녹음·녹화가 멈춥니다

@@ -1,0 +1,4 @@
+md_check_delete_cd	Elimina la riga
+md_check_delete_title	Eliminare questa riga?
+md_check_delete_text	«%1$s» viene tolta dalla nota. Annulla la riporta.
+md_check_delete_text_sub	«%1$s» e le righe sotto vengono tolte dalla nota. Annulla le riporta.

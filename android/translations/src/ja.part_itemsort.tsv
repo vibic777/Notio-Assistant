@@ -1,0 +1,10 @@
+sort_button	並べ替え：%1$s
+sort_key_sum	金額
+sort_key_goal	目標
+sort_key_remainder	残り
+sort_key_progress	達成度（目標に対する割合）
+sort_key_quantity	数量
+sort_key_price	単価
+sort_key_cost	費用
+sort_key_unit	単位
+sort_key_done	完了 / 未完了

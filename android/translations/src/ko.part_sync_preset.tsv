@@ -1,0 +1,4 @@
+sync_preset_ask	매번 묻기
+sync_preset_folders_chosen	선택됨: %1$d
+sync_preset_choose_folders	폴더 선택…
+sync_preset_hint	연결에 정해 둔 것은 동기화할 때 묻지 않습니다. 교체는 시작 전에 항상 표시됩니다.

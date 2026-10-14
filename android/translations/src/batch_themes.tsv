@@ -1,0 +1,6 @@
+# key	en	ru	be	fr	de	es	it	zh	ja	ko  (0.9.37: D219 colour themes)
+theme_yellow	Yellow	Жёлтая	Жоўтая	Jaune	Gelb	Amarillo	Giallo	黄色	イエロー	노랑
+theme_lilac	Lilac	Сиреневая	Бэзавая	Lilas	Flieder	Lila	Lilla	丁香紫	ライラック	라일락
+theme_magenta	Magenta	Пурпурная	Пурпурная	Magenta	Magenta	Magenta	Magenta	品红	マゼンタ	자홍
+theme_custom	Your colour	Свой цвет	Свой колер	Votre couleur	Eigene Farbe	Su color	Il tuo colore	自定义颜色	カスタムカラー	내 색상
+theme_custom_pick	RGB…	RGB…	RGB…	RVB…	RGB…	RGB…	RGB…	RGB…	RGB…	RGB…

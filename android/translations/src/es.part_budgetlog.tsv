@@ -1,0 +1,24 @@
+budget_log_button	Registro de cambios
+budget_log_title	Registro de cambios
+budget_log_empty	Aún no se ha cambiado nada. Aquí se anotarán la adición de elementos y los cambios de sus valores.
+budget_log_save_txt	Guardar como archivo TXT
+budget_log_save_pdf	Guardar como archivo PDF
+budget_log_clear	Borrar el registro
+budget_log_clear_title	¿Borrar el registro?
+budget_log_clear_message	Se borrarán todas las líneas del registro de este presupuesto. El presupuesto no cambia. No se puede deshacer.
+budget_log_export_title	Registro de cambios del presupuesto «%1$s»
+budget_log_export_done	Registro guardado
+budget_log_export_failed	No se pudo guardar el registro
+budget_log_file_name	Registro del presupuesto
+budget_log_not_set	sin definir
+budget_log_item_added	Elemento «%1$s» añadido a «%2$s»
+budget_log_group_added	Grupo «%1$s» añadido a «%2$s»
+budget_log_sum	«%1$s»: suma %2$s → %3$s
+budget_log_sum_delta	«%1$s»: suma %2$s → %3$s (%4$s)
+budget_log_sum_set	«%1$s»: suma introducida %3$s (antes %2$s)
+budget_log_goal	«%1$s»: objetivo %2$s → %3$s
+budget_log_quantity	«%1$s»: cantidad %2$s → %3$s
+budget_log_renamed	«%2$s» renombrado a «%1$s»
+budget_log_moved	«%1$s» movido de «%2$s» a «%3$s»
+budget_log_deleted	«%1$s» eliminado
+budget_log_deleted_tree	Grupo «%1$s» eliminado con todo su contenido

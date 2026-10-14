@@ -1,0 +1,18 @@
+text_mode_label	モード：
+text_mode_markdown	Markdown
+text_mode_rich	書式付き
+text_mode_to_markdown_title	Markdown に切り替えますか？
+text_mode_to_markdown_message	太字、斜体、取り消し線、リストは残ります。色、文字サイズ、下線、上付き・下付き、配置、インデントは Markdown にないため削除されます。メモを開いている間は「元に戻す」で戻せます。
+rich_underline	下線
+rich_superscript	上付き
+rich_subscript	下付き
+rich_size	文字サイズ
+rich_text_color	文字色
+rich_background	背景色
+rich_color_auto	自動
+rich_indent_less	インデントを減らす
+rich_indent_more	インデントを増やす
+rich_align_left	左揃え
+rich_align_center	中央揃え
+rich_align_right	右揃え
+rich_clear	書式をクリア

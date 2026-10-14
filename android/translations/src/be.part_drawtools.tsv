@@ -1,0 +1,20 @@
+drawing_tool_shape	Фігуры
+drawing_tool_text	Тэкст
+drawing_tool_eyedropper	Піпетка
+drawing_shape_filled	З заліўкай
+drawing_eyedropper_hint	Дакраніцеся да малюнка, каб узяць яго колер.
+drawing_text_hint	Дакраніцеся да месца, дзе павінен быць тэкст.
+drawing_brush_opacity	Непразрыстасць
+drawing_brush_softness	Размытасць
+drawing_brush_round	Круглы
+drawing_brush_nib	Пяро з нахілам
+drawing_brush_angle	Нахіл
+drawing_shape_square	Квадрат
+drawing_shape_circle	Круг
+drawing_shape_rhombus	Ромб
+drawing_shape_pentagon	Пяцівугольнік
+drawing_shape_hexagon	Шасцівугольнік
+drawing_shape_star	Зорка
+drawing_shape_double_arrow	Двухбаковая стрэлка
+drawing_text_label	Тэкст
+drawing_edit_text	Змяніць тэкст

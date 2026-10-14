@@ -1,0 +1,5 @@
+sync_nothing_changed	没有传输任何内容：两台设备的内容已经相同，或所选文件夹中没有笔记。
+sync_replace_folders_hint	仅替换所选文件夹：在接收设备上它们将成为完全副本，这些文件夹中对方设备没有的笔记会移入回收站。其他文件夹保持不变。
+budget_each_sum	每份：合计 %1$s
+reminders_off_create_title	提醒已关闭
+reminders_off_create_hint	此设备上的所有提醒均已关闭，新提醒不会响起。请先开启提醒。

@@ -1,0 +1,6 @@
+rec_limit_change	Cambiar para esta grabación
+rec_limit_once_title	Límite de esta grabación
+rec_limit_once_hint	Solo para la próxima grabación; después, de nuevo Ajustes → Grabaciones. 0 = hasta Detener.
+rec_limit_once_line	Se detiene sola tras %1$s (solo esta grabación)
+rec_limit_once_none	Hasta Detener (solo esta grabación)
+rec_limit_back	Como en Ajustes

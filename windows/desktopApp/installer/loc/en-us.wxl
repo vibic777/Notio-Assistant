@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The installer in one of Notio's ten languages (D80). The pages of WiX itself come from its own translation of this culture;
+     these are the texts of jpackage's pages and ours. NotioLanguage is the language number Windows chooses the texts by. -->
+<WixLocalization Culture="en-us" Codepage="1252" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+  <String Id="NotioLanguage">1033</String>
+  <!-- The name in "Installed apps" and of the Start menu shortcut (D133): Russian has its own, the others the English one. -->
+  <String Id="NotioProductName">Notio by vibic</String>
+  <String Id="MainFeatureTitle">Main Feature</String>
+  <String Id="DowngradeErrorMessage">A later version of [ProductName] is already installed. Downgrades disabled. Setup will now exit.</String>
+  <String Id="DisallowUpgradeErrorMessage">An older version of [ProductName] is already installed. Upgrades disabled. Setup will now exit.</String>
+  <String Id="ShortcutPromptDlg_Title">[ProductName] Setup</String>
+  <String Id="ShortcutPromptDlgTitle">{\WixUI_Font_Title}Shortcuts</String>
+  <String Id="ShortcutPromptDlgBannerBitmap">WixUI_Bmp_Banner</String>
+  <String Id="ShortcutPromptDlgDescription">Select shortcuts to create.</String>
+  <String Id="ShortcutPromptDlgDesktopShortcutControlLabel">Create desktop shortcut</String>
+  <String Id="ShortcutPromptDlgStartMenuShortcutControlLabel">Create start menu shortcut</String>
+  <String Id="InstallDirNotEmptyDlg_Title">[ProductName] Setup</String>
+  <String Id="InstallDirNotEmptyDlgInstallDirExistMessage">Folder [INSTALLDIR] already exists. Would you like to install to that folder anyway?</String>
+  <String Id="ContextMenuCommandLabel">Open with [ProductName]</String>
+  <String Id="OsConditionMessage">[ProductName] [ProductVersion] does not support this version of Windows</String>
+  <String Id="LaunchAppCheckbox">Launch Notio</String>
+</WixLocalization>

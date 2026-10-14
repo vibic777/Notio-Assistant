@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Texts of the desktop-only functions (AGENT.md D45); not from the Android app, kept by hand in all ten languages. -->
+<resources>
+    <string name="desktop_window">ウィンドウ</string>
+    <string name="desktop_close_to_tray">閉じるボタンでトレイに最小化</string>
+    <string name="desktop_close_to_tray_hint">Notio はトレイに残り、リマインダーは鳴り続けます。トレイアイコンのメニュー（右クリック）の「終了」で終了します。</string>
+    <string name="desktop_close_to_tray_notice">Notio はトレイで動作中です。終了するにはアイコンを右クリックして「終了」を選んでください。</string>
+    <string name="desktop_single_instance">Notio を二重に起動しない</string>
+    <string name="desktop_single_instance_hint">Notio をもう一度起動すると、開いているウィンドウが前面に出ます。次回の起動から有効です。</string>
+    <string name="desktop_floating_stop_hint">オフの場合は、メモの中か、トレイアイコンのメニュー（右クリック）から録画を停止します。</string>
+    <string name="desktop_auto_start">Windows と一緒に起動</string>
+    <string name="desktop_auto_start_hint">Windows へのサインイン時に Notio がバックグラウンドで起動し、最初からリマインダーが鳴ります。</string>
+    <string name="desktop_auto_start_unavailable">インストール版またはポータブル版の Notio で使用できます。</string>
+    <string name="desktop_auto_start_tray">トレイで起動</string>
+    <string name="desktop_previous">前へ</string>
+    <string name="desktop_next">次へ</string>
+    <string name="desktop_render">ウィンドウの描画</string>
+    <string name="desktop_render_auto">自動</string>
+    <string name="desktop_render_software">互換（グラフィックカードなし）</string>
+    <string name="desktop_render_hint">Notio の再起動後に有効になります。「自動」は、仮想または基本ディスプレイアダプターではグラフィックカードを使わずに描画します（使うとウィンドウがかくつくため）。現在: %1$s。ディスプレイアダプター: %2$s。</string>
+    <string name="desktop_damaged">Notio を起動できません。プログラムのファイルが見つからないか、破損しています。Notio をもう一度インストールしてください。ノートと設定はそのまま残ります。</string>
+    <string name="desktop_not_answering">Notio はすでに実行中ですが、応答しません。タスク マネージャーで Notio を終了し、もう一度起動してください。</string>
+</resources>

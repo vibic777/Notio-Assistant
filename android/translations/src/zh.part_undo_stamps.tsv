@@ -1,0 +1,17 @@
+color_family_red	红色
+color_family_orange	橙色
+color_family_yellow	黄色
+color_family_green	绿色
+color_family_cyan	青色
+color_family_blue	蓝色
+color_family_purple	紫色
+color_family_pink	粉色
+color_family_neutral	灰色、黑色和白色
+color_family_none	无自定义颜色
+editor_redo	重做
+budget_log_undone	已撤销上一次更改
+budget_log_redone	已重做撤销的更改
+settings_undo	撤销步数
+settings_undo_hint	文本、列表、预算、绘图、蓝图或日程中“撤销”箭头可退回的更改次数；“重做”可恢复。仅在笔记打开期间有效。
+settings_footer_stamps	笔记底部的时间戳
+settings_footer_stamps_hint	选择一种笔记，并设置其查看页是否在全部内容之后显示创建时间和最后修改时间。日期和时间的写法与“语言和格式”相同。

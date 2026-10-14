@@ -1,0 +1,6 @@
+# D359: Delete in View of a budget, and Restore in its log
+budget_delete_restorable	It can be put back from the log of the budget.	Вернуть можно в журнале бюджета.	Вярнуць можна ў журнале бюджэту.	Vous pourrez le restaurer depuis le journal du budget.	Im Protokoll des Budgets lässt es sich wiederherstellen.	Se puede restaurar desde el registro del presupuesto.	Si può ripristinare dal registro del budget.	可以在预算的变更记录中恢复。	予算の変更履歴から復元できます。	예산의 변경 기록에서 복원할 수 있습니다.
+budget_log_restore	Restore	Восстановить	Аднавіць	Restaurer	Wiederherstellen	Restaurar	Ripristina	恢复	復元	복원
+budget_log_was_restored	Restored	Восстановлено	Адноўлена	Restauré	Wiederhergestellt	Restaurado	Ripristinato	已恢复	復元済み	복원됨
+budget_log_restored	Restored “%1$s”	Восстановлено: «%1$s»	Адноўлена: «%1$s»	« %1$s » restauré	„%1$s“ wiederhergestellt	«%1$s» restaurado	«%1$s» ripristinato	已恢复“%1$s”	「%1$s」を復元	“%1$s” 복원
+budget_log_restore_failed	It cannot be restored: it is in the budget already.	Восстановить нельзя: это уже есть в бюджете.	Аднавіць нельга: гэта ўжо ёсць у бюджэце.	Restauration impossible : c’est déjà dans le budget.	Wiederherstellen nicht möglich: Das ist bereits im Budget.	No se puede restaurar: ya está en el presupuesto.	Impossibile ripristinare: è già nel budget.	无法恢复：预算中已经有它。	復元できません。すでに予算にあります。	복원할 수 없습니다. 이미 예산에 있습니다.

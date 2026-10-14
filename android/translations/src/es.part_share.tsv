@@ -1,0 +1,5 @@
+action_share	Compartir…
+share_title	Compartir la nota
+share_nothing	Esta nota aún no tiene nada que compartir.
+help_share_title	Compartir una nota
+help_share_body	El menú ⋮ de una tarjeta de nota tiene Compartir…: el teléfono muestra todas las aplicaciones que pueden recibirlo — una mensajería (Telegram, WhatsApp, MAX, imo), el correo, una nube. Las notas, notas Markdown, listas, presupuestos y horarios van como texto (título y contenido); dibujos y planos como imagen PNG; fotos, vídeos, grabaciones de pantalla y audio como sus archivos, todos a la vez. Solo sale del teléfono lo que usted comparte. El icono de las dos hojas es «Copiar». En una tarjeta pone toda la nota en el portapapeles: el texto, o la imagen de un dibujo o de un plano. En la vista copia todo el texto de la nota, y cada línea de una lista, cada fila de una nota de lista y de un presupuesto tiene su propio icono, que copia solo esa línea. Los importes ocultos de un presupuesto se copian tal como se muestran. Las notas de foto, vídeo y audio no tienen «Copiar».

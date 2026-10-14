@@ -1,0 +1,7 @@
+alarm_status_fullscreen_ok	锁屏上的闹铃界面：已允许
+alarm_status_fullscreen_no	锁屏上的闹铃界面：未允许
+alarm_status_overlay_ok	显示在其他应用上层：已允许
+alarm_status_overlay_no	显示在其他应用上层：未允许
+alarm_overlay_hint	部分手机只有同时允许此项，才会在锁屏上显示闹铃：应用会自行打开闹铃界面。
+alarm_test	10 秒后测试闹铃
+alarm_test_started	请现在锁屏：10 秒后闹铃响起。

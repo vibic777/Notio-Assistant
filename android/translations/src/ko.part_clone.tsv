@@ -1,0 +1,4 @@
+action_clone	복제
+note_clone_suffix	_복제%1$d
+note_cloned	복제본을 만들었습니다: “%1$s”
+error_clone_failed	노트를 복제하지 못했습니다

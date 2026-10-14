@@ -1,0 +1,18 @@
+text_mode_label	模式：
+text_mode_markdown	Markdown
+text_mode_rich	格式文本
+text_mode_to_markdown_title	切换到 Markdown？
+text_mode_to_markdown_message	粗体、斜体、删除线和列表会保留。颜色、字号、下划线、上下标、对齐和缩进在 Markdown 中没有对应写法，将被移除。笔记打开期间可用“撤销”恢复。
+rich_underline	下划线
+rich_superscript	上标
+rich_subscript	下标
+rich_size	字号
+rich_text_color	文字颜色
+rich_background	背景色
+rich_color_auto	自动
+rich_indent_less	减少缩进
+rich_indent_more	增加缩进
+rich_align_left	左对齐
+rich_align_center	居中
+rich_align_right	右对齐
+rich_clear	清除格式

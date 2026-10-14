@@ -1,0 +1,4 @@
+sync_preset_ask	毎回確認
+sync_preset_folders_chosen	選択済み: %1$d
+sync_preset_choose_folders	フォルダーを選択…
+sync_preset_hint	接続に設定した項目は同期時に確認されません。置き換えは開始前に必ず表示されます。

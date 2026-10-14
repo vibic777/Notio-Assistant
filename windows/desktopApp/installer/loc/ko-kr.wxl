@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The installer in one of Notio's ten languages (D80). The pages of WiX itself come from its own translation of this culture;
+     these are the texts of jpackage's pages and ours. NotioLanguage is the language number Windows chooses the texts by. -->
+<WixLocalization Culture="ko-kr" Codepage="949" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+  <String Id="NotioLanguage">1042</String>
+  <!-- The name in "Installed apps" and of the Start menu shortcut (D133): Russian has its own, the others the English one. -->
+  <String Id="NotioProductName">Notio by vibic</String>
+  <String Id="MainFeatureTitle">기본 기능</String>
+  <String Id="DowngradeErrorMessage">[ProductName]의 최신 버전이 이미 설치되어 있습니다. 다운그레이드는 사용할 수 없습니다. 설치를 종료합니다.</String>
+  <String Id="DisallowUpgradeErrorMessage">[ProductName]의 이전 버전이 이미 설치되어 있습니다. 업그레이드는 사용할 수 없습니다. 설치를 종료합니다.</String>
+  <String Id="ShortcutPromptDlg_Title">[ProductName] 설치</String>
+  <String Id="ShortcutPromptDlgTitle">{\WixUI_Font_Title}바로 가기</String>
+  <String Id="ShortcutPromptDlgBannerBitmap">WixUI_Bmp_Banner</String>
+  <String Id="ShortcutPromptDlgDescription">만들 바로 가기를 선택하세요.</String>
+  <String Id="ShortcutPromptDlgDesktopShortcutControlLabel">바탕 화면 바로 가기 만들기</String>
+  <String Id="ShortcutPromptDlgStartMenuShortcutControlLabel">시작 메뉴 바로 가기 만들기</String>
+  <String Id="InstallDirNotEmptyDlg_Title">[ProductName] 설치</String>
+  <String Id="InstallDirNotEmptyDlgInstallDirExistMessage">[INSTALLDIR] 폴더가 이미 있습니다. 그래도 이 폴더에 설치하시겠습니까?</String>
+  <String Id="ContextMenuCommandLabel">[ProductName](으)로 열기</String>
+  <String Id="OsConditionMessage">[ProductName] [ProductVersion]은(는) 이 버전의 Windows를 지원하지 않습니다</String>
+  <String Id="LaunchAppCheckbox">Notio 실행</String>
+</WixLocalization>

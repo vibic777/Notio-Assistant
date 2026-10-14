@@ -1,0 +1,16 @@
+note_type_schedule	Programma
+schedule_empty	Ancora vuoto. Apri Modifica e aggiungi un orario.
+schedule_add_item	Aggiungi un orario
+schedule_add_calc	Aggiungi un calcolatore
+schedule_item_hint	Cosa succede
+schedule_calc_hint	Cosa misura il calcolatore
+schedule_calc_default	Calcolatore
+schedule_from	Da
+schedule_to	A
+schedule_pick_item	scegli un orario
+schedule_no_items	Aggiungi prima un orario
+schedule_clear_time	Nessun orario
+schedule_unknown	?
+schedule_duration_hm	%1$d h %2$d min
+schedule_duration_h	%1$d h
+schedule_duration_m	%1$d min

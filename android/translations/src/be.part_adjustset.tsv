@@ -1,0 +1,12 @@
+budget_adjust_set	Увесці
+budget_adjust_new_value	Новае значэнне
+budget_adjust_negative	Вынік не можа быць меншы за нуль
+list_change_quantity	Колькасць
+list_change_price	Цана
+list_adjust_quantity_title	Змяніць колькасць
+list_adjust_price_title	Змяніць цану
+list_adjust_current_quantity	Зараз колькасць: %1$s
+list_adjust_current_price	Зараз цана: %1$s
+list_adjust_not_set	Пакуль не задана (лічыцца нулём)
+list_adjust_invalid	Увядзіце лік больш за нуль, не болей за тры знакі пасля коскі
+list_adjust_invalid_set	Увядзіце лік, не болей за тры знакі пасля коскі

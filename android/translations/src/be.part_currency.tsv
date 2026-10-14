@@ -1,0 +1,24 @@
+budget_currency_button	Валюта: %1$s
+budget_currency_none	не выбрана
+budget_currency_title	Валюта гэтага бюджэту
+budget_currency_hint	Адна валюта на ўвесь бюджэт: яна падпісвае ўсе сумы. Свае валюты дадаюцца ў Налады → Нататкі і экспарт → Валюты.
+settings_currencies	Валюты
+settings_currencies_hint	Спіс валют, у якіх можна весці бюджэт. Можна дадаць свае да ўбудаваных.
+settings_currencies_open	Адкрыць спіс валют
+currencies_title	Валюты
+currencies_hint	У кожнай нататкі-бюджэту свая адна валюта; яна падпісвае ўсе яе сумы. Убудаваныя валюты выдаліць нельга, свае можна дадаваць.
+currencies_custom_section	Мае валюты
+currencies_built_in_section	Убудаваныя валюты
+currencies_none	Сваіх валют пакуль няма.
+currencies_add	Дадаць валюту
+currencies_add_title	Новая валюта
+currencies_name_label	Знак або код (да 8 сімвалаў)
+currencies_added	«%1$s» дададзена
+currencies_deleted	«%1$s» выдалена
+currencies_delete	Выдаліць валюту
+currencies_delete_title	Выдаліць валюту?
+currencies_delete_message	«%1$s» будзе прыбрана са спісу.
+error_currency_name	Увядзіце знак або код ад 1 да 8 сімвалаў
+error_currency_duplicate	Такая валюта ўжо ёсць у спісе
+error_currency_in_use	Гэтую валюту яшчэ выкарыстоўвае бюджэт
+error_currency_built_in	Убудаваную валюту выдаліць нельга

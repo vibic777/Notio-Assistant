@@ -1,0 +1,10 @@
+reminder_action_snooze	%1$d분 후 다시 알림
+alarm_dismiss	끄기
+alarm_open_note	노트 열기
+reminder_snoozed_until	%1$s까지 미룸
+settings_alarm	알림 알람
+settings_alarm_hint	알림이 화면을 켜고 알람처럼 잠금 화면 위에 “다시 알림”과 “무시” 버튼을 보여 줍니다.
+settings_snooze	미루는 시간
+settings_snooze_minutes	%1$d분
+settings_fullscreen_hint	휴대폰이 Notio가 잠금 화면 위에 알람을 여는 것을 허용하지 않습니다. 앱 설정에서 허용하세요. 허용하지 않으면 알림만 표시됩니다.
+settings_fullscreen_open	알람 화면 허용

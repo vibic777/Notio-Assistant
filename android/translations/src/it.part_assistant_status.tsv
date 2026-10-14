@@ -1,0 +1,4 @@
+assistant_nothing_open	Nessuna cartella è aperta all’assistente, quindi non vede note: Impostazioni → Assistente → Accesso alle note.
+assistant_status	Consentito: %1$s. Aperte: cartelle %2$d, note %3$d.
+assistant_commands_done	Comandi richiesti dal modello: %1$d
+assistant_no_commands	Il modello ha risposto solo a parole e non ha chiamato alcun comando. Se doveva fare qualcosa, forse questo modello non sa chiamare strumenti.

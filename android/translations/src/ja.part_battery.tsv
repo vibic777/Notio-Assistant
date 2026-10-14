@@ -1,0 +1,13 @@
+settings_battery	バッテリー
+battery_economy	バッテリー節約モード
+battery_economy_hint	リマインダーが数分遅れることがあります。装飾的なアニメーションはオフです。
+battery_exact_on	正確なリマインダーが許可されています
+battery_exact_off	正確なアクセスがないとリマインダーが遅れることがあります
+battery_restricted_on	バックグラウンド動作はシステムにより制限されています
+battery_restricted_off	バックグラウンド動作は制限されていません
+battery_exempt_on	システムのバッテリー最適化は Notio に対してオフです
+battery_exempt_off	システムのバッテリー最適化が適用されています
+battery_open_settings	バッテリー設定
+battery_open_exact	正確なリマインダー
+battery_check_again	もう一度確認
+battery_note	権限は任意です。端末がバッテリーを制限していても Notio は動作します。リマインダーは鳴り、アプリを離れると録音だけが止まります。端末メーカーがさらにバックグラウンドを制限することがあります。

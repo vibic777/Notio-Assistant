@@ -1,0 +1,6 @@
+backup_busy_title	Trabajando en la copia de seguridad
+backup_busy_message	Una copia grande puede tardar varios minutos: la app copia cada foto, vídeo y grabación. No cierres la app ni bloquees el teléfono hasta que desaparezca esta ventana.
+backup_busy_files	Archivos listos: %1$d
+backup_busy_files_of	Archivos listos: %1$d de %2$d
+backup_export_partial	Copia guardada, pero %1$d archivos se dejaron fuera por ser demasiado grandes para el formato (más de 2 GB, o la copia superaría 3,5 GB).
+backup_import_files_skipped	No se pudieron restaurar %1$d archivos de la copia (dañados o no son lo que dicen).

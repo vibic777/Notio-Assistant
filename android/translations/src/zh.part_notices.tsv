@@ -1,0 +1,4 @@
+settings_notices	屏幕底部的消息
+settings_notices_hint	“已移至回收站”这类简短消息会在这段时间后自行消失，也可以向一侧滑动将其关闭。0 表示完全不显示：消息中的“撤销”按钮也不会出现。
+settings_notices_value	%1$d 秒
+settings_notices_off	不显示

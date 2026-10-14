@@ -1,0 +1,98 @@
+settings_cat_sync	Sincronización
+settings_cat_sync_hint	Entre tus dispositivos en la misma Wi-Fi
+settings_sync	Sincronización entre dispositivos
+settings_sync_hint	Dos teléfonos (o tabletas) con Notio en la misma Wi-Fi, ambos en esta página. Conéctalos una vez con un código; después cada sincronización usa la conexión guardada. Todo va cifrado y directamente entre los dispositivos, sin internet ni nube; el otro dispositivo pregunta antes de cambiar sus datos.
+sync_wait	Esperar un dispositivo
+sync_find	Buscar un dispositivo
+sync_connections	Conexiones
+sync_this_device	Este dispositivo: %1$s
+sync_not_listening	No visible para otros dispositivos
+sync_no_wifi	Sin Wi-Fi: conecta los dos dispositivos a la misma red
+sync_listening	Visible mientras esta página esté abierta: %1$s
+sync_rename_device	Nombre del dispositivo
+sync_device_name	Nombre que ven otros dispositivos
+sync_new_connection	Nueva conexión
+sync_roles_hint	Solo para la primera conexión: en un dispositivo pulsa «Esperar un dispositivo» (muestra un código) y en el otro «Buscar un dispositivo» y escribe ese código.
+sync_code_title	Código para el otro dispositivo
+sync_code_hint	En el otro dispositivo: Ajustes → Sincronización → Buscar un dispositivo, elige este y escribe el código. Esperando…
+sync_paired_with	Conectado con %1$s
+sync_no_connections	Todavía no hay conexiones.
+sync_online	En línea ahora
+sync_offline	No visible ahora (abre esta página en él)
+sync_last	Última sincronización: %1$s
+sync_never	Aún sin sincronizar
+sync_sync	Sincronizar…
+sync_test	Probar conexión
+sync_testing	Probando la conexión…
+sync_remove	Eliminar
+sync_remove_title	¿Eliminar la conexión con %1$s?
+sync_remove_message	La conexión se rompe en ambos dispositivos si el otro está disponible ahora; si no, solo aquí. Tus notas no cambian. Para volver a sincronizar, conéctate con un código nuevo.
+sync_removed_both	Conexión eliminada en ambos dispositivos
+sync_removed_here	Conexión eliminada aquí (el otro dispositivo no estaba disponible)
+sync_log	Registro de sincronización
+sync_log_empty	Nada todavía.
+sync_log_clear	Borrar
+sync_copy_report	Copiar
+sync_copied	Copiado
+sync_pairing_progress	Conectando…
+sync_failed	No funcionó: %1$s
+sync_running	Sincronizando con %1$s…
+sync_status_receiving	Recibiendo datos del otro dispositivo…
+sync_status_sending	Enviando datos al otro dispositivo…
+sync_done_title	Sincronizado con %1$s
+sync_received	Recibido aquí:
+sync_sent	Recibido por el otro dispositivo:
+sync_stats	carpetas nuevas %1$d, notas nuevas %2$d, actualizadas %3$d, sin cambios %4$d, archivos %5$d
+sync_clock_warning	Los relojes de los dos dispositivos difieren unos %1$s min: la combinación usa la hora de cada cambio, pon la hora correcta en ambos.
+sync_test_ok	Todo funciona.
+sync_test_failed	La primera ✗ indica qué va mal.
+sync_prompt_pair	¿Conectar con %1$s?
+sync_prompt_pair_hint	Escribió el código correcto. Después los dispositivos podrán sincronizarse; cada sincronización se volverá a preguntar aquí.
+sync_prompt_sync	%1$s quiere sincronizar
+sync_prompt_send	Los datos salen DE este dispositivo hacia él; aquí no cambia nada.
+sync_prompt_receive	Los datos llegan A este dispositivo desde él.
+sync_prompt_both	Los datos van en ambos sentidos.
+sync_mode_label	Cómo:
+sync_folders_label	Carpetas:
+sync_all_folders	Todas las carpetas
+sync_replace_warning	Reemplazar borra primero TODOS los datos del dispositivo que recibe.
+sync_allow	Permitir
+sync_deny	Rechazar
+sync_manual_hint	¿No está en la lista? Escribe la dirección que muestra el otro dispositivo.
+sync_address	Dirección
+sync_use_address	Usar esta dirección
+sync_enter_code	Escribe el código que muestra %1$s:
+sync_code	Código
+sync_connect	Conectar
+sync_with	Sincronizar con %1$s
+sync_direction	Dirección
+sync_dir_send	De este dispositivo a %1$s
+sync_dir_receive	De %1$s a este dispositivo
+sync_dir_both	En ambos sentidos
+sync_mode	Cómo
+sync_mode_merge	Combinar
+sync_mode_copies	Añadir como copias
+sync_mode_replace	Reemplazar
+sync_mode_merge_hint	Se emparejan las mismas notas y carpetas; en cada una gana el cambio más reciente; lo que falta se añade.
+sync_mode_copies_hint	No se sobrescribe nada: todo lo que llega se añade como copias nuevas (puede haber duplicados).
+sync_mode_replace_hint	El dispositivo que recibe queda como copia exacta: primero se borran todos sus datos.
+sync_replace_rule	Reemplazar solo es posible en un sentido.
+sync_folders	Carpetas
+sync_refresh_folders	Obtener las carpetas de %1$s
+sync_start	Empezar
+sync_step_network	Wi-Fi de este dispositivo
+sync_step_listening	Esta página escucha
+sync_step_find	Otro dispositivo encontrado
+sync_step_connect	Conexión
+sync_step_handshake	Cifrado y claves
+sync_step_clock	Diferencia de reloj
+sync_step_reply	Respuesta
+sync_step_pairing	Registro de la conexión
+sync_err_not_found	no se encuentra el otro dispositivo: abre en él Ajustes → Sincronización, en la misma Wi-Fi
+sync_err_not_waiting	el otro dispositivo no está esperando con un código
+sync_err_unknown_pairing	el otro dispositivo no conoce esta conexión (¿eliminada allí?): elimínala aquí y vuelve a conectar con un código
+sync_err_version	el otro dispositivo tiene otra versión de Notio: actualiza ambos
+sync_err_wrong_code	código incorrecto
+sync_err_denied	rechazado en el otro dispositivo
+help_sync_title	Sincronización entre dispositivos
+help_sync_body	Ajustes → Sincronización conecta dos dispositivos con Notio en la misma Wi-Fi, directamente, sin internet ni nube; ambos tienen esta página abierta. La primera vez, uno pulsa Esperar un dispositivo y muestra un código; el otro pulsa Buscar un dispositivo, lo elige (o escribe su dirección) y escribe el código; el primero confirma. La conexión queda en la lista: después basta con Sincronizar…, elegir el sentido (desde aquí, hacia aquí o ambos), cómo (Combinar — gana el cambio más reciente; Añadir como copias; Reemplazar — el que recibe queda como copia exacta, solo en un sentido; con carpetas elegidas solo se reemplazan ellas) y todas las carpetas o algunas; el otro dispositivo pregunta cada vez. Probar conexión muestra paso a paso qué falla; Eliminar rompe la conexión. Todo va cifrado (AES-256-GCM, claves por ECDH); el código nunca viaja por la red. Si el Wi-Fi da al otro dispositivo una dirección nueva (un día «.152», otro «.153») y no se encuentra solo, pulsa «Dirección…» en la conexión guardada y escribe la dirección y el puerto que muestra arriba en su página de Sincronización. La clave del emparejamiento no cambia: un dispositivo en esa dirección sin la clave es rechazado. Si la red cambió mientras Notio estaba abierto (Wi-Fi en lugar de datos móviles o una VPN), pulse «Volver a comprobar las conexiones»: la dirección de este dispositivo y la lista de dispositivos cercanos se leen de nuevo. El puerto en el que este dispositivo espera conexiones se elige automáticamente; «Puerto de este dispositivo…» fija uno propio (para una regla del cortafuegos o del router) y dice si está libre u ocupado por otro programa.

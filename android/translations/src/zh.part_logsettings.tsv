@@ -1,0 +1,10 @@
+app_log_keep	记录应用日志
+app_log_keep_hint	崩溃总会被记录，以便找到原因。
+app_log_level	要记录的级别
+app_log_level_hint	DEBUG — 给开发者的细节；INFO — 应用做了什么；WARN — 警告；ERROR — 应用已挺过的故障；CRITICAL — 导致工作丢失的问题；FATAL — 崩溃，始终记录。
+app_log_clear_period	自动清空
+app_log_clear_never	从不
+app_log_clear_daily	每天
+app_log_clear_weekly	每周
+app_log_clear_monthly	每月
+app_log_size_note	无论如何，日志最多只占约半兆字节。

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Reminders (AGENT_EN.md §10.1). USE_EXACT_ALARM and USE_FULL_SCREEN_INTENT are
+         deliberately not declared: Google Play restricts them (gap G08). -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- The reminder opens a full-screen alarm over the lock screen and switches the screen on (D150). Sideloaded builds only:
+         Google Play restricts this permission (gap G08). Android 14 lets the person switch it off in the app settings. -->
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <!-- A reminder melody with its own volume or fade-in is played by a foreground media service (D130). -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+    <!-- Audio notes: recording. Asked at the moment the user taps "Record". -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-feature android:name="android.hardware.microphone" android:required="false" />
+    <!-- Photo and video notes (D147): the camera; the place of a picture is optional (D148). -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.any" android:required="false" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- Screen recording keeps going while the app is in the background, as a foreground service (D147). -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+    <!-- A voice or camera recording goes on in the background / with the screen off (D255). -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CAMERA" />
+    <!-- The small floating Stop button over other windows; optional, the notification has a Stop button too. -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- App lock (Phase 5). -->
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <!-- The network is used for two things only: the lock recovery code through the person's own mail server (D129), and sync
+         with the person's own devices on the same local network while Settings -> Sync is open (D226). No internet service. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- "Always ready for a sync" (D342): while its switch is on, a service keeps the port of the sync open in the background.
+         Android asks such a service for a type and, for this type, for one permission of a list; CHANGE_NETWORK_STATE is the
+         one that fits a service of the local network and asks the person nothing. -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <application
+        android:name=".NoteBudgetApplication"
+        android:allowBackup="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_label"
+        android:localeConfig="@xml/locales_config"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NoteBudget">
+
+        <!-- A turn of the phone is handled by the screen itself (no restart), so a camera recording goes on while it turns. -->
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|keyboard|keyboardHidden|navigation"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- The error window (D224): its own process, so it opens while the app's process that failed is ending. -->
+        <activity
+            android:name=".core.common.ErrorActivity"
+            android:process=":error"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:taskAffinity=""
+            android:theme="@style/Theme.NoteBudget.Error" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".core.notification.ReminderAlarmActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:showWhenLocked="true"
+            android:taskAffinity=""
+            android:turnScreenOn="true" />
+
+        <service
+            android:name=".core.notification.ReminderRingService"
+            android:exported="false"
+            android:foregroundServiceType="mediaPlayback" />
+
+        <!-- The merge of an income / expense budget into its account at its time (D237). -->
+        <receiver
+            android:name=".core.alarm.MergeReceiver"
+            android:exported="false" />
+
+        <service
+            android:name=".data.sync.SyncListenService"
+            android:exported="false"
+            android:foregroundServiceType="connectedDevice" />
+
+        <service
+            android:name=".feature.media.RecordingService"
+            android:exported="false"
+            android:foregroundServiceType="microphone|camera" />
+
+        <service
+            android:name=".feature.media.ScreenRecordService"
+            android:exported="false"
+            android:foregroundServiceType="mediaProjection|microphone" />
+
+        <receiver
+            android:name=".core.alarm.ReminderReceiver"
+            android:exported="false" />
+
+        <receiver
+            android:name=".core.alarm.RescheduleReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

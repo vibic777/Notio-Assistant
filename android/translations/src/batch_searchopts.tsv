@@ -1,0 +1,4 @@
+# D246: search options
+search_ignore_case	Aa any case	Aa без учёта регистра	Aa без уліку рэгістра	Aa sans casse	Aa Groß/klein egal	Aa sin distinguir mayúsculas	Aa maiuscole e minuscole	Aa 忽略大小写	Aa 大文字小文字を区別しない	Aa 대소문자 무시
+search_regex	.* Regexp	.* Regexp	.* Regexp	.* Regexp	.* Regexp	.* Regexp	.* Regexp	.* 正则表达式	.* 正規表現	.* 정규식
+search_regex_error	The expression cannot be read: %1$s	Ошибка в выражении: %1$s	Памылка ў выразе: %1$s	Expression incorrecte : %1$s	Der Ausdruck ist fehlerhaft: %1$s	La expresión no es válida: %1$s	L’espressione non è valida: %1$s	表达式有误：%1$s	式に誤りがあります：%1$s	식이 올바르지 않습니다: %1$s

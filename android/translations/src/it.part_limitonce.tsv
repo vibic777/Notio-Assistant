@@ -1,0 +1,6 @@
+rec_limit_change	Cambia per questa registrazione
+rec_limit_once_title	Limite di questa registrazione
+rec_limit_once_hint	Solo per la prossima registrazione, poi di nuovo Impostazioni → Registrazioni. 0 = fino a Stop.
+rec_limit_once_line	Si ferma da sola dopo %1$s (solo questa registrazione)
+rec_limit_once_none	Fino a Stop (solo questa registrazione)
+rec_limit_back	Come nelle Impostazioni

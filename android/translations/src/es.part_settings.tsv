@@ -1,0 +1,56 @@
+settings_cat_general	Idioma y formatos
+settings_cat_general_hint	Idioma, fecha y hora
+settings_cat_appearance	Apariencia
+settings_cat_appearance_hint	Tema, colores, tamaño del texto, fondos
+settings_cat_notes	Notas y exportación
+settings_cat_notes_hint	Etiquetas, unidades, nombres de los archivos exportados
+settings_cat_security	Seguridad y privacidad
+settings_cat_security_hint	Bloqueo de la app, notificaciones de recordatorios
+settings_cat_trash	Papelera
+settings_cat_trash_hint	Cuánto tiempo se conserva lo eliminado
+settings_cat_data	Copia de seguridad y restauración
+settings_cat_data_hint	Exportar, importar, contraseña de la copia
+settings_cat_about	Ayuda y acerca de
+settings_cat_about_hint	Ayuda, versión, desarrollador
+settings_search_hint	Buscar en los ajustes
+settings_search_none	No se encontró nada. Prueba con otra palabra.
+settings_datetime	Formato de fecha y hora
+settings_datetime_hint	Cómo se escriben la fecha y la hora en todas partes: en notas, carpetas y grabaciones.
+settings_date_label	Fecha
+settings_time_label	Hora
+format_system	Como en el teléfono
+settings_example	Ejemplo: %1$s
+settings_export_naming	Nombres de los archivos exportados
+settings_export_naming_hint	Cómo se llama un archivo exportado: elige las partes y cómo se escriben la fecha y la hora. En un nombre de archivo no se pueden usar dos puntos.
+naming_note_title	Título de la nota
+naming_item_title	Título de la grabación o foto (en notas múltiples)
+naming_date	Sello de fecha
+naming_time	Sello de hora
+naming_source	La fecha y la hora se toman de
+naming_source_export	El momento de exportar
+naming_source_created	La creación de la nota
+naming_source_modified	La última modificación de la nota
+naming_date_format	Fecha en el nombre
+naming_time_format	Hora en el nombre
+naming_twelve_hour	Formato de 12 horas con AM / PM
+naming_sep_none	ninguno
+naming_joiner	Entre las partes del nombre
+naming_join_space	espacio
+naming_example	Ejemplo: %1$s
+naming_example_note	Viaje
+naming_example_item	Foto 1
+settings_backup_password	Contraseña de la copia de seguridad
+settings_backup_password_hint	Protege con una contraseña las copias exportadas. Sin ella, una copia es un archivo normal que cualquiera puede abrir.
+backup_password_enable	Proteger las copias con contraseña
+backup_password_field	Contraseña
+backup_password_warning	Guárdala bien: una copia con la contraseña olvidada no se puede abrir, no hay recuperación.
+backup_password_save	Guardar contraseña
+backup_password_saved	Contraseña guardada. Las copias nuevas se protegen con ella.
+backup_password_type_first	Escribe una contraseña y guárdala.
+import_password_title	Copia protegida
+import_password_hint	Esta copia está protegida con contraseña. Escríbela para continuar.
+transfer_error_password_required	Esta copia está protegida con contraseña.
+transfer_error_wrong_password	La contraseña es incorrecta. No se cambió nada.
+password_show	Mostrar
+password_hide	Ocultar
+trash_open_settings	Ajustes de la papelera

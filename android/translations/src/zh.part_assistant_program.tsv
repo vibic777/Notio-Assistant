@@ -1,0 +1,17 @@
+assistant_telegram_mode_direct	Notio 用密钥自己读取机器人
+assistant_telegram_mode_program	通过你的机器人程序（TelegramBot）
+assistant_telegram_program_url	机器人程序的地址
+assistant_telegram_program_code	此 Notio 给机器人的代码
+assistant_telegram_program_show	显示代码
+assistant_telegram_program_hide	隐藏代码
+assistant_telegram_program_hint	你的机器人程序读取 Telegram，Notio 用这个代码连接到它。1）在机器人中，管理员打开 /admin → Notio → “输入 Notio 代码”，并发送此代码。2）在这里点按“检查”：会显示机器人的名字。3）用户给机器人发送 /notio 和此代码，然后用 /n 加请求；/n_undo 回滚，/n_yes 确认。4）该用户会出现在下方：勾选即可允许。地址是程序的地址：在本机为 http://127.0.0.1:8790；在家庭网络或 VPN 中为那台电脑的地址。Notio 与程序之间的文字不加密，因此只能在你自己的电脑或网络中使用。
+assistant_telegram_program_new_ask	旧代码会立即失效：在管理员于 /admin → Notio 中输入新代码、且用户用新代码发送 /notio 之前，机器人不会接受此 Notio。已允许的用户列表会保留。
+assistant_telegram_people	通过机器人发过消息的人
+assistant_telegram_people_hint	只知道代码还不够：机器人只回复在这里勾选的人。发送 /notio 和代码的人会出现在这里并等待。账号编号由 Telegram 提供，不会随名字改变。
+assistant_telegram_people_none	还没有人发过消息。
+assistant_telegram_person	%1$s（编号 %2$s）
+assistant_telegram_person_allowed	已允许：机器人会回复
+assistant_telegram_person_waits	请求访问：勾选即可允许
+assistant_telegram_person_remove	移除
+assistant_bot_pending	Notio 还没有允许你。你的访问请求已显示在 Notio 中：等它的主人在那里勾选你后，再发一次。
+assistant_bot_help_relay	输入 /n 和要对笔记做的事，例如：/n 显示文件夹“工作”中的笔记。/n_undo 回滚我上一次的更改。/n_yes 确认等待你同意的操作。

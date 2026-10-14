@@ -1,0 +1,7 @@
+alarm_status_fullscreen_ok	Schermata della sveglia sul blocco: consentita
+alarm_status_fullscreen_no	Schermata della sveglia sul blocco: NON consentita
+alarm_status_overlay_ok	Mostra sopra altre app: consentito
+alarm_status_overlay_no	Mostra sopra altre app: NON consentito
+alarm_overlay_hint	Alcuni telefoni mostrano la sveglia sul blocco solo se è consentito anche questo: l’app apre allora da sola la schermata della sveglia.
+alarm_test	Prova la sveglia tra 10 secondi
+alarm_test_started	Blocca il telefono: la sveglia suonerà tra 10 secondi.

@@ -1,0 +1,156 @@
+lock_method_pin	PIN 码
+lock_pin	PIN 码
+lock_pin_again	再次输入 PIN 码
+lock_pin_enter	输入你的 PIN 码
+lock_pin_choose	设置一个 PIN 码（4-8 位数字）
+lock_pin_confirm	再次输入以确认
+lock_attempts_title	错误尝试策略
+lock_attempts_hint	多少次错误尝试是免费的（之后应用会让你等待）、这个等待一开始是多长时间，以及如果错误尝试继续会发生什么。
+lock_free_tries	免费尝试次数
+lock_base_wait	首次等待（秒）
+lock_max_attempts	上限（0 = 关闭）
+lock_max_attempts_hint	连续错误尝试的总次数，超过后将应用下面的选择。0 表示没有上限：只有上面的等待，一直如此。
+lock_lockout_mode_title	超过上限后
+lock_lockout_recovery	阻止猜测，仅可找回
+lock_lockout_wipe	清除应用数据
+lock_lockout_wipe_active_warning	错误尝试次数过多将清除这部手机上的所有 Notio 数据。此操作无法撤销。
+lock_attempts_saved	已保存
+lock_wipe_confirm_title	错误尝试过多后清除数据？
+lock_wipe_confirm_message	如果开启此项，一旦达到上面的上限，就会立即清除这部手机上的所有文件夹、笔记和设置——不会再有任何提示，且无法撤销。只有在你理解并确实想要这样时才开启。
+lock_wipe_confirm_field	输入 %1$s 以确认
+lock_wipe_confirm_button	开启清除
+lock_wipe_confirm_phrase	清除
+lock_locked_out	错误尝试次数过多。请使用下面的「我忘记了」重新进入。
+lock_wiped	错误尝试次数过多：这部手机上的 Notio 数据已被清除。
+settings_db_encryption	数据库加密
+settings_db_encryption_hint	加密此手机上的整个数据库文件。开启或关闭会就地转换该文件：数据不会丢失，但之后需要重启应用。
+db_encryption_enable	加密数据库
+db_encryption_password_field	数据库密码
+db_encryption_password_warning	此密码由应用自动生成并保存在此处，方便你复制。没有它，就无法打开导出的数据库文件，也无法在没有本应用密钥的手机上打开同一个文件。
+db_encryption_copied	密码已复制
+db_encryption_copy_error	复制错误文本
+db_encryption_error_copied	错误文本已复制
+db_encryption_email_button	通过邮件发送密码
+db_encryption_email_confirm_title	通过邮件发送数据库密码？
+db_encryption_email_confirm_message	密码将以明文形式发送到 %1$s——即「设置 → 应用锁 → 邮件找回」中设置的恢复邮箱。任何能访问该邮箱的人都可以读取你加密的数据。
+db_encryption_email_not_configured	请先设置邮件找回：设置 → 应用锁 → 邮件找回 (SMTP)。
+db_encryption_email_sent	密码已通过邮件发送
+db_encryption_mail_subject	Notio 数据库密码
+db_encryption_mail_body	这是用于加密此手机上 Notio 数据库的密码：\n\n%1$s\n\n请妥善保管。没有它，将无法打开复制或导出的数据库文件。
+db_encryption_enable_failed	无法加密数据库。未做任何更改。
+db_encryption_disable_failed	无法解密数据库。未做任何更改。
+db_encryption_busy_title	正在转换数据库
+db_encryption_busy_message	这可能需要一点时间。在此窗口消失前请勿关闭应用。
+db_encryption_restart_title	需要重启
+db_encryption_restart_message	数据库已转换完成。需要重启 Notio 才能使用。
+db_encryption_restart_now	立即重启
+db_encryption_confirm_on_title	要加密数据库吗？
+db_encryption_confirm_on_message	数据库文件将就地转换，不会丢失任何数据。旧版本的应用或普通的 SQLite 工具将无法再直接打开此文件——但用上方“导出”生成的备份仍可在任何版本中打开。应用将重启。
+db_encryption_confirm_off_title	要关闭数据库加密吗？
+db_encryption_confirm_off_message	数据库文件将转换回普通格式，不会丢失任何数据。应用将重启。
+db_file_transfer_hint	按原样导出数据库文件，或用另一部手机的文件替换它。与上方的备份不同，此文件只能在 Notio 中打开：加密关闭时是普通文件，加密开启时需要上方的密码。
+db_file_export	导出数据库文件
+db_file_export_done	数据库文件已导出
+db_file_export_failed	无法导出数据库文件
+db_file_import	导入数据库文件
+db_file_import_confirm_title	要替换所有数据吗？
+db_file_import_confirm_message	导入数据库文件会替换此手机上当前的所有内容：每个文件夹、笔记和设置。此操作无法撤销。如果文件已加密，系统会在下方询问密码。
+db_file_import_failed	这不是 Notio 的数据库文件，或者文件已损坏。
+action_copy	复制
+action_continue	继续
+action_later	稍后
+transfer_error_too_large	备份太大，此设备的内存无法打开，未做任何更改。
+drawing_bg	纸张背景
+drawing_bg_color	颜色
+drawing_bg_transparent	透明
+drawing_bg_transparency	透明度：%1$d%%
+drawing_bg_note	100 % 表示完全没有背景：图片以带透明度的 PNG 保存和分享。背景位于图画下方：橡皮擦会重新露出背景，油漆桶会填充空白纸张。
+status_title_tasks	任务
+status_tasks	任务：%1$d · 进行中：%2$d
+status_tasks_overdue	已逾期：%1$d
+reminders_cancel_title	取消提醒？
+reminders_cancel_message	“%1$s”：提醒将不再响起，并移到已结束中。此操作无法撤销；如需再次使用，请通过“编辑”设置新时间。
+reminders_cancel_keep	保留
+reminder_switch_on	开启提醒
+reminder_switch_off	关闭提醒
+reminder_status_off	已关闭
+budget_show_amounts	显示隐藏的金额
+budget_hide_amounts	再次隐藏金额
+budget_layout_hide_sums	隐藏合计（点按眼睛前显示星号）
+budget_layout_hide_goals	隐藏目标（点按眼睛前显示星号）
+zoom_out_cd	缩小
+zoom_in_cd	放大
+zoom_level_cd	缩放 %1$d%%，点按恢复正常
+tags_add_tag	添加标签
+tags_add_confirm	添加
+tags_created	已添加标签“%1$s”
+settings_card_tint	卡片颜色
+settings_card_tint_hint	笔记和文件夹卡片显示其颜色的强度。文字会自动变亮或变暗以保持清晰。
+settings_card_tint_value	强度：%1$d%%
+settings_card_tint_sample	一条笔记
+settings_card_tint_sample_line	卡片看起来是这样
+folder_ready_notes	文件夹
+folder_ready_tasks	任务
+units_rename_title	重命名单位
+units_renamed	单位已重命名：%1$s
+currencies_rename_title	重命名货币
+currencies_renamed	已重命名为“%1$s”
+comment_add_cd	添加备注
+sync_address_line	地址：%1$s
+sync_address_unknown	地址：尚未知道
+sync_address_edit	地址…
+sync_address_title	“%1$s”的地址
+sync_address_host	IP 地址或名称
+sync_address_port	端口
+sync_address_invalid	请输入类似 192.168.1.153 的 IP 地址（或设备名称）以及 1–65535 之间的端口。
+sync_address_hint	如果 Wi-Fi 给另一台设备分配了新地址且无法自动找到，请输入它在“同步”页面顶部显示的地址和端口。配对保持不变：密钥不会改变，该地址上没有密钥的设备会被拒绝，因此不会向其发送任何内容。
+sync_address_saved	地址已保存：%1$s
+drawing_tools_top	工具在上方
+drawing_tools_left	工具在左侧
+drawing_tools_side	工具位置
+budget_log_undo	撤销
+budget_log_was_undone	已撤销
+budget_log_undo_title	撤销此更改？
+budget_log_undo_message	此更改按其自身的差额撤回：之后所做的更改保持不变。
+budget_log_undo_added_message	该项目或分组将连同其中现有的内容一起删除。
+budget_log_undo_failed	此更改已无法撤销：项目已不存在，或数值将超出范围。
+budget_log_op_undone_value	已撤销：“%1$s” %2$s → %3$s
+budget_log_op_undone_rename	已撤销：名称恢复为“%1$s”
+budget_log_op_undone_added	已撤销：“%1$s”再次删除
+help_tasks_title	任务：状态和优先级
+help_tasks_body	在任务文件夹中，每个任务都有状态：已创建、排队中、已计划、进行中、已暂停、已推迟、等待中、审核中、已完成、已关闭或已取消。状态是一个带图标的按钮，位于任务卡片、查看和编辑中；点按它并从列表中选择。已完成、已关闭和已取消会结束任务：它不再逾期。状态旁边是优先级：0 到 65535 的整数，仅限数字，或留空。任务文件夹的排序包含状态和优先级；任务上方的筛选标签只保留所选状态的任务，笔记搜索中也有同样的筛选标签。状态旁边的勾选框表示“已完成”：它出现在任务卡片、查看和编辑中。勾选后任务变为“已完成”状态；取消勾选后恢复之前的状态。任务上方和笔记搜索中的“未完成”和“已完成”筛选标签只保留相应的任务；任务文件夹的排序中有“已完成”：未完成的任务排在前面。这两个筛选标签是图标：空方框表示“未完成”，打勾的方框表示“已完成”；文字会作为图标的提示显示。任务行末尾的垃圾桶（在卡片上和查看页中）用于删除任务：会先询问，然后任务进入回收站，可从那里恢复。旁边的两张纸图标会把任务复制为文本。
+help_income_title	重复的收入和支出
+help_income_body	收入或支出会在编辑中设置的时间合并到其账户。“重复”选择频率：一次、每天、每周（所选的星期）、每月或每年。重复的合并会保留在其文件夹中并等待下一次时间；没有该日期的月份取其最后一天；Notio 关闭期间错过的时间会在下次启动时合并。“立即合并”会马上合并且不移动时间。两个勾选项决定名称是否区分大小写：勾选时“Cash”和“cash”是同一个项目或分组，不勾选则是两个。
+budget_merge_repeat	重复
+budget_merge_repeat_none	一次
+budget_merge_repeat_daily	每天
+budget_merge_repeat_weekly	每周
+budget_merge_repeat_monthly	每月
+budget_merge_repeat_yearly	每年
+budget_merge_repeat_hint	从上面的时间起，在同一时刻反复合并，并保留在其文件夹中。没有该日期的月份取其最后一天。Notio 关闭期间错过的时间会在下次启动时合并。
+budget_merge_case_items	忽略项目名称的大小写（Cash = cash）
+budget_merge_case_groups	忽略分组名称的大小写
+task_state	状态
+task_state_created	已创建
+task_state_queued	排队中
+task_state_planned	已计划
+task_state_in_progress	进行中
+task_state_paused	已暂停
+task_state_postponed	已推迟
+task_state_waiting	等待中
+task_state_review	审核中
+task_state_done	已完成
+task_state_closed	已关闭
+task_state_cancelled	已取消
+task_priority	优先级
+task_priority_value	优先级：%1$s
+task_priority_hint	0 到 65535 的整数，仅限数字。留空表示无优先级。
+sort_key_status	状态
+sort_key_priority	优先级
+sync_service_channel	等待同步
+sync_service_title	等待同步
+sync_service_text	Notio 正在等待已配对设备的同步。
+sync_service_off	关闭
+sync_question_channel	同步请求
+sync_question_title	%1$s 请求同步
+sync_question_text	点按以在 Notio 中回应。

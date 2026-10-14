@@ -1,0 +1,18 @@
+text_mode_label	모드:
+text_mode_markdown	Markdown
+text_mode_rich	서식 있는 텍스트
+text_mode_to_markdown_title	Markdown으로 전환할까요?
+text_mode_to_markdown_message	굵게, 기울임, 취소선, 목록은 유지됩니다. 색상, 글자 크기, 밑줄, 위/아래 첨자, 정렬, 들여쓰기는 Markdown에 없어 제거됩니다. 메모가 열려 있는 동안 실행 취소로 되돌릴 수 있습니다.
+rich_underline	밑줄
+rich_superscript	위 첨자
+rich_subscript	아래 첨자
+rich_size	글자 크기
+rich_text_color	글자 색
+rich_background	배경색
+rich_color_auto	자동
+rich_indent_less	들여쓰기 줄이기
+rich_indent_more	들여쓰기 늘리기
+rich_align_left	왼쪽 정렬
+rich_align_center	가운데 정렬
+rich_align_right	오른쪽 정렬
+rich_clear	서식 지우기

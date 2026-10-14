@@ -1,0 +1,5 @@
+assistant_chat_keep	다시 시작한 뒤에도 채팅 유지
+assistant_chat_keep_hint	채팅은 이 컴퓨터의 Notio 데이터베이스에 노트와 함께 암호화되어 저장되며 백업이나 동기화에는 들어가지 않습니다. 최신 메시지 500개가 남습니다. 모델은 채팅의 마지막 20개 메시지를 기억하므로 삭제한 메시지는 모델도 잊습니다. 끄면 저장된 채팅이 삭제됩니다.
+assistant_chat_clear	채팅 비우기
+assistant_chat_clear_ask	채팅의 모든 메시지가 삭제되며 되돌릴 수 없습니다. 노트와 도우미 기록은 남으므로, 변경한 내용은 그곳에서 계속 되돌릴 수 있습니다.
+assistant_chat_delete	메시지 삭제

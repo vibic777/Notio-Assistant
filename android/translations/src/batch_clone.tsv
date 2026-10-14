@@ -1,0 +1,4 @@
+action_clone	Clone	Клонировать	Кланаваць	Cloner	Klonen	Clonar	Clona	克隆	複製	복제
+note_clone_suffix	_clone%1$d	_клон%1$d	_клон%1$d	_clone%1$d	_Klon%1$d	_clon%1$d	_clone%1$d	_克隆%1$d	_複製%1$d	_복제%1$d
+note_cloned	Clone created: “%1$s”	Создан клон: «%1$s»	Створаны клон: «%1$s»	Clone créé : « %1$s »	Klon erstellt: „%1$s“	Clon creado: «%1$s»	Clone creato: «%1$s»	已创建克隆：“%1$s”	複製を作成しました：「%1$s」	복제본을 만들었습니다: “%1$s”
+error_clone_failed	The note could not be cloned	Не удалось клонировать заметку	Не ўдалося кланаваць нататку	La note n’a pas pu être clonée	Die Notiz konnte nicht geklont werden	No se pudo clonar la nota	Impossibile clonare la nota	无法克隆该笔记	ノートを複製できませんでした	노트를 복제하지 못했습니다

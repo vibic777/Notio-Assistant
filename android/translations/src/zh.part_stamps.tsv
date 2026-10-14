@@ -1,0 +1,6 @@
+settings_stamps	时间戳
+settings_stamps_hint	显示创建时间和最后修改时间。只改变显示，时间本身仍会保存。
+settings_stamps_notes	笔记（含录音、照片、视频）
+settings_stamps_folders	文件夹
+settings_stamp_created	显示创建时间
+settings_stamp_modified	显示修改时间

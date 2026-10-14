@@ -1,0 +1,8 @@
+budget_adjust	Modifica la somma
+budget_adjust_current	Somma attuale: %1$s
+budget_adjust_add	Aggiungi
+budget_adjust_subtract	Sottrai
+budget_adjust_amount	Importo
+budget_adjust_invalid	Inserisci un importo maggiore di zero, con al massimo due decimali
+budget_adjust_result	Diventerà: %1$s
+budget_adjust_per_piece	La voce si ripete %1$d volte: la modifica riguarda la somma di un singolo pezzo.

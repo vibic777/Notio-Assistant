@@ -1,0 +1,5 @@
+status_title	提醒已开启
+status_text	有效：%1$d · 下一个：%2$s
+channel_reminder_status	已设置的提醒
+settings_status_notification	有提醒或任务时显示通知
+settings_status_notification_hint	只要至少有一个提醒或任务，通知栏中就会保留一条静默通知：提醒数量和下一个的时间，任务数量，其中进行中和已逾期的数量。

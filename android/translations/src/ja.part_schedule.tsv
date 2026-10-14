@@ -1,0 +1,16 @@
+note_type_schedule	スケジュール
+schedule_empty	まだ何もありません。「編集」を開いて時刻を追加してください。
+schedule_add_item	時刻を追加
+schedule_add_calc	計算を追加
+schedule_item_hint	内容
+schedule_calc_hint	計算の名前
+schedule_calc_default	計算
+schedule_from	開始
+schedule_to	終了
+schedule_pick_item	時刻を選ぶ
+schedule_no_items	先に時刻を追加してください
+schedule_clear_time	時刻なし
+schedule_unknown	?
+schedule_duration_hm	%1$d時間%2$d分
+schedule_duration_h	%1$d時間
+schedule_duration_m	%1$d分

@@ -1,0 +1,28 @@
+settings_cat_permissions	権限
+settings_cat_permissions_hint	このスマートフォンで Notio に許可されていること：付与または取り消し
+perm_intro	Notio は機能が必要とするときにだけ権限を求めます。ここでは各権限を前もって付与し、取り消すことができます。
+perm_notifications	通知
+perm_notifications_why	リマインダーの表示と鳴動、ステータス行、同期の確認
+perm_exact_alarms	正確なアラーム
+perm_exact_alarms_why	リマインダーが指定の分に鳴ります。これがないと遅れて鳴ることがあります
+perm_full_screen	ロック画面上のアラーム
+perm_full_screen_why	ポップアップ付きのリマインダーが画面を点灯し、ロック中でもウィンドウを表示します
+perm_overlay	他のアプリの上に表示
+perm_overlay_why	アラームのウィンドウが自動で表示されます。録音・録画のフローティング停止ボタン、同期の確認
+perm_microphone	マイク
+perm_microphone_why	音声メモ、動画と画面録画の音声
+perm_camera	カメラ
+perm_camera_why	写真と動画のメモ
+perm_location	位置情報
+perm_location_why	その表示をオンにしたとき、写真や動画に書き込まれる場所
+perm_state_on	許可済み
+perm_state_off	未許可
+perm_state_leaving	取り消し済み：Notio を閉じると無効になります
+perm_allow	許可
+perm_revoke	取り消す
+perm_revoke_all	すべての権限を取り消す
+perm_open_settings	スマートフォンの設定の Notio
+perm_revoke_note	ここで取り消した権限は Notio を閉じたときに無効になります。Android はその時点で権限を外します。正確なアラーム、ロック画面上のアラーム、他のアプリの上への表示はスマートフォンの設定のスイッチで、ボタンを押すと開きます。
+perm_revoke_note_old	このバージョンの Android では、権限はスマートフォンの設定で取り消します。ボタンを押すと Notio のページが開きます。
+help_permissions_title	権限
+help_permissions_body	スマートフォンでは、設定 → 権限 に Notio に許可できるものがすべて表示されます。通知、正確なアラーム、ロック画面上のアラーム、他のアプリの上への表示、マイク、カメラ、位置情報です。各行には、その権限の用途と付与されているかどうかが書かれています。「許可」で付与します。スマートフォン自身の確認によって、または設定でしか変更できない権限はスマートフォンの設定ページで付与します。「取り消す」で外します。スマートフォンが確認した権限は Notio を閉じたときに無効になり、その他はボタンで開くスマートフォンの設定でオフにします。「すべての権限を取り消す」はこれを一度に行います。失われるものはありません。権限が必要な機能はもう一度求めます。パソコンでは Notio に権限は求められません。

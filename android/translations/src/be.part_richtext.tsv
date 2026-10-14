@@ -1,0 +1,18 @@
+text_mode_label	Рэжым:
+text_mode_markdown	Markdown
+text_mode_rich	Фарматаваны
+text_mode_to_markdown_title	Перайсці ў Markdown?
+text_mode_to_markdown_message	Тоўсты, курсіў, закрэслены і спісы захаваюцца. Колеры, памер тэксту, падкрэсліванне, верхні і ніжні індэкс, выраўноўванне і водступы ў Markdown не запісваюцца і будуць прыбраныя. Кнопка «Адмяніць» верне іх, пакуль нататка адкрыта.
+rich_underline	Падкрэслены
+rich_superscript	Верхні індэкс
+rich_subscript	Ніжні індэкс
+rich_size	Памер тэксту
+rich_text_color	Колер тэксту
+rich_background	Колер фону
+rich_color_auto	Аўтаматычна
+rich_indent_less	Паменшыць водступ
+rich_indent_more	Павялічыць водступ
+rich_align_left	Па левым краі
+rich_align_center	Па цэнтры
+rich_align_right	Па правым краі
+rich_clear	Прыбраць афармленне

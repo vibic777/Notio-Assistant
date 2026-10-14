@@ -1,0 +1,11 @@
+trash_media_from_note	De la nota «%1$s»
+trash_media_note_in_trash	La nota «%1$s» está en la papelera: restaura primero la nota
+trash_media_note_gone	La nota «%1$s» se eliminó definitivamente: no se puede devolver, solo exportar
+trash_media_file_missing	El archivo ya no está en este teléfono: no se puede restaurar ni exportar.
+trash_media_cannot_restore_trash	Restaura primero la nota desde la papelera.
+trash_media_cannot_restore_gone	La nota ya no existe: el elemento solo se puede exportar.
+trash_media_cannot_restore_file	Falta el archivo: no se puede restaurar.
+trash_export	Exportar
+trash_purge_media_title	¿Eliminar este elemento definitivamente?
+trash_purge_media_body	«%1$s» y su archivo se eliminarán definitivamente. No se puede deshacer.
+settings_backup_media_note	Las fotos, vídeos y grabaciones de la papelera no entran en la copia de seguridad, solo su lista. Tras importar en este mismo teléfono se pueden restaurar mientras sus archivos sigan aquí.

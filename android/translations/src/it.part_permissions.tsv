@@ -1,0 +1,28 @@
+settings_cat_permissions	Autorizzazioni
+settings_cat_permissions_hint	Cosa può fare Notio su questo telefono: concedere o revocare
+perm_intro	Notio chiede un’autorizzazione solo quando serve a una funzione. Qui ognuna può essere concessa in anticipo e revocata.
+perm_notifications	Notifiche
+perm_notifications_why	Un promemoria viene mostrato e suona; la riga di stato; la domanda di una sincronizzazione
+perm_exact_alarms	Sveglie esatte
+perm_exact_alarms_why	Un promemoria suona al suo minuto; senza, il telefono può farlo suonare più tardi
+perm_full_screen	Sveglia sopra la schermata di blocco
+perm_full_screen_why	Un promemoria con finestra accende lo schermo e si mostra sul telefono bloccato
+perm_overlay	Mostra sopra altre app
+perm_overlay_why	La finestra della sveglia compare da sola; il pulsante mobile Stop di una registrazione; la domanda di una sincronizzazione
+perm_microphone	Microfono
+perm_microphone_why	Note vocali; l’audio di un video e di una registrazione dello schermo
+perm_camera	Fotocamera
+perm_camera_why	Note con foto e video
+perm_location	Posizione
+perm_location_why	Il luogo scritto su una foto o un video, quando questa indicazione è attiva
+perm_state_on	Consentito
+perm_state_off	Non consentito
+perm_state_leaving	Revocato: sparisce alla chiusura di Notio
+perm_allow	Consenti
+perm_revoke	Revoca
+perm_revoke_all	Revoca tutte le autorizzazioni
+perm_open_settings	Notio nelle impostazioni del telefono
+perm_revoke_note	Un’autorizzazione revocata qui sparisce alla chiusura di Notio: è allora che Android la toglie. Le sveglie esatte, la sveglia sopra la schermata di blocco e la visualizzazione sopra altre app sono interruttori delle impostazioni del telefono: il pulsante le apre.
+perm_revoke_note_old	In questa versione di Android un’autorizzazione si revoca nelle impostazioni del telefono: il pulsante vi apre la pagina di Notio.
+help_permissions_title	Autorizzazioni
+help_permissions_body	Sul telefono, Impostazioni → Autorizzazioni mostra tutto ciò che può essere consentito a Notio: le notifiche, le sveglie esatte, la sveglia sopra la schermata di blocco, la visualizzazione sopra altre app, il microfono, la fotocamera e la posizione. Ogni riga dice a cosa serve l’autorizzazione e se è concessa. Consenti la concede — con la domanda del telefono, o nella pagina delle impostazioni del telefono per quelle che solo lì si possono cambiare. Revoca la toglie: un’autorizzazione chiesta dal telefono sparisce alla chiusura di Notio, le altre si spengono nelle impostazioni del telefono, che il pulsante apre. «Revoca tutte le autorizzazioni» lo fa per tutte insieme. Nulla va perso: una funzione che ne ha bisogno la chiede di nuovo. Sul computer a Notio non viene chiesta alcuna autorizzazione.

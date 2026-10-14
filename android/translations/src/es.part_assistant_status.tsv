@@ -1,0 +1,4 @@
+assistant_nothing_open	Ninguna carpeta está abierta al asistente, así que no ve notas: Ajustes → Asistente → Acceso a las notas.
+assistant_status	Permitido: %1$s. Abiertas: carpetas %2$d, notas %3$d.
+assistant_commands_done	Comandos pedidos por el modelo: %1$d
+assistant_no_commands	El modelo respondió solo con palabras y no llamó a ningún comando. Si debía hacer algo, puede que este modelo no sepa llamar a herramientas.

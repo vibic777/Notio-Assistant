@@ -1,0 +1,17 @@
+color_family_red	빨강
+color_family_orange	주황
+color_family_yellow	노랑
+color_family_green	초록
+color_family_cyan	하늘색
+color_family_blue	파랑
+color_family_purple	보라
+color_family_pink	분홍
+color_family_neutral	회색, 검정, 흰색
+color_family_none	자체 색상 없음
+editor_redo	다시 실행
+budget_log_undone	마지막 변경을 실행 취소함
+budget_log_redone	실행 취소한 변경을 다시 실행함
+settings_undo	실행 취소 단계
+settings_undo_hint	텍스트, 목록, 예산, 그림, 설계도, 일정에서 실행 취소 화살표로 되돌릴 수 있는 변경 수입니다. 다시 실행으로 복원합니다. 메모가 열려 있는 동안 유지됩니다.
+settings_footer_stamps	메모 하단의 타임스탬프
+settings_footer_stamps_hint	메모 종류를 고르고 보기 화면의 모든 내용 뒤에 작성 시각과 마지막 변경 시각을 표시할지 정합니다. 날짜와 시간은 언어 및 형식 설정을 따릅니다.

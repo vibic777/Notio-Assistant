@@ -1,0 +1,9 @@
+search_err_at	Error en la expresión, carácter %1$d: %2$s
+search_err_nothing_to_repeat	«%1$s» repite lo que tiene delante y ahí no hay nada. Para el signo mismo escriba \\%1$s; para «cualquier carácter», .*
+search_err_unclosed_group	este «(» no se cierra: añada «)» o, para el paréntesis mismo, escriba \\(
+search_err_unmatched_close	este «)» no tiene «(»: quítelo o, para el paréntesis mismo, escriba \\)
+search_err_unclosed_class	este «[» no se cierra: añada «]» o, para el corchete mismo, escriba \\[
+search_err_bad_brace	«{» debe ser un número como {2} o {1,3}; para la llave misma escriba \\{
+search_err_trailing_backslash	«\\» al final no va seguido de nada; para una barra invertida escriba \\\\
+search_err_bad_range	el rango %1$s va al revés: escríbalo desde la letra o cifra menor, como a-z o 0-9
+search_err_other	el teléfono no puede leer esta expresión; revise los paréntesis y los signos * + ? { } cerca de este lugar

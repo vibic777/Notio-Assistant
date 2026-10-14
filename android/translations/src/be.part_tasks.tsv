@@ -1,0 +1,20 @@
+note_type_task	Задача
+folder_kind_notes	Папка нататак
+folder_kind_tasks	Папка задач
+dialog_new_task_title	Новая задача
+bg_slot_note_task	Задача
+task_done	Выканана
+task_overdue	Пратэрмінавана
+task_in_progress	У рабоце
+task_done_tick	Выканана
+task_from	З %1$s
+task_until	Да %1$s
+task_start	Пачатак
+task_end	Канец
+task_not_set	Не зададзена
+task_comment	Каментарый
+task_description	Апісанне
+task_no_description	Апісання пакуль няма.
+task_no_reminder	Напаміну няма.
+task_reminder	Напамін…
+task_end_before_start	Канец не можа быць раней за пачатак.

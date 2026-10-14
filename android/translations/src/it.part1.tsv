@@ -1,0 +1,359 @@
+home_placeholder	Lo scheletro del progetto è pronto. Le funzioni arriveranno nei prossimi passi.
+channel_reminders_sound_vibration	Promemoria (suono e vibrazione)
+channel_reminders_sound	Promemoria (solo suono)
+channel_reminders_vibration	Promemoria (solo vibrazione)
+channel_reminders_silent	Promemoria (silenzioso)
+reminder_generic_title	Promemoria
+reminder_generic_text	Hai un promemoria
+reminder_action_complete	Fatto
+onboarding_title	Crea la tua prima cartella
+onboarding_subtitle	Ogni nota sta in una cartella. Potrai cambiare tutto più tardi.
+default_folder_name	Le mie note
+folder_name_label	Nome della cartella
+folder_icon_label	Icona o emoji (facoltativo)
+folder_color_label	Colore
+folder_style_label	Stile
+folder_preview_label	Anteprima
+folder_create_button	Crea cartella
+color_option	Colore %1$d
+style_minimal	Minimale
+style_soft	Morbido
+style_gradient	Sfumato
+style_pattern	Motivo
+style_outline	Contorno
+style_compact	Compatto
+note_type_text	Markdown
+note_type_drawing	Disegno
+note_type_list	Elenco
+note_type_budget	Budget
+home_add_folder	Nuova cartella
+home_new_note	Nuova nota
+home_empty_notes	Ancora nessuna nota in questa cartella
+home_empty_notes_hint	Tocca «Nuova nota» per aggiungerne una.
+dialog_new_folder_title	Nuova cartella
+dialog_edit_folder_title	Modifica cartella
+dialog_new_note_title	Nuova nota
+note_title_label	Titolo
+note_type_label	Tipo
+action_create	Crea
+action_save	Salva
+action_cancel	Annulla
+action_delete	Elimina
+action_edit	Modifica
+action_move	Sposta in una cartella…
+action_move_confirm	Sposta
+action_pin	Fissa
+action_unpin	Non fissare più
+action_favorite	Aggiungi ai preferiti
+action_unfavorite	Rimuovi dai preferiti
+action_bold_title	Titolo in grassetto
+action_normal_title	Titolo normale
+action_undo	Annulla
+action_more	Altre opzioni
+cd_pinned	Fissata
+cd_favorite	Preferita
+cd_selected	Selezionato
+delete_note_title	Eliminare la nota?
+delete_note_message	«%1$s» verrà spostata nel cestino e i suoi promemoria saranno annullati. Puoi annullare subito dopo l'eliminazione o ripristinarla più tardi dal Cestino (icona del cestino in alto nella schermata principale).
+note_moved_to_trash	Spostata nel cestino. Ripristinala dall'icona del cestino in alto.
+delete_folder_title	Eliminare la cartella «%1$s»?
+delete_folder_message_empty	La cartella è vuota e verrà spostata nel cestino. Annulla subito dopo l'eliminazione oppure ripristinala più tardi dal Cestino (icona del cestino in alto nella schermata principale).
+delete_folder_message_notes	Scegli cosa fare delle note di questa cartella. Annulla subito dopo l'eliminazione oppure ripristina più tardi dal Cestino (icona del cestino in alto nella schermata principale).
+delete_folder_option_move	Sposta le note in un'altra cartella
+delete_folder_option_trash	Sposta le note nel cestino insieme alla cartella
+delete_folder_target_label	Sposta le note in:
+folder_moved_to_trash	Spostata nel cestino. Ripristinala dall'icona del cestino in alto.
+move_note_title	Sposta la nota in una cartella
+move_note_featured_hint	Se questa nota è la nota in evidenza della sua cartella, il collegamento viene rimosso.
+error_blank_name	Inserisci un nome
+error_duplicate_folder_name	Esiste già una cartella con questo nome
+error_blank_title	Inserisci un titolo
+error_last_folder	L'ultima cartella non può essere eliminata
+error_generic	Qualcosa è andato storto
+loading	Caricamento…
+plural:notes_count:one	%1$d nota
+plural:notes_count:many	%1$d note
+plural:notes_count:other	%1$d note
+action_back	Indietro
+editor_title_hint	Titolo
+editor_text_hint	Inizia a scrivere…
+md_mode_edit	Modifica
+md_mode_preview	Vista
+md_bold	Grassetto
+md_italic	Corsivo
+md_strike	Barrato
+md_heading	Titolo
+md_bullets	Elenco puntato
+md_numbered	Elenco numerato
+md_checklist	Lista di controllo
+md_quote	Citazione
+md_code	Codice in linea
+md_code_block	Blocco di codice
+md_link	Link
+md_rule	Linea orizzontale
+md_preview_empty	Ancora nulla da mostrare.
+editor_item_hint	Voce
+editor_add_item	Aggiungi voce
+editor_remove_item	Rimuovi voce
+editor_note_missing	Questa nota non esiste più
+editor_drawing_unavailable	L'editor di disegni non è ancora disponibile.
+budget_total	Totale
+budget_sum_goal	Somma %1$s / obiettivo %2$s
+budget_remainder	Resto %1$s
+budget_add_item	Aggiungi voce
+budget_add_group	Aggiungi gruppo
+budget_edit_node	Modifica
+budget_node_title	Nome
+budget_node_comment	Commento
+budget_sum	Somma
+budget_goal	Obiettivo
+budget_quantity	Quantità
+budget_quantity_hint	Quante volte si ripete questa voce. Somma e obiettivo qui sopra valgono per una.
+budget_invalid_quantity	Inserisci un numero intero da 1 a 9999
+budget_each	Ognuna: somma %1$s / obiettivo %2$s
+budget_invalid_number	Inserisci un numero, con al massimo due decimali
+budget_delete_title	Eliminare?
+budget_delete_message	«%1$s» e tutto ciò che contiene verranno eliminati.
+budget_empty_hint	Usa il menu ⋮ su «Totale» per aggiungere la prima voce o il primo gruppo.
+budget_layout_button	Opzioni di visualizzazione
+budget_layout_title	Come viene mostrato questo budget
+budget_layout_total_bottom	Totale generale in fondo
+budget_layout_group_totals_bottom	Totali dei gruppi sotto le loro voci
+budget_layout_newest_first	Prima le voci più recenti
+budget_group_total	Totale: %1$s
+note_type_unknown	Non supportato
+note_type_audio	Audio
+editor_unsupported_type	Questo tipo di nota (%1$s) non è supportato da questa versione dell'app. I tuoi dati sono conservati e funzioneranno dopo un aggiornamento.
+export_note_action	Esporta la nota…
+export_note_title	Esporta come
+export_done	Nota esportata
+export_failed	Impossibile esportare la nota
+export_format_markdown	Markdown (.md)
+export_format_structure	JSON con struttura (può essere reimportato)
+export_format_snapshot	Istantanea di testo (solo il risultato)
+export_format_png	Immagine PNG
+export_format_jpeg	Immagine JPEG
+export_format_audio	File audio (.m4a)
+drawing_sheet	Foglio da disegno
+drawing_tool_pencil	Matita
+drawing_tool_brush	Pennello
+drawing_tool_eraser	Gomma
+drawing_undo	Annulla
+drawing_color	Colore
+drawing_width	Spessore
+drawing_mode_raster	Raster
+drawing_mode_vector	Vettoriale
+drawing_hide_raster	Nascondi il raster
+drawing_show_raster	Mostra il raster
+drawing_hide_vector	Nascondi il vettoriale
+drawing_show_vector	Mostra il vettoriale
+drawing_tool_fill	Riempimento
+drawing_vtool_select	Seleziona
+drawing_vtool_line	Linea
+drawing_vtool_arrow	Freccia
+drawing_vtool_rect	Rettangolo
+drawing_vtool_ellipse	Ellisse
+drawing_vtool_triangle	Triangolo
+drawing_vtool_pen	Penna
+drawing_delete_shape	Elimina la forma
+drawing_duplicate	Duplica
+drawing_forward	Porta avanti
+drawing_backward	Porta indietro
+drawing_outline	Contorno
+drawing_fill_label	Colore di riempimento
+drawing_fill_none	Senza riempimento
+export_format_layers	Livelli (PNG + forme modificabili, può essere reimportato)
+audio_empty	Ancora nessuna registrazione
+audio_recording	Registrazione in corso…
+audio_record	Registra
+audio_stop	Stop
+audio_play	Riproduci
+audio_pause	Pausa
+audio_permission_denied	L'accesso al microfono è negato. Consentilo nelle impostazioni di sistema per registrare.
+audio_error_record	Impossibile avviare la registrazione. Il microfono potrebbe essere in uso.
+audio_error_nothing	Non è stato registrato nulla. La registrazione precedente è stata conservata.
+audio_error_playback	Questa registrazione non può essere riprodotta.
+home_settings	Impostazioni
+home_import_note	Importa una nota da un file
+import_note_done	Importata «%1$s»
+transfer_error_not_a_backup	Questo non è un file di backup di Notio.
+transfer_error_unsupported_version	Questo file è stato creato da una versione più recente dell'app. Aggiorna l'app per aprirlo.
+transfer_error_corrupt	Il file è danneggiato o incoerente. Non è stato modificato nulla.
+transfer_error_no_folders	Il backup non contiene cartelle, quindi non può sostituire i tuoi dati.
+transfer_error_unrecognized_file	Questo tipo di file non è riconosciuto come nota.
+transfer_error_folder_not_found	La cartella di destinazione non esiste più.
+transfer_error_generic	L'operazione non è riuscita. Non è stato modificato nulla.
+settings_title	Impostazioni
+settings_language	Lingua
+settings_language_system	Predefinita di sistema
+settings_theme	Tema
+settings_theme_system	Segui il sistema
+settings_theme_light	Chiaro
+settings_theme_dark	Scuro
+settings_privacy	Notifiche dei promemoria
+settings_privacy_hint	Cosa mostra un promemoria nella schermata di blocco.
+settings_privacy_generic	Solo testo generico
+settings_privacy_title_only	Solo il titolo della nota
+settings_privacy_full	Titolo e testo
+settings_data	I tuoi dati
+settings_data_hint	Un backup contiene tutte le cartelle, note, budget, disegni, audio e promemoria. Non contiene mai password.
+settings_export_all	Esporta tutti i dati
+settings_import_all	Importa tutti i dati
+settings_help	Aiuto
+settings_open_help	Apri aiuto e glossario
+import_mode_title	Come importare
+import_mode_merge	Unisci
+import_mode_merge_hint	Mantiene tutto ciò che hai. Se una nota esiste in entrambi, vince la più recente. Le cartelle con lo stesso nome vengono unite.
+import_mode_new	Aggiungi come nuove copie
+import_mode_new_hint	Tutto ciò che è nel file viene aggiunto come elementi nuovi, nulla di ciò che hai viene modificato.
+import_mode_replace	Sostituisci tutto
+import_mode_replace_hint	Elimina PRIMA TUTTI i tuoi dati attuali, poi carica il file. Non si può annullare.
+import_confirm	Importa
+backup_export_done	Backup salvato
+backup_export_failed	Impossibile salvare il backup
+backup_import_done	Importato: %1$d nuove note, %2$d aggiornate, %3$d saltate, %4$d nuove cartelle
+help_title	Aiuto
+help_start_title	Per iniziare
+help_start_body	Tutto vive nelle cartelle. Scegli una cartella in alto, poi tocca Nuova nota. L'ingranaggio in alto apre le impostazioni, l'icona con la freccia importa una nota da un file. Il titolo di una nuova nota è già compilato con il tipo e il primo numero libero nella cartella (Audio 1, Budget 2…): tocca subito Crea e rinominala dopo, oppure scrivi un nome tuo. Una nuova cartella si chiama allo stesso modo: Cartella 1, Cartella 2… (Attività 1… per una cartella di attività); Crea funziona subito e il nome si può cambiare allora o dopo. Molti pulsanti sono icone: tieni premuta un’icona per vederne il nome (anche TalkBack lo legge). I pulsanti delle finestre di dialogo e le azioni rare o irreversibili restano a parole.
+help_folders_title	Cartelle
+help_folders_body	Una cartella raggruppa le note e ha un nome, un colore e uno stile. Ogni nota sta in una sola cartella e l'ultima cartella non può essere eliminata. Quando elimini una cartella scegli se le sue note vanno in un'altra cartella o se la seguono. La scheda di una cartella ha in alto una riga di piccoli pulsanti: seleziona, trascina per spostare e il menu ⋮; poi la sua icona e il nome, il numero di note e, se attivato nelle impostazioni, i timbri di creazione e modifica.
+help_notes_title	Note
+help_notes_body	Esistono undici tipi di note: nota (testo formattato), Markdown, elenco, budget, disegno, progetto, audio, foto, video della fotocamera, registrazione dello schermo e programma. Tocca una nota per aprirla; le modifiche vengono salvate da sole. Il menu ⋮ di una scheda la fissa (l’ultima fissata sta in cima), mette il titolo in grassetto, aggiunge un commento o etichette, imposta un colore o un promemoria, la clona, la sposta o la elimina. Una nota eliminata si può recuperare subito con Annulla. In una nota Markdown, in un elenco e in un budget la lente in alto cerca parole nella nota: ogni risultato è evidenziato, «3 / 7» li conta, le frecce vanno al precedente e al successivo (un budget apre i gruppi che ne contengono uno), la croce chiude la ricerca. Mentre scorre un elenco o un testo lungo, in basso a destra compaiono due pulsanti rotondi: all’inizio e alla fine (nelle note di una cartella, in ogni nota e nella modifica di un testo lungo). Nuova cartella chiede il tipo: cartella di note o cartella di attività. In una cartella di attività «Nuova» crea un’attività: un nome, un commento, un inizio e una fine, una casella «Fatta» e una descrizione, tutto nella sua scheda Modifica, dove «Promemoria…» imposta i promemoria. Un’attività non fatta la cui fine è passata è segnata «In ritardo»; il calendario mostra ogni attività come una barra dall’inizio alla fine. In alto in una nota aperta due icone cambiano modalità: il libro aperto è Vista (leggere, un tocco per sbaglio non cambia nulla), la matita su una riga è Modifica (cambiarla); quella scelta è evidenziata e una pressione lunga su un’icona ne mostra il nome.
+help_budget_title	Note budget
+help_budget_body	Un budget è un albero. Una voce contiene una somma e un obiettivo che scrivi tu. Un gruppo somma automaticamente le sue voci e i gruppi possono contenere altri gruppi. Il resto è obiettivo meno somma e può essere negativo (in rosso). Tocca ▾ per comprimere un gruppo. «Opzioni di visualizzazione» permette di mettere in fondo il totale generale e i totali dei gruppi e di elencare prima le voci più recenti; ogni budget ricorda la sua scelta. Ogni voce ha anche un piccolo pulsante «Cambia la somma» (+/−), sia in Visualizzazione sia in Modifica, per aggiungere o sottrarre un importo senza riscrivere tutta la somma; in Modifica il suo menu ⋮ ha anche Modifica per la finestra di dialogo completa (nome, somma, obiettivo, quantità, commento, gruppo), oltre ad Aggiungi voce, Aggiungi gruppo ed Elimina. Nella finestra Modifica i pulsanti +, − e = aggiungono, sottraggono o inseriscono l’importo; gli interruttori Somma e Obiettivo scelgono cosa cambia — la somma (all’inizio), l’obiettivo o entrambi (uno resta sempre attivo). Tipo (in Modifica): Conto, Entrata o Uscita. Un’entrata o un’uscita viene unita una sola volta nel conto scelto — le sue somme vengono aggiunte (entrata) o sottratte (uscita) — alla data e all’ora impostate, visibili nel calendario con 💰, o subito con «Unisci ora». Caselle: Somme, Obiettivi, Stesse voci (nella voce con lo stesso nome o lo stesso percorso gruppo/voce — la scelta sotto le caselle) e Trasferire tutte le voci (le altre vengono create nel conto). Senza conto scelto non succede nulla. Dopo l’unione l’entrata / uscita va nel cestino e si può ripristinare; il registro del conto ha «Annulla l’unione». La finestra di modifica ha anche un commento facoltativo: viene scritto nella riga del registro di quella modifica. Modifica → Visualizzazione → Nascondi le somme / Nascondi gli obiettivi: gli importi appaiono come asterischi sulla scheda, nella nota e nel registro (anche il resto se uno è nascosto); l’occhio accanto a Vista / Modifica li mostra fino alla chiusura della nota. Esporta e Condividi mantengono i numeri. Le icone sopra il budget: l’orologio con la freccia apre il registro, i cursori le opzioni di visualizzazione (in Modifica), le frecce che si avvicinano e si allontanano chiudono e aprono tutti i gruppi. Nel registro una modifica di una voce (somma, obiettivo, quantità, nome) o una voce o un gruppo aggiunto ha Annulla: la modifica viene annullata della sua differenza, quindi ciò che è stato fatto dopo resta; una voce aggiunta viene eliminata di nuovo (prima chiede). Ogni riga si può annullare una volta. Un’entrata e un’uscita non hanno obiettivo né resto, solo somme. L’occhio della nota e quello di ogni riga funzionano sia in visualizzazione sia in modifica. In modifica il menu ⋮ di una voce ha «Unisci a un’altra voce…»: la voce viene eliminata e la voce scelta riceve la sua somma, il suo obiettivo o entrambi. In Vista ogni voce e ogni gruppo ha un’icona del cestino — Elimina (prima viene chiesta conferma). Ciò che è stato eliminato resta nel registro: la sua riga «eliminato» ha Ripristina, che rimette la voce o il gruppo con tutto ciò che conteneva nel suo gruppo — o sotto il totale se quel gruppo non c’è più. Un’eliminazione si ripristina una sola volta.
+help_schedule_title	Note di orario
+help_schedule_body	Un orario è un elenco di righe: elementi (un orario, una volta scelto, una descrizione e un commento) e calcolatrici (il tempo tra due elementi scelti, con una propria descrizione — utile per la durata di un turno o di un'attesa). Aggiungi l'uno o l'altra con il pulsante +. Trascina le righe dalla maniglia per il tuo ordine, oppure usa Ordina per disporre gli elementi per orario o per nome; le calcolatrici vengono sempre dopo gli elementi, e Manuale riporta il tuo ordine. In Modifica l’orologio con il più aggiunge un orario, la calcolatrice una calcolatrice e il fumetto con il più un commento a una riga.
+help_drawing_title	Disegni
+help_drawing_body	Disegna con il dito su due livelli. Il livello RASTER ha matita, pennello, gomma e riempimento; il livello VETTORIALE sopra contiene linee, frecce, rettangoli, ellissi, triangoli e forme a mano libera che puoi selezionare, spostare, modificare, riempire, riordinare ed eliminare. Ogni livello si può nascondere. L'immagine si salva da sola. Dal menu ⋮ esportala come PNG o JPEG (livelli uniti) oppure come Livelli per mantenere le forme modificabili.
+help_text_title	Note Markdown
+help_text_body	Le note Markdown usano la sintassi Markdown. La barra degli strumenti aggiunge grassetto, corsivo, titoli, elenchi, liste di controllo, citazioni, codice e link; premi Invio alla fine di una voce per continuare l'elenco. Passa alla Vista per leggere la nota formattata e spuntare le caselle. In Visualizza una riga di checklist si trascina con la maniglia a quattro frecce tra le righe del suo livello, con le righe sotto, e si elimina con il cestino (chiede conferma); Annulla le riporta indietro entrambe.
+help_audio_title	Note audio
+help_audio_body	Tocca Registra e consenti il microfono una sola volta; tocca Stop per finire. Ogni registrazione viene aggiunta all'elenco di questa nota. Riproducine una e trascina il cursore per spostarti. Nel menu ⋮ di una registrazione puoi darle un nome e un commento, esportarla come file .m4a o eliminarla; le altre restano. Il menu ⋮ della nota esporta tutte le registrazioni in un unico .zip, con ogni file chiamato «titolo della nota - nome della registrazione». Ogni registrazione si ferma da sola dopo un limite di tempo e viene salvata: 4 minuti di norma, per audio, video della fotocamera e registrazione dello schermo in Impostazioni → Registrazioni (0 = fino a Stop); la nota mostra il limite sotto il pulsante e lo ricorda all’avvio. Stop funziona anche prima.
+help_backup_title	Backup e trasferimento delle note
+help_backup_body	Nelle impostazioni ci sono Esporta tutti i dati e Importa tutti i dati: un unico file con tutto, per passare a un altro telefono o tenerlo al sicuro. All'importazione scegli Unisci (mantieni entrambi), Aggiungi come nuove copie o Sostituisci tutto. Una singola nota si esporta dal suo menu ⋮ (Markdown, JSON, PNG, JPEG o audio) e si importa con l'icona con la freccia nella schermata principale. I file di versioni più recenti dell'app vengono rifiutati con un messaggio, mai importati a metà.
+help_privacy_title	Privacy
+help_privacy_body	Le note restano sul tuo telefono; non c'è sincronizzazione nel cloud. I backup non contengono password. Le notifiche dei promemoria mostrano per impostazione predefinita un testo generico; puoi cambiarlo nelle impostazioni. Una nota, una nota Markdown, un elenco, un disegno e un progetto possono nascondere il contenuto: apri la nota, passa a Modifica e premi l’occhio barrato nella riga delle schede. Da quel momento la scheda e la vista mostrano «Il contenuto è nascosto» finché non premi l’occhio; chiusa e riaperta, la nota è di nuovo nascosta. Il titolo, i tag e il commento restano visibili e la ricerca continua a trovare le parole. È una protezione da uno sguardo indiscreto, non una serratura: a tenere fuori un estraneo è il blocco dell’app. Le note foto, video e audio non hanno questa opzione.
+glossary_title	Glossario
+glossary_folder	Cartella: un gruppo di note con un nome.
+glossary_note	Nota: un elemento di testo, elenco, budget, disegno o audio che sta in una cartella.
+glossary_group	Gruppo: una voce del budget composta da altre voci; somma e obiettivo si sommano automaticamente.
+glossary_item	Voce: una voce del budget con una propria somma e un proprio obiettivo che scrivi tu.
+glossary_goal	Obiettivo: l'importo che pianifichi di raggiungere o spendere.
+glossary_remainder	Resto: obiettivo meno somma. Negativo significa che l'obiettivo è superato.
+glossary_backup	Backup: un file con tutti i tuoi dati, usato per ripristinarli o trasferirli.
+trash_title	Cestino
+trash_empty_state	Il cestino è vuoto
+trash_empty_state_hint	Le note e le cartelle eliminate restano qui finché non le ripristini o le elimini definitivamente.
+trash_retention_never	Gli elementi restano qui finché non li ripristini o svuoti il cestino.
+trash_expiring_soon	sarà eliminato a breve
+trash_folder_label	Cartella
+trash_note_in_folder	nella cartella %1$s
+trash_note_folder_in_trash	la cartella %1$s è nel cestino
+trash_deleted_on	Eliminata il %1$s
+trash_restore	Ripristina
+trash_delete_forever	Elimina per sempre
+trash_empty_action	Svuota il cestino
+trash_restored	Ripristinato: %1$s
+trash_purged	Eliminato definitivamente: %1$s
+trash_emptied	Cestino svuotato
+trash_restore_duplicate_name	Esiste già una cartella con questo nome. Rinominala o eliminala prima, poi ripristina questa.
+trash_pick_folder_title	In quale cartella ripristinare?
+trash_pick_folder_hint	La cartella in cui si trovava questa nota è nel cestino. Scegli una cartella per la nota.
+trash_purge_note_title	Eliminare questa nota per sempre?
+trash_purge_note_body	«%1$s» verrà eliminata definitivamente, insieme ai suoi promemoria e file. Non si può annullare.
+trash_purge_folder_title	Eliminare questa cartella per sempre?
+trash_purge_folder_body_empty	La cartella «%1$s» verrà eliminata definitivamente. Non si può annullare.
+trash_empty_confirm_title	Svuotare il cestino?
+settings_trash	Cestino
+settings_trash_hint	Per quanto tempo le note e le cartelle eliminate vengono conservate prima di essere rimosse per sempre.
+settings_trash_days	%1$d giorni
+settings_trash_never	Mai (finché non svuoto il cestino)
+help_trash_title	Cestino
+help_trash_body	Le note e le cartelle eliminate vanno nel cestino (pulsante in alto nella schermata principale): da lì puoi ripristinarle o eliminarle definitivamente; ogni eliminazione definitiva chiede conferma. Il cestino si svuota automaticamente solo se lo scegli in Impostazioni → Cestino (da 7 a 90 giorni); di default mai, così nulla sparisce a sorpresa. Una nota la cui cartella è anch’essa nel cestino viene ripristinata in una cartella a tua scelta. Anche le foto, i video e le registrazioni eliminati da una nota vanno nel cestino: da lì si possono rimettere nella nota, esportare come file o eliminare definitivamente; se la nota non esiste più, si possono solo esportare. La lente in alto cerca nel cestino: nomi di cartelle, note ed elementi, il testo delle note, le note finite nel cestino con una cartella e i commenti degli elementi; le parole sono evidenziate, si vede un pezzo del testo, le frecce passano dall’uno all’altro. Ogni elemento ha delle icone: la freccia che esce dal cestino lo ripristina, il cestino con la croce lo elimina per sempre (prima chiede), la freccia in giù salva in un file una foto o una registrazione eliminata.
+plural:trash_days_left:one	%1$d giorno rimasto
+plural:trash_days_left:many	%1$d giorni rimasti
+plural:trash_days_left:other	%1$d giorni rimasti
+plural:trash_retention_info:one	Gli elementi vengono eliminati definitivamente %1$d giorno dopo essere stati spostati qui.
+plural:trash_retention_info:many	Gli elementi vengono eliminati definitivamente %1$d giorni dopo essere stati spostati qui.
+plural:trash_retention_info:other	Gli elementi vengono eliminati definitivamente %1$d giorni dopo essere stati spostati qui.
+plural:trash_folder_notes:one	%1$d nota
+plural:trash_folder_notes:many	%1$d note
+plural:trash_folder_notes:other	%1$d note
+plural:trash_purge_folder_body:one	La cartella «%1$s» e la %2$d nota che contiene verranno eliminate definitivamente, insieme ai loro promemoria e file. Non si può annullare.
+plural:trash_purge_folder_body:many	La cartella «%1$s» e le %2$d note che contiene verranno eliminate definitivamente, insieme ai loro promemoria e file. Non si può annullare.
+plural:trash_purge_folder_body:other	La cartella «%1$s» e le %2$d note che contiene verranno eliminate definitivamente, insieme ai loro promemoria e file. Non si può annullare.
+plural:trash_empty_confirm_body:one	%1$d elemento nel cestino verrà eliminato definitivamente, insieme ai suoi promemoria e file. Non si può annullare.
+plural:trash_empty_confirm_body:many	%1$d elementi nel cestino verranno eliminati definitivamente, insieme ai loro promemoria e file. Non si può annullare.
+plural:trash_empty_confirm_body:other	%1$d elementi nel cestino verranno eliminati definitivamente, insieme ai loro promemoria e file. Non si può annullare.
+unit_pcs_symbol	pz
+unit_kg_symbol	kg
+unit_l_symbol	L
+unit_m_symbol	m
+unit_rub_symbol	₽
+unit_usd_symbol	$
+unit_gbp_symbol	£
+unit_eur_symbol	€
+unit_pcs_name	Pezzi
+unit_kg_name	Chilogrammi
+unit_l_name	Litri
+unit_m_name	Metri
+unit_rub_name	Rubli
+unit_usd_name	Dollari statunitensi
+unit_gbp_name	Sterline
+unit_eur_name	Euro
+list_add_total	Aggiungi totale per unità
+list_quantity	Q.tà
+list_no_unit	Senza unità
+list_comment	Commento
+list_comment_add	+ Commento
+list_total_name_hint	Nome del totale
+list_total_pick_unit	Scegli un'unità da sommare
+list_total_result	Totale: %1$s
+settings_units	Unità di misura
+settings_units_hint	Unità per le quantità delle voci dell'elenco e per i totali per unità.
+settings_units_open	Gestisci le unità
+units_title	Unità di misura
+units_hint	Le unità predefinite non si possono eliminare. Le tue unità si possono eliminare quando nessun elenco le usa.
+units_custom_section	Le tue unità
+units_built_in_section	Unità predefinite (non eliminabili)
+units_none	Non hai ancora aggiunto unità.
+units_add	Aggiungi unità
+units_add_title	Nuova unità
+units_name_label	Nome (fino a 24 caratteri)
+units_delete	Elimina unità
+units_delete_title	Eliminare questa unità?
+units_delete_message	«%1$s» verrà rimossa dalle unità. Nessun elenco la usa, quindi non cambia nient'altro.
+units_added	Unità aggiunta: %1$s
+units_deleted	Unità eliminata: %1$s
+error_unit_name	Inserisci un nome di 1-24 caratteri
+error_unit_duplicate	Esiste già un'unità con questo nome
+error_unit_in_use	Un elenco usa ancora questa unità. Rimuovila prima dalle voci e dai totali.
+error_unit_built_in	Le unità predefinite non si possono eliminare
+help_lists_title	Elenchi e unità
+help_lists_body	Un elenco ha voci con una casella, una quantità facoltativa, un'unità e un commento. Aggiungi un «totale per unità» per vedere la somma delle quantità di tutte le voci in una unità, per esempio i chilogrammi di tutto ciò che c'è nell'elenco; puoi avere più totali con unità diverse. Le unità si gestiscono nelle impostazioni: pezzi, chilogrammi, litri, metri, rubli, dollari, sterline ed euro sono predefiniti e non si possono eliminare; puoi aggiungere le tue. Ogni voce ha anche piccoli pulsanti «Cambia» (+/−) per la quantità e il prezzo (Invio scrive direttamente il nuovo numero al posto loro), e il suo menu ⋮ ha Modifica per la finestra di dialogo completa con tutti i campi. In Modifica l’elenco con il più aggiunge una voce e il segno di somma Σ un totale per unità.
+about_title	Informazioni
+about_version	Notio by vibic, versione %1$s (build %2$d)
+about_developer	Sviluppatore: vibic
+about_formats	Formato backup %1$d · versione database %2$d
+settings_trash_open	Apri il cestino
+plural:home_trash_count:one	Cestino, %1$d elemento
+plural:home_trash_count:many	Cestino, %1$d elementi
+plural:home_trash_count:other	Cestino, %1$d elementi
+color_custom_button	RGB
+color_picker_title	Scegli un colore
+color_red	Rosso
+color_green	Verde
+color_blue	Blu
+color_hex_label	Codice colore (#RRGGBB)
+color_hex_invalid	Inserisci 3 o 6 cifre esadecimali, ad es. #FF8800
+color_use	Usa il colore
+about_made_for	Fatto con amore per mia figlia Katerina
+settings_color_theme	Tema colore
+theme_green	Verde
+theme_pink	Rosa
+theme_orange	Arancione
+theme_red	Rosso
+theme_light_blue	Azzurro
+theme_blue	Blu
+theme_lime	Lime
+action_note_color	Colore

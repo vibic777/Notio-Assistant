@@ -1,0 +1,13 @@
+settings_battery	电池
+battery_economy	省电模式
+battery_economy_hint	提醒可能会晚几分钟；装饰性动画已关闭。
+battery_exact_on	已允许精确提醒
+battery_exact_off	没有精确权限时提醒可能延迟
+battery_restricted_on	后台运行受系统限制
+battery_restricted_off	后台运行未受限制
+battery_exempt_on	系统电池优化已对 Notio 关闭
+battery_exempt_off	系统电池优化生效中
+battery_open_settings	电池设置
+battery_open_exact	精确提醒
+battery_check_again	重新检查
+battery_note	这些权限是可选的。手机限制电池时 Notio 也能工作：提醒会响，只有录制会在离开应用时停止。手机厂商可能会进一步限制后台。

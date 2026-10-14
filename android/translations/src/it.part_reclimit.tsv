@@ -1,0 +1,17 @@
+settings_cat_recordings	Registrazioni
+settings_cat_recordings_hint	Quanto può durare una registrazione
+settings_rec_limit_audio	Registrazione audio: durata massima
+settings_rec_limit_video	Video della fotocamera: durata massima
+settings_rec_limit_screen	Registrazione dello schermo: durata massima
+settings_rec_limit_hint	0 = fino allo stop; 1 - 65535. La registrazione si ferma da sola dopo questo tempo e viene salvata; Stop funziona anche prima. Una sicurezza contro una registrazione dimenticata.
+settings_rec_limit_amount	Durata
+rec_unit_seconds	secondi
+rec_unit_minutes	minuti
+rec_unit_hours	ore
+rec_limit_s	%1$d s
+rec_limit_min	%1$d min
+rec_limit_h	%1$d h
+rec_limit_line	Si ferma da sola dopo %1$s (Impostazioni → Registrazioni)
+rec_limit_none	Senza limite: fino a Stop
+rec_limit_warning	La registrazione si fermerà da sola dopo %1$s.
+rec_limit_reached	Limite raggiunto: la registrazione è fermata e salvata.

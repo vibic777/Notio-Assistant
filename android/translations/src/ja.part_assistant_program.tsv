@@ -1,0 +1,17 @@
+assistant_telegram_mode_direct	Notio がキーでボットを直接読む
+assistant_telegram_mode_program	自分のボットプログラム（TelegramBot）経由
+assistant_telegram_program_url	ボットプログラムのアドレス
+assistant_telegram_program_code	ボット用のこの Notio のコード
+assistant_telegram_program_show	コードを表示
+assistant_telegram_program_hide	コードを隠す
+assistant_telegram_program_hint	ボットプログラムが Telegram を読み、Notio はこのコードでそのプログラムに接続します。1) ボットで管理者が /admin → Notio →「Notio のコードを入力」を開き、このコードを送ります。2) ここで「確認」を押すとボットの名前が表示されます。3) 利用者はボットに /notio とこのコードを送り、続けて /n と依頼を送ります。/n_undo で元に戻し、/n_yes で承認します。4) 利用者が下に表示されるので、チェックして許可します。アドレスはプログラムのアドレスです。このコンピューターなら http://127.0.0.1:8790、家庭内ネットワークや VPN ならそのコンピューターのアドレスです。Notio とプログラムの間は暗号化されないため、自分のコンピューターかネットワーク内だけで使ってください。
+assistant_telegram_program_new_ask	古いコードはすぐに使えなくなります。管理者が /admin → Notio で新しいコードを入力し、利用者が新しいコードで /notio を送るまで、ボットはこの Notio を受け付けません。許可済みの利用者リストは残ります。
+assistant_telegram_people	ボット経由で書き込んだ人
+assistant_telegram_people_hint	コードを知っているだけでは足りません。ボットはここでチェックした人にだけ応答します。コード付きで /notio を送った人はここに表示され、許可を待ちます。アカウント番号は Telegram が付けるもので、名前を変えても変わりません。
+assistant_telegram_people_none	まだ誰も書き込んでいません。
+assistant_telegram_person	%1$s（番号 %2$s）
+assistant_telegram_person_allowed	許可済み: ボットが応答します
+assistant_telegram_person_waits	アクセスを求めています: チェックで許可
+assistant_telegram_person_remove	削除
+assistant_bot_pending	Notio はまだあなたを許可していません。アクセス要求は Notio に表示されています。所有者がそこでチェックしたら、もう一度書き込んでください。
+assistant_bot_help_relay	/n に続けてノートへの依頼を書いてください。例: /n 仕事フォルダーのノートを見せて。/n_undo で直前の変更を元に戻し、/n_yes で承認待ちの操作を確定します。

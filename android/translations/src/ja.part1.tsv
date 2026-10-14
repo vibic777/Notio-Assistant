@@ -1,0 +1,345 @@
+home_placeholder	プロジェクトの骨組みができました。機能は今後のステップで追加されます。
+channel_reminders_sound_vibration	リマインダー（音とバイブレーション）
+channel_reminders_sound	リマインダー（音のみ）
+channel_reminders_vibration	リマインダー（バイブレーションのみ）
+channel_reminders_silent	リマインダー（サイレント）
+reminder_generic_title	リマインダー
+reminder_generic_text	リマインダーがあります
+reminder_action_complete	完了
+onboarding_title	最初のフォルダを作成しましょう
+onboarding_subtitle	ノートはすべてフォルダの中に入ります。あとからいつでも変更できます。
+default_folder_name	マイノート
+folder_name_label	フォルダ名
+folder_icon_label	アイコンまたは絵文字（任意）
+folder_color_label	色
+folder_style_label	スタイル
+folder_preview_label	プレビュー
+folder_create_button	フォルダを作成
+color_option	色 %1$d
+style_minimal	ミニマル
+style_soft	ソフト
+style_gradient	グラデーション
+style_pattern	パターン
+style_outline	アウトライン
+style_compact	コンパクト
+note_type_text	Markdown
+note_type_drawing	お絵かき
+note_type_list	リスト
+note_type_budget	予算
+home_add_folder	新しいフォルダ
+home_new_note	新しいノート
+home_empty_notes	このフォルダにはまだノートがありません
+home_empty_notes_hint	「新しいノート」をタップして追加します。
+dialog_new_folder_title	新しいフォルダ
+dialog_edit_folder_title	フォルダを編集
+dialog_new_note_title	新しいノート
+note_title_label	タイトル
+note_type_label	種類
+action_create	作成
+action_save	保存
+action_cancel	キャンセル
+action_delete	削除
+action_edit	編集
+action_move	フォルダへ移動…
+action_move_confirm	移動
+action_pin	ピン留め
+action_unpin	ピン留め解除
+action_favorite	お気に入りに追加
+action_unfavorite	お気に入りから削除
+action_bold_title	タイトルを太字にする
+action_normal_title	タイトルを通常にする
+action_undo	元に戻す
+action_more	その他のオプション
+cd_pinned	ピン留め済み
+cd_favorite	お気に入り
+cd_selected	選択中
+delete_note_title	ノートを削除しますか？
+delete_note_message	「%1$s」はゴミ箱に移動され、リマインダーも取り消されます。削除の直後なら元に戻せます。あとでゴミ箱（メイン画面上部のゴミ箱アイコン）から復元することもできます。
+note_moved_to_trash	ゴミ箱に移動しました。上部のゴミ箱アイコンから復元できます。
+delete_folder_title	フォルダ「%1$s」を削除しますか？
+delete_folder_message_empty	フォルダは空で、ゴミ箱に移動されます。削除の直後なら元に戻せます。あとでゴミ箱（メイン画面上部のゴミ箱アイコン）から復元することもできます。
+delete_folder_message_notes	このフォルダのノートをどうするか選んでください。削除の直後なら元に戻せます。あとでゴミ箱（メイン画面上部のゴミ箱アイコン）から復元することもできます。
+delete_folder_option_move	ノートを別のフォルダへ移動する
+delete_folder_option_trash	ノートもフォルダと一緒にゴミ箱へ移動する
+delete_folder_target_label	ノートの移動先：
+folder_moved_to_trash	ゴミ箱に移動しました。上部のゴミ箱アイコンから復元できます。
+move_note_title	ノートをフォルダへ移動
+move_note_featured_hint	このノートがフォルダの注目ノートの場合、その関連付けは解除されます。
+error_blank_name	名前を入力してください
+error_duplicate_folder_name	同じ名前のフォルダがすでにあります
+error_blank_title	タイトルを入力してください
+error_last_folder	最後のフォルダは削除できません
+error_generic	問題が発生しました
+loading	読み込み中…
+plural:notes_count:other	ノート %1$d 件
+action_back	戻る
+editor_title_hint	タイトル
+editor_text_hint	入力を始めましょう…
+md_mode_edit	編集
+md_mode_preview	表示
+md_bold	太字
+md_italic	斜体
+md_strike	取り消し線
+md_heading	見出し
+md_bullets	箇条書き
+md_numbered	番号付きリスト
+md_checklist	チェックリスト
+md_quote	引用
+md_code	インラインコード
+md_code_block	コードブロック
+md_link	リンク
+md_rule	水平線
+md_preview_empty	プレビューするものがまだありません。
+editor_item_hint	項目
+editor_add_item	項目を追加
+editor_remove_item	項目を削除
+editor_note_missing	このノートはもう存在しません
+editor_drawing_unavailable	お絵かきエディターはまだ利用できません。
+budget_total	合計
+budget_sum_goal	合計 %1$s / 目標 %2$s
+budget_remainder	残り %1$s
+budget_add_item	項目を追加
+budget_add_group	グループを追加
+budget_edit_node	編集
+budget_node_title	名前
+budget_node_comment	コメント
+budget_sum	合計
+budget_goal	目標
+budget_quantity	数量
+budget_quantity_hint	この項目を繰り返す回数です。上の合計と目標は1回分です。
+budget_invalid_quantity	1〜9999の整数を入力してください
+budget_each	1つあたり：合計 %1$s / 目標 %2$s
+budget_invalid_number	小数点以下2桁までの数値を入力してください
+budget_delete_title	削除しますか？
+budget_delete_message	「%1$s」とその中のすべてが削除されます。
+budget_empty_hint	「合計」の ⋮ メニューから最初の項目またはグループを追加します。
+budget_layout_button	表示オプション
+budget_layout_title	この予算の表示方法
+budget_layout_total_bottom	全体の合計を下に表示
+budget_layout_group_totals_bottom	グループの合計を項目の下に表示
+budget_layout_newest_first	新しい項目を先頭に
+budget_group_total	合計：%1$s
+note_type_unknown	未対応
+note_type_audio	音声
+editor_unsupported_type	このノートの種類（%1$s）は、このバージョンのアプリでは未対応です。データは保持され、アップデート後に使えるようになります。
+export_note_action	ノートをエクスポート…
+export_note_title	エクスポート形式
+export_done	ノートをエクスポートしました
+export_failed	ノートをエクスポートできませんでした
+export_format_markdown	Markdown (.md)
+export_format_structure	構造付き JSON（再インポート可能）
+export_format_snapshot	テキストのスナップショット（結果のみ）
+export_format_png	PNG 画像
+export_format_jpeg	JPEG 画像
+export_format_audio	音声ファイル (.m4a)
+drawing_sheet	描画シート
+drawing_tool_pencil	鉛筆
+drawing_tool_brush	ブラシ
+drawing_tool_eraser	消しゴム
+drawing_undo	元に戻す
+drawing_color	色
+drawing_width	太さ
+drawing_mode_raster	ラスター
+drawing_mode_vector	ベクター
+drawing_hide_raster	ラスターを隠す
+drawing_show_raster	ラスターを表示
+drawing_hide_vector	ベクターを隠す
+drawing_show_vector	ベクターを表示
+drawing_tool_fill	塗りつぶし
+drawing_vtool_select	選択
+drawing_vtool_line	線
+drawing_vtool_arrow	矢印
+drawing_vtool_rect	長方形
+drawing_vtool_ellipse	楕円
+drawing_vtool_triangle	三角形
+drawing_vtool_pen	ペン
+drawing_delete_shape	図形を削除
+drawing_duplicate	複製
+drawing_forward	前面へ
+drawing_backward	背面へ
+drawing_outline	輪郭
+drawing_fill_label	塗りつぶしの色
+drawing_fill_none	塗りつぶしなし
+export_format_layers	レイヤー（PNG＋編集可能な図形、再インポート可能）
+audio_empty	録音はまだありません
+audio_recording	録音中…
+audio_record	録音
+audio_stop	停止
+audio_play	再生
+audio_pause	一時停止
+audio_permission_denied	マイクへのアクセスが拒否されています。録音するにはシステム設定で許可してください。
+audio_error_record	録音を開始できませんでした。マイクが使用中の可能性があります。
+audio_error_nothing	何も録音されませんでした。前の録音は保持されています。
+audio_error_playback	この録音は再生できません。
+home_settings	設定
+home_import_note	ファイルからノートをインポート
+import_note_done	「%1$s」をインポートしました
+transfer_error_not_a_backup	これは Notio のバックアップファイルではありません。
+transfer_error_unsupported_version	このファイルは新しいバージョンのアプリで作成されました。開くにはアプリを更新してください。
+transfer_error_corrupt	ファイルが破損しているか、内容に矛盾があります。何も変更されていません。
+transfer_error_no_folders	バックアップにフォルダがないため、データを置き換えることはできません。
+transfer_error_unrecognized_file	この種類のファイルはノートとして認識されません。
+transfer_error_folder_not_found	移動先のフォルダはもう存在しません。
+transfer_error_generic	操作に失敗しました。何も変更されていません。
+settings_title	設定
+settings_language	言語
+settings_language_system	システムの設定
+settings_theme	テーマ
+settings_theme_system	システムに合わせる
+settings_theme_light	ライト
+settings_theme_dark	ダーク
+settings_privacy	リマインダー通知
+settings_privacy_hint	ロック画面にリマインダーが表示する内容です。
+settings_privacy_generic	一般的な文言のみ
+settings_privacy_title_only	ノートのタイトルのみ
+settings_privacy_full	タイトルと本文
+settings_data	データ
+settings_data_hint	バックアップには、すべてのフォルダ、ノート、予算、お絵かき、音声、リマインダーが含まれます。パスワードは含まれません。
+settings_export_all	すべてのデータをエクスポート
+settings_import_all	すべてのデータをインポート
+settings_help	ヘルプ
+settings_open_help	ヘルプと用語集を開く
+import_mode_title	インポート方法
+import_mode_merge	統合
+import_mode_merge_hint	今あるものはすべて残します。両方に同じノートがある場合は新しい方が優先されます。同じ名前のフォルダは統合されます。
+import_mode_new	新しいコピーとして追加
+import_mode_new_hint	ファイル内のすべてが新しい項目として追加され、今あるものは変更されません。
+import_mode_replace	すべて置き換え
+import_mode_replace_hint	まず現在のすべてのデータを削除してから、ファイルを読み込みます。元に戻せません。
+import_confirm	インポート
+backup_export_done	バックアップを保存しました
+backup_export_failed	バックアップを保存できませんでした
+backup_import_done	インポート完了：新規ノート %1$d 件、更新 %2$d 件、スキップ %3$d 件、新規フォルダ %4$d 件
+help_title	ヘルプ
+help_start_title	はじめに
+help_start_body	すべてはフォルダの中にあります。上部でフォルダを選び、「新しいノート」をタップします。上部の歯車で設定を開き、矢印アイコンでファイルからノートをインポートできます。新しいノートのタイトルには、種類とフォルダ内で次に空いている番号（「音声 1」「予算 2」…）があらかじめ入っています。そのまま「作成」をタップして後で名前を変えることも、自分の名前を入力することもできます。 新しいフォルダも同じように名前が付きます：フォルダ 1、フォルダ 2…（タスクのフォルダはタスク 1…）。すぐに「作成」でき、名前はそのときでも後でも変更できます。 多くのボタンはアイコンです。アイコンを長押しすると名前が表示されます（TalkBack も読み上げます）。ダイアログのボタンや、まれな操作・元に戻せない操作は文字のままです。
+help_folders_title	フォルダ
+help_folders_body	フォルダはノートをまとめるもので、名前、色、スタイルがあります。ノートは必ず1つのフォルダに入り、最後のフォルダは削除できません。フォルダを削除するときは、中のノートを別のフォルダへ移すか、一緒に削除するかを選びます。フォルダのカードの上部には、選択・ドラッグで移動・⋮ メニューという小さなボタンの列があり、その下にアイコンと名前、ノートの数、そして設定でオンにしていれば作成・変更のスタンプが表示されます。
+help_notes_title	ノート
+help_notes_body	ノートは11種類あります：ノート（書式付きテキスト）、Markdown、リスト、予算、お絵かき、設計図、音声、写真、カメラ動画、画面録画、スケジュール。ノートをタップすると開き、変更は自動で保存されます。カードの⋮メニューでは、固定（最後に固定したものが一番上）、タイトルの太字、コメントやタグの追加、色やリマインダーの設定、複製、移動、削除ができます。削除したノートは「元に戻す」ですぐに戻せます。 Markdown ノート、リスト、予算では、上部の虫眼鏡でノート内の語句を検索できます。一致箇所はすべて強調され、「3 / 7」で件数を表示し、矢印で前後の一致へ移動します（予算は一致を含むグループを自動で開きます）。×で検索を閉じます。 長いリストや文章をスクロールすると、右下に丸いボタンが 2 つ現れます：先頭へ・末尾へ（フォルダーのノート一覧、各ノート、長い文章の編集で）。 「新しいフォルダー」は種類を尋ねます：ノートのフォルダーかタスクのフォルダー。タスクのフォルダーでは「新規」でタスクを作ります：名前、コメント、開始と終了、「完了」チェック、説明。すべて編集タブで変更し、「リマインダー…」でリマインダーを設定します。終了を過ぎた未完了のタスクは「期限切れ」と表示され、カレンダーには各タスクが開始から終了までの帯で表示されます。 開いたメモの上部にある2つのアイコンで切り替えます：開いた本は「表示」（読むだけで、誤タップでも変わりません）、線の上の鉛筆は「編集」（変更する）です。選択中のアイコンは強調表示され、アイコンを長押しすると名前が表示されます。
+help_budget_title	予算ノート
+help_budget_body	予算はツリー構造です。項目には、あなたが入力する合計と目標があります。グループは項目を自動的に合算し、グループの中にグループを入れることもできます。残りは目標から合計を引いた値で、マイナスになることもあります（赤で表示）。▾ をタップするとグループを折りたためます。「表示オプション」では、全体の合計とグループの合計を下に表示したり、新しい項目を先頭に並べたりできます。設定は予算ごとに記憶されます。各項目には「合計を変更」(+/−) という小さなボタンもあり、表示中でも編集中でも、合計全体を打ち直さずに金額を足したり引いたりできます。編集中はその ⋮ メニューにも「編集」があり、名前・合計・目標・数量・コメント・グループをまとめて変更できるほか、項目の追加・グループの追加・削除もできます。 「変更」画面の +、−、= ボタンで金額を足す・引く・入力します。「金額」と「目標」のスイッチで変更する対象（最初は金額、目標、または両方。どちらか一つは必ずオン）を選びます。 種類（編集で）：口座・収入・支出。収入または支出は、設定した日時（カレンダーに 💰 で表示）または「今すぐ合算」で、選んだ口座に一度だけ合算されます。金額は加算（収入）または減算（支出）されます。チェック：金額、目標、同じ項目（同じ名前の項目、または同じ「グループ/項目」パスの項目へ——チェックの下で切り替え）、すべての項目を移す（ほかの項目は口座に作成）。口座を選んでいなければ何も起きません。合算後、収入/支出はゴミ箱に移り、復元できます。口座のログに「合算を取り消す」があります。 変更ダイアログには任意のコメント欄もあり、その変更のログ行に記録されます。 編集 → 表示 → 「合計を隠す」／「目標を隠す」：金額はカード、メモ、履歴で *** と表示されます（どちらかを隠すと残りも）。表示／編集の横の目のアイコンで、メモを閉じるまで表示されます。エクスポートと共有は数値のままです。 予算の上のアイコン：矢印付きの時計は履歴、スライダーは表示オプション（編集時）、近づく矢印と離れる矢印はすべてのグループを閉じる／開くです。 履歴では、項目の変更（合計・目標・数量・名前）や追加した項目・グループに「取り消す」があります。変更はその差分だけ戻されるので、後の変更は残ります。追加した項目は再び削除されます（先に確認します）。各行は一度だけ取り消せます。 収入と支出には目標と残りがなく、合計だけです。ノートの目と各行の目は、表示でも編集でも使えます。 編集では、項目の ⋮ メニューに「ほかの項目に統合…」があります。その項目は削除され、選んだ項目が合計、目標、または両方を受け取ります。「表示」では、すべての項目とグループにごみ箱のアイコン（削除）があります（先に確認します）。削除したものは変更履歴に残ります。「削除」の行に「復元」があり、項目またはグループが中身ごと元のグループに戻ります。そのグループがもうない場合は合計の下に戻ります。1つの削除を復元できるのは1回だけです。
+help_schedule_title	スケジュールノート
+help_schedule_body	スケジュールは行のリストです。項目（設定すると時刻が付き、説明とコメントを持ちます）と計算（選んだ2つの項目の間の時間を、独自の説明のもとに表示します — シフトの長さや待ち時間の計算に便利です）。どちらも + ボタンで追加します。行はつまみでドラッグして自分の順番にできます。または「並べ替え」で項目を時刻順や名前順にできます。計算は常に項目の後に来て、「手動」を選ぶと自分の順番に戻ります。 編集では、プラス付きの時計で時刻を、電卓で計算機を、プラス付きの吹き出しで行にコメントを追加します。
+help_drawing_title	お絵かき
+help_drawing_body	指で2つのレイヤーに描きます。ラスターレイヤーには、鉛筆、ブラシ、消しゴム、塗りつぶしがあります。その上のベクターレイヤーには、線、矢印、長方形、楕円、三角形、フリーハンドのペン図形を置け、選択、移動、変形、塗りつぶし、順序変更、削除ができます。各レイヤーは非表示にできます。絵は自動的に保存されます。⋮ メニューから、PNG または JPEG（両レイヤーを合成）、あるいは図形を編集可能なまま残す「レイヤー」形式でエクスポートできます。
+help_text_title	Markdown ノート
+help_text_body	Markdown ノートは Markdown 記法を使います。ツールバーから、太字、斜体、見出し、リスト、チェックリスト、引用、コード、リンクを追加できます。リスト項目の末尾で Enter を押すとリストが続きます。「表示」に切り替えると、整形されたノートを読み、チェックボックスにチェックを入れられます。 表示モードでは、チェックリストの行を4方向矢印のつまみで同じレベルの行の間にドラッグでき（下の行も一緒に移動）、ごみ箱ボタンで削除できます（確認あり）。どちらも元に戻せます。
+help_audio_title	音声ノート
+help_audio_body	「録音」をタップし、マイクを一度だけ許可します。「停止」をタップすると終了します。録音はそれぞれこのノートのリストに追加されます。どれでも再生でき、スライダーをドラッグして移動できます。録音の ⋮ メニューで、名前とコメントを付けたり、.m4a ファイルとしてエクスポートしたり、削除したりできます（ほかの録音は残ります）。ノートの ⋮ メニューでは、すべての録音を1つの .zip にまとめてエクスポートでき、各ファイル名は「ノートのタイトル - 録音名」になります。 すべての録音・録画は制限時間で自動停止して保存されます。既定は 4 分で、録音・カメラ動画・画面録画ごとに 設定 → 録音・録画 で変更できます（0 = 停止を押すまで）。ノートは録画ボタンの下に制限を表示し、開始時にも知らせます。停止はいつでも先にできます。
+help_backup_title	バックアップとノートの移行
+help_backup_body	設定に「すべてのデータをエクスポート」と「すべてのデータをインポート」があります。すべてを1つのファイルにまとめ、別のスマートフォンへの移行や保管に使えます。インポート時は「統合」（両方を残す）、「新しいコピーとして追加」、「すべて置き換え」から選びます。ノート1件は、その ⋮ メニューからエクスポート（Markdown、JSON、PNG、JPEG、音声）でき、メイン画面の矢印アイコンでインポートできます。新しいバージョンのアプリで作られたファイルは、メッセージを表示して拒否され、途中まで取り込まれることはありません。
+help_privacy_title	プライバシー
+help_privacy_body	ノートはスマートフォンの中にだけ保存され、クラウド同期はありません。バックアップにパスワードは含まれません。リマインダー通知は、初期設定では一般的な文言だけを表示します。設定で変更できます。ノート、Markdown ノート、リスト、描画、図面は内容を隠すことができます。ノートを開いて「編集」に切り替え、タブの行にある斜線付きの目のアイコンを押します。以後、カードと表示画面には「内容は非表示です」と表示され、目のアイコンを押すと内容が現れます。ノートを閉じて開き直すと、再び隠されます。タイトル、タグ、コメントは見えたままで、検索では中の言葉が引き続き見つかります。これは横からの視線を防ぐための覆いであり、鍵ではありません。他人を防ぐのはアプリのロックです。写真・動画・音声のノートにはこの機能はありません。
+glossary_title	用語集
+glossary_folder	フォルダ：名前のついたノートのまとまり。
+glossary_note	ノート：フォルダの中にある、テキスト、リスト、予算、お絵かき、音声のひとつひとつ。
+glossary_group	グループ：ほかの項目でできている予算の項目。合計と目標は自動的に合算されます。
+glossary_item	項目：あなたが入力する合計と目標を持つ予算の項目。
+glossary_goal	目標：達成または使う予定の金額。
+glossary_remainder	残り：目標から合計を引いた値。マイナスは目標を超えたことを意味します。
+glossary_backup	バックアップ：すべてのデータを含むファイル。復元や移行に使います。
+trash_title	ゴミ箱
+trash_empty_state	ゴミ箱は空です
+trash_empty_state_hint	削除したノートとフォルダは、復元するか完全に削除するまでここに残ります。
+trash_retention_never	項目は、復元するかゴミ箱を空にするまでここに残ります。
+trash_expiring_soon	まもなく削除されます
+trash_folder_label	フォルダ
+trash_note_in_folder	フォルダ %1$s 内
+trash_note_folder_in_trash	フォルダ %1$s はゴミ箱にあります
+trash_deleted_on	削除日：%1$s
+trash_restore	復元
+trash_delete_forever	完全に削除
+trash_empty_action	ゴミ箱を空にする
+trash_restored	復元しました：%1$s
+trash_purged	完全に削除しました：%1$s
+trash_emptied	ゴミ箱を空にしました
+trash_restore_duplicate_name	同じ名前のフォルダがすでにあります。先に名前を変えるか削除してから、これを復元してください。
+trash_pick_folder_title	どのフォルダに復元しますか？
+trash_pick_folder_hint	このノートがあったフォルダはゴミ箱にあります。ノートを入れるフォルダを選んでください。
+trash_purge_note_title	このノートを完全に削除しますか？
+trash_purge_note_body	「%1$s」は、リマインダーとファイルも含めて完全に削除されます。元に戻せません。
+trash_purge_folder_title	このフォルダを完全に削除しますか？
+trash_purge_folder_body_empty	フォルダ「%1$s」は完全に削除されます。元に戻せません。
+trash_empty_confirm_title	ゴミ箱を空にしますか？
+settings_trash	ゴミ箱
+settings_trash_hint	削除したノートとフォルダを、完全に削除するまで保管する期間です。
+settings_trash_days	%1$d 日
+settings_trash_never	なし（自分で空にするまで）
+help_trash_title	ゴミ箱
+help_trash_body	削除したノートとフォルダはごみ箱（メイン画面上部のボタン）に入り、そこから元に戻すか完全に削除できます。完全な削除は必ず確認を求めます。ごみ箱は 設定 → ごみ箱 で選んだ場合だけ自動で空になります（7〜90日）。初期設定では空にならないので、知らないうちに消えることはありません。フォルダもごみ箱にあるノートは、選んだフォルダに戻します。ノートから削除した写真・動画・録画・録音もごみ箱に入り、そこからノートに戻す、ファイルとしてエクスポートする、完全に削除することができます。ノート自体がなくなっている場合はエクスポートのみ可能です。 上部の虫眼鏡でゴミ箱内を検索できます：フォルダー・ノート・項目の名前、ノートの本文、フォルダーと一緒に削除されたノート、項目のコメント。見つかった語は強調され、本文の一部が表示され、矢印で次々に移動できます。 各項目にアイコンがあります：ごみ箱から出る矢印で復元、×付きのごみ箱で完全に削除（先に確認します）、下向き矢印で削除した写真や録音をファイルに保存します。
+plural:trash_days_left:other	残り %1$d 日
+plural:trash_retention_info:other	項目は、ここに移動してから %1$d 日後に完全に削除されます。
+plural:trash_folder_notes:other	ノート %1$d 件
+plural:trash_purge_folder_body:other	フォルダ「%1$s」と、その中のノート %2$d 件は、リマインダーとファイルも含めて完全に削除されます。元に戻せません。
+plural:trash_empty_confirm_body:other	ゴミ箱の項目 %1$d 件は、リマインダーとファイルも含めて完全に削除されます。元に戻せません。
+unit_pcs_symbol	個
+unit_kg_symbol	kg
+unit_l_symbol	L
+unit_m_symbol	m
+unit_rub_symbol	₽
+unit_usd_symbol	$
+unit_gbp_symbol	£
+unit_eur_symbol	€
+unit_pcs_name	個
+unit_kg_name	キログラム
+unit_l_name	リットル
+unit_m_name	メートル
+unit_rub_name	ルーブル
+unit_usd_name	米ドル
+unit_gbp_name	英ポンド
+unit_eur_name	ユーロ
+list_add_total	単位ごとの合計を追加
+list_quantity	数量
+list_no_unit	単位なし
+list_comment	コメント
+list_comment_add	＋ コメント
+list_total_name_hint	合計の名前
+list_total_pick_unit	合計する単位を選択
+list_total_result	合計：%1$s
+settings_units	単位
+settings_units_hint	リスト項目の数量と、単位ごとの合計に使う単位です。
+settings_units_open	単位を管理
+units_title	単位
+units_hint	組み込みの単位は削除できません。自分で追加した単位は、どのリストでも使われていなければ削除できます。
+units_custom_section	自分の単位
+units_built_in_section	組み込みの単位（削除不可）
+units_none	まだ単位を追加していません。
+units_add	単位を追加
+units_add_title	新しい単位
+units_name_label	名前（24文字まで）
+units_delete	単位を削除
+units_delete_title	この単位を削除しますか？
+units_delete_message	「%1$s」を単位から削除します。どのリストも使っていないため、ほかには影響しません。
+units_added	単位を追加しました：%1$s
+units_deleted	単位を削除しました：%1$s
+error_unit_name	1〜24文字の名前を入力してください
+error_unit_duplicate	同じ名前の単位がすでにあります
+error_unit_in_use	この単位はまだリストで使われています。先に項目と合計から外してください。
+error_unit_built_in	組み込みの単位は削除できません
+help_lists_title	リストと単位
+help_lists_body	リストの項目には、チェックボックス、任意の数量、単位、コメントを付けられます。「単位ごとの合計」を追加すると、同じ単位の全項目の数量の合計（たとえばリスト全体のキログラム数）が分かります。単位の違う合計を複数置くこともできます。単位は設定で管理します。個、キログラム、リットル、メートル、ルーブル、ドル、ポンド、ユーロは組み込みで削除できません。自分の単位も追加できます。各項目には数量と価格を変える「変更」(+/−) の小さなボタンもあります（「入力」は代わりに新しい数値を直接書き込みます）。項目の ⋮ メニューには、すべての項目をまとめて変更できる「編集」もあります。 編集では、プラス付きのリストで項目を、合計記号 Σ で単位ごとの合計を追加します。
+about_title	アプリについて
+about_version	Notio by vibic、バージョン %1$s（ビルド %2$d）
+about_developer	開発：vibic
+about_formats	バックアップ形式 %1$d · データベースバージョン %2$d
+settings_trash_open	ゴミ箱を開く
+plural:home_trash_count:other	ゴミ箱、%1$d 件
+color_custom_button	RGB
+color_picker_title	色を選択
+color_red	赤
+color_green	緑
+color_blue	青
+color_hex_label	カラーコード (#RRGGBB)
+color_hex_invalid	16進数を3桁または6桁で入力してください（例：#FF8800）
+color_use	この色を使う
+about_made_for	娘のカテリーナへ、愛を込めて
+settings_color_theme	カラーテーマ
+theme_green	グリーン
+theme_pink	ピンク
+theme_orange	オレンジ
+theme_red	レッド
+theme_light_blue	ライトブルー
+theme_blue	ブルー
+theme_lime	ライム
+action_note_color	色

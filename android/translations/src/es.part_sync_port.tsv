@@ -1,0 +1,12 @@
+sync_port_auto	Puerto: se elige automáticamente
+sync_port_auto_other	El puerto %1$s está ocupado por otro programa, se usa uno libre: %2$s
+sync_port_manual	Puerto: %1$s, fijado a mano
+sync_port_busy	El puerto %1$s está ocupado por otro programa: este dispositivo no acepta conexiones. Elija otro puerto o «Automáticamente».
+sync_port_edit	Puerto de este dispositivo…
+sync_port_title	Puerto para las conexiones
+sync_port_automatic	Automáticamente
+sync_port_own	Mi propio puerto
+sync_port_range	Escriba un puerto de 1024 a 65535.
+sync_port_free	El puerto %1$s está libre.
+sync_port_taken	El puerto %1$s está ocupado ahora por otro programa. Si lo mantiene, este dispositivo no aceptará conexiones hasta que el puerto quede libre.
+sync_port_hint	Automáticamente, Notio toma el puerto %1$s y, si está ocupado, cualquiera libre. Un puerto propio sirve para una regla del cortafuegos o del router. Los dispositivos emparejados conocen el nuevo puerto por sí mismos cuando encuentran este dispositivo en la red; si alguno no lo encuentra, corrija allí el puerto con Dirección….

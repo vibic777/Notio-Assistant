@@ -1,0 +1,12 @@
+budget_adjust_set	输入
+budget_adjust_new_value	新值
+budget_adjust_negative	结果不能小于零
+list_change_quantity	数量
+list_change_price	价格
+list_adjust_quantity_title	修改数量
+list_adjust_price_title	修改价格
+list_adjust_current_quantity	当前数量：%1$s
+list_adjust_current_price	当前价格：%1$s
+list_adjust_not_set	尚未设置（按零计算）
+list_adjust_invalid	请输入大于零的数字，最多三位小数
+list_adjust_invalid_set	请输入数字，最多三位小数

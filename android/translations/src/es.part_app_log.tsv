@@ -1,0 +1,5 @@
+app_log	Registro de la aplicación
+app_log_hint	Los errores y lo que hizo la aplicación al grabar, hacer copias y sincronizar. Solo en este teléfono; sin contenido de notas, contraseñas ni códigos. Cópielo para enviarlo al desarrollador.
+app_log_empty	Nada todavía.
+app_log_clear	Borrar
+app_log_copied	Registro copiado

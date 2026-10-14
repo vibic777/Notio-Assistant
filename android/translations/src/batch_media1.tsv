@@ -1,0 +1,6 @@
+export_format_video	Video (MP4)	Видео (MP4)	Відэа (MP4)	Vidéo (MP4)	Video (MP4)	Vídeo (MP4)	Video (MP4)	视频 (MP4)	動画 (MP4)	동영상 (MP4)
+export_format_photo	Photo (JPEG)	Фото (JPEG)	Фота (JPEG)	Photo (JPEG)	Foto (JPEG)	Foto (JPEG)	Foto (JPEG)	照片 (JPEG)	写真 (JPEG)	사진 (JPEG)
+export_format_media_zip	All files of the note (ZIP)	Все файлы заметки (ZIP)	Усе файлы нататкі (ZIP)	Tous les fichiers de la note (ZIP)	Alle Dateien der Notiz (ZIP)	Todos los archivos de la nota (ZIP)	Tutti i file della nota (ZIP)	笔记的全部文件 (ZIP)	ノートのすべてのファイル (ZIP)	노트의 모든 파일 (ZIP)
+note_type_photo	Photo	Фото	Фота	Photo	Foto	Foto	Foto	照片	写真	사진
+note_type_video	Camera video	Запись камеры	Запіс камеры	Vidéo caméra	Kameravideo	Vídeo de cámara	Video dalla fotocamera	相机录像	カメラ動画	카메라 영상
+note_type_screen	Screen recording	Запись экрана	Запіс экрана	Enregistrement d’écran	Bildschirmaufnahme	Grabación de pantalla	Registrazione dello schermo	屏幕录制	画面録画	화면 녹화

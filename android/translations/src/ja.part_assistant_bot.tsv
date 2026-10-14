@@ -1,0 +1,38 @@
+assistant_right_marks	タグ、色、ピン留め
+assistant_right_lists	リスト: 項目とチェック
+assistant_right_tasks	タスク: 状態と日付
+assistant_right_budget	予算: 金額（必ず先に確認）
+assistant_right_reminders	リマインダー: 設定
+assistant_right_folders	フォルダー: 作成と名前変更
+assistant_right_appearance	外観: テーマ、色、フォント
+assistant_right_settings	アプリの設定
+assistant_confirm	確認して続行
+assistant_confirm_hint	アシスタントは停止して確認を待っています: 一度に 5 件を超えるノート、または予算の金額です。
+assistant_telegram	Telegram ボット
+assistant_telegram_hint	このコンピューターの Notio 内で動く自分専用のボットです。スマートフォンから書き込むと、チャットと同じことを行います。依頼と回答の文面は Telegram のサーバーを通ります。そこに表示されるのは「Telegram で使用可」のノートだけです。このコンピューターと Notio が起動している間だけ動作します。
+assistant_telegram_key	ボットのキー（@BotFather から）
+assistant_telegram_on	ボットはオン
+assistant_telegram_checked	キーは正しい: %1$s
+assistant_telegram_bind	自分の Telegram からこのコードをボットに送ると、あなただけに応答します: %1$s
+assistant_telegram_bound	ボットはあなただけに応答します（Telegram ID: %1$s）。
+assistant_telegram_unbind	連携を解除
+assistant_telegram_locked	Notio がロック中でも応答する
+assistant_telegram_locked_hint	オフ: Notio がロックされている間、ボットはその旨を伝えて何もしません。オン: ボットに開いている内容はロックで保護されなくなります。
+assistant_telegram_outside	ボットに外部モデルの使用を許可
+assistant_telegram_rights	Telegram からの権限
+assistant_telegram_rights_hint	チャットの権限とは別: 依頼が Telegram から来たときにアシスタントができること。許可するまでは何もできません。
+assistant_access_telegram	Telegram で使用可
+assistant_access_reminders	リマインダーを Telegram へ
+assistant_bot_bound	完了: あなただけに応答します。ノートに対して行うことを書いてください。/undo で直前の変更を元に戻し、/yes で確認待ちの操作を承認します。
+assistant_bot_locked	コンピューターの Notio はロックされています。先にそちらで解除してください。
+assistant_bot_outside_off	モデルは外部サービスですが、ボットにはその使用が許可されていません。
+assistant_bot_failed	依頼は失敗しました。コンピューターの Notio を確認してください。
+assistant_bot_changed	変更: %1$s。/undo で元に戻せます。
+assistant_bot_confirm	これには確認が必要です。続行するには /yes を送ってください。
+assistant_bot_nothing_to_undo	元に戻すものはありません。
+assistant_bot_undone	元に戻しました: %1$s
+assistant_bot_undo_conflict	元に戻せませんでした: その後あなたが変更したノート: %1$s。コンピューターの Notio で元に戻してください。
+assistant_bot_help	ノートに対して行うことを書いてください。例: 「仕事」フォルダーのノートを表示。/undo で直前の変更を元に戻します。/yes で確認待ちの操作を承認します。
+assistant_bot_nothing_to_confirm	確認待ちの操作はありません。
+assistant_bot_not_ready	コンピューターの Notio でモデルが選ばれていません: 設定 → アシスタント → 接続。
+assistant_bot_reminder	リマインダー: %1$s

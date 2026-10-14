@@ -1,0 +1,6 @@
+assistant_telegram_code_until	コードの有効期限: %1$s
+assistant_telegram_code_gone	コードは無効になりました。10 分が経過したか、5 回間違えて入力されました。新しいコードを取得してください。
+assistant_telegram_new_code	新しいコード
+assistant_telegram_bound_who	ボットはこの Telegram アカウントだけに応答します: %1$s（番号 %2$s）
+assistant_telegram_strangers	他の人がボットに %1$s 回書き込みました（最後は %2$s）。ボットは応答していません。
+assistant_telegram_bind_hint	ボットは名前で誰でも見つけられるため、誰に応答するかは Notio 自身が決めます。コードを送ったアカウントです。Notio が覚えるのはその Telegram アカウントの番号で、名前ではありません。名前や @名前を変えても番号は変わりません。コードの有効期間は 10 分で、5 回間違えると無効になるため、推測されません。ボットは他の人にはまったく応答せず、断りもしません。何人が書き込んだかはここに表示されます。ボットのグループ参加も禁止してください: @BotFather で /setjoingroups を送り、ボットを選んで Disable を選びます。「連携を解除」はアカウントを忘れ、新しいコードを出します。

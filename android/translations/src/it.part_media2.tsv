@@ -1,0 +1,50 @@
+action_close	Chiudi
+media_default_name	Elemento %1$d
+media_empty_photo	Nessuna foto. Tocca «Scatta foto».
+media_empty_video	Nessun video. Tocca «Registra video».
+media_empty_screen	Nessuna registrazione dello schermo. Tocca «Registra schermo».
+media_take_photo	Scatta foto
+media_record_video	Registra video
+media_record_screen	Registra schermo
+media_full_screen	Schermo intero
+media_place	Luogo: %1$s
+media_delete_title	Eliminare questo elemento?
+media_delete_message	L’elemento andrà nel cestino; da lì potrai recuperarlo.
+rec_channel	Registrazione dello schermo
+rec_notification_title	Notio sta registrando
+rec_notification_text	Tocca Stop per terminare e salvare la registrazione.
+rec_action_stop	Stop
+rec_processing	Salvataggio della registrazione…
+rec_saved	La registrazione è salvata nella nota.
+rec_failed	Impossibile salvare la registrazione.
+rec_recording	Registrazione in corso…
+rec_start	Registra
+rec_sound	Audio
+rec_sound_none	Senza audio
+rec_sound_mic	Microfono
+rec_sound_system	Audio del telefono
+rec_sound_both	Microfono + audio del telefono
+rec_floating_hint	Per un pulsante Stop mobile sopra le altre finestre, consenti «Mostra sopra altre app». Altrimenti ferma la registrazione dalla notifica.
+rec_floating_allow	Consenti il pulsante mobile
+camera_back	Fotocamera posteriore
+camera_front	Fotocamera anteriore
+camera_other	Altra fotocamera
+camera_choose	Fotocamera
+camera_failed	La fotocamera non è riuscita a farlo.
+camera_saved_count	Salvato: %1$d
+overlay_title	Sovrapposizioni
+overlay_hint	Applicate a ogni nuova foto o video. Ciò che esiste già non cambia.
+overlay_stamp	Data e ora
+overlay_geo	Luogo (coordinate)
+overlay_geo_hint	Richiede il permesso di posizione; viene chiesto quando scatti o registri.
+overlay_text	Testo (firma)
+overlay_text_field	Testo da mostrare
+overlay_image	Immagine (logo, firma)
+overlay_pick_image	Scegli un’immagine
+overlay_remove_image	Rimuovi l’immagine
+overlay_color	Colore
+overlay_size	Dimensione: %1$d
+overlay_width	Larghezza: %1$d%%
+overlay_opacity	Opacità: %1$d%%
+overlay_plate	Sfondo dietro (spento = trasparente)
+overlay_position	Posizione

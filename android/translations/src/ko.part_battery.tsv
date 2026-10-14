@@ -1,0 +1,13 @@
+settings_battery	배터리
+battery_economy	배터리 절약 모드
+battery_economy_hint	알림이 몇 분 늦을 수 있으며 장식 애니메이션은 꺼집니다.
+battery_exact_on	정확한 알림이 허용됨
+battery_exact_off	정확한 권한이 없으면 알림이 늦을 수 있음
+battery_restricted_on	백그라운드 작업이 시스템에 의해 제한됨
+battery_restricted_off	백그라운드 작업이 제한되지 않음
+battery_exempt_on	Notio에 대한 시스템 배터리 최적화가 꺼져 있음
+battery_exempt_off	시스템 배터리 최적화가 적용됨
+battery_open_settings	배터리 설정
+battery_open_exact	정확한 알림
+battery_check_again	다시 확인
+battery_note	권한은 선택 사항입니다. 휴대폰이 배터리를 제한해도 Notio는 작동합니다. 알림은 울리고, 앱을 떠나면 녹음만 중지됩니다. 휴대폰 제조사가 백그라운드를 더 제한할 수 있습니다.

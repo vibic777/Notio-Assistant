@@ -1,0 +1,10 @@
+reminder_action_snooze	Repetir en %1$d min
+alarm_dismiss	Apagar
+alarm_open_note	Abrir nota
+reminder_snoozed_until	Pospuesta hasta %1$s
+settings_alarm	Alarma de recordatorios
+settings_alarm_hint	Un recordatorio enciende la pantalla y muestra los botones Posponer y Descartar sobre la pantalla de bloqueo, como una alarma.
+settings_snooze	Duración del aplazamiento
+settings_snooze_minutes	%1$d min
+settings_fullscreen_hint	El teléfono no deja que Notio abra la alarma sobre la pantalla de bloqueo. Permítelo en los ajustes de la app; si no, solo saldrá la notificación.
+settings_fullscreen_open	Permitir la pantalla de alarma

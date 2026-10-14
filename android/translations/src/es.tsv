@@ -1,0 +1,625 @@
+home_placeholder	El esqueleto del proyecto está listo. Las funciones llegarán en los próximos pasos.
+channel_reminders_sound_vibration	Recordatorios (sonido y vibración)
+channel_reminders_sound	Recordatorios (solo sonido)
+channel_reminders_vibration	Recordatorios (solo vibración)
+channel_reminders_silent	Recordatorios (silencioso)
+reminder_generic_title	Recordatorio
+reminder_generic_text	Tienes un recordatorio
+reminder_action_complete	Hecho
+onboarding_title	Crea tu primera carpeta
+onboarding_subtitle	Cada nota vive en una carpeta. Puedes cambiarlo todo más tarde.
+default_folder_name	Mis notas
+folder_name_label	Nombre de la carpeta
+folder_icon_label	Icono o emoji (opcional)
+folder_color_label	Color
+folder_style_label	Estilo
+folder_preview_label	Vista previa
+folder_create_button	Crear carpeta
+color_option	Opción de color %1$d
+style_minimal	Mínimo
+style_soft	Suave
+style_gradient	Degradado
+style_pattern	Patrón
+style_outline	Contorno
+style_compact	Compacto
+note_type_text	Markdown
+note_type_drawing	Dibujo
+note_type_list	Lista
+note_type_budget	Presupuesto
+home_add_folder	Nueva carpeta
+home_new_note	Nueva nota
+home_empty_notes	Aún no hay notas en esta carpeta
+home_empty_notes_hint	Toca «Nueva nota» para añadir una.
+dialog_new_folder_title	Nueva carpeta
+dialog_edit_folder_title	Editar carpeta
+dialog_new_note_title	Nueva nota
+note_title_label	Título
+note_type_label	Tipo
+action_create	Crear
+action_save	Guardar
+action_cancel	Cancelar
+action_delete	Eliminar
+action_edit	Editar
+action_move	Mover a la carpeta…
+action_move_confirm	Mover
+action_pin	Fijar
+action_unpin	Desfijar
+action_favorite	Añadir a favoritos
+action_unfavorite	Quitar de favoritos
+action_bold_title	Título en negrita
+action_normal_title	Título normal
+action_undo	Deshacer
+action_more	Más opciones
+cd_pinned	Fijada
+cd_favorite	Favorita
+cd_selected	Seleccionada
+delete_note_title	¿Eliminar la nota?
+delete_note_message	«%1$s» se moverá a la papelera y sus recordatorios se cancelarán. Puedes deshacerlo justo después de eliminarla o restaurarla más tarde desde la Papelera (icono de cubo arriba en la pantalla principal).
+note_moved_to_trash	Movida a la papelera. Restáurala desde el icono de cubo de arriba.
+delete_folder_title	¿Eliminar la carpeta «%1$s»?
+delete_folder_message_empty	La carpeta está vacía y se moverá a la papelera. Deshazlo justo después de eliminarla o restáurala más tarde desde la Papelera (icono de cubo arriba en la pantalla principal).
+delete_folder_message_notes	Elige qué pasa con las notas de esta carpeta. Deshazlo justo después de eliminar o restaura más tarde desde la Papelera (icono de cubo arriba en la pantalla principal).
+delete_folder_option_move	Mover las notas a otra carpeta
+delete_folder_option_trash	Mover las notas a la papelera junto con la carpeta
+delete_folder_target_label	Mover las notas a:
+folder_moved_to_trash	Movida a la papelera. Restáurala desde el icono de cubo de arriba.
+move_note_title	Mover la nota a la carpeta
+move_note_featured_hint	Si esta nota es la nota destacada de su carpeta, se quita ese vínculo.
+error_blank_name	Escribe un nombre
+error_duplicate_folder_name	Ya existe una carpeta con este nombre
+error_blank_title	Escribe un título
+error_last_folder	No se puede eliminar la última carpeta
+error_generic	Algo salió mal
+loading	Cargando…
+action_back	Atrás
+editor_title_hint	Título
+editor_text_hint	Empieza a escribir…
+md_mode_edit	Editar
+md_mode_preview	Ver
+md_bold	Negrita
+md_italic	Cursiva
+md_strike	Tachado
+md_heading	Encabezado
+md_bullets	Lista con viñetas
+md_numbered	Lista numerada
+md_checklist	Lista de tareas
+md_quote	Cita
+md_code	Código en línea
+md_code_block	Bloque de código
+md_link	Enlace
+md_rule	Línea horizontal
+md_preview_empty	Aún no hay nada que mostrar.
+editor_item_hint	Elemento
+editor_add_item	Añadir elemento
+editor_remove_item	Quitar elemento
+editor_note_missing	Esta nota ya no existe
+editor_drawing_unavailable	El editor de dibujo aún no está disponible.
+budget_total	Total
+budget_sum_goal	Suma %1$s / objetivo %2$s
+budget_remainder	Resto %1$s
+budget_add_item	Añadir partida
+budget_add_group	Añadir grupo
+budget_edit_node	Editar
+budget_node_title	Nombre
+budget_node_comment	Comentario
+budget_sum	Suma
+budget_goal	Objetivo
+budget_quantity	Cantidad
+budget_quantity_hint	Cuántas veces se repite esta partida. La suma y el objetivo de arriba son por una.
+budget_invalid_quantity	Escribe un número entero de 1 a 9999
+budget_each	Cada una: suma %1$s / objetivo %2$s
+budget_invalid_number	Escribe un número, hasta dos decimales
+budget_delete_title	¿Eliminar?
+budget_delete_message	«%1$s» y todo lo que contiene se eliminarán.
+budget_empty_hint	Usa el menú ⋮ de «Total» para añadir tu primera partida o grupo.
+budget_layout_button	Opciones de vista
+budget_layout_title	Cómo se muestra este presupuesto
+budget_layout_total_bottom	Total general al final
+budget_layout_group_totals_bottom	Totales de grupo bajo sus partidas
+budget_layout_newest_first	Partidas más recientes primero
+budget_group_total	Total: %1$s
+note_type_unknown	No compatible
+note_type_audio	Audio
+editor_unsupported_type	Esta versión de la aplicación no admite este tipo de nota (%1$s). Tus datos se conservan y funcionarán tras una actualización.
+export_note_action	Exportar nota…
+export_note_title	Exportar como
+export_done	Nota exportada
+export_failed	No se pudo exportar la nota
+export_format_markdown	Markdown (.md)
+export_format_structure	JSON con estructura (se puede importar de nuevo)
+export_format_snapshot	Instantánea de texto (solo el resultado)
+export_format_png	Imagen PNG
+export_format_jpeg	Imagen JPEG
+export_format_audio	Archivo de audio (.m4a)
+drawing_sheet	Hoja de dibujo
+drawing_tool_pencil	Lápiz
+drawing_tool_brush	Pincel
+drawing_tool_eraser	Borrador
+drawing_undo	Deshacer
+drawing_color	Color
+drawing_width	Grosor
+drawing_mode_raster	Ráster
+drawing_mode_vector	Vectorial
+drawing_hide_raster	Ocultar ráster
+drawing_show_raster	Mostrar ráster
+drawing_hide_vector	Ocultar vectorial
+drawing_show_vector	Mostrar vectorial
+drawing_tool_fill	Relleno
+drawing_vtool_select	Seleccionar
+drawing_vtool_line	Línea
+drawing_vtool_arrow	Flecha
+drawing_vtool_rect	Rectángulo
+drawing_vtool_ellipse	Elipse
+drawing_vtool_triangle	Triángulo
+drawing_vtool_pen	Pluma
+drawing_delete_shape	Eliminar forma
+drawing_duplicate	Duplicar
+drawing_forward	Traer adelante
+drawing_backward	Enviar atrás
+drawing_outline	Contorno
+drawing_fill_label	Color de relleno
+drawing_fill_none	Sin relleno
+export_format_layers	Capas (PNG + formas editables, se puede importar de nuevo)
+audio_empty	Aún no hay grabaciones
+audio_recording	Grabando…
+audio_record	Grabar
+audio_stop	Detener
+audio_play	Reproducir
+audio_pause	Pausa
+audio_permission_denied	El acceso al micrófono está denegado. Permítelo en los ajustes del sistema para grabar.
+audio_error_record	No se pudo iniciar la grabación. Puede que el micrófono esté en uso.
+audio_error_nothing	No se grabó nada. Se conserva la grabación anterior.
+audio_error_playback	No se puede reproducir esta grabación.
+home_settings	Ajustes
+home_import_note	Importar una nota desde un archivo
+import_note_done	Importada «%1$s»
+transfer_error_not_a_backup	Este no es un archivo de copia de seguridad de Notio.
+transfer_error_unsupported_version	Este archivo lo creó una versión más reciente de la aplicación. Actualiza la aplicación para abrirlo.
+transfer_error_corrupt	El archivo está dañado o es incoherente. No se cambió nada.
+transfer_error_no_folders	La copia no tiene carpetas, por lo que no puede reemplazar tus datos.
+transfer_error_unrecognized_file	Este tipo de archivo no se reconoce como una nota.
+transfer_error_folder_not_found	La carpeta de destino ya no existe.
+transfer_error_generic	La operación falló. No se cambió nada.
+settings_title	Ajustes
+settings_language	Idioma
+settings_language_system	Predeterminado del sistema
+settings_theme	Tema
+settings_theme_system	Seguir el sistema
+settings_theme_light	Claro
+settings_theme_dark	Oscuro
+settings_privacy	Notificaciones de recordatorios
+settings_privacy_hint	Qué muestra un recordatorio en la pantalla de bloqueo.
+settings_privacy_generic	Solo texto genérico
+settings_privacy_title_only	Solo el título de la nota
+settings_privacy_full	Título y texto
+settings_data	Tus datos
+settings_data_hint	Una copia de seguridad contiene todas las carpetas, notas, presupuestos, dibujos, audios y recordatorios. Nunca contiene contraseñas.
+settings_export_all	Exportar todos los datos
+settings_import_all	Importar todos los datos
+settings_help	Ayuda
+settings_open_help	Abrir ayuda y glosario
+import_mode_title	Cómo importar
+import_mode_merge	Combinar
+import_mode_merge_hint	Conserva todo lo que tienes. Si una nota existe en ambos, gana la más reciente. Las carpetas con el mismo nombre se unen.
+import_mode_new	Añadir como copias nuevas
+import_mode_new_hint	Todo lo del archivo se añade como elementos nuevos; no se cambia nada de lo que tienes.
+import_mode_replace	Reemplazar todo
+import_mode_replace_hint	Primero elimina TODOS tus datos actuales y luego carga el archivo. No se puede deshacer.
+import_confirm	Importar
+backup_export_done	Copia de seguridad guardada
+backup_export_failed	No se pudo guardar la copia de seguridad
+backup_import_done	Importado: %1$d notas nuevas, %2$d actualizadas, %3$d omitidas, %4$d carpetas nuevas
+help_title	Ayuda
+help_start_title	Primeros pasos
+help_folders_title	Carpetas
+help_notes_title	Notas
+help_budget_title	Notas de presupuesto
+help_drawing_title	Dibujos
+help_text_title	Notas Markdown
+help_audio_title	Notas de audio
+help_backup_title	Copia de seguridad y traslado de notas
+help_privacy_title	Privacidad
+glossary_title	Glosario
+glossary_folder	Carpeta: un grupo de notas con nombre.
+glossary_note	Nota: un elemento de texto, lista, presupuesto, dibujo o audio que vive en una carpeta.
+glossary_group	Grupo: una partida de presupuesto formada por otras partidas; su suma y su objetivo se calculan solos.
+glossary_item	Partida: una entrada de presupuesto con su propia suma y objetivo que escribes tú.
+glossary_goal	Objetivo: la cantidad que planeas alcanzar o gastar.
+glossary_remainder	Resto: objetivo menos suma. Negativo significa que se superó el objetivo.
+glossary_backup	Copia de seguridad: un archivo con todos tus datos, para restaurarlos o trasladarlos.
+trash_title	Papelera
+trash_empty_state	La papelera está vacía
+trash_empty_state_hint	Las notas y carpetas eliminadas esperan aquí hasta que las restaures o las borres definitivamente.
+trash_retention_never	Los elementos se quedan aquí hasta que los restaures o vacíes la papelera.
+trash_expiring_soon	se eliminará pronto
+trash_folder_label	Carpeta
+trash_note_in_folder	en la carpeta %1$s
+trash_note_folder_in_trash	la carpeta %1$s está en la papelera
+trash_deleted_on	Eliminada el %1$s
+trash_restore	Restaurar
+trash_delete_forever	Eliminar para siempre
+trash_empty_action	Vaciar papelera
+trash_restored	Restaurado: %1$s
+trash_purged	Eliminado definitivamente: %1$s
+trash_emptied	Papelera vaciada
+trash_restore_duplicate_name	Ya existe una carpeta con este nombre. Cámbiale el nombre o elimínala primero y luego restaura esta.
+trash_pick_folder_title	¿En qué carpeta restaurar?
+trash_pick_folder_hint	La carpeta donde estaba esta nota está en la papelera. Elige una carpeta para ella.
+trash_purge_note_title	¿Eliminar esta nota para siempre?
+trash_purge_note_body	«%1$s» se eliminará definitivamente, junto con sus recordatorios y archivos. No se puede deshacer.
+trash_purge_folder_title	¿Eliminar esta carpeta para siempre?
+trash_purge_folder_body_empty	La carpeta «%1$s» se eliminará definitivamente. No se puede deshacer.
+trash_empty_confirm_title	¿Vaciar la papelera?
+settings_trash	Papelera
+settings_trash_hint	Cuánto tiempo se guardan las notas y carpetas eliminadas antes de borrarlas definitivamente.
+settings_trash_days	%1$d días
+settings_trash_never	Nunca (hasta que vacíe la papelera)
+help_trash_title	Papelera
+unit_pcs_symbol	uds.
+unit_kg_symbol	kg
+unit_l_symbol	l
+unit_m_symbol	m
+unit_rub_symbol	₽
+unit_usd_symbol	$
+unit_gbp_symbol	£
+unit_eur_symbol	€
+unit_pcs_name	Unidades
+unit_kg_name	Kilogramos
+unit_l_name	Litros
+unit_m_name	Metros
+unit_rub_name	Rublos
+unit_usd_name	Dólares estadounidenses
+unit_gbp_name	Libras esterlinas
+unit_eur_name	Euros
+list_add_total	Añadir total por unidad
+list_quantity	Cant.
+list_no_unit	Sin unidad
+list_comment	Comentario
+list_comment_add	+ Comentario
+list_total_name_hint	Nombre del total
+list_total_pick_unit	Elige una unidad para sumar
+list_total_result	Total: %1$s
+settings_units	Unidades de medida
+settings_units_hint	Unidades para las cantidades de los elementos de las listas y para los totales por unidad.
+settings_units_open	Gestionar unidades
+units_title	Unidades de medida
+units_hint	Las unidades integradas no se pueden eliminar. Las tuyas se pueden eliminar cuando ninguna lista las use.
+units_custom_section	Tus unidades
+units_built_in_section	Unidades integradas (no se pueden eliminar)
+units_none	Aún no has añadido unidades.
+units_add	Añadir unidad
+units_add_title	Nueva unidad
+units_name_label	Nombre (hasta 24 caracteres)
+units_delete	Eliminar unidad
+units_delete_title	¿Eliminar esta unidad?
+units_delete_message	«%1$s» se quitará de las unidades. Ninguna lista la usa, así que no cambia nada más.
+units_added	Unidad añadida: %1$s
+units_deleted	Unidad eliminada: %1$s
+error_unit_name	Escribe un nombre de 1 a 24 caracteres
+error_unit_duplicate	Ya existe una unidad con este nombre
+error_unit_in_use	Una lista todavía usa esta unidad. Quítala primero de los elementos y de los totales.
+error_unit_built_in	Las unidades integradas no se pueden eliminar
+help_lists_title	Listas y unidades
+about_title	Acerca de
+about_version	Notio by vibic, versión %1$s (compilación %2$d)
+about_developer	Desarrollador: vibic
+about_formats	Formato de copia %1$d · versión de la base de datos %2$d
+settings_trash_open	Abrir papelera
+color_custom_button	RGB
+color_picker_title	Elige un color
+color_red	Rojo
+color_green	Verde
+color_blue	Azul
+color_hex_label	Código de color (#RRGGBB)
+color_hex_invalid	Escribe 3 o 6 dígitos hexadecimales, p. ej. #FF8800
+color_use	Usar color
+about_made_for	Hecho con cariño para mi hija Katerina
+settings_color_theme	Tema de color
+theme_green	Verde
+theme_pink	Rosa
+theme_orange	Naranja
+theme_red	Rojo
+theme_light_blue	Azul claro
+theme_blue	Azul
+theme_lime	Lima
+action_note_color	Color
+note_color_title	Color de la nota
+note_color_hint	Elige un color para esta nota, o «Color de la carpeta» para usar el de su carpeta.
+note_color_none	Color de la carpeta
+folder_icon_hint	Toca aquí, pulsa la tecla de emojis del teclado y elige uno, por ejemplo 📚 o 🏠. Un emoji queda mejor; una palabra corta también sirve. Vacío: se muestra la primera letra del nombre.
+help_emoji_title	Emoji y colores de carpeta
+list_view_empty	Esta lista está vacía. Abre la pestaña Editar para añadir elementos.
+budget_group_label	Grupo
+search_open	Buscar
+search_scope_notes	Notas
+search_scope_folders	Carpetas
+search_hint_notes	Buscar en títulos y texto
+search_hint_folders	Buscar carpetas por nombre
+search_clear	Borrar
+search_no_tags	Aún no hay etiquetas. Añade etiquetas a una nota desde su menú ⋮ → Etiquetas y filtra aquí por ellas.
+search_found	Encontradas: %1$d
+search_no_results	No se encontró nada
+action_tags	Etiquetas
+tags_dialog_title	Etiquetas de esta nota
+tags_new_hint	Nueva etiqueta
+tags_add	Añadir
+tags_none_yet	Aún no hay etiquetas: escribe una arriba.
+error_tag_name	Escribe una etiqueta de 1 a 32 caracteres
+error_tag_duplicate	Esta etiqueta ya existe
+settings_tags	Etiquetas
+settings_tags_hint	Rótulos para tus notas: pon cuantas etiquetas quieras a una nota y busca por ellas.
+settings_tags_open	Gestionar etiquetas
+tags_title	Etiquetas
+tags_hint	Las etiquetas se ponen a una nota desde su menú ⋮ → Etiquetas. Aquí puedes renombrar una etiqueta o quitarla de todas las notas.
+tags_none_yet_manage	Aún no tienes etiquetas.
+tags_rename	Renombrar
+tags_rename_title	Renombrar etiqueta
+tags_delete	Eliminar etiqueta
+tags_delete_title	¿Eliminar esta etiqueta?
+tags_renamed	Etiqueta renombrada: %1$s
+tags_deleted	Etiqueta eliminada: %1$s
+audio_default_name	Grabación %1$d
+audio_clip_menu	Opciones de la grabación
+audio_edit	Nombre y comentario
+audio_edit_title	Detalles de la grabación
+audio_name_label	Nombre
+audio_comment_label	Comentario
+audio_export_clip	Exportar esta grabación
+audio_delete_title	¿Eliminar esta grabación?
+audio_delete_message	«%1$s» irá a la papelera; podrás devolverla a esta nota desde allí.
+export_format_audio_zip	Todas las grabaciones (.zip)
+list_mode_quantity	Cantidades
+list_mode_price	Precios
+list_price	Precio de una
+list_summary_title	Totales
+list_summary_none	Añade cantidades y precios para ver los totales.
+list_summary_quantity	Cantidad: %1$s
+list_summary_price	Precio: %1$s
+export_format_txt	Texto sin formato (.txt)
+export_format_pdf	Documento PDF (.pdf)
+help_price_title	Listas con precios
+help_search_title	Búsqueda y etiquetas
+help_export_title	Exportar una nota
+search_close	Cancelar búsqueda
+theme_black	Negro
+theme_gray	Gris
+theme_white	Blanco
+search_scope_tags	Etiquetas
+search_hint_tags	Buscar por nombre de etiqueta
+settings_font_size	Tamaño de fuente
+settings_font_size_hint	Cambia el tamaño del texto en toda la aplicación. Se suma al tamaño de fuente de los ajustes del sistema.
+font_small	Pequeño
+font_normal	Normal
+font_medium	Mediano
+font_large	Grande
+font_extra_large	Muy grande
+zoom_normal	Normal
+action_done	Listo
+sort_title	Ordenar
+sort_hint	Las notas fijadas van siempre primero, la fijada en último lugar arriba del todo.
+sort_notes	Notas de esta carpeta
+sort_folders	Carpetas
+sort_key_manual	Mi orden
+sort_key_updated	Modificación
+sort_key_created	Creación
+sort_key_name	Nombre
+sort_key_color	Color
+sort_ascending	Ascendente
+sort_descending	Descendente
+folder_move_earlier	Mover antes
+folder_move_later	Mover después
+featured_menu	Nota destacada…
+featured_title	Nota destacada de «%1$s»
+featured_hint	La tarjeta de la carpeta muestra esta nota. Para un presupuesto también puede mostrar la suma, el objetivo y el resto.
+featured_none	Ninguna
+featured_layout	Cuánto mostrar
+featured_layout_title	Título
+featured_layout_compact	Compacto
+featured_layout_full	Completo
+featured_metrics	Mostrar
+featured_metric_sum	Suma
+featured_metric_goal	Objetivo
+featured_metric_remainder	Resto
+featured_only_budget	La suma, el objetivo y el resto solo existen en las notas de presupuesto.
+settings_backgrounds	Fondos
+settings_backgrounds_hint	Un color o una imagen detrás de toda la aplicación, de las tarjetas de carpeta y de cada tipo de nota.
+settings_backgrounds_open	Elegir fondos
+bg_title	Fondos
+bg_hint	Elige un color o una imagen PNG/JPG para cada lugar. La imagen se oscurece un poco para que el texto siga legible; un color liso se dibuja tal cual, así que elige uno que combine con el texto. Las imágenes se guardan solo en este teléfono y no forman parte de la copia de seguridad.
+bg_slot_app	Toda la aplicación
+bg_slot_folders	Tarjetas de carpeta
+bg_slot_note_text	Notas Markdown
+bg_slot_note_list	Listas
+bg_slot_note_budget	Presupuestos
+bg_slot_note_drawing	Dibujos
+bg_slot_note_blueprint	Planos
+bg_slot_note_audio	Notas de audio
+bg_state_default	Predeterminado
+bg_state_color	Un color
+bg_state_image	Una imagen
+bg_colour	Color…
+bg_picture	Imagen…
+bg_reset	Restablecer
+bg_error	No se pudo usar esta imagen. Elige un archivo PNG o JPG.
+note_type_blueprint	Plano
+layers_title	Capas
+layer_default_name	Capa %1$d
+layer_add	Añadir capa
+layer_show	Mostrar
+layer_hide	Ocultar
+layer_lock	Bloquear
+layer_unlock	Desbloquear
+layer_rename	Renombrar
+layer_name_label	Nombre de la capa
+layer_up	Subir
+layer_down	Bajar
+layer_move_shape_here	Mover aquí la forma seleccionada
+layer_delete_title	¿Eliminar esta capa?
+layer_delete_message	Las formas de la capa se eliminan con ella. No se puede deshacer.
+layer_cannot_draw	La capa elegida está oculta o bloqueada: elige otra capa para dibujar.
+action_reminders	Recordatorios
+reminders_title	Recordatorios
+reminders_add	Añadir recordatorio
+reminders_edit	Editar recordatorio
+reminders_empty	Aún no hay recordatorios. Toca «Añadir recordatorio».
+reminders_cancel	Cancelar recordatorio
+reminders_delete_title	¿Eliminar este recordatorio?
+reminders_delete_message	Se elimina el recordatorio de «%1$s». La nota se conserva.
+reminders_exact_hint	Android no ha permitido alarmas exactas a esta aplicación, así que un recordatorio puede llegar algo tarde. Permite «Alarmas y recordatorios» para la aplicación en los ajustes del sistema.
+reminders_exact_open	Abrir el ajuste del sistema
+reminder_note	Nota
+reminder_pick_note	Elige una nota
+reminder_sound	sonido
+reminder_vibration	vibración
+reminder_popup	ventana
+reminder_confirm_short	requiere confirmación
+reminder_repeat_short	se repite cada %1$d min
+reminder_sound_long	Reproducir un sonido
+reminder_vibration_long	Vibrar
+reminder_popup_long	Mostrar una ventana
+reminder_confirm_long	Pedir confirmación
+reminder_repeat_long	Repetir hasta confirmar
+reminder_every_minutes	%1$d min
+reminder_status_scheduled	Esperando su hora
+reminder_status_fired	Activado
+reminder_status_waiting	Esperando tu confirmación
+reminder_status_done	Hecho
+reminder_status_cancelled	Cancelado
+reminder_error_past	La hora debe ser futura
+reminder_error_repeat	«Repetir hasta confirmar» necesita «Pedir confirmación» y un intervalo de repetición
+settings_lock	Bloqueo de la aplicación
+settings_lock_hint	Pedir una contraseña, un patrón o un usuario al abrir la aplicación.
+settings_lock_open	Configurar el bloqueo
+lock_settings_title	Bloqueo de la aplicación
+lock_title	Bloqueado
+lock_intro	Con el bloqueo activado, la aplicación lo pide cada vez que se abre y pasado el tiempo indicado abajo. Nada sale del teléfono salvo que configures la recuperación por correo; en este teléfono solo se guarda una forma codificada (hash) del secreto.
+lock_status_off	El bloqueo está desactivado
+lock_status_on	El bloqueo está activado: %1$s
+lock_method_password	Contraseña
+lock_method_pattern	Patrón
+lock_method_login	Usuario y contraseña
+lock_biometric_option	Desbloquear también con huella o rostro
+lock_biometric_title	Desbloquear
+lock_use_biometric	Usar huella o rostro
+lock_timeout_title	Pedirlo de nuevo si la aplicación estuvo fuera durante
+lock_timeout_immediate	Enseguida
+lock_timeout_30s	30 segundos
+lock_timeout_1m	1 minuto
+lock_timeout_5m	5 minutos
+lock_timeout_15m	15 minutos
+lock_timeout_never	Solo al iniciar la aplicación
+lock_question_title	Pregunta de seguridad (para recuperar un secreto olvidado)
+lock_question_none	Sin pregunta
+lock_q1	¿Cómo se llamaba tu primera mascota?
+lock_q2	¿En qué ciudad naciste?
+lock_q3	¿Cuál es el apellido de soltera de tu madre?
+lock_q4	¿Cómo se llamaba tu primera escuela?
+lock_q5	¿Cuál es tu libro favorito?
+lock_answer	Respuesta
+lock_warning_no_recovery	Sin pregunta, un secreto olvidado no se puede recuperar. Solo queda reinstalar la aplicación, lo que borra todo en este teléfono (se puede importar un archivo de copia hecho antes).
+lock_recovery_on	Hay una pregunta de seguridad.
+lock_recovery_off	Sin pregunta de seguridad: un secreto olvidado no se puede recuperar.
+lock_secure_hint	Mientras el bloqueo esté activado, se bloquean las capturas de pantalla y la imagen de la lista de aplicaciones recientes.
+lock_turn_on	Activar el bloqueo
+lock_turn_off	Desactivar el bloqueo
+lock_change	Cambiar la contraseña o el patrón
+lock_current	Escribe primero el actual.
+lock_new	Ahora el nuevo.
+lock_next	Siguiente
+lock_unlock	Desbloquear
+lock_login	Usuario
+lock_password	Contraseña
+lock_password_again	Repite la contraseña
+lock_password_differs	Las dos contraseñas son distintas
+lock_new_password_hint	Elige una contraseña nueva:
+lock_pattern_draw	Dibuja un patrón de al menos 4 puntos
+lock_pattern_again	Dibuja el mismo patrón otra vez
+lock_pattern_unlock	Dibuja tu patrón
+lock_pattern_short	Conecta al menos 4 puntos distintos
+lock_pattern_differs	Los dos patrones son distintos. Empieza de nuevo.
+lock_error_length	La contraseña necesita de 4 a 64 caracteres
+lock_error_login	Escribe un usuario de 1 a 32 caracteres
+lock_error_answer	Escribe una respuesta a la pregunta
+lock_no_recovery	No se definió ninguna pregunta de seguridad, así que no se puede recuperar.
+lock_wrong	Incorrecto.
+lock_wrong_answer	La respuesta es incorrecta
+lock_blocked	Demasiados intentos fallidos. Espera %1$d s.
+lock_blocked_short	Demasiados intentos fallidos. Espera un poco.
+lock_forgot	Lo olvidé
+home_more_actions	Ordenar e importar
+help_blueprint_title	Dibujos y planos
+help_zoom_title	Zoom y tamaño de fuente
+help_sort_title	Orden y nota destacada
+help_backgrounds_title	Fondos
+help_reminders_title	Recordatorios
+help_lock_title	Bloqueo de la aplicación
+lock_recovery_choose	¿Cómo quieres recuperar el acceso?
+lock_recovery_question_option	Responder a mi pregunta de seguridad
+lock_recovery_email_option	Enviar un código a mi correo
+lock_recovery_totp_option	Usar mi aplicación de autenticación
+smtp_code_subject	Notio: tu código de recuperación
+smtp_code_body	Tu código de recuperación del bloqueo de Notio: %1$s\n\nFunciona durante %2$d minutos y una sola vez. Si no lo pediste, ignora este mensaje.
+lock_code_wrong	El código es incorrecto
+lock_code_expired	El código ha caducado: pide uno nuevo
+mail_error_not_configured	El correo no está configurado por completo.
+mail_error_connection	No se pudo conectar con el servidor de correo. Revisa el nombre del servidor, el puerto y la conexión a internet.
+mail_error_timeout	El servidor de correo no respondió a tiempo.
+mail_error_tls	Falló la conexión segura. Revisa el tipo de cifrado y el puerto (587 para STARTTLS, 465 para SSL/TLS).
+mail_error_auth	El servidor rechazó el usuario o la contraseña.
+mail_error_rejected	El servidor rechazó el mensaje.
+mail_error_protocol	El servidor respondió de forma inesperada.
+lock_email_wait	Espera %1$d s antes de pedir otro código.
+lock_email_intro	Se enviará un código de un solo uso a %1$s.
+lock_email_send	Enviar el código
+lock_email_send_again	Enviar un código nuevo
+lock_email_code	Código del correo
+lock_totp_recover_intro	Escribe el código de 6 dígitos que muestra ahora tu aplicación de autenticación.
+lock_totp_code	Código de 6 dígitos
+lock_timeout_custom	Otro…
+lock_timeout_custom_value	%1$d min %2$d s
+lock_timeout_custom_title	Tiempo en segundo plano
+lock_minutes	Minutos
+lock_seconds	Segundos
+lock_timeout_invalid	Escribe minutos y segundos: segundos de 0 a 59, como máximo 23 h 59 min 59 s.
+lock_recovery_section	Recuperación
+lock_recovery_hint	Formas de volver a entrar si olvidas la contraseña: una pregunta de seguridad, un código enviado a tu correo, una aplicación de autenticación. Configura una o todas.
+lock_email_status_on	La recuperación por correo está activada: %1$s
+lock_email_status_off	La recuperación por correo no está configurada.
+lock_totp_status_on	Hay una aplicación de autenticación configurada.
+lock_totp_status_off	No hay ninguna aplicación de autenticación configurada.
+lock_recovery_change	Cambiar las opciones de recuperación
+lock_question_change	Pregunta de seguridad…
+lock_email_setup	Recuperación por correo (SMTP)…
+lock_totp_setup	Configurar una aplicación de autenticación…
+lock_totp_manage	Aplicación de autenticación…
+smtp_intro	El código se envía a través de TU servidor de correo: la aplicación no tiene servidor propio. Rellena lo que tu proveedor da para enviar (SMTP). La contraseña se guarda cifrada en este teléfono.
+smtp_host	Servidor (SMTP), p. ej. smtp.example.com
+smtp_security	Cifrado
+smtp_sec_none	Ninguno
+smtp_sec_starttls	STARTTLS
+smtp_sec_ssl	SSL/TLS
+smtp_none_warning	Sin cifrado, la contraseña y el código viajan legibles por la red. Úsalo solo en una red de confianza o con un servidor local.
+smtp_port	Puerto
+smtp_user	Usuario (nombre de usuario)
+smtp_password	Contraseña
+smtp_from	Dirección de origen (déjala vacía si el usuario es una dirección)
+smtp_to	Enviar el código a (tu correo)
+smtp_invalid	Rellena el servidor, el puerto y dos direcciones de correo válidas.
+smtp_test	Enviar un correo de prueba
+smtp_test_ok	Se envió el mensaje de prueba. Revisa tu buzón.
+smtp_test_subject	Notio: mensaje de prueba
+smtp_test_body	Este es un mensaje de prueba de Notio by vibic. Si lo lees, la recuperación por correo del bloqueo funciona.
+smtp_remove	Quitar
+lock_totp_account	bloqueo
+lock_totp_title	Aplicación de autenticación
+lock_totp_replace_hint	Ya hay una clave configurada. Guardar una nueva la reemplaza.
+lock_totp_scan	Escanea este código QR con una aplicación de autenticación (Google Authenticator, Microsoft Authenticator, Aegis…) o escribe la clave a mano, y luego el código de 6 dígitos que muestre la aplicación.
+lock_totp_remove	Quitar
+channel_reminders_generic	Recordatorios
+reminder_sound_default	Sonido de notificación predeterminado
+reminder_melody	Melodía: %1$s
+reminder_sound_play	Escuchar
+reminder_sound_system	Sonidos del teléfono…
+reminder_sound_file	Mi archivo (mp3…)…
+reminder_sound_reset	Sonido predeterminado
+reminder_sound_bad_file	No se pudo usar este archivo como melodía. Elige un archivo de audio (mp3, m4a, ogg, wav) de hasta 25 MB.

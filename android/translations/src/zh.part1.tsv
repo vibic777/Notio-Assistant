@@ -1,0 +1,345 @@
+home_placeholder	项目框架已就绪，更多功能将在后续步骤中推出。
+channel_reminders_sound_vibration	提醒（声音和振动）
+channel_reminders_sound	提醒（仅声音）
+channel_reminders_vibration	提醒（仅振动）
+channel_reminders_silent	提醒（静音）
+reminder_generic_title	提醒
+reminder_generic_text	你有一条提醒
+reminder_action_complete	完成
+onboarding_title	创建你的第一个文件夹
+onboarding_subtitle	每条笔记都放在一个文件夹里，之后随时可以修改。
+default_folder_name	我的笔记
+folder_name_label	文件夹名称
+folder_icon_label	图标或表情符号（可选）
+folder_color_label	颜色
+folder_style_label	样式
+folder_preview_label	预览
+folder_create_button	创建文件夹
+color_option	颜色 %1$d
+style_minimal	极简
+style_soft	柔和
+style_gradient	渐变
+style_pattern	图案
+style_outline	描边
+style_compact	紧凑
+note_type_text	Markdown
+note_type_drawing	绘图
+note_type_list	清单
+note_type_budget	预算
+home_add_folder	新建文件夹
+home_new_note	新建笔记
+home_empty_notes	此文件夹中还没有笔记
+home_empty_notes_hint	点按“新建笔记”即可添加。
+dialog_new_folder_title	新建文件夹
+dialog_edit_folder_title	编辑文件夹
+dialog_new_note_title	新建笔记
+note_title_label	标题
+note_type_label	类型
+action_create	创建
+action_save	保存
+action_cancel	取消
+action_delete	删除
+action_edit	编辑
+action_move	移到文件夹…
+action_move_confirm	移动
+action_pin	置顶
+action_unpin	取消置顶
+action_favorite	添加到收藏
+action_unfavorite	从收藏中移除
+action_bold_title	标题加粗
+action_normal_title	标题常规
+action_undo	撤销
+action_more	更多选项
+cd_pinned	已置顶
+cd_favorite	已收藏
+cd_selected	已选中
+delete_note_title	删除笔记？
+delete_note_message	“%1$s”将移到回收站，其提醒也会被取消。删除后可立即撤销，或稍后在回收站（主屏幕顶部的垃圾桶图标）中恢复。
+note_moved_to_trash	已移到回收站。可通过顶部的垃圾桶图标恢复。
+delete_folder_title	删除文件夹“%1$s”？
+delete_folder_message_empty	该文件夹为空，将被移到回收站。删除后可立即撤销，或稍后在回收站（主屏幕顶部的垃圾桶图标）中恢复。
+delete_folder_message_notes	请选择如何处理此文件夹中的笔记。删除后可立即撤销，或稍后在回收站（主屏幕顶部的垃圾桶图标）中恢复。
+delete_folder_option_move	将笔记移到其他文件夹
+delete_folder_option_trash	将笔记连同文件夹一起移到回收站
+delete_folder_target_label	将笔记移到：
+folder_moved_to_trash	已移到回收站。可通过顶部的垃圾桶图标恢复。
+move_note_title	将笔记移到文件夹
+move_note_featured_hint	如果这条笔记是其文件夹的精选笔记，该关联将被清除。
+error_blank_name	请输入名称
+error_duplicate_folder_name	已存在同名文件夹
+error_blank_title	请输入标题
+error_last_folder	最后一个文件夹无法删除
+error_generic	出了点问题
+loading	加载中…
+plural:notes_count:other	%1$d 条笔记
+action_back	返回
+editor_title_hint	标题
+editor_text_hint	开始输入…
+md_mode_edit	编辑
+md_mode_preview	查看
+md_bold	加粗
+md_italic	斜体
+md_strike	删除线
+md_heading	标题
+md_bullets	项目符号列表
+md_numbered	编号列表
+md_checklist	待办清单
+md_quote	引用
+md_code	行内代码
+md_code_block	代码块
+md_link	链接
+md_rule	水平线
+md_preview_empty	暂无可预览的内容。
+editor_item_hint	条目
+editor_add_item	添加条目
+editor_remove_item	移除条目
+editor_note_missing	这条笔记已不存在
+editor_drawing_unavailable	绘图编辑器暂不可用。
+budget_total	总计
+budget_sum_goal	合计 %1$s / 目标 %2$s
+budget_remainder	余额 %1$s
+budget_add_item	添加条目
+budget_add_group	添加分组
+budget_edit_node	编辑
+budget_node_title	名称
+budget_node_comment	备注
+budget_sum	合计
+budget_goal	目标
+budget_quantity	数量
+budget_quantity_hint	此条目重复的次数。上面的合计和目标是单次的数值。
+budget_invalid_quantity	请输入 1 到 9999 之间的整数
+budget_each	每份：合计 %1$s / 目标 %2$s
+budget_invalid_number	请输入数字，最多两位小数
+budget_delete_title	删除？
+budget_delete_message	“%1$s”及其中的所有内容都将被删除。
+budget_empty_hint	点按“总计”旁的 ⋮ 菜单，添加第一个条目或分组。
+budget_layout_button	显示选项
+budget_layout_title	此预算的显示方式
+budget_layout_total_bottom	总计显示在底部
+budget_layout_group_totals_bottom	分组小计显示在其条目下方
+budget_layout_newest_first	最新条目在前
+budget_group_total	总计：%1$s
+note_type_unknown	不支持
+note_type_audio	音频
+editor_unsupported_type	此版本应用不支持这种笔记类型（%1$s）。你的数据会保留，更新后即可使用。
+export_note_action	导出笔记…
+export_note_title	导出为
+export_done	笔记已导出
+export_failed	无法导出笔记
+export_format_markdown	Markdown (.md)
+export_format_structure	带结构的 JSON（可重新导入）
+export_format_snapshot	文本快照（仅结果）
+export_format_png	PNG 图片
+export_format_jpeg	JPEG 图片
+export_format_audio	音频文件 (.m4a)
+drawing_sheet	画布
+drawing_tool_pencil	铅笔
+drawing_tool_brush	画笔
+drawing_tool_eraser	橡皮擦
+drawing_undo	撤销
+drawing_color	颜色
+drawing_width	粗细
+drawing_mode_raster	位图
+drawing_mode_vector	矢量
+drawing_hide_raster	隐藏位图
+drawing_show_raster	显示位图
+drawing_hide_vector	隐藏矢量
+drawing_show_vector	显示矢量
+drawing_tool_fill	填充
+drawing_vtool_select	选择
+drawing_vtool_line	直线
+drawing_vtool_arrow	箭头
+drawing_vtool_rect	矩形
+drawing_vtool_ellipse	椭圆
+drawing_vtool_triangle	三角形
+drawing_vtool_pen	钢笔
+drawing_delete_shape	删除图形
+drawing_duplicate	复制
+drawing_forward	上移一层
+drawing_backward	下移一层
+drawing_outline	轮廓
+drawing_fill_label	填充颜色
+drawing_fill_none	无填充
+export_format_layers	图层（PNG + 可编辑图形，可重新导入）
+audio_empty	还没有录音
+audio_recording	正在录音…
+audio_record	录音
+audio_stop	停止
+audio_play	播放
+audio_pause	暂停
+audio_permission_denied	麦克风权限被拒绝。请在系统设置中允许后再录音。
+audio_error_record	无法开始录音，麦克风可能正被占用。
+audio_error_nothing	没有录到任何内容，已保留之前的录音。
+audio_error_playback	无法播放此录音。
+home_settings	设置
+home_import_note	从文件导入笔记
+import_note_done	已导入“%1$s”
+transfer_error_not_a_backup	这不是 Notio 备份文件。
+transfer_error_unsupported_version	此文件由更新版本的应用创建。请更新应用后再打开。
+transfer_error_corrupt	文件已损坏或内容不一致，未做任何更改。
+transfer_error_no_folders	备份中没有文件夹，因此无法替换你的数据。
+transfer_error_unrecognized_file	无法将此类型的文件识别为笔记。
+transfer_error_folder_not_found	目标文件夹已不存在。
+transfer_error_generic	操作失败，未做任何更改。
+settings_title	设置
+settings_language	语言
+settings_language_system	跟随系统
+settings_theme	主题
+settings_theme_system	跟随系统
+settings_theme_light	浅色
+settings_theme_dark	深色
+settings_privacy	提醒通知
+settings_privacy_hint	提醒在锁屏上显示的内容。
+settings_privacy_generic	仅显示通用文字
+settings_privacy_title_only	仅显示笔记标题
+settings_privacy_full	标题和文字
+settings_data	你的数据
+settings_data_hint	备份包含所有文件夹、笔记、预算、绘图、音频和提醒，但绝不包含密码。
+settings_export_all	导出所有数据
+settings_import_all	导入所有数据
+settings_help	帮助
+settings_open_help	打开帮助和术语表
+import_mode_title	导入方式
+import_mode_merge	合并
+import_mode_merge_hint	保留你现有的全部内容。若同一条笔记两边都有，以较新的为准。同名文件夹会合并。
+import_mode_new	添加为新副本
+import_mode_new_hint	文件中的所有内容都会作为新条目添加，你现有的内容不会被改动。
+import_mode_replace	全部替换
+import_mode_replace_hint	先删除你当前的所有数据，再载入文件。无法撤销。
+import_confirm	导入
+backup_export_done	备份已保存
+backup_export_failed	无法保存备份
+backup_import_done	已导入：新增笔记 %1$d 条，更新 %2$d 条，跳过 %3$d 条，新增文件夹 %4$d 个
+help_title	帮助
+help_start_title	快速入门
+help_start_body	所有内容都放在文件夹中。先在顶部选一个文件夹，再点按“新建笔记”。顶部的齿轮打开设置，箭头图标用于从文件导入笔记。新笔记的标题已自动填好：类型加文件夹中下一个空闲编号（“音频 1”“预算 2”…）。可以直接点按“创建”，以后再改名，也可以输入自己的名称。 新文件夹也这样命名：文件夹 1、文件夹 2…（任务文件夹为任务 1…）；可立即“创建”，名称可当时或以后更改。 许多按钮是图标：长按图标可查看其名称（TalkBack 也会读出）。对话框按钮以及少用、不可撤销的操作仍保留文字。
+help_folders_title	文件夹
+help_folders_body	文件夹用来归类笔记，有名称、颜色和样式。每条笔记只属于一个文件夹，最后一个文件夹不能删除。删除文件夹时，你可以选择把其中的笔记移到别的文件夹，或一并删除。文件夹卡片顶部有一排小按钮——选择、拖动移动和 ⋮ 菜单——下面是图标和名称、笔记数量，以及（如果在设置中开启）创建和修改时间戳。
+help_notes_title	笔记
+help_notes_body	笔记共有十一种：笔记（格式文本）、Markdown、清单、预算、绘图、图纸、音频、照片、相机录像、屏幕录制和日程表。点按笔记即可打开；更改会自动保存。卡片上的 ⋮ 菜单可置顶（最后置顶的排在最上面）、加粗标题、添加备注或标签、设置颜色或提醒、克隆、移动或删除。删除的笔记可立即用“撤销”恢复。 在 Markdown 笔记、列表和预算中，顶部的放大镜可在笔记内查找文字：所有匹配都会高亮，“3 / 7”显示数量，箭头跳到上一个和下一个（预算会自动展开含有匹配的分组），叉号关闭搜索。 滚动较长的列表或文本时，右下角会出现两个圆形按钮：回到开头和跳到末尾（适用于文件夹中的笔记、每种笔记以及编辑长文本时）。 “新建文件夹”会询问类型：笔记文件夹或任务文件夹。在任务文件夹中“新建”会创建任务：名称、备注、开始和结束、“已完成”勾选和描述，都在其“编辑”标签中修改，“提醒…”可设置提醒。未完成且已过结束时间的任务标为“已逾期”；日历把每个任务显示为从开始到结束的横条。 打开的笔记顶部有两个图标用于切换：翻开的书是“查看”（阅读，误触不会改动内容），线上的铅笔是“编辑”（修改）；选中的图标会高亮，长按图标会显示其名称。
+help_budget_title	预算笔记
+help_budget_body	预算是一棵树。条目包含你输入的合计和目标；分组会自动汇总其中的条目，分组里还可以有分组。余额等于目标减去合计，可能为负（以红色显示）。点按 ▾ 可折叠分组。通过“显示选项”可以把总计和分组小计放在底部，并让最新条目排在前面；每个预算都会记住自己的选择。每个条目还有一个小小的“修改合计”(+/−) 按钮，在查看和编辑模式下都有，可以直接加减一个数额而不用重新输入整个合计；在编辑模式下，它的 ⋮ 菜单里还有“编辑”可打开完整对话框（名称、合计、目标、数量、备注、分组），以及“添加条目”“添加分组”和“删除”。 在“更改”窗口中，+、− 和 = 按钮用于加上、减去或填入数额；“金额”和“目标”开关选择要改哪一个——金额（默认）、目标或两者（至少保留一个）。 类型（编辑中）：账户、收入或支出。收入或支出会在设定的日期和时间（日历中以 💰 显示）或点击“立即并入”时，一次性并入所选账户：金额被加上（收入）或减去（支出）。勾选项：金额、目标、相同条目（并入同名条目，或同一“组/条目”路径的条目——在勾选项下方切换）以及转入全部条目（其他条目在账户中新建）。未选择账户时不会发生任何事。并入后，收入/支出移入回收站，可以恢复；账户的日志中有“撤销并入”。 更改窗口还有一个可选的备注：它会写入这次更改的日志行。 编辑 → 显示 → “隐藏合计”／“隐藏目标”：金额在卡片、笔记和记录中显示为星号（隐藏任一项时余额也隐藏）；“查看／编辑”旁的眼睛可在关闭笔记前显示它们。导出和分享保留数字。 预算上方的图标：带箭头的时钟打开记录，滑块打开显示选项（编辑时），相向和相背的箭头折叠和展开所有分组。 在记录中，项目的更改（合计、目标、数量、名称）或新增的项目／分组都有“撤销”：更改按其自身差额撤回，之后所做的保持不变；新增的项目会再次被删除（会先询问）。每一行只能撤销一次。 收入和支出没有目标和余额，只有金额。笔记的眼睛和每一行的眼睛在查看和编辑时都可用。 编辑时，条目的 ⋮ 菜单中有“合并到其他条目…”：该条目被删除，所选条目获得它的金额、目标或两者。在“查看”中，每个条目和每个分组都有垃圾桶图标——“删除”（会先询问）。被删除的内容保留在变更记录中：“已删除”一行有“恢复”，条目或分组会连同其中的全部内容回到原来的分组；如果该分组已不存在，则放到总计下。一次删除只能恢复一次。
+help_schedule_title	日程笔记
+help_schedule_body	日程是一份行列表：条目（一旦设置就有时间、描述和备注）和计算器（两个所选条目之间的时间差，附带自己的描述——适合算班次长度或等待时间）。用 + 按钮添加任意一种。拖动手柄可按自己的顺序排列行，或用“排序”按时间或名称排列条目；计算器总是排在条目之后，选择“手动”可恢复你自己的顺序。 编辑时，带加号的时钟添加时间，计算器图标添加计算器，带加号的对话气泡给一行添加备注。
+help_drawing_title	绘图
+help_drawing_body	用手指在两个图层上绘画。位图图层有铅笔、画笔、橡皮擦和油漆桶填充；上方的矢量图层包含直线、箭头、矩形、椭圆、三角形和手绘钢笔图形，可选择、移动、调整形状、填充、调整顺序和删除。每个图层都可以隐藏。图片会自动保存。通过 ⋮ 菜单可导出为 PNG 或 JPEG（两个图层合并），或导出为“图层”以保留可编辑的图形。
+help_text_title	Markdown 笔记
+help_text_body	Markdown 笔记使用 Markdown 语法。工具栏可添加加粗、斜体、标题、列表、待办清单、引用、代码和链接；在列表项末尾按回车可继续列表。切换到“查看”可阅读排版后的笔记并勾选清单。 在查看模式中，可按住四向箭头手柄在同一层级的行之间拖动清单行（连同其下方的行），也可用垃圾桶按钮删除（会先确认）；撤销可恢复这两种操作。
+help_audio_title	音频笔记
+help_audio_body	点按“录音”并允许一次麦克风权限；点按“停止”结束。每段录音都会加入这条笔记的列表。可播放任意一段，并拖动滑块跳转。在录音的 ⋮ 菜单中可以为它命名并添加备注、导出为 .m4a 文件或删除，其他录音不受影响。笔记的 ⋮ 菜单可把所有录音导出为一个 .zip，每个文件命名为“笔记标题 - 录音名称”。 所有录制到达时长上限后都会自动停止并保存：默认 4 分钟，可在 设置 → 录制 中分别为录音、相机视频和录屏设置（0 = 直到按下停止）；笔记会在录制按钮下方显示上限，并在开始时提醒。也可以随时提前停止。
+help_backup_title	备份与迁移笔记
+help_backup_body	设置中有“导出所有数据”和“导入所有数据”：一个包含全部内容的文件，可用于换手机或妥善保存。导入时可选择“合并”（两边都保留）、“添加为新副本”或“全部替换”。单条笔记可从其 ⋮ 菜单导出（Markdown、JSON、PNG、JPEG 或音频），并通过主屏幕上的箭头图标导入。来自更新版本应用的文件会被拒绝并给出提示，绝不会只导入一半。
+help_privacy_title	隐私
+help_privacy_body	笔记只保存在你的手机上，没有云同步。备份不包含密码。提醒通知默认显示通用文字，可在设置中更改。笔记、Markdown 笔记、清单、绘图和图纸可以隐藏内容：打开笔记，切换到“编辑”，点按标签行中带斜线的眼睛图标。之后卡片和查看页会显示“内容已隐藏”，直到你点按眼睛图标；关闭后再次打开，笔记会重新隐藏。标题、标签和备注仍然可见，搜索仍能找到其中的文字。这只是防止旁人瞥见，并不是锁：阻止他人进入的是应用锁。照片、视频和音频笔记没有此选项。
+glossary_title	术语表
+glossary_folder	文件夹：一组有名称的笔记。
+glossary_note	笔记：放在文件夹中的一条文本、清单、预算、绘图或音频。
+glossary_group	分组：由其他条目组成的预算条目，其合计和目标会自动汇总。
+glossary_item	条目：有自己合计和目标的预算条目，数值由你输入。
+glossary_goal	目标：你计划达到或花费的金额。
+glossary_remainder	余额：目标减去合计。为负表示已超出目标。
+glossary_backup	备份：包含你所有数据的文件，用于恢复或迁移。
+trash_title	回收站
+trash_empty_state	回收站是空的
+trash_empty_state_hint	已删除的笔记和文件夹会留在这里，直到你恢复或彻底删除它们。
+trash_retention_never	项目会一直留在这里，直到你恢复它们或清空回收站。
+trash_expiring_soon	即将被删除
+trash_folder_label	文件夹
+trash_note_in_folder	在文件夹 %1$s 中
+trash_note_folder_in_trash	文件夹 %1$s 在回收站中
+trash_deleted_on	删除于 %1$s
+trash_restore	恢复
+trash_delete_forever	彻底删除
+trash_empty_action	清空回收站
+trash_restored	已恢复：%1$s
+trash_purged	已彻底删除：%1$s
+trash_emptied	回收站已清空
+trash_restore_duplicate_name	已存在同名文件夹。请先重命名或删除它，再恢复这一个。
+trash_pick_folder_title	恢复到哪个文件夹？
+trash_pick_folder_hint	这条笔记原来所在的文件夹在回收站中，请为它选择一个文件夹。
+trash_purge_note_title	彻底删除这条笔记？
+trash_purge_note_body	“%1$s”将被彻底删除，连同其提醒和文件。此操作无法撤销。
+trash_purge_folder_title	彻底删除这个文件夹？
+trash_purge_folder_body_empty	文件夹“%1$s”将被彻底删除。此操作无法撤销。
+trash_empty_confirm_title	清空回收站？
+settings_trash	回收站
+settings_trash_hint	已删除的笔记和文件夹在被彻底移除之前保留多久。
+settings_trash_days	%1$d 天
+settings_trash_never	永不（直到我清空回收站）
+help_trash_title	回收站
+help_trash_body	已删除的笔记和文件夹会进入回收站（主屏幕顶部的按钮），你可以在那里恢复或彻底删除；每次彻底删除都会要求确认。只有在“设置 → 回收站”中选择后，回收站才会自动清空（7 到 90 天）；默认永不清空，以免内容意外消失。如果笔记所在的文件夹也在回收站中，则会恢复到你选择的文件夹。从笔记中删除的照片、视频和录制内容也会进入回收站：可从那里放回笔记、导出为文件或彻底删除；如果笔记本身已不存在，则只能导出。 顶部的放大镜可在回收站中查找：文件夹、笔记和项目的名称、笔记的文字、随文件夹一起删除的笔记以及项目的备注；找到的文字会高亮，并显示所在的一段文字，箭头可逐个跳转。 每项都有图标：从回收站出来的箭头用于恢复，带叉的回收站用于永久删除（会先询问），向下箭头把已删除的照片或录音保存为文件。
+plural:trash_days_left:other	还剩 %1$d 天
+plural:trash_retention_info:other	项目移到这里 %1$d 天后将被彻底删除。
+plural:trash_folder_notes:other	%1$d 条笔记
+plural:trash_purge_folder_body:other	文件夹“%1$s”及其中的 %2$d 条笔记将被彻底删除，连同它们的提醒和文件。此操作无法撤销。
+plural:trash_empty_confirm_body:other	回收站中的 %1$d 个项目将被彻底删除，连同它们的提醒和文件。此操作无法撤销。
+unit_pcs_symbol	个
+unit_kg_symbol	千克
+unit_l_symbol	升
+unit_m_symbol	米
+unit_rub_symbol	₽
+unit_usd_symbol	$
+unit_gbp_symbol	£
+unit_eur_symbol	€
+unit_pcs_name	件
+unit_kg_name	千克
+unit_l_name	升
+unit_m_name	米
+unit_rub_name	卢布
+unit_usd_name	美元
+unit_gbp_name	英镑
+unit_eur_name	欧元
+list_add_total	添加单位合计
+list_quantity	数量
+list_no_unit	无单位
+list_comment	备注
+list_comment_add	+ 备注
+list_total_name_hint	合计的名称
+list_total_pick_unit	选择要汇总的单位
+list_total_result	合计：%1$s
+settings_units	计量单位
+settings_units_hint	用于清单条目数量和单位合计的单位。
+settings_units_open	管理单位
+units_title	计量单位
+units_hint	内置单位无法删除。当没有清单使用时，你自己添加的单位可以删除。
+units_custom_section	你的单位
+units_built_in_section	内置单位（无法删除）
+units_none	你还没有添加任何单位。
+units_add	添加单位
+units_add_title	新单位
+units_name_label	名称（最多 24 个字符）
+units_delete	删除单位
+units_delete_title	删除这个单位？
+units_delete_message	“%1$s”将从单位中移除。没有清单使用它，因此不会影响其他内容。
+units_added	已添加单位：%1$s
+units_deleted	已删除单位：%1$s
+error_unit_name	请输入 1 到 24 个字符的名称
+error_unit_duplicate	已存在同名单位
+error_unit_in_use	仍有清单在使用此单位。请先从条目和合计中移除它。
+error_unit_built_in	内置单位无法删除
+help_lists_title	清单和单位
+help_lists_body	清单中的条目带有复选框、可选的数量、单位和备注。添加“单位合计”可查看同一单位下所有条目数量之和，例如清单中所有物品的千克数；你可以设置多个不同单位的合计。单位在设置中管理：件、千克、升、米、卢布、美元、英镑和欧元为内置单位，无法删除；你也可以添加自己的单位。每个条目还有“修改”(+/−) 小按钮，可分别调整数量和价格（“输入”按钮则直接写入新数字）；条目的 ⋮ 菜单里有“编辑”可打开包含所有字段的完整对话框。 编辑时，带加号的列表图标添加项目，求和符号 Σ 添加按单位的合计。
+about_title	关于
+about_version	Notio by vibic，版本 %1$s（构建 %2$d）
+about_developer	开发者：vibic
+about_formats	备份格式 %1$d · 数据库版本 %2$d
+settings_trash_open	打开回收站
+plural:home_trash_count:other	回收站，%1$d 个项目
+color_custom_button	RGB
+color_picker_title	选择颜色
+color_red	红
+color_green	绿
+color_blue	蓝
+color_hex_label	颜色代码 (#RRGGBB)
+color_hex_invalid	请输入 3 位或 6 位十六进制数字，例如 #FF8800
+color_use	使用此颜色
+about_made_for	怀着爱意为我的女儿卡捷琳娜制作
+settings_color_theme	颜色主题
+theme_green	绿色
+theme_pink	粉色
+theme_orange	橙色
+theme_red	红色
+theme_light_blue	浅蓝色
+theme_blue	蓝色
+theme_lime	青柠色
+action_note_color	颜色

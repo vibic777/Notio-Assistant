@@ -1,0 +1,7 @@
+media_select	选择
+media_select_all	全选
+media_clear_selection	取消选择
+media_delete_selected	删除（%1$d）
+media_selected_count	已选：%1$d / %2$d
+media_delete_many_title	删除所选项目？
+media_delete_many_message	所选的 %1$d 个项目将移入回收站，可从那里恢复。

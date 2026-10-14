@@ -1,0 +1,5 @@
+app_log	应用日志
+app_log_hint	错误以及应用在录制、备份和同步时的操作。仅保存在此手机上；不含笔记内容、密码或代码。复制后可发送给开发者。
+app_log_empty	暂无内容。
+app_log_clear	清空
+app_log_copied	日志已复制

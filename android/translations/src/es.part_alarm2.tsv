@@ -1,0 +1,7 @@
+alarm_status_fullscreen_ok	Pantalla de alarma sobre el bloqueo: permitida
+alarm_status_fullscreen_no	Pantalla de alarma sobre el bloqueo: NO permitida
+alarm_status_overlay_ok	Mostrar sobre otras apps: permitido
+alarm_status_overlay_no	Mostrar sobre otras apps: NO permitido
+alarm_overlay_hint	Algunos teléfonos solo muestran la alarma sobre el bloqueo si también se permite esto: la app abre entonces la pantalla de alarma por sí misma.
+alarm_test	Probar la alarma en 10 segundos
+alarm_test_started	Bloquea el teléfono: la alarma sonará en 10 segundos.

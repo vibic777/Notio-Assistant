@@ -1,0 +1,4 @@
+settings_notices	Mensajes en la parte inferior de la pantalla
+settings_notices_hint	Los mensajes breves como «Movido a la papelera» desaparecen solos pasado este tiempo; también puedes deslizar uno hacia un lado para quitarlo. 0 — no mostrarlos: entonces tampoco habrá «Deshacer» en ellos.
+settings_notices_value	%1$d s
+settings_notices_off	No mostrar

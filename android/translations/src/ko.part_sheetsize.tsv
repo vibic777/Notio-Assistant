@@ -1,0 +1,11 @@
+drawing_sheet_size	시트 크기
+drawing_sheet_width	너비
+drawing_sheet_height	높이
+drawing_sheet_pixels	= %1$d × %2$d px
+drawing_sheet_too_small	각 변은 %1$d px 이상이어야 합니다.
+drawing_sheet_too_large	너무 큽니다: 한 변 최대 %1$d px, 전체 최대 %2$d × %3$d px입니다.
+drawing_sheet_ppi	mm와 cm는 인치당 %1$d 픽셀로 환산합니다.
+drawing_sheet_note	그림은 왼쪽 위에 그대로 남습니다: 더 큰 시트는 빈 공간을 더하고, 더 작은 시트는 벗어난 부분을 잘라냅니다(벡터 레이어의 도형은 유지됩니다). 지금까지의 래스터 레이어 실행 취소 단계는 그림에 합쳐집니다.
+drawing_unit_px	px
+drawing_unit_mm	mm
+drawing_unit_cm	cm

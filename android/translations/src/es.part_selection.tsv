@@ -1,0 +1,7 @@
+media_select	Seleccionar
+media_select_all	Seleccionar todo
+media_clear_selection	Quitar la selección
+media_delete_selected	Eliminar (%1$d)
+media_selected_count	Seleccionados: %1$d de %2$d
+media_delete_many_title	¿Eliminar lo seleccionado?
+media_delete_many_message	%1$d elementos seleccionados irán a la papelera; podrás recuperarlos desde allí.

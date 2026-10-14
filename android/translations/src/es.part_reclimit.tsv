@@ -1,0 +1,17 @@
+settings_cat_recordings	Grabaciones
+settings_cat_recordings_hint	Cuánto puede durar una grabación
+settings_rec_limit_audio	Grabación de audio: duración máxima
+settings_rec_limit_video	Vídeo de la cámara: duración máxima
+settings_rec_limit_screen	Grabación de pantalla: duración máxima
+settings_rec_limit_hint	0 = hasta detenerla; 1 - 65535. La grabación se detiene sola tras este tiempo y se guarda; Detener sigue funcionando antes. Una protección ante una grabación olvidada.
+settings_rec_limit_amount	Duración
+rec_unit_seconds	segundos
+rec_unit_minutes	minutos
+rec_unit_hours	horas
+rec_limit_s	%1$d s
+rec_limit_min	%1$d min
+rec_limit_h	%1$d h
+rec_limit_line	Se detiene sola tras %1$s (Ajustes → Grabaciones)
+rec_limit_none	Sin límite: hasta pulsar Detener
+rec_limit_warning	La grabación se detendrá sola tras %1$s.
+rec_limit_reached	Se alcanzó el límite: la grabación se detuvo y se guardó.

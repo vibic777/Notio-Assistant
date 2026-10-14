@@ -1,0 +1,16 @@
+note_type_schedule	日程表
+schedule_empty	还没有内容。打开“编辑”添加时间。
+schedule_add_item	添加时间
+schedule_add_calc	添加计算器
+schedule_item_hint	内容
+schedule_calc_hint	计算器测量的内容
+schedule_calc_default	计算器
+schedule_from	从
+schedule_to	到
+schedule_pick_item	选择时间
+schedule_no_items	请先添加时间
+schedule_clear_time	清除时间
+schedule_unknown	?
+schedule_duration_hm	%1$d 小时 %2$d 分钟
+schedule_duration_h	%1$d 小时
+schedule_duration_m	%1$d 分钟

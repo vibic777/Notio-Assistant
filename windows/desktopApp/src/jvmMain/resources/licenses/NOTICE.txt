@@ -1,0 +1,12 @@
+Notio for Windows uses these components:
+
+- Kotlin, kotlinx.coroutines, kotlinx.serialization — JetBrains s.r.o. and contributors, Apache License 2.0
+- Compose Multiplatform, Skiko — JetBrains s.r.o. and contributors, Apache License 2.0
+- JetBrains Runtime (the bundled Java runtime) — GNU GPL v2 with the Classpath Exception
+- Apache PDFBox — The Apache Software Foundation, Apache License 2.0 (PDF export)
+- SQLite JDBC (xerial) — Apache License 2.0; SQLite itself is in the public domain
+- JmDNS — Apache License 2.0 (finding devices on the network for sync)
+- JNA — Apache License 2.0 (Windows DPAPI for sealed secrets)
+- Roboto font — Google, SIL Open Font License 1.1
+
+The texts of the licences follow.

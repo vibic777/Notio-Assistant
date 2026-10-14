@@ -1,0 +1,28 @@
+settings_cat_permissions	权限
+settings_cat_permissions_hint	Notio 在这部手机上被允许做什么：授予或收回
+perm_intro	Notio 只在某项功能需要时才请求权限。在这里可以提前授予每项权限，也可以收回。
+perm_notifications	通知
+perm_notifications_why	显示提醒并响铃；状态行；同步的询问
+perm_exact_alarms	精确闹钟
+perm_exact_alarms_why	提醒在设定的那一分钟响铃；没有它，手机可能会晚一些才响
+perm_full_screen	锁屏上的闹钟
+perm_full_screen_why	带弹窗的提醒会点亮屏幕，并在锁定的手机上显示窗口
+perm_overlay	显示在其他应用上层
+perm_overlay_why	闹钟窗口自行弹出；录制时的悬浮“停止”按钮；同步的询问
+perm_microphone	麦克风
+perm_microphone_why	语音笔记；视频和屏幕录制的声音
+perm_camera	相机
+perm_camera_why	照片和视频笔记
+perm_location	位置
+perm_location_why	开启该标记后，写在照片或视频上的地点
+perm_state_on	已允许
+perm_state_off	未允许
+perm_state_leaving	已收回：关闭 Notio 后生效
+perm_allow	允许
+perm_revoke	收回
+perm_revoke_all	收回所有权限
+perm_open_settings	手机设置中的 Notio
+perm_revoke_note	在这里收回的权限会在关闭 Notio 后失效：Android 在那时才将其移除。精确闹钟、锁屏上的闹钟和显示在其他应用上层是手机设置里的开关：按钮会打开它们。
+perm_revoke_note_old	在此版本的 Android 上，权限需在手机设置中收回：按钮会打开其中的 Notio 页面。
+help_permissions_title	权限
+help_permissions_body	在手机上，设置 → 权限 列出可以允许 Notio 的全部权限：通知、精确闹钟、锁屏上的闹钟、显示在其他应用上层、麦克风、相机和位置。每一行说明该权限的用途以及是否已授予。“允许”会授予它——通过手机自己的询问，或者对于只能在设置中更改的权限，在手机设置页面中授予。“收回”会取消它：手机询问过的权限在关闭 Notio 后失效，其余的在手机设置中关闭，按钮会打开该页面。“收回所有权限”一次完成全部操作。不会丢失任何东西：需要权限的功能会再次请求。在电脑上，系统不会向 Notio 请求权限。

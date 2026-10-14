@@ -1,0 +1,56 @@
+settings_cat_general	언어 및 형식
+settings_cat_general_hint	언어, 날짜 및 시간
+settings_cat_appearance	모양
+settings_cat_appearance_hint	테마, 색상, 글자 크기, 배경
+settings_cat_notes	노트 및 내보내기
+settings_cat_notes_hint	태그, 단위, 내보낸 파일 이름
+settings_cat_security	보안 및 개인정보
+settings_cat_security_hint	앱 잠금, 알림 표시
+settings_cat_trash	휴지통
+settings_cat_trash_hint	삭제된 항목 보관 기간
+settings_cat_data	백업 및 복원
+settings_cat_data_hint	내보내기, 가져오기, 백업 비밀번호
+settings_cat_about	도움말 및 정보
+settings_cat_about_hint	도움말, 버전, 개발자
+settings_search_hint	설정 검색
+settings_search_none	결과가 없습니다. 다른 단어로 검색해 보세요.
+settings_datetime	날짜 및 시간 형식
+settings_datetime_hint	날짜와 시간이 노트, 폴더, 녹음·녹화 등 모든 곳에 표시되는 방식입니다.
+settings_date_label	날짜
+settings_time_label	시간
+format_system	휴대폰 설정에 따름
+settings_example	예: %1$s
+settings_export_naming	내보낸 파일 이름
+settings_export_naming_hint	내보낸 파일의 이름을 정합니다. 이름 구성 요소와 날짜·시간 표기를 고르세요. 파일 이름에는 콜론을 쓸 수 없습니다.
+naming_note_title	노트 제목
+naming_item_title	녹음·녹화·사진 제목 (여러 항목 노트)
+naming_date	날짜 표시
+naming_time	시간 표시
+naming_source	날짜와 시간 기준
+naming_source_export	내보낸 시각
+naming_source_created	노트 생성 시각
+naming_source_modified	노트 마지막 수정 시각
+naming_date_format	이름의 날짜
+naming_time_format	이름의 시간
+naming_twelve_hour	12시간제 (AM / PM)
+naming_sep_none	없음
+naming_joiner	이름 구성 요소 사이
+naming_join_space	공백
+naming_example	예: %1$s
+naming_example_note	여행
+naming_example_item	사진 1
+settings_backup_password	백업 비밀번호
+settings_backup_password_hint	내보내는 백업을 비밀번호로 보호합니다. 비밀번호가 없으면 누구나 열 수 있는 일반 파일입니다.
+backup_password_enable	비밀번호로 백업 보호
+backup_password_field	비밀번호
+backup_password_warning	잘 보관하세요. 비밀번호를 잊은 백업은 열 수 없으며 복구 방법이 없습니다.
+backup_password_save	비밀번호 저장
+backup_password_saved	비밀번호를 저장했습니다. 새 백업은 이 비밀번호로 보호됩니다.
+backup_password_type_first	비밀번호를 입력하고 저장하세요.
+import_password_title	보호된 백업
+import_password_hint	이 백업은 비밀번호로 보호되어 있습니다. 계속하려면 입력하세요.
+transfer_error_password_required	이 백업은 비밀번호로 보호되어 있습니다.
+transfer_error_wrong_password	비밀번호가 틀렸습니다. 아무것도 변경되지 않았습니다.
+password_show	표시
+password_hide	숨기기
+trash_open_settings	휴지통 설정

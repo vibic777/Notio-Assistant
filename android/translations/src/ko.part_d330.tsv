@@ -1,0 +1,5 @@
+budget_item_merge	다른 항목으로 병합…
+budget_item_merge_hint	항목 「%1$s」은(는) 삭제됩니다. 아래에서 선택한 항목이 남아 여기서 켠 것을 받습니다.
+budget_item_merge_into	남길 항목
+budget_item_merge_confirm	병합
+budget_log_item_merged	항목 「%1$s」을(를) 「%2$s」(으)로 병합

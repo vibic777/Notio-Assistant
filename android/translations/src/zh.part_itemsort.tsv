@@ -1,0 +1,10 @@
+sort_button	排序：%1$s
+sort_key_sum	金额
+sort_key_goal	目标
+sort_key_remainder	余额
+sort_key_progress	进度（目标完成比例）
+sort_key_quantity	数量
+sort_key_price	单价
+sort_key_cost	费用
+sort_key_unit	单位
+sort_key_done	已完成 / 未完成

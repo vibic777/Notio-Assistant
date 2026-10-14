@@ -1,0 +1,12 @@
+budget_adjust_set	입력
+budget_adjust_new_value	새 값
+budget_adjust_negative	결과는 0보다 작을 수 없습니다
+list_change_quantity	수량
+list_change_price	가격
+list_adjust_quantity_title	수량 변경
+list_adjust_price_title	가격 변경
+list_adjust_current_quantity	현재 수량: %1$s
+list_adjust_current_price	현재 가격: %1$s
+list_adjust_not_set	아직 설정되지 않음(0으로 계산)
+list_adjust_invalid	0보다 큰 숫자를 소수점 세 자리까지 입력하세요
+list_adjust_invalid_set	소수점 세 자리까지 숫자를 입력하세요

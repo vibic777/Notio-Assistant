@@ -1,0 +1,342 @@
+note_color_title	Colore della nota
+note_color_hint	Scegli un colore per questa nota oppure «Colore della cartella» per usare quello della sua cartella.
+note_color_none	Colore della cartella
+folder_icon_hint	Tocca qui, poi premi il tasto emoji sulla tastiera e scegli un'emoji, per esempio 📚 o 🏠. Una sola emoji rende meglio; funziona anche una parola breve. Vuoto: viene mostrata la prima lettera del nome.
+help_emoji_title	Emoji e colori delle cartelle
+help_emoji_body	Una cartella può mostrare un'emoji o una parola breve sulla sua scheda. Modifica la cartella (il ⋮ sulla sua scheda), tocca il campo «Icona o emoji», poi premi il tasto emoji sulla tastiera (accanto alla barra spaziatrice) e scegli un'immagine; se la tastiera non ha il tasto emoji, attiva le emoji nelle impostazioni della tastiera oppure incolla una emoji copiata. Con il campo vuoto viene mostrata la prima lettera del nome. Colori: una nota riceve il suo colore da ⋮ → Colore (qualsiasi colore pronto o un tuo colore RGB; «Colore della cartella» riprende il colore della cartella) e tutta l'app ha un tema colore nelle impostazioni.
+list_view_empty	Questo elenco è vuoto. Apri la scheda Modifica per aggiungere voci.
+budget_group_label	Gruppo
+search_open	Cerca
+search_scope_notes	Note
+search_scope_folders	Cartelle
+search_hint_notes	Cerca nei titoli e nel testo
+search_hint_folders	Cerca le cartelle per nome
+search_clear	Cancella
+search_no_tags	Ancora nessun tag. Aggiungi tag a una nota dal suo menu ⋮ → Tag, poi filtra qui.
+search_found	Trovati: %1$d
+search_no_results	Nessun risultato
+action_tags	Tag
+tags_dialog_title	Tag di questa nota
+tags_new_hint	Nuovo tag
+tags_add	Aggiungi
+tags_none_yet	Non ci sono ancora tag: scrivine uno qui sopra.
+error_tag_name	Inserisci un tag di 1-32 caratteri
+error_tag_duplicate	Questo tag esiste già
+settings_tags	Tag
+settings_tags_hint	Etichette per le tue note: metti quanti tag vuoi su una nota e cerca con essi.
+settings_tags_open	Gestisci i tag
+tags_title	Tag
+tags_hint	I tag si mettono su una nota dal suo menu ⋮ → Tag. Qui puoi rinominare un tag o eliminarlo da tutte le note.
+tags_none_yet_manage	Non hai ancora tag.
+tags_rename	Rinomina
+tags_rename_title	Rinomina il tag
+tags_delete	Elimina il tag
+tags_delete_title	Eliminare questo tag?
+tags_renamed	Tag rinominato: %1$s
+tags_deleted	Tag eliminato: %1$s
+plural:tags_used_by:one	%1$d nota
+plural:tags_used_by:many	%1$d note
+plural:tags_used_by:other	%1$d note
+plural:tags_delete_message:one	«%1$s» verrà rimosso da %2$d nota. La nota resta.
+plural:tags_delete_message:many	«%1$s» verrà rimosso da %2$d note. Le note restano.
+plural:tags_delete_message:other	«%1$s» verrà rimosso da %2$d note. Le note restano.
+audio_default_name	Registrazione %1$d
+audio_clip_menu	Opzioni della registrazione
+audio_edit	Nome e commento
+audio_edit_title	Dettagli della registrazione
+audio_name_label	Nome
+audio_comment_label	Commento
+audio_export_clip	Esporta questa registrazione
+audio_delete_title	Eliminare questa registrazione?
+audio_delete_message	«%1$s» andrà nel cestino; da lì potrai rimetterla in questa nota.
+export_format_audio_zip	Tutte le registrazioni (.zip)
+list_mode_quantity	Quantità
+list_mode_price	Prezzi
+list_price	Prezzo di uno
+list_summary_title	Totali
+list_summary_none	Aggiungi quantità e prezzi per vedere i totali.
+list_summary_quantity	Quantità: %1$s
+list_summary_price	Prezzo: %1$s
+export_format_txt	Testo semplice (.txt)
+export_format_pdf	Documento PDF (.pdf)
+help_price_title	Liste di prezzi
+help_price_body	In un elenco apri la scheda Modifica e scegli Prezzi al posto di Quantità. Ogni voce ha allora anche un prezzo unitario e un'unità per il prezzo, scelta tra le stesse unità delle quantità (rubli, euro, perfino chilogrammi). Il costo di una voce è quantità × prezzo: 2 mele a 50 fanno 100. In fondo l'elenco somma tutte le quantità per unità e tutti i costi per unità di prezzo, per esempio 5 pz e 400 rub. Una riga «totale per unità» mostra anche il costo delle voci nella sua unità.
+help_search_title	Ricerca e tag
+help_search_body	La lente in alto nella schermata principale apre la ricerca. Passa da Note (cerca nei titoli, nel testo e nei tag delle note di tutte le cartelle) a Cartelle (trova una cartella per nome). Più parole devono essere trovate tutte. Sotto il campo di ricerca tocca i tag per tenere solo le note che li hanno tutti. Per mettere un tag a una nota usa il suo menu ⋮ → Tag: spunta i tag o scrivine uno nuovo; una nota può avere quanti tag vuoi. Impostazioni → Gestisci i tag rinomina o elimina un tag.
+help_export_title	Esportare una nota
+help_export_body	Apri una nota e usa il suo menu ⋮ → Esporta. Note Markdown: Markdown (con la sintassi), testo semplice o PDF (entrambi mostrano il testo come lo leggi). Elenchi: il loro file JSON (torna con tutte le quantità e i prezzi), Markdown, testo semplice o PDF. Budget, disegni e audio hanno i propri formati. Le note audio con più registrazioni le esportano tutte in un unico .zip, con nome «titolo della nota - nome della registrazione»; una singola registrazione si esporta dal suo menu ⋮.
+search_close	Annulla la ricerca
+theme_black	Nero
+theme_gray	Grigio
+theme_white	Bianco
+search_scope_tags	Tag
+search_hint_tags	Cerca per nome del tag
+settings_font_size	Dimensione del carattere
+settings_font_size_hint	Cambia la dimensione del testo in tutta l'app. Si aggiunge alla dimensione del carattere delle impostazioni di sistema.
+font_small	Piccola
+font_normal	Normale
+font_medium	Media
+font_large	Grande
+font_extra_large	Molto grande
+zoom_normal	Normale
+action_done	Fatto
+sort_title	Ordina
+sort_hint	Le note fissate restano sempre per prime, l’ultima fissata in cima.
+sort_notes	Note di questa cartella
+sort_folders	Cartelle
+sort_key_manual	Il mio ordine
+sort_key_updated	Modifica
+sort_key_created	Creazione
+sort_key_name	Nome
+sort_key_color	Colore
+sort_ascending	Crescente
+sort_descending	Decrescente
+folder_move_earlier	Sposta prima
+folder_move_later	Sposta dopo
+featured_menu	Nota in evidenza…
+featured_title	Nota in evidenza di «%1$s»
+featured_hint	La scheda della cartella mostra questa nota. Per un budget può mostrare anche la somma, l'obiettivo e il resto.
+featured_none	Nessuna
+featured_layout	Quanto mostrare
+featured_layout_title	Titolo
+featured_layout_compact	Compatto
+featured_layout_full	Completo
+featured_metrics	Mostra
+featured_metric_sum	Somma
+featured_metric_goal	Obiettivo
+featured_metric_remainder	Resto
+featured_only_budget	Somma, obiettivo e resto esistono solo per le note budget.
+settings_backgrounds	Sfondi
+settings_backgrounds_hint	Un colore o un'immagine dietro tutta l'app, le schede delle cartelle e ogni tipo di nota.
+settings_backgrounds_open	Scegli gli sfondi
+bg_title	Sfondi
+bg_hint	Scegli un colore o un'immagine PNG/JPG per ogni posizione. Un'immagine viene un po' scurita perché il testo resti leggibile; un colore semplice viene disegnato così com'è, quindi sceglilo adatto al testo. Le immagini restano solo su questo telefono e non fanno parte di un backup.
+bg_slot_app	Tutta l'app
+bg_slot_folders	Schede delle cartelle
+bg_slot_note_text	Note Markdown
+bg_slot_note_list	Elenchi
+bg_slot_note_budget	Budget
+bg_slot_note_drawing	Disegni
+bg_slot_note_blueprint	Progetti
+bg_slot_note_audio	Note audio
+bg_state_default	Predefinito
+bg_state_color	Un colore
+bg_state_image	Un'immagine
+bg_colour	Colore…
+bg_picture	Immagine…
+bg_reset	Ripristina
+bg_error	Non è stato possibile usare questa immagine. Scegli un file PNG o JPG.
+note_type_blueprint	Progetto
+layers_title	Livelli
+layer_default_name	Livello %1$d
+layer_add	Aggiungi livello
+layer_show	Mostra
+layer_hide	Nascondi
+layer_lock	Blocca
+layer_unlock	Sblocca
+layer_rename	Rinomina
+layer_name_label	Nome del livello
+layer_up	Sposta su
+layer_down	Sposta giù
+layer_move_shape_here	Sposta qui la forma selezionata
+layer_delete_title	Eliminare questo livello?
+layer_delete_message	Le forme del livello vengono eliminate con esso. Non si può annullare.
+layer_cannot_draw	Il livello scelto è nascosto o bloccato: scegli un altro livello per disegnare.
+action_reminders	Promemoria
+reminders_title	Promemoria
+reminders_add	Aggiungi promemoria
+reminders_edit	Modifica promemoria
+reminders_empty	Ancora nessun promemoria. Tocca «Aggiungi promemoria».
+reminders_cancel	Annulla promemoria
+reminders_delete_title	Eliminare questo promemoria?
+reminders_delete_message	Il promemoria per «%1$s» viene eliminato. La nota resta.
+reminders_exact_hint	Android non ha consentito le sveglie esatte a questa app, quindi un promemoria può arrivare con un po' di ritardo. Consenti «Sveglie e promemoria» all'app nelle impostazioni di sistema.
+reminders_exact_open	Apri l'impostazione di sistema
+reminder_note	Nota
+reminder_pick_note	Scegli una nota
+reminder_sound	suono
+reminder_vibration	vibrazione
+reminder_popup	popup
+reminder_confirm_short	richiede conferma
+reminder_repeat_short	si ripete ogni %1$d min
+reminder_sound_long	Riproduci un suono
+reminder_vibration_long	Vibra
+reminder_popup_long	Mostra un popup
+reminder_confirm_long	Chiedi conferma
+reminder_repeat_long	Ripeti finché non confermo
+reminder_every_minutes	%1$d min
+reminder_status_scheduled	In attesa dell'ora
+reminder_status_fired	Suonato
+reminder_status_waiting	In attesa della tua conferma
+reminder_status_done	Fatto
+reminder_status_cancelled	Annullato
+reminder_error_past	L'ora deve essere nel futuro
+reminder_error_repeat	«Ripeti finché non confermo» richiede «Chiedi conferma» e un intervallo di ripetizione
+settings_lock	Blocco dell'app
+settings_lock_hint	Chiede una password, una sequenza o un login quando l'app viene aperta.
+settings_lock_open	Imposta il blocco
+lock_settings_title	Blocco dell'app
+lock_title	Bloccata
+lock_intro	Con il blocco attivo, l'app lo chiede a ogni apertura e dopo il tempo indicato qui sotto. Nulla lascia il telefono, a meno che tu non imposti il recupero via e-mail; su questo telefono viene conservata solo una forma codificata (hash) del segreto.
+lock_status_off	Il blocco è disattivato
+lock_status_on	Il blocco è attivo: %1$s
+lock_method_password	Password
+lock_method_pattern	Sequenza
+lock_method_login	Login e password
+lock_biometric_option	Sblocca anche con impronta o volto
+lock_biometric_title	Sblocca
+lock_use_biometric	Usa impronta o volto
+lock_timeout_title	Chiedi di nuovo dopo che l'app è stata via per
+lock_timeout_immediate	Subito
+lock_timeout_30s	30 secondi
+lock_timeout_1m	1 minuto
+lock_timeout_5m	5 minuti
+lock_timeout_15m	15 minuti
+lock_timeout_never	Solo all'avvio dell'app
+lock_question_title	Domanda di sicurezza (per recuperare un segreto dimenticato)
+lock_question_none	Nessuna domanda
+lock_q1	Come si chiamava il tuo primo animale domestico?
+lock_q2	In quale città sei nato/a?
+lock_q3	Qual è il cognome da nubile di tua madre?
+lock_q4	Come si chiamava la tua prima scuola?
+lock_q5	Qual è il tuo libro preferito?
+lock_answer	Risposta
+lock_warning_no_recovery	Senza una domanda un segreto dimenticato non si può recuperare. L'unico modo è reinstallare l'app, il che elimina tutto su questo telefono (si può importare un file di backup fatto prima).
+lock_recovery_on	È impostata una domanda di sicurezza.
+lock_recovery_off	Nessuna domanda di sicurezza: un segreto dimenticato non si può recuperare.
+lock_secure_hint	Con il blocco attivo, gli screenshot e l'immagine nell'elenco delle app recenti sono bloccati.
+lock_turn_on	Attiva il blocco
+lock_turn_off	Disattiva il blocco
+lock_change	Cambia la password o la sequenza
+lock_current	Inserisci prima quella attuale.
+lock_new	Ora quella nuova.
+lock_next	Avanti
+lock_unlock	Sblocca
+lock_login	Login
+lock_password	Password
+lock_password_again	Password di nuovo
+lock_password_differs	Le due password sono diverse
+lock_new_password_hint	Scegli una nuova password:
+lock_pattern_draw	Disegna una sequenza di almeno 4 punti
+lock_pattern_again	Disegna di nuovo la stessa sequenza
+lock_pattern_unlock	Disegna la tua sequenza
+lock_pattern_short	Collega almeno 4 punti diversi
+lock_pattern_differs	Le due sequenze sono diverse. Ricomincia.
+lock_error_length	La password deve avere da 4 a 64 caratteri
+lock_error_login	Inserisci un login di 1-32 caratteri
+lock_error_answer	Inserisci una risposta alla domanda
+lock_no_recovery	Non è stata impostata alcuna domanda di sicurezza, quindi non si può recuperare.
+lock_wrong	Sbagliato.
+lock_wrong_answer	La risposta è sbagliata
+lock_blocked	Troppi tentativi errati. Attendi %1$d s.
+lock_blocked_short	Troppi tentativi errati. Attendi un po'.
+lock_forgot	L'ho dimenticata
+plural:lock_tries_left:one	%1$d tentativo rimasto prima di una pausa.
+plural:lock_tries_left:many	%1$d tentativi rimasti prima di una pausa.
+plural:lock_tries_left:other	%1$d tentativi rimasti prima di una pausa.
+home_more_actions	Ordina e importa
+help_blueprint_title	Disegni e progetti
+help_blueprint_body	Un disegno è un foglio su cui dipingi: matita, pennello, gomma, riempimento, qualsiasi colore. Un progetto è fatto di forme (lo strumento Forme: rettangolo, quadrato, ellisse, cerchio, triangolo, rombo, pentagono, esagono, stella, linea, frecce; pieni o no; e testi) che puoi selezionare, spostare, modificare e riempire, e che stanno su livelli. In Modifica tocca «Livelli»: scegli il livello su cui disegnare, nascondi o blocca un livello, spostalo su o giù, rinominalo o eliminalo, aggiungine uno nuovo; una forma si può spostare su un altro livello dal menu ⋮ di quel livello. Un disegno fatto in una versione precedente conserva le sue forme, ma ora si possono solo vedere, non modificare. Entrambi si aprono prima in Vista; ingrandisci con i pulsanti + e − o con due dita e sposta il foglio ingrandito con due dita. Una forma selezionata avanza o arretra di un passo, oppure va subito in primo piano o in secondo piano; un livello sale o scende di un posto, oppure va in cima o in fondo. L’icona di un quadrato riempito a metà nel pannello degli strumenti imposta lo sfondo del foglio: un colore e «Trasparente» con il grado di trasparenza (100 % = nessuno sfondo). L’immagine viene salvata e condivisa con questo sfondo. Una forma scelta ha delle icone: il cestino la elimina, due fogli la duplicano, i quadrati sovrapposti la spostano di un passo avanti o indietro, le frecce verso una linea in primo piano o sullo sfondo. Un livello mostra un occhio (visibile / nascosto) e un lucchetto (bloccato / libero); la pila con il più aggiunge un livello.
+help_zoom_title	Zoom e dimensione del carattere
+help_zoom_body	Le note di testo, le liste e i budget hanno in alto i pulsanti − e +, accanto a Vista e Modifica, e si ingrandiscono anche pizzicando con due dita: le lettere di quella nota diventano più grandi o più piccole; tocca la percentuale per tornare al normale. Nei disegni e nei progetti gli stessi pulsanti ingrandiscono il foglio stesso. Lo zoom resta finché rimani sulla nota. Per tutta l’app scegli una dimensione in Impostazioni → Aspetto → Dimensione del testo; si aggiunge a quella delle impostazioni di sistema. Il foglio di un disegno o di un progetto sta in tutta la nota; il pizzico o − / + lo ingrandiscono o riducono, anche più piccolo dell’area, due dita lo spostano; un tocco sul livello di zoom adatta tutto il foglio alla parte libera. In Modifica il pannello degli strumenti sta sopra il foglio, in basso o a destra (l’icona a cornice sul pannello cambia lato), e l’icona a freccia lo chiude in un pulsante tondo; il foglio non copre mai i pulsanti. L’icona a cornice del pannello degli strumenti imposta la dimensione del foglio: 16:9, 9:16, 4:3, 3:4 o qualsiasi larghezza e altezza in px, mm o cm (150 pixel per pollice); l’immagine resta in alto a sinistra. L’icona della cornice con una fascia sul pannello degli strumenti sceglie dove sta il pannello: in basso, a destra, in alto o a sinistra; la scelta viene ricordata.
+help_sort_title	Ordinamento e nota in evidenza
+help_sort_body	Il menu ⋮ in alto nella schermata principale ha Ordina: note per data di modifica, data di creazione, nome o colore, cartelle secondo il tuo ordine, nome, date o colore, in ordine crescente o decrescente. Le note fissate restano sempre per prime, l’ultima fissata in cima. Con «Il mio ordine» trascini cartelle e note dall’impugnatura a quattro frecce; il menu ⋮ di una scheda cartella la sposta anche prima o dopo. Ogni cartella ricorda il proprio ordinamento delle note.
+help_backgrounds_title	Sfondi
+help_backgrounds_body	Impostazioni → Sfondi permette di dare a tutta l'app, alle schede delle cartelle e a ogni tipo di nota un colore o un'immagine PNG/JPG dal telefono. Un'immagine viene un po' scurita perché il testo resti leggibile; un colore semplice viene usato così com'è, quindi scegline uno adatto al testo (Ripristina riporta quello predefinito). Le immagini restano su questo telefono e non fanno parte di un backup; i colori sì.
+help_reminders_title	Promemoria
+help_reminders_body	L'icona dell'orologio in alto nella schermata principale (o «Promemoria» nel menu ⋮ di una nota) apre i promemoria. Aggiungine uno: scegli la nota, il giorno e l'ora e come attira l'attenzione: una melodia (un suono del telefono o un tuo file audio) con volume e dissolvenza in entrata graduale, vibrazione, popup, richiesta di conferma e ripetizione ogni pochi minuti finché non confermi. «Ripeti come una sveglia» suona ancora X volte ogni N minuti. Un promemoria può tornare ogni giorno, nei giorni della settimana scelti o in un giorno del mese (un mese senza quel giorno viene saltato). Modifica, annulla o elimina un promemoria, oppure tocca Fatto quando aspetta la conferma. Android 13 e successivi chiedono una volta di consentire le notifiche; se il telefono non ha consentito le sveglie esatte, una nota sulla schermata lo spiega e apre l'impostazione, e un promemoria può arrivare con un po' di ritardo. Il promemoria di una nota eliminata viene annullato. L’icona del calendario accanto all’orologio apre un mese con una campanella in ogni giorno che ha un promemoria (uno ripetuto in ciascuno dei suoi giorni); tocca un giorno per vedere i nomi delle sue note in una bolla e in un elenco sotto il mese, tocca un nome per aprire la nota. Le frecce o uno scorrimento cambiano mese, Oggi torna al mese corrente. La lente del calendario cerca promemoria e unioni di budget per nome della nota in tutti i mesi: i risultati sono elencati con la data, un tocco o le frecce mostrano quel giorno. Un promemoria che deve ancora suonare ha un interruttore sulla sua scheda: disattivato conserva orario e impostazioni ma non suona; riattivato torna (uno ripetuto, al suo prossimo giorno). Annulla chiede conferma. Toccare la notifica di un promemoria apre il calendario in quel giorno con il promemoria evidenziato; da lì un tocco apre la nota o l’attività. Le icone della scheda di un promemoria: la spunta è Fatto, la matita lo modifica, la campana barrata lo annulla, il cestino lo elimina (questi due chiedono prima). Dopo l’installazione di Notio tutti i promemoria sono disattivati: attivali con l’interruttore in alto nella pagina Promemoria; anche quando provi ad aggiungere un promemoria Notio lo segnala. Uno squillo ripetuto a cui nessuno risponde tiene acceso lo schermo sempre meno: un minuto, poi 15 secondi, poi 5 secondi; la melodia suona come al solito.
+help_lock_title	Blocco dell'app
+help_lock_body	Impostazioni → Blocco dell'app: scegli una password, una sequenza 3×3 o un login con password. Aggiungi lo sblocco con impronta o volto se il telefono lo supporta: aggiunge solo un modo più rapido, la password o la sequenza restano sempre. Scegli per quanto tempo l'app può restare in background prima di chiedere di nuovo. Il tempo può essere anche qualsiasi valore in minuti e secondi («Altro…»). Se dimentichi il segreto puoi recuperarlo in tre modi, ciascuno facoltativo: rispondendo a una domanda di sicurezza, con un codice inviato per e-mail tramite il tuo server SMTP (l'app non ha un server proprio) o con un codice di un'app di autenticazione (codice QR). Senza alcun metodo un segreto dimenticato non si può recuperare; reinstallare l'app è allora l'unico modo e cancella tutto sul telefono (importa poi un file di backup). Dopo cinque tentativi errati l'app ti fa aspettare, ogni volta di più. Viene conservata solo una forma codificata (hash) del segreto, nella memoria privata dell'app, e mai in un backup. Con il blocco attivo, gli screenshot e l'immagine delle app recenti sono bloccati. La lettera con il codice di recupero porta anche la password del database cifrato e quella dei backup, se questo dispositivo le ha: l’ultima risorsa per riavere i dati. Viene inviata solo quando premi «L'ho dimenticata» e chiedi il codice; poi eliminala.
+channel_reminders_generic	Promemoria
+reminder_sound_default	Suono di notifica predefinito
+reminder_melody	Melodia: %1$s
+reminder_sound_play	Ascolta
+reminder_sound_system	Suoni del telefono…
+reminder_sound_file	Il mio file (mp3…)…
+reminder_sound_reset	Suono predefinito
+reminder_sound_bad_file	Non è stato possibile usare questo file come melodia. Scegli un file audio (mp3, m4a, ogg, wav) fino a 25 MB.
+lock_recovery_choose	Come vuoi rientrare?
+lock_recovery_question_option	Rispondi alla mia domanda di sicurezza
+lock_recovery_email_option	Invia un codice alla mia e-mail
+lock_recovery_totp_option	Usa la mia app di autenticazione
+smtp_code_subject	Notio: il tuo codice di recupero
+smtp_code_body	Il tuo codice di recupero per il blocco dell'app Notio: %1$s\n\nFunziona per %2$d minuti e una sola volta. Se non l'hai richiesto, ignora questo messaggio.
+lock_code_wrong	Il codice è sbagliato
+lock_code_expired	Il codice è scaduto: chiedine uno nuovo
+mail_error_not_configured	L'e-mail non è impostata completamente.
+mail_error_connection	Impossibile connettersi al server di posta. Controlla il nome del server, la porta e la connessione a internet.
+mail_error_timeout	Il server di posta non ha risposto in tempo.
+mail_error_tls	La connessione sicura non è riuscita. Controlla il tipo di crittografia e la porta (587 per STARTTLS, 465 per SSL/TLS).
+mail_error_auth	Il server ha rifiutato il login o la password.
+mail_error_rejected	Il server ha rifiutato il messaggio.
+mail_error_protocol	Il server ha risposto in modo inatteso.
+lock_email_wait	Attendi %1$d s prima di chiedere un altro codice.
+lock_email_intro	Un codice monouso verrà inviato a %1$s.
+lock_email_send	Invia il codice
+lock_email_send_again	Invia un nuovo codice
+lock_email_code	Codice dall'e-mail
+lock_totp_recover_intro	Digita il codice a 6 cifre che la tua app di autenticazione mostra ora.
+lock_totp_code	Codice a 6 cifre
+lock_timeout_custom	Altro…
+lock_timeout_custom_value	%1$d min %2$d s
+lock_timeout_custom_title	Tempo in background
+lock_minutes	Minuti
+lock_seconds	Secondi
+lock_timeout_invalid	Inserisci minuti e secondi: secondi da 0 a 59, al massimo 23 h 59 min 59 s.
+lock_recovery_section	Recupero
+lock_recovery_hint	Modi per rientrare se dimentichi la password: una domanda di sicurezza, un codice inviato alla tua e-mail, un'app di autenticazione. Imposta uno o tutti.
+lock_email_status_on	Il recupero via e-mail è attivo: %1$s
+lock_email_status_off	Il recupero via e-mail non è impostato.
+lock_totp_status_on	Un'app di autenticazione è impostata.
+lock_totp_status_off	Nessuna app di autenticazione è impostata.
+lock_recovery_change	Cambia le opzioni di recupero
+lock_question_change	Domanda di sicurezza…
+lock_email_setup	Recupero via e-mail (SMTP)…
+lock_totp_setup	Imposta un'app di autenticazione…
+lock_totp_manage	App di autenticazione…
+smtp_intro	Il codice viene inviato tramite IL TUO server di posta: l'app non ha un server proprio. Inserisci ciò che il tuo provider di posta fornisce per l'invio (SMTP). La password viene conservata cifrata su questo telefono.
+smtp_host	Server (SMTP), ad es. smtp.example.com
+smtp_security	Crittografia
+smtp_sec_none	Nessuna
+smtp_sec_starttls	STARTTLS
+smtp_sec_ssl	SSL/TLS
+smtp_none_warning	Senza crittografia la password e il codice attraversano la rete in chiaro. Usala solo su una rete fidata o con un server locale.
+smtp_port	Porta
+smtp_user	Login (nome utente)
+smtp_password	Password
+smtp_from	Indirizzo del mittente (lascia vuoto se il login è un indirizzo)
+smtp_to	Invia il codice a (la tua e-mail)
+smtp_invalid	Compila il server, la porta e due indirizzi e-mail validi.
+smtp_test	Invia un'e-mail di prova
+smtp_test_ok	Il messaggio di prova è stato inviato. Controlla la tua casella di posta.
+smtp_test_subject	Notio: messaggio di prova
+smtp_test_body	Questo è un messaggio di prova da Notio by vibic. Se riesci a leggerlo, il recupero via e-mail del blocco dell'app funziona.
+smtp_remove	Rimuovi
+lock_totp_account	blocco dell'app
+lock_totp_title	App di autenticazione
+lock_totp_replace_hint	Una chiave è già impostata. Salvarne una nuova la sostituisce.
+lock_totp_scan	Scansiona questo codice QR con un'app di autenticazione (Google Authenticator, Microsoft Authenticator, Aegis…) oppure digita la chiave a mano, poi inserisci il codice a 6 cifre mostrato dall'app.
+lock_totp_remove	Rimuovi
+reminder_error_recurrence	Scegli almeno un giorno della settimana oppure un giorno del mese da 1 a 31
+reminder_error_sound	Il volume deve essere tra 10 e 100 % e la dissolvenza in entrata al massimo di 5 minuti
+rem_volume	Volume: %1$d %%
+rem_volume_hint	Relativo al volume della sveglia del telefono.
+rem_ramp_title	Melodia in dissolvenza in entrata per
+rem_ramp_off	No
+rem_ramp_secs	%1$d s
+rem_extra_title	Ripeti come una sveglia
+rem_extra_hint	Dopo il primo squillo il promemoria suona di nuovo questo numero di volte, ogni pochi minuti, a meno che tu non lo confermi. 0 = nessuno squillo in più.
+rem_extra_count	Altri squilli (x)
+rem_extra_every	Ogni (min)
+rem_repeat_title	Ritorna
+rem_rec_none	Una volta
+rem_rec_daily	Ogni giorno
+rem_rec_weekdays	Nei giorni scelti
+rem_rec_monthly	Ogni mese
+rem_month_day	Giorno del mese (1-31)
+rem_month_skip_hint	Un mese che non ha questo giorno viene saltato (il 31 salta aprile, il 30 salta febbraio).
+reminder_extra_short	+%1$d squilli ogni %2$d min
+reminder_recurs_daily	ogni giorno
+reminder_recurs_weekly	il %1$s
+reminder_recurs_monthly	il giorno %1$d di ogni mese
+reminder_action_silence	Silenzia

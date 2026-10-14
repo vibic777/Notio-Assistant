@@ -1,0 +1,156 @@
+lock_method_pin	PIN 코드
+lock_pin	PIN 코드
+lock_pin_again	PIN 코드 다시 입력
+lock_pin_enter	PIN 코드를 입력하세요
+lock_pin_choose	PIN 코드를 정하세요 (4-8자리)
+lock_pin_confirm	확인을 위해 다시 입력하세요
+lock_attempts_title	오답 시도 정책
+lock_attempts_hint	앱이 대기시키기 전까지 몇 번의 오답 시도가 무료인지, 그 대기 시간이 처음에 얼마나 되는지, 오답 시도가 계속되면 어떻게 되는지입니다.
+lock_free_tries	무료 시도 횟수
+lock_base_wait	첫 대기 시간(초)
+lock_max_attempts	한도 (0 = 꺼짐)
+lock_max_attempts_hint	아래 선택이 적용되기까지 연속 오답 시도의 총 횟수입니다. 0이면 한도 없음: 위의 대기 시간만 계속 적용됩니다.
+lock_lockout_mode_title	한도 초과 후
+lock_lockout_recovery	추측 차단, 복구만 허용
+lock_lockout_wipe	앱 데이터 지우기
+lock_lockout_wipe_active_warning	오답 시도가 너무 많으면 이 휴대폰의 모든 Notio 데이터가 지워집니다. 되돌릴 수 없습니다.
+lock_attempts_saved	저장됨
+lock_wipe_confirm_title	오답 시도가 너무 많으면 데이터를 지울까요?
+lock_wipe_confirm_message	이 옵션을 켜면 위 한도에 도달하는 즉시 이 휴대폰의 모든 폴더, 메모, 설정이 지워집니다 — 추가 경고 없이 즉시, 되돌릴 수 없습니다. 이를 이해하고 정말로 원할 때만 켜세요.
+lock_wipe_confirm_field	확인하려면 %1$s 을(를) 입력하세요
+lock_wipe_confirm_button	지우기 켜기
+lock_wipe_confirm_phrase	지우기
+lock_locked_out	오답 시도가 너무 많습니다. 아래 「잊어버렸어요」로 다시 들어가세요.
+lock_wiped	오답 시도가 너무 많아 이 휴대폰의 Notio 데이터가 지워졌습니다.
+settings_db_encryption	데이터베이스 암호화
+settings_db_encryption_hint	이 휴대폰의 데이터베이스 파일 전체를 암호화합니다. 켜거나 끄면 파일을 그 자리에서 변환합니다. 데이터는 사라지지 않지만, 이후 앱을 다시 시작해야 합니다.
+db_encryption_enable	데이터베이스 암호화
+db_encryption_password_field	데이터베이스 비밀번호
+db_encryption_password_warning	앱이 이 비밀번호를 직접 생성해 복사할 수 있도록 여기에 보관합니다. 이것이 없으면 내보낸 데이터베이스 파일이나, 이 앱의 키가 없는 휴대폰에 있는 같은 파일을 열 수 없습니다.
+db_encryption_copied	비밀번호를 복사했습니다
+db_encryption_copy_error	오류 텍스트 복사
+db_encryption_error_copied	오류 텍스트를 복사했습니다
+db_encryption_email_button	비밀번호를 이메일로 보내기
+db_encryption_email_confirm_title	데이터베이스 비밀번호를 이메일로 보낼까요?
+db_encryption_email_confirm_message	비밀번호는 설정 → 앱 잠금 → 이메일 복구 에 지정된 복구 주소 %1$s(으)로 평문으로 전송됩니다. 그 메일함에 접근할 수 있는 사람은 누구나 암호화된 데이터를 읽을 수 있게 됩니다.
+db_encryption_email_not_configured	먼저 이메일 복구를 설정하세요: 설정 → 앱 잠금 → 이메일 복구 (SMTP).
+db_encryption_email_sent	비밀번호를 이메일로 보냈습니다
+db_encryption_mail_subject	Notio 데이터베이스 비밀번호
+db_encryption_mail_body	이것은 이 휴대폰의 Notio 데이터베이스를 암호화하는 비밀번호입니다:\n\n%1$s\n\n안전하게 보관하세요. 이것이 없으면 복사하거나 내보낸 데이터베이스 파일을 열 수 없습니다.
+db_encryption_enable_failed	데이터베이스를 암호화하지 못했습니다. 아무것도 변경되지 않았습니다.
+db_encryption_disable_failed	데이터베이스 암호를 해제하지 못했습니다. 아무것도 변경되지 않았습니다.
+db_encryption_busy_title	데이터베이스 변환 중
+db_encryption_busy_message	잠시 시간이 걸릴 수 있습니다. 이 창이 사라질 때까지 앱을 닫지 마세요.
+db_encryption_restart_title	다시 시작이 필요합니다
+db_encryption_restart_message	데이터베이스가 변환되었습니다. 사용하려면 Notio를 다시 시작해야 합니다.
+db_encryption_restart_now	지금 다시 시작
+db_encryption_confirm_on_title	데이터베이스를 암호화할까요?
+db_encryption_confirm_on_message	데이터베이스 파일이 그 자리에서 변환되며 데이터는 사라지지 않습니다. 이전 버전의 앱이나 일반 SQLite 도구는 더 이상 이 파일을 직접 열 수 없지만, 위의 “내보내기”로 만든 백업은 어떤 버전에서도 계속 열립니다. 앱이 다시 시작됩니다.
+db_encryption_confirm_off_title	데이터베이스 암호화를 끌까요?
+db_encryption_confirm_off_message	데이터베이스 파일이 원래의 일반 형식으로 되돌아가며 데이터는 사라지지 않습니다. 앱이 다시 시작됩니다.
+db_file_transfer_hint	데이터베이스 파일을 그대로 내보내거나 다른 휴대폰의 파일로 교체합니다. 위의 백업과 달리 이 파일은 Notio에서만 열립니다. 암호화가 꺼져 있으면 일반 파일이고, 켜져 있으면 위의 비밀번호가 필요합니다.
+db_file_export	데이터베이스 파일 내보내기
+db_file_export_done	데이터베이스 파일을 내보냈습니다
+db_file_export_failed	데이터베이스 파일을 내보내지 못했습니다
+db_file_import	데이터베이스 파일 가져오기
+db_file_import_confirm_title	모든 데이터를 바꿀까요?
+db_file_import_confirm_message	데이터베이스 파일을 가져오면 이 휴대폰에 있는 모든 폴더, 노트, 설정이 지금 있는 것으로 교체됩니다. 되돌릴 수 없습니다. 파일이 암호화되어 있으면 아래에서 비밀번호를 물어봅니다.
+db_file_import_failed	Notio 데이터베이스 파일이 아니거나 손상되었습니다.
+action_copy	복사
+action_continue	계속
+action_later	나중에
+transfer_error_too_large	백업이 너무 커서 이 기기의 메모리로 열 수 없습니다. 아무것도 변경되지 않았습니다.
+drawing_bg	용지 배경
+drawing_bg_color	색
+drawing_bg_transparent	투명
+drawing_bg_transparency	투명도: %1$d%%
+drawing_bg_note	100 %는 배경이 전혀 없음: 그림은 투명한 PNG로 저장되고 공유됩니다. 배경은 그림 아래에 있어 지우개로 다시 보이고, 채우기는 빈 용지를 채웁니다.
+status_title_tasks	작업
+status_tasks	작업: %1$d · 진행 중: %2$d
+status_tasks_overdue	기한 지남: %1$d
+reminders_cancel_title	알림을 취소할까요?
+reminders_cancel_message	「%1$s」: 알림이 더 이상 울리지 않고 완료된 항목으로 이동합니다. 되돌릴 수 없습니다. 다시 사용하려면 「편집」에서 새 시간을 정하세요.
+reminders_cancel_keep	유지
+reminder_switch_on	알림 켜기
+reminder_switch_off	알림 끄기
+reminder_status_off	꺼짐
+budget_show_amounts	숨긴 금액 보기
+budget_hide_amounts	금액 다시 숨기기
+budget_layout_hide_sums	합계 숨기기 (눈을 누를 때까지 별표)
+budget_layout_hide_goals	목표 숨기기 (눈을 누를 때까지 별표)
+zoom_out_cd	축소
+zoom_in_cd	확대
+zoom_level_cd	배율 %1$d%%, 누르면 기본 크기
+tags_add_tag	태그 추가
+tags_add_confirm	추가
+tags_created	태그 「%1$s」 추가됨
+settings_card_tint	카드 색
+settings_card_tint_hint	메모와 폴더 카드가 색을 얼마나 진하게 보여줄지. 글자는 읽기 쉽도록 저절로 밝거나 어두워집니다.
+settings_card_tint_value	진하기: %1$d%%
+settings_card_tint_sample	메모
+settings_card_tint_sample_line	카드는 이렇게 보입니다
+folder_ready_notes	폴더
+folder_ready_tasks	작업
+units_rename_title	단위 이름 바꾸기
+units_renamed	단위 이름을 바꿨습니다: %1$s
+currencies_rename_title	통화 이름 바꾸기
+currencies_renamed	「%1$s」(으)로 이름을 바꿨습니다
+comment_add_cd	메모 추가
+sync_address_line	주소: %1$s
+sync_address_unknown	주소: 아직 모름
+sync_address_edit	주소…
+sync_address_title	「%1$s」의 주소
+sync_address_host	IP 주소 또는 이름
+sync_address_port	포트
+sync_address_invalid	192.168.1.153 같은 IP 주소(또는 기기 이름)와 1~65535 포트를 입력하세요.
+sync_address_hint	Wi-Fi가 상대 기기에 새 주소를 주어 저절로 찾지 못하면, 상대 기기의 「동기화」 페이지 위에 보이는 주소와 포트를 입력하세요. 연결은 그대로입니다: 키는 바뀌지 않고, 그 주소에 키가 없는 기기는 거부되므로 아무것도 보내지 않습니다.
+sync_address_saved	주소를 저장했습니다: %1$s
+drawing_tools_top	도구 위쪽
+drawing_tools_left	도구 왼쪽
+drawing_tools_side	도구 위치
+budget_log_undo	취소
+budget_log_was_undone	취소됨
+budget_log_undo_title	이 변경을 취소할까요?
+budget_log_undo_message	변경은 그 차이만큼 되돌려집니다: 그 뒤에 한 변경은 그대로 남습니다.
+budget_log_undo_added_message	항목이나 그룹이 지금 안에 있는 모든 것과 함께 삭제됩니다.
+budget_log_undo_failed	이 변경은 더 이상 취소할 수 없습니다: 항목이 없거나 값이 범위를 벗어납니다.
+budget_log_op_undone_value	취소됨: 「%1$s」 %2$s → %3$s
+budget_log_op_undone_rename	취소됨: 이름 「%1$s」(으)로 돌아감
+budget_log_op_undone_added	취소됨: 「%1$s」 다시 삭제됨
+help_tasks_title	작업: 상태와 우선순위
+help_tasks_body	작업 폴더에서는 모든 작업에 상태가 있습니다: 생성됨, 대기열, 계획됨, 진행 중, 일시 중지, 연기됨, 대기 중, 검토 중, 완료, 닫힘, 취소됨. 상태는 아이콘이 있는 버튼으로, 작업 카드와 보기, 편집에 있습니다. 눌러서 목록에서 선택하세요. 완료, 닫힘, 취소됨은 작업을 끝내며 더 이상 기한 초과가 아닙니다. 상태 옆에는 우선순위가 있습니다: 0~65535의 정수(숫자만) 또는 비워 둠. 작업 폴더의 정렬에는 상태와 우선순위가 있습니다. 작업 위의 칩은 선택한 상태의 작업만 남기며, 같은 칩이 노트 검색에도 있습니다. 상태 옆의 체크는 ‘완료’입니다. 작업 카드, 보기, 편집 어디에나 있습니다. 체크하면 작업이 ‘완료됨’이 되고, 해제하면 이전 상태로 돌아갑니다. 작업 위와 노트 검색의 ‘미완료’와 ‘완료’ 칩은 해당 작업만 남기며, 작업 폴더 정렬에는 ‘완료’가 있어 미완료 작업이 먼저 옵니다. 이 두 칩은 아이콘입니다. 빈 상자는 “미완료”, 체크된 상자는 “완료”이며, 글자는 아이콘의 도움말로 나타납니다. 작업 줄 끝의 휴지통(카드와 보기 화면)은 작업을 삭제합니다. 먼저 물어본 뒤 작업이 휴지통으로 이동하며, 거기서 복원할 수 있습니다. 옆의 종이 두 장 아이콘은 작업을 텍스트로 복사합니다.
+help_income_title	반복되는 수입과 지출
+help_income_body	수입 또는 지출은 편집에서 설정한 시각에 계정으로 병합됩니다. ‘반복’에서 빈도를 선택합니다: 한 번, 매일, 매주(선택한 요일), 매월, 매년. 반복되는 병합은 폴더에 남아 다음 시각을 기다립니다. 해당 날짜가 없는 달은 마지막 날에 병합됩니다. Notio가 닫혀 있는 동안 지난 일정은 다음 실행 때 병합됩니다. ‘지금 병합’은 즉시 병합하며 일정을 옮기지 않습니다. 두 개의 체크로 이름의 대소문자 구분 여부를 정합니다: 켜면 ‘Cash’와 ‘cash’는 같은 항목 또는 그룹이고, 끄면 서로 다릅니다.
+budget_merge_repeat	반복
+budget_merge_repeat_none	한 번
+budget_merge_repeat_daily	매일
+budget_merge_repeat_weekly	매주
+budget_merge_repeat_monthly	매월
+budget_merge_repeat_yearly	매년
+budget_merge_repeat_hint	위의 시각부터 같은 시각에 반복해서 병합되며 폴더에 그대로 남습니다. 해당 날짜가 없는 달은 마지막 날에 병합됩니다. Notio가 닫혀 있는 동안 지난 일정은 다음 실행 때 병합됩니다.
+budget_merge_case_items	항목 이름의 대소문자 무시 (Cash = cash)
+budget_merge_case_groups	그룹 이름의 대소문자 무시
+task_state	상태
+task_state_created	생성됨
+task_state_queued	대기열
+task_state_planned	계획됨
+task_state_in_progress	진행 중
+task_state_paused	일시 중지
+task_state_postponed	연기됨
+task_state_waiting	대기 중
+task_state_review	검토 중
+task_state_done	완료
+task_state_closed	닫힘
+task_state_cancelled	취소됨
+task_priority	우선순위
+task_priority_value	우선순위: %1$s
+task_priority_hint	0~65535의 정수, 숫자만 입력합니다. 비우면 우선순위 없음.
+sort_key_status	상태
+sort_key_priority	우선순위
+sync_service_channel	동기화 대기
+sync_service_title	동기화 대기 중
+sync_service_text	Notio가 연결된 기기의 동기화를 기다립니다.
+sync_service_off	끄기
+sync_question_channel	동기화 요청
+sync_question_title	%1$s 기기가 동기화를 요청합니다
+sync_question_text	탭하여 Notio에서 응답하세요.

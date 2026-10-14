@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The name of the app as the phone shows it (D355): under the icon, in the list of apps, in the settings. The phone takes it
+     by its own language; only Russian has a name of its own, every other language shows this one. Inside the app the name is
+     app_name. -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_label" tools:ignore="MissingTranslation">Notio by vibic</string>
+</resources>

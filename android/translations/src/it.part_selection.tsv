@@ -1,0 +1,7 @@
+media_select	Seleziona
+media_select_all	Seleziona tutto
+media_clear_selection	Deseleziona
+media_delete_selected	Elimina (%1$d)
+media_selected_count	Selezionati: %1$d di %2$d
+media_delete_many_title	Eliminare gli elementi selezionati?
+media_delete_many_message	%1$d elementi selezionati andranno nel cestino; da lì potrai recuperarli.

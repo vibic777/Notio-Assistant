@@ -1,0 +1,6 @@
+rec_limit_change	이번 녹음·녹화만 변경
+rec_limit_once_title	이번 녹음·녹화 제한
+rec_limit_once_hint	다음 녹음·녹화에만 적용되고 이후에는 다시 설정 → 녹음·녹화를 따릅니다. 0 = 중지할 때까지.
+rec_limit_once_line	%1$s 후 자동으로 멈춥니다(이번만)
+rec_limit_once_none	중지할 때까지(이번만)
+rec_limit_back	설정과 같게

@@ -1,0 +1,6 @@
+rec_limit_change	この録音・録画だけ変更
+rec_limit_once_title	この録音・録画の上限
+rec_limit_once_hint	次の録音・録画だけに使い、その後は再び「設定 → 録音・録画」。0 = 停止まで。
+rec_limit_once_line	%1$s 後に自動で停止（今回のみ）
+rec_limit_once_none	停止まで（今回のみ）
+rec_limit_back	設定のとおり

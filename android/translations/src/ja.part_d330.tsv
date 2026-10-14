@@ -1,0 +1,5 @@
+budget_item_merge	ほかの項目に統合…
+budget_item_merge_hint	項目「%1$s」は削除されます。下で選んだ項目が残り、ここでオンにしたものを受け取ります。
+budget_item_merge_into	残す項目
+budget_item_merge_confirm	統合
+budget_log_item_merged	項目「%1$s」を「%2$s」に統合

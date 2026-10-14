@@ -1,0 +1,5 @@
+budget_delete_restorable	Se puede restaurar desde el registro del presupuesto.
+budget_log_restore	Restaurar
+budget_log_was_restored	Restaurado
+budget_log_restored	«%1$s» restaurado
+budget_log_restore_failed	No se puede restaurar: ya está en el presupuesto.

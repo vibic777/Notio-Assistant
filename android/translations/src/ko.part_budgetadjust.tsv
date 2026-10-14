@@ -1,0 +1,8 @@
+budget_adjust	금액 변경
+budget_adjust_current	현재 금액: %1$s
+budget_adjust_add	더하기
+budget_adjust_subtract	빼기
+budget_adjust_amount	금액
+budget_adjust_invalid	0보다 큰 금액을 소수점 두 자리까지 입력하세요
+budget_adjust_result	변경 후: %1$s
+budget_adjust_per_piece	이 항목은 %1$d번 반복됩니다. 변경은 1개당 금액에 적용됩니다.

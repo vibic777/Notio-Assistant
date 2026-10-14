@@ -1,0 +1,49 @@
+assistant_title	Assistente
+assistant_hint	Notio guidato a parole tramite un tuo modello (ad esempio LM Studio). Disattivato finché non lo attivi; finché è disattivato, nell’app non c’è alcun assistente.
+assistant_setup	Configura l’assistente
+assistant_connection	Connessione
+assistant_url	Indirizzo del modello
+assistant_url_hint	L’indirizzo completo con la porta, ad esempio http://127.0.0.1:1234/v1
+assistant_key	Chiave, se il server la richiede
+assistant_check	Verifica
+assistant_check_ok	Connesso. Modelli: %1$d
+assistant_model	Modello
+assistant_place_this	Questo computer: il testo delle note non lo lascia.
+assistant_place_home	Rete domestica: il testo delle note va in rete a un altro tuo computer, senza cifratura.
+assistant_place_outside	Servizio esterno: il testo delle note lascia i tuoi dispositivi. Riceve solo le note con «Consentito a un modello esterno».
+assistant_rights	Permessi dell’assistente
+assistant_rights_hint	Ciò che l’assistente può fare in generale. Niente, finché non lo consenti.
+assistant_rights_all_on	Consenti tutto
+assistant_rights_all_off	Vieta tutto
+assistant_right_read	Leggere: elenchi, ricerca, testo
+assistant_right_create	Creare note
+assistant_right_edit	Modificare testo e titolo
+assistant_right_move	Spostare e ordinare
+assistant_right_trash	Spostare nel cestino
+assistant_right_screen	Aprire cartelle e note sullo schermo
+assistant_rights_never	Mai concesso, qualunque cosa sia attivata: i suoi stessi permessi, l’accesso alle note, il blocco e le password, la cifratura, l’abbinamento dei dispositivi, lo svuotamento del cestino.
+assistant_access	Accesso alle note
+assistant_access_hint	Una nota o una cartella in cui l’assistente non è ammesso per lui non esiste: non è elencata, né trovata, né contata. Tutto è chiuso finché non lo apri.
+assistant_access_external	Consentito a un modello esterno
+assistant_access_apply	Applica a tutte le note
+assistant_access_applied	Note modificate: %1$d
+assistant_access_count	Aperte: %1$d di %2$d
+assistant_access_notes	Note della cartella
+assistant_journal	Registro dell’assistente
+assistant_journal_hint	Ogni richiesta che ha cambiato qualcosa, con lo stato precedente. «Ripristina» rimette a posto le note e sposta nel cestino ciò che l’assistente ha creato.
+assistant_journal_empty	Ancora niente.
+assistant_rollback	Ripristina
+assistant_rolled_back	Ripristinato
+assistant_rollback_conflict	Hai modificato queste note dopo l’assistente: %1$s. Il ripristino sovrascriverà le tue modifiche.
+assistant_rollback_force	Ripristina comunque
+assistant_journal_clear	Svuota il registro
+assistant_chat	Chat con l’assistente
+assistant_chat_field	Scrivi cosa fare
+assistant_send	Invia
+assistant_stop	Ferma
+assistant_working	Il modello sta lavorando…
+assistant_changed	Note modificate: %1$d
+assistant_not_ready	Prima inserisci l’indirizzo e scegli un modello: Impostazioni → Assistente → Connessione.
+assistant_no_rights	All’assistente non è ancora consentito nulla: Impostazioni → Assistente → Permessi.
+help_assistant_title	Assistente
+help_assistant_body	L’assistente permette di guidare Notio a parole tramite un modello che gira sul tuo computer, ad esempio LM Studio. È disattivato finché non lo attivi in Impostazioni → Assistente. Connessione: l’indirizzo completo del modello con la porta e, se il server la richiede, una chiave; «Verifica» mostra se il server risponde e quali modelli ha. Permessi: ciò che l’assistente può fare in generale — leggere, creare note, modificare il testo, spostare e ordinare, spostare nel cestino; nulla è consentito finché non lo spunti. Accesso alle note: una cartella o una nota è aperta all’assistente solo quando attivi il suo interruttore; ciò che è chiuso per lui non esiste. «Applica a tutte le note» assegna la scelta della cartella a ogni sua nota. La chat è il pulsante in alto nella schermata principale: scrivi cosa fare; sotto una risposta che ha cambiato qualcosa c’è «Ripristina». Il registro conserva ogni richiesta di questo tipo con lo stato precedente; «Ripristina» rimette a posto le note e sposta nel cestino ciò che l’assistente ha creato. L’assistente non elimina mai nulla definitivamente e non modifica mai i propri permessi, l’accesso alle note, il blocco o le password. Un modello può sbagliare, quindi controlla ciò che ha fatto. I permessi riguardano anche tag, colore e fissaggio, le voci di un elenco, lo stato e le date di un’attività, gli importi di un budget, i promemoria, le cartelle, l’aspetto e alcune impostazioni dell’app. L’assistente si ferma e attende il tuo sì prima di modificare più di cinque note in una sola richiesta e prima di qualsiasi importo di un budget: premi «Conferma e continua». Il menu di una nota e di una cartella ha «Apri all’assistente» e «Chiudi all’assistente». Bot Telegram: il tuo bot, che gira dentro Notio su questo computer. Incolla la sua chiave da @BotFather, invia al bot il codice mostrato da Notio e ascolterà solo te; dagli permessi propri in «Permessi da Telegram» e contrassegna le note che può vedere con «Consentito in Telegram». In Telegram, /undo ripristina la sua ultima modifica e /yes conferma. «Promemoria su Telegram» su una nota invia al bot il titolo della nota quando il suo promemoria suona. Le parole che scambi con il bot passano per i server di Telegram. Chi ascolta il bot lo decide Notio, non Telegram: il numero dell’account Telegram che ha inviato il codice, che un nuovo nome non cambia. Il codice vale dieci minuti e si brucia dopo cinque tentativi errati; «Nuovo codice» ne dà un altro. La pagina mostra nome e numero dell’account collegato e quanti estranei hanno scritto. «Permessi da Telegram» ha «Consenti tutto» e «Vieta tutto». La chat resta dopo il riavvio, a meno che non disattivi «Conserva la chat dopo il riavvio». Porta il mouse su un messaggio per copiarlo o eliminarlo; «Svuota la chat» elimina tutti i messaggi, mentre le note e il registro restano. Se il tuo programma bot (TelegramBot) legge già il bot, scegli «Tramite il tuo programma bot»: Notio crea un codice di 12 caratteri con Mostra, Nascondi, Copia e Nuovo codice; l’amministratore del bot lo inserisce in /admin, poi Notio; le persone scrivono /notio con il codice, poi /n e una richiesta, e il bot risponde solo a chi spunti in Notio.

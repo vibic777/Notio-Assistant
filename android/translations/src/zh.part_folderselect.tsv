@@ -1,0 +1,3 @@
+home_delete_many_title	删除所选笔记？
+home_delete_many_message	已选笔记：%1$d。它们将移入回收站，可从那里恢复。
+home_notes_moved_to_trash	已移入回收站：%1$d。可通过顶部的回收站图标恢复。

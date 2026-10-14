@@ -1,0 +1,95 @@
+# Gradle and Kotlin local state
+.gradle/
+.android/
+.kotlin/
+.m2/
+.pdfbox.cache
+**/build/
+
+# Local machine configuration and signing secrets
+local.properties
+**/local.properties
+keystore.properties
+**/keystore.properties
+*.jks
+*.keystore
+
+# Generated delivery artifacts
+/dist/
+*.apk
+*.exe
+*.msi
+*.zip
+*.idsig
+
+# Local runtime state a build or a training run of the desktop app leaves in the repository root
+.skiko/
+.appdata/
+.localappdata/
+
+# Private notes of the owner (signing-key memo etc.): never published
+/private/
+
+# What is carried to another machine (tools/make_transfer.sh): the history as a bundle, the private notes, perhaps a key
+/transfer/
+*.deb
+*.tar.gz
+*.bundle
+*.bin
+*.AppImage
+
+# More secret and signing material (never commit)
+*.p12
+*.pfx
+*.pem
+*.key
+*.p8
+*.der
+*.mobileprovision
+*.dpapi
+*.aab
+secrets.properties
+signing.properties
+google-services.json
+GoogleService-Info.plist
+client_secret*.json
+credentials*.json
+service-account*.json
+.env
+.env.*
+!.env.example
+secrets/
+/windows/private/
+id_rsa*
+id_ed25519*
+.npmrc
+# Local secrets, signing material, and private runtime data
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.template
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+local.properties
+credentials/
+secrets/
+*credentials*.json
+*secret*.json
+*.sqlite*
+*.db
+*.db-*
+*.session
+*.session-journal
+.vscode/
+.idea/workspace.xml
+.idea/tasks.xml
+!credentials*.example.json
+!*credentials*.example.json
+!*secret*.example.json

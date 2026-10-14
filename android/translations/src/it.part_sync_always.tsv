@@ -1,0 +1,4 @@
+sync_always	Sempre pronto per la sincronizzazione
+sync_always_hint	Notio attende una sincronizzazione finché è in esecuzione, anche nell’area di notifica: un altro dispositivo associato può sincronizzare quando serve.
+sync_always_hint_phone	Il telefono attende una sincronizzazione sempre, anche quando Notio non è sullo schermo; durante l'attesa resta una notifica. Una sincronizzazione impostata in anticipo sull'altro dispositivo viene accettata senza domande; quella che chiede conferma appare come notifica. Un telefono in sospensione profonda risponde al risveglio. L'attesa consuma un po' di batteria. Finché Notio non è sullo schermo, il telefono non si annuncia sulla rete, per risparmiare batteria: un dispositivo associato lo raggiunge con l’indirizzo dell’ultima sincronizzazione; se l’indirizzo del telefono è cambiato, apri Notio una volta sul telefono.
+sync_listening_always	Pronto per la sincronizzazione: %1$s

@@ -1,0 +1,5 @@
+budget_delete_restorable	Вярнуць можна ў журнале бюджэту.
+budget_log_restore	Аднавіць
+budget_log_was_restored	Адноўлена
+budget_log_restored	Адноўлена: «%1$s»
+budget_log_restore_failed	Аднавіць нельга: гэта ўжо ёсць у бюджэце.

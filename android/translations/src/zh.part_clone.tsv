@@ -1,0 +1,4 @@
+action_clone	克隆
+note_clone_suffix	_克隆%1$d
+note_cloned	已创建克隆：“%1$s”
+error_clone_failed	无法克隆该笔记

@@ -1,0 +1,5 @@
+assistant_chat_keep	重启后保留聊天
+assistant_chat_keep_hint	聊天保存在这台电脑上的 Notio 数据库中，与笔记一起加密，不会进入备份和同步。保留最新的 500 条消息。模型记得聊天的最后 20 条消息，因此删除的消息它也会忘记。关闭此项后，已保存的聊天会被删除。
+assistant_chat_clear	清空聊天
+assistant_chat_clear_ask	聊天中的所有消息都将被删除，且无法恢复。笔记和助手的日志会保留：它所做的更改仍可在那里回滚。
+assistant_chat_delete	删除消息

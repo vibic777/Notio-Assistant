@@ -1,0 +1,10 @@
+reminder_action_snooze	Ripeti tra %1$d min
+alarm_dismiss	Disattiva
+alarm_open_note	Apri nota
+reminder_snoozed_until	Posticipata fino a %1$s
+settings_alarm	Sveglia dei promemoria
+settings_alarm_hint	Un promemoria accende lo schermo e mostra i pulsanti Posticipa e Ignora sopra la schermata di blocco, come una sveglia.
+settings_snooze	Durata del rinvio
+settings_snooze_minutes	%1$d min
+settings_fullscreen_hint	Il telefono non consente a Notio di aprire la sveglia sopra la schermata di blocco. Consentilo nelle impostazioni dell’app, altrimenti comparirà solo la notifica.
+settings_fullscreen_open	Consenti la schermata della sveglia

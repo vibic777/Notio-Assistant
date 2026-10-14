@@ -1,0 +1,9 @@
+search_err_at	Errore nell’espressione, carattere %1$d: %2$s
+search_err_nothing_to_repeat	«%1$s» ripete ciò che lo precede, e lì non c’è nulla. Per il segno stesso scrivi \\%1$s, per «qualsiasi carattere» .*
+search_err_unclosed_group	questa «(» non è chiusa: aggiungi «)» oppure, per la parentesi stessa, scrivi \\(
+search_err_unmatched_close	questa «)» non ha una «(»: toglila oppure, per la parentesi stessa, scrivi \\)
+search_err_unclosed_class	questa «[» non è chiusa: aggiungi «]» oppure, per la parentesi stessa, scrivi \\[
+search_err_bad_brace	«{» deve essere un numero come {2} o {1,3}; per la graffa stessa scrivi \\{
+search_err_trailing_backslash	«\\» alla fine non è seguito da nulla; per una barra rovesciata scrivi \\\\
+search_err_bad_range	l’intervallo %1$s va all’indietro: scrivilo dalla lettera o cifra minore, come a-z o 0-9
+search_err_other	il telefono non riesce a leggere questa espressione; controlla le parentesi e i segni * + ? { } vicino a questo punto

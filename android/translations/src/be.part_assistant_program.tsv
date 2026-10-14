@@ -1,0 +1,17 @@
+assistant_telegram_mode_direct	Notio сам чытае бота па ключы
+assistant_telegram_mode_program	Праз вашу праграму-бот (TelegramBot)
+assistant_telegram_program_url	Адрас праграмы-бота
+assistant_telegram_program_code	Код гэтага Notio для бота
+assistant_telegram_program_show	Паказаць код
+assistant_telegram_program_hide	Схаваць код
+assistant_telegram_program_hint	Ваша праграма-бот чытае Telegram, а Notio падключаецца да яе па гэтым кодзе. 1) У боце адміністратар адкрывае /admin → Notio → «Увесці код Notio» і адпраўляе гэты код. 2) Тут націсніце «Праверыць» — з’явіцца імя бота. 3) Чалавек піша боту /notio і гэты код, потым /n і даручэнне; /n_undo адкочвае, /n_yes пацвярджае. 4) Чалавек з’явіцца ніжэй — адзначце яго, каб дазволіць. Адрас — адрас праграмы: на гэтым камп’ютары http://127.0.0.1:8790; у хатняй сетцы або праз VPN — адрас таго камп’ютара. Паміж Notio і праграмай словы ідуць без шыфравання, таму толькі ў сваім камп’ютары або сетцы.
+assistant_telegram_program_new_ask	Стары код адразу перастане працаваць: бот не пусціць гэты Notio, пакуль адміністратар не ўвядзе новы код у /admin → Notio, а людзі не напішуць /notio з новым кодам. Спіс дазволеных людзей захаваецца.
+assistant_telegram_people	Хто пісаў праз бота
+assistant_telegram_people_hint	Ведаць код мала: бот адказвае толькі тым, хто адзначаны тут. Чалавек, які даслаў /notio з кодам, з’яўляецца тут і чакае. Нумар акаўнта дае Telegram, і ён не мяняецца разам з імем.
+assistant_telegram_people_none	Пакуль ніхто не пісаў.
+assistant_telegram_person	%1$s (нумар %2$s)
+assistant_telegram_person_allowed	Дазволены: бот адказвае
+assistant_telegram_person_waits	Просіць доступ: адзначце, каб дазволіць
+assistant_telegram_person_remove	Прыбраць
+assistant_bot_pending	Notio пакуль вас не дазволіў. Ваш запыт доступу паказаны ў Notio: яго ўладальнік адзначыць вас там — тады напішыце зноў.
+assistant_bot_help_relay	Напішыце /n і што зрабіць з нататкамі, напрыклад: /n пакажы нататкі папкі Праца. /n_undo адкочвае маю апошнюю змену. /n_yes пацвярджае тое, што чакае вашага «так».

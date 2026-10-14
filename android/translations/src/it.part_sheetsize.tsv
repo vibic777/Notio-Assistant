@@ -1,0 +1,11 @@
+drawing_sheet_size	Dimensione del foglio
+drawing_sheet_width	Larghezza
+drawing_sheet_height	Altezza
+drawing_sheet_pixels	= %1$d × %2$d px
+drawing_sheet_too_small	Almeno %1$d px per lato.
+drawing_sheet_too_large	Troppo grande: al massimo %1$d px per lato e %2$d × %3$d px in tutto.
+drawing_sheet_ppi	mm e cm a %1$d pixel per pollice.
+drawing_sheet_note	L’immagine resta in alto a sinistra: un foglio più grande aggiunge spazio vuoto, uno più piccolo taglia il disegno che esce (le forme di un livello vettoriale restano). I passi di annullamento del livello di disegno fin qui vi vengono fusi.
+drawing_unit_px	px
+drawing_unit_mm	mm
+drawing_unit_cm	cm

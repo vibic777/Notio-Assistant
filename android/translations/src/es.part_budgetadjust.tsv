@@ -1,0 +1,8 @@
+budget_adjust	Cambiar la suma
+budget_adjust_current	Suma actual: %1$s
+budget_adjust_add	Sumar
+budget_adjust_subtract	Restar
+budget_adjust_amount	Importe
+budget_adjust_invalid	Introduce un importe mayor que cero, con dos decimales como máximo
+budget_adjust_result	Quedará: %1$s
+budget_adjust_per_piece	El elemento se repite %1$d veces: el cambio se aplica a la suma de una unidad.

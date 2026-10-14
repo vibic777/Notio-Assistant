@@ -1,0 +1,7 @@
+rec_restricted_title	Notio 的后台活动受到限制
+rec_restricted_text	手机的电池设置不允许 Notio 在后台运行，因此一离开应用录制就会停止。请在 设置 → 应用 → Notio → 电池 中选择“无限制”（三星手机还需将 Notio 移出“休眠应用”）。
+rec_restricted_open	打开设置
+rec_restricted_anyway	仍然录制
+rec_restricted_stopped	Android 停止了录制：Notio 的后台活动受限（电池设置）。请在 设置 → 应用 → Notio → 电池 中选择“无限制”。
+settings_background_ok	后台运行：已允许
+settings_background_restricted	后台运行：受限——离开应用时录制会停止

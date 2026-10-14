@@ -1,0 +1,8 @@
+budget_adjust	修改金额
+budget_adjust_current	当前金额：%1$s
+budget_adjust_add	增加
+budget_adjust_subtract	减少
+budget_adjust_amount	金额
+budget_adjust_invalid	请输入大于零的金额，最多两位小数
+budget_adjust_result	变为：%1$s
+budget_adjust_per_piece	该项重复 %1$d 次：修改作用于单件的金额。

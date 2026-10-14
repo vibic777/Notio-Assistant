@@ -1,0 +1,10 @@
+reminder_action_snooze	%1$d 分钟后重复
+alarm_dismiss	关闭
+alarm_open_note	打开笔记
+reminder_snoozed_until	已推迟至 %1$s
+settings_alarm	提醒闹铃
+settings_alarm_hint	提醒会点亮屏幕，并像闹钟一样在锁屏上显示“推迟”和“忽略”按钮。
+settings_snooze	推迟时长
+settings_snooze_minutes	%1$d 分钟
+settings_fullscreen_hint	手机不允许 Notio 在锁屏上方打开闹铃。请在应用设置中允许，否则只会显示通知。
+settings_fullscreen_open	允许闹铃界面

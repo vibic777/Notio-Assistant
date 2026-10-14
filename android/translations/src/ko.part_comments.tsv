@@ -1,0 +1,11 @@
+action_comment	메모…
+comment_title_note	노트 메모
+comment_title_folder	폴더 메모
+comment_label	메모
+comment_counter	%1$d / %2$d
+comment_hint	카드에는 첫 줄의 처음 16자가 표시됩니다(설정 → 화면의 스위치가 켜져 있을 때). 비워 두면 메모가 삭제됩니다.
+settings_comments	카드의 메모
+settings_comments_hint	모든 노트와 폴더에 짧은 메모를 달 수 있습니다(⋮ 메뉴 → 메모). 카드 마지막 줄에 처음 16자를 표시합니다.
+settings_comments_notes	노트 카드에 표시
+settings_comments_folders	폴더 카드에 표시
+budget_layout_comments	메모 표시(처음 16자)

@@ -1,0 +1,6 @@
+export_format_video	Video (MP4)
+export_format_photo	Foto (JPEG)
+export_format_media_zip	Tutti i file della nota (ZIP)
+note_type_photo	Foto
+note_type_video	Video dalla fotocamera
+note_type_screen	Registrazione dello schermo

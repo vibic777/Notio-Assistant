@@ -1,0 +1,5 @@
+sync_nothing_changed	No se ha transferido nada: ambos dispositivos ya tienen lo mismo o las carpetas elegidas no tienen notas.
+sync_replace_folders_hint	Solo se reemplazan las carpetas elegidas: en el dispositivo que recibe quedan como copia exacta, y sus notas de esas carpetas que el otro dispositivo no tiene van a la papelera. Las demás carpetas no cambian.
+budget_each_sum	Cada una: suma %1$s
+reminders_off_create_title	Recordatorios desactivados
+reminders_off_create_hint	En este dispositivo todos los recordatorios están desactivados, así que uno nuevo no sonaría. Active primero los recordatorios.

@@ -1,0 +1,5 @@
+status_title	リマインダーが有効です
+status_text	有効: %1$d · 次: %2$s
+channel_reminder_status	設定済みのリマインダー
+settings_status_notification	リマインダーやタスクがある間の通知
+settings_status_notification_hint	リマインダーまたはタスクが1つでもある間、静かな通知がシェードに残ります：リマインダーの数と次に鳴る時刻、タスクの数、未完了と期限切れの数。

@@ -1,0 +1,11 @@
+drawing_sheet_size	画布尺寸
+drawing_sheet_width	宽度
+drawing_sheet_height	高度
+drawing_sheet_pixels	= %1$d × %2$d 像素
+drawing_sheet_too_small	每边至少 %1$d 像素。
+drawing_sheet_too_large	太大：每边最多 %1$d 像素，总计最多 %2$d × %3$d 像素。
+drawing_sheet_ppi	毫米和厘米按每英寸 %1$d 像素换算。
+drawing_sheet_note	图片保持在左上角：更大的画布会增加空白，更小的画布会裁掉超出部分（矢量图层的形状会保留）。到目前为止的位图图层撤销步骤会合并到图中。
+drawing_unit_px	像素
+drawing_unit_mm	毫米
+drawing_unit_cm	厘米

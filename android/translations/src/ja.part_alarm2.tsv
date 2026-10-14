@@ -1,0 +1,7 @@
+alarm_status_fullscreen_ok	ロック画面上のアラーム画面: 許可済み
+alarm_status_fullscreen_no	ロック画面上のアラーム画面: 未許可
+alarm_status_overlay_ok	他のアプリの上に表示: 許可済み
+alarm_status_overlay_no	他のアプリの上に表示: 未許可
+alarm_overlay_hint	一部の端末では、これも許可しないとロック画面にアラームが出ません。許可するとアプリが自分でアラーム画面を開きます。
+alarm_test	10秒後にアラームをテスト
+alarm_test_started	今すぐ端末をロックしてください。10秒後にアラームが鳴ります。

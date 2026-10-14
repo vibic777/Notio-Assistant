@@ -1,0 +1,12 @@
+sync_port_auto	Porta: scelta automaticamente
+sync_port_auto_other	La porta %1$s è occupata da un altro programma, ne viene usata una libera: %2$s
+sync_port_manual	Porta: %1$s, impostata a mano
+sync_port_busy	La porta %1$s è occupata da un altro programma: questo dispositivo non accetta connessioni. Scegli un’altra porta o «Automaticamente».
+sync_port_edit	Porta di questo dispositivo…
+sync_port_title	Porta per le connessioni
+sync_port_automatic	Automaticamente
+sync_port_own	Una porta mia
+sync_port_range	Inserisci una porta da 1024 a 65535.
+sync_port_free	La porta %1$s è libera.
+sync_port_taken	La porta %1$s è occupata ora da un altro programma. Se la tieni, questo dispositivo non accetterà connessioni finché la porta non sarà libera.
+sync_port_hint	Automaticamente, Notio prende la porta %1$s e, se è occupata, una qualsiasi libera. Una porta tua serve per una regola del firewall o del router. I dispositivi associati imparano la nuova porta da soli quando trovano questo dispositivo in rete; se uno non lo trova, correggi lì la porta con Indirizzo….

@@ -1,0 +1,56 @@
+settings_cat_general	Мова і фарматы
+settings_cat_general_hint	Мова, дата і час
+settings_cat_appearance	Афармленне
+settings_cat_appearance_hint	Тэма, колеры, памер тэксту, фоны
+settings_cat_notes	Нататкі і экспарт
+settings_cat_notes_hint	Тэгі, адзінкі, імёны экспартаваных файлаў
+settings_cat_security	Бяспека і прыватнасць
+settings_cat_security_hint	Блакіроўка праграмы, апавяшчэнні пра напамінкі
+settings_cat_trash	Кошык
+settings_cat_trash_hint	Як доўга захоўваецца выдаленае
+settings_cat_data	Рэзервовая копія
+settings_cat_data_hint	Экспарт, імпарт, пароль рэзервовай копіі
+settings_cat_about	Даведка і пра праграму
+settings_cat_about_hint	Даведка, версія, распрацоўшчык
+settings_search_hint	Пошук па наладах
+settings_search_none	Нічога не знойдзена. Паспрабуйце іншае слова.
+settings_datetime	Фармат даты і часу
+settings_datetime_hint	Як запісваюцца дата і час усюды: у нататак, папак і запісаў.
+settings_date_label	Дата
+settings_time_label	Час
+format_system	Як у тэлефоне
+settings_example	Прыклад: %1$s
+settings_export_naming	Імёны экспартаваных файлаў
+settings_export_naming_hint	Як называецца экспартаваны файл: абярыце часткі імя і від даты і часу. Двухкроп’е ў імені файла выкарыстоўваць нельга.
+naming_note_title	Назва нататкі
+naming_item_title	Назва запісу або фота (у мультынататках)
+naming_date	Штамп даты
+naming_time	Штамп часу
+naming_source	Дата і час бяруцца з
+naming_source_export	Моманту экспарту
+naming_source_created	Стварэння нататкі
+naming_source_modified	Апошняй змены нататкі
+naming_date_format	Дата ў імені
+naming_time_format	Час у імені
+naming_twelve_hour	12-гадзінны фармат з AM / PM
+naming_sep_none	без падзельніка
+naming_joiner	Паміж часткамі імя
+naming_join_space	прабел
+naming_example	Прыклад: %1$s
+naming_example_note	Паездка
+naming_example_item	Фота 1
+settings_backup_password	Пароль рэзервовай копіі
+settings_backup_password_hint	Абараніце экспартаваныя рэзервовыя копіі паролем. Без яго копія — звычайны файл, які можа адкрыць хто заўгодна.
+backup_password_enable	Абараняць копіі паролем
+backup_password_field	Пароль
+backup_password_warning	Захавайце яго: копію са забытым паролем адкрыць нельга, аднаўлення няма.
+backup_password_save	Захаваць пароль
+backup_password_saved	Пароль захаваны. Новыя копіі абараняюцца ім.
+backup_password_type_first	Увядзіце пароль і захавайце яго.
+import_password_title	Абароненая копія
+import_password_hint	Гэта копія абаронена паролем. Увядзіце яго, каб працягнуць.
+transfer_error_password_required	Гэта копія абаронена паролем.
+transfer_error_wrong_password	Пароль няправільны. Нічога не зменена.
+password_show	Паказаць
+password_hide	Схаваць
+trash_open_settings	Налады кошыка

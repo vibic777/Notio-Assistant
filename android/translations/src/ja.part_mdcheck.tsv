@@ -1,0 +1,4 @@
+md_check_delete_cd	行を削除
+md_check_delete_title	この行を削除しますか？
+md_check_delete_text	「%1$s」をノートから削除します。元に戻すで戻せます。
+md_check_delete_text_sub	「%1$s」とその下の行をノートから削除します。元に戻すで戻せます。

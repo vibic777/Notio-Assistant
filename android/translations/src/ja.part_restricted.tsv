@@ -1,0 +1,7 @@
+rec_restricted_title	Notio のバックグラウンド動作が制限されています
+rec_restricted_text	端末のバッテリー設定により Notio がバックグラウンドで動作できないため、アプリを離れるとすぐに録音・録画が止まります。設定 → アプリ → Notio → バッテリー で「制限なし」を選んでください（Galaxy では「スリープ状態のアプリ」からも外してください）。
+rec_restricted_open	設定を開く
+rec_restricted_anyway	それでも録画する
+rec_restricted_stopped	Android が録画を止めました：Notio のバックグラウンド動作が制限されています（バッテリー設定）。設定 → アプリ → Notio → バッテリー で「制限なし」を選んでください。
+settings_background_ok	バックグラウンド動作：許可
+settings_background_restricted	バックグラウンド動作：制限 — アプリを離れると録音・録画が止まります

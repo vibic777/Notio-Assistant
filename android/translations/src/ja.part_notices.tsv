@@ -1,0 +1,4 @@
+settings_notices	画面下部のメッセージ
+settings_notices_hint	「ごみ箱に移動しました」のような短いメッセージは、この時間が過ぎると自動で消えます。横にスワイプして消すこともできます。0 にすると表示されません。その場合、メッセージ内の「元に戻す」も出ません。
+settings_notices_value	%1$d 秒
+settings_notices_off	表示しない

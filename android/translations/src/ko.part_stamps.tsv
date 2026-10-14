@@ -1,0 +1,6 @@
+settings_stamps	시간 표시
+settings_stamps_hint	만든 시각과 마지막으로 바꾼 시각을 표시합니다. 표시만 달라지며 시각은 그대로 저장됩니다.
+settings_stamps_notes	노트(녹음, 사진, 영상 포함)
+settings_stamps_folders	폴더
+settings_stamp_created	생성 시각 표시
+settings_stamp_modified	수정 시각 표시

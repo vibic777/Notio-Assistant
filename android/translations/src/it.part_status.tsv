@@ -1,0 +1,5 @@
+status_title	Promemoria attivi
+status_text	Attivi: %1$d · prossimo: %2$s
+channel_reminder_status	Promemoria impostati
+settings_status_notification	Notifica finché ci sono promemoria o attività
+settings_status_notification_hint	Una notifica silenziosa resta nella tendina finché c’è almeno un promemoria o un’attività: quanti promemoria e quando suona il prossimo, quante attività, quante aperte e scadute.

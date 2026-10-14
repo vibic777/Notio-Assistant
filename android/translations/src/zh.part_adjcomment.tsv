@@ -1,0 +1,2 @@
+budget_adjust_comment	备注（可选，写入日志）
+budget_log_with_comment	%1$s ——“%2$s”

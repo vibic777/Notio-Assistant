@@ -1,0 +1,5 @@
+budget_delete_restorable	予算の変更履歴から復元できます。
+budget_log_restore	復元
+budget_log_was_restored	復元済み
+budget_log_restored	「%1$s」を復元
+budget_log_restore_failed	復元できません。すでに予算にあります。

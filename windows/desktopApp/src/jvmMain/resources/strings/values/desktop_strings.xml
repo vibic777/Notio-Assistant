@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Texts of the desktop-only functions (AGENT.md D45); not from the Android app, kept by hand in all ten languages. -->
+<resources>
+    <string name="desktop_window">Window</string>
+    <string name="desktop_close_to_tray">The Close button minimises to the tray</string>
+    <string name="desktop_close_to_tray_hint">Notio stays in the tray and reminders keep ringing; Exit in the menu of the tray icon (right click) ends it.</string>
+    <string name="desktop_close_to_tray_notice">Notio is still running in the tray. Right-click its icon and choose Exit to end it.</string>
+    <string name="desktop_single_instance">Do not start a second Notio</string>
+    <string name="desktop_single_instance_hint">Starting Notio again brings the open window to the front. Takes effect at the next start.</string>
+    <string name="desktop_floating_stop_hint">Without it the recording is stopped in the note or from the menu of the tray icon (right click).</string>
+    <string name="desktop_auto_start">Start with Windows</string>
+    <string name="desktop_auto_start_hint">Notio starts in the background when you sign in to Windows, so reminders ring from the start.</string>
+    <string name="desktop_auto_start_unavailable">Available in the installed or portable Notio.</string>
+    <string name="desktop_auto_start_tray">Start in the tray</string>
+    <string name="desktop_previous">Previous</string>
+    <string name="desktop_next">Next</string>
+    <string name="desktop_render">Window drawing</string>
+    <string name="desktop_render_auto">Automatic</string>
+    <string name="desktop_render_software">Compatible (without the graphics card)</string>
+    <string name="desktop_render_hint">Works after Notio is started again. Automatic draws without the graphics card on a virtual or basic display adapter, where the card makes the window stutter. Now: %1$s. Display adapters: %2$s.</string>
+    <string name="desktop_damaged">Notio cannot start: files of the program are missing or damaged. Install Notio again. Your notes and settings stay in place.</string>
+    <string name="desktop_not_answering">Notio is already running but does not answer. End Notio in the Task Manager and start it again.</string>
+</resources>

@@ -1,0 +1,31 @@
+# Gradle / Android
+.gradle/
+build/
+/local.properties
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Signing (never commit secrets)
+*.jks
+*.keystore
+*.p12
+*.pem
+keystore.properties
+
+# Private notes of the owner (signing-key memo etc.): never published
+/private/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+*.apk.idsig

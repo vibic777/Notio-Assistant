@@ -1,0 +1,56 @@
+settings_cat_general	言語と形式
+settings_cat_general_hint	言語、日付、時刻
+settings_cat_appearance	外観
+settings_cat_appearance_hint	テーマ、色、文字サイズ、背景
+settings_cat_notes	ノートとエクスポート
+settings_cat_notes_hint	タグ、単位、書き出すファイルの名前
+settings_cat_security	セキュリティとプライバシー
+settings_cat_security_hint	アプリのロック、リマインダー通知
+settings_cat_trash	ごみ箱
+settings_cat_trash_hint	削除した項目を保管する期間
+settings_cat_data	バックアップと復元
+settings_cat_data_hint	エクスポート、インポート、バックアップのパスワード
+settings_cat_about	ヘルプとアプリについて
+settings_cat_about_hint	ヘルプ、バージョン、開発者
+settings_search_hint	設定を検索
+settings_search_none	見つかりません。別の言葉をお試しください。
+settings_datetime	日付と時刻の形式
+settings_datetime_hint	日付と時刻の表記。ノート、フォルダ、録画・録音すべてに使われます。
+settings_date_label	日付
+settings_time_label	時刻
+format_system	端末の設定に従う
+settings_example	例: %1$s
+settings_export_naming	書き出すファイルの名前
+settings_export_naming_hint	書き出すファイルの名前を決めます。名前の要素と、日付・時刻の書き方を選べます。ファイル名にコロンは使えません。
+naming_note_title	ノートのタイトル
+naming_item_title	録音・録画・写真のタイトル（複数項目ノート）
+naming_date	日付スタンプ
+naming_time	時刻スタンプ
+naming_source	日付と時刻の基準
+naming_source_export	書き出した時刻
+naming_source_created	ノートの作成時刻
+naming_source_modified	ノートの最終変更時刻
+naming_date_format	名前の日付
+naming_time_format	名前の時刻
+naming_twelve_hour	12時間表記（AM / PM）
+naming_sep_none	なし
+naming_joiner	名前の要素の区切り
+naming_join_space	スペース
+naming_example	例: %1$s
+naming_example_note	旅行
+naming_example_item	写真 1
+settings_backup_password	バックアップのパスワード
+settings_backup_password_hint	書き出すバックアップをパスワードで保護します。パスワードがないと、誰でも開ける普通のファイルになります。
+backup_password_enable	バックアップをパスワードで保護
+backup_password_field	パスワード
+backup_password_warning	大切に保管してください。パスワードを忘れたバックアップは開けず、復旧の方法はありません。
+backup_password_save	パスワードを保存
+backup_password_saved	パスワードを保存しました。以後のバックアップはこれで保護されます。
+backup_password_type_first	パスワードを入力して保存してください。
+import_password_title	保護されたバックアップ
+import_password_hint	このバックアップはパスワードで保護されています。続けるには入力してください。
+transfer_error_password_required	このバックアップはパスワードで保護されています。
+transfer_error_wrong_password	パスワードが違います。何も変更されていません。
+password_show	表示
+password_hide	非表示
+trash_open_settings	ごみ箱の設定

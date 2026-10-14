@@ -1,0 +1,6 @@
+backup_busy_title	バックアップを処理中
+backup_busy_message	大きなバックアップには数分かかることがあります。すべての写真・動画・録音をコピーします。このウィンドウが消えるまで、アプリを閉じたり端末をロックしたりしないでください。
+backup_busy_files	完了したファイル：%1$d
+backup_busy_files_of	完了したファイル：%1$d / %2$d
+backup_export_partial	バックアップを保存しましたが、形式の上限を超えるため%1$d個のファイルは含まれていません（2 GB超、またはバックアップが3.5 GBを超えるため）。
+backup_import_files_skipped	バックアップの%1$d個のファイルを復元できませんでした（破損、または内容が一致しません）。

@@ -1,0 +1,50 @@
+action_close	关闭
+media_default_name	项目 %1$d
+media_empty_photo	还没有照片。点按“拍照”。
+media_empty_video	还没有视频。点按“录像”。
+media_empty_screen	还没有屏幕录制。点按“录制屏幕”。
+media_take_photo	拍照
+media_record_video	录像
+media_record_screen	录制屏幕
+media_full_screen	全屏
+media_place	位置：%1$s
+media_delete_title	删除此项目？
+media_delete_message	该项目将移入回收站，可从那里恢复。
+rec_channel	屏幕录制
+rec_notification_title	Notio 正在录制
+rec_notification_text	点按“停止”结束并保存录制。
+rec_action_stop	停止
+rec_processing	正在保存录制…
+rec_saved	录制已保存到笔记中。
+rec_failed	无法保存录制。
+rec_recording	录制中…
+rec_start	录制
+rec_sound	声音
+rec_sound_none	无声
+rec_sound_mic	麦克风
+rec_sound_system	手机声音
+rec_sound_both	麦克风 + 手机声音
+rec_floating_hint	要在其他窗口上方显示悬浮“停止”按钮，请允许“显示在其他应用上层”。否则请在通知中停止录制。
+rec_floating_allow	允许悬浮按钮
+camera_back	后置摄像头
+camera_front	前置摄像头
+camera_other	其他摄像头
+camera_choose	摄像头
+camera_failed	相机无法完成此操作。
+camera_saved_count	已保存：%1$d
+overlay_title	叠加内容
+overlay_hint	叠加在每张新照片或视频上，已有内容不会更改。
+overlay_stamp	日期和时间
+overlay_geo	位置（坐标）
+overlay_geo_hint	需要位置权限，拍摄或录制时会请求。
+overlay_text	文字（签名）
+overlay_text_field	要显示的文字
+overlay_image	图片（徽标、签名）
+overlay_pick_image	选择图片
+overlay_remove_image	移除图片
+overlay_color	颜色
+overlay_size	大小：%1$d
+overlay_width	宽度：%1$d%%
+overlay_opacity	不透明度：%1$d%%
+overlay_plate	底板（关闭 = 透明）
+overlay_position	位置

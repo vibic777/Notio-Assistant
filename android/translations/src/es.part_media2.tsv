@@ -1,0 +1,50 @@
+action_close	Cerrar
+media_default_name	Elemento %1$d
+media_empty_photo	Aún no hay fotos. Toca «Hacer foto».
+media_empty_video	Aún no hay vídeos. Toca «Grabar vídeo».
+media_empty_screen	Aún no hay grabaciones de pantalla. Toca «Grabar pantalla».
+media_take_photo	Hacer foto
+media_record_video	Grabar vídeo
+media_record_screen	Grabar pantalla
+media_full_screen	Pantalla completa
+media_place	Lugar: %1$s
+media_delete_title	¿Eliminar este elemento?
+media_delete_message	El elemento irá a la papelera; podrás recuperarlo desde allí.
+rec_channel	Grabación de pantalla
+rec_notification_title	Notio está grabando
+rec_notification_text	Toca Detener para terminar y guardar la grabación.
+rec_action_stop	Detener
+rec_processing	Guardando la grabación…
+rec_saved	La grabación está guardada en la nota.
+rec_failed	No se pudo guardar la grabación.
+rec_recording	Grabando…
+rec_start	Grabar
+rec_sound	Sonido
+rec_sound_none	Sin sonido
+rec_sound_mic	Micrófono
+rec_sound_system	Sonido del teléfono
+rec_sound_both	Micrófono + sonido del teléfono
+rec_floating_hint	Para un botón Detener flotante sobre otras ventanas, permite «Mostrar sobre otras apps». Si no, detén la grabación desde la notificación.
+rec_floating_allow	Permitir el botón flotante
+camera_back	Cámara trasera
+camera_front	Cámara frontal
+camera_other	Otra cámara
+camera_choose	Cámara
+camera_failed	La cámara no pudo hacerlo.
+camera_saved_count	Guardado: %1$d
+overlay_title	Superposiciones
+overlay_hint	Se superponen a cada foto o vídeo nuevo. Lo ya hecho no cambia.
+overlay_stamp	Fecha y hora
+overlay_geo	Lugar (coordenadas)
+overlay_geo_hint	Necesita el permiso de ubicación; se pide al hacer una foto o grabación.
+overlay_text	Texto (firma)
+overlay_text_field	Texto a mostrar
+overlay_image	Imagen (logotipo, firma)
+overlay_pick_image	Elegir una imagen
+overlay_remove_image	Quitar la imagen
+overlay_color	Color
+overlay_size	Tamaño: %1$d
+overlay_width	Ancho: %1$d%%
+overlay_opacity	Opacidad: %1$d%%
+overlay_plate	Fondo detrás (desactivado = transparente)
+overlay_position	Posición

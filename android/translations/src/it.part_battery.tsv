@@ -1,0 +1,13 @@
+settings_battery	Batteria
+battery_economy	Risparmio batteria
+battery_economy_hint	I promemoria possono arrivare con qualche minuto di ritardo; le animazioni decorative sono disattivate.
+battery_exact_on	I promemoria esatti sono consentiti
+battery_exact_off	Senza accesso esatto i promemoria possono ritardare
+battery_restricted_on	Il lavoro in background è limitato dal sistema
+battery_restricted_off	Il lavoro in background non è limitato
+battery_exempt_on	L’ottimizzazione batteria del sistema è disattivata per Notio
+battery_exempt_off	Si applica l’ottimizzazione batteria del sistema
+battery_open_settings	Impostazioni batteria
+battery_open_exact	Promemoria esatti
+battery_check_again	Controlla di nuovo
+battery_note	Le autorizzazioni sono facoltative. Notio funziona anche quando il telefono limita la batteria: i promemoria suonano, solo una registrazione si ferma quando si esce dall’app. Il produttore del telefono può limitare ulteriormente il background.

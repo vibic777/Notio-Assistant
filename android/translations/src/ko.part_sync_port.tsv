@@ -1,0 +1,12 @@
+sync_port_auto	포트: 자동 선택
+sync_port_auto_other	포트 %1$s은(는) 다른 프로그램이 사용 중이어서 빈 포트를 사용합니다: %2$s
+sync_port_manual	포트: %1$s, 직접 설정
+sync_port_busy	포트 %1$s은(는) 다른 프로그램이 사용 중입니다. 이 기기는 연결을 받지 않습니다. 다른 포트나 ‘자동’을 선택하세요.
+sync_port_edit	이 기기의 포트…
+sync_port_title	연결용 포트
+sync_port_automatic	자동
+sync_port_own	직접 정한 포트
+sync_port_range	1024부터 65535까지의 포트를 입력하세요.
+sync_port_free	포트 %1$s은(는) 비어 있습니다.
+sync_port_taken	포트 %1$s은(는) 지금 다른 프로그램이 사용 중입니다. 그대로 두면 포트가 빌 때까지 이 기기는 연결을 받지 않습니다.
+sync_port_hint	자동일 때 Notio는 포트 %1$s을(를) 쓰고, 사용 중이면 빈 포트를 씁니다. 직접 정한 포트는 방화벽이나 공유기 규칙을 위한 것입니다. 페어링된 기기는 네트워크에서 이 기기를 찾으면 새 포트를 스스로 알게 됩니다. 찾지 못하는 기기에서는 ‘주소…’로 포트를 고치세요.

@@ -1,0 +1,10 @@
+app_log_keep	アプリのログを記録
+app_log_keep_hint	クラッシュは原因を調べられるよう常に記録されます。
+app_log_level	記録するレベル
+app_log_level_hint	DEBUG — 開発者向けの詳細、INFO — アプリの動作、WARN — 警告、ERROR — 乗り越えた不具合、CRITICAL — 作業が失われたもの、FATAL — クラッシュ（常に記録）。
+app_log_clear_period	自動で消去
+app_log_clear_never	しない
+app_log_clear_daily	毎日
+app_log_clear_weekly	毎週
+app_log_clear_monthly	毎月
+app_log_size_note	いずれにしてもログは約 0.5 MB を超えません。

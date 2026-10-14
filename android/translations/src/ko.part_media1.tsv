@@ -1,0 +1,6 @@
+export_format_video	동영상 (MP4)
+export_format_photo	사진 (JPEG)
+export_format_media_zip	노트의 모든 파일 (ZIP)
+note_type_photo	사진
+note_type_video	카메라 영상
+note_type_screen	화면 녹화

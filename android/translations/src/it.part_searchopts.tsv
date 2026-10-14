@@ -1,0 +1,3 @@
+search_ignore_case	Aa maiuscole e minuscole
+search_regex	.* Regexp
+search_regex_error	L’espressione non è valida: %1$s

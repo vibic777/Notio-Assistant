@@ -1,0 +1,38 @@
+assistant_right_marks	Меткі, колер, замацаванне
+assistant_right_lists	Спісы: пункты і адзнакі
+assistant_right_tasks	Задачы: статус і тэрміны
+assistant_right_budget	Бюджэт: сумы (заўсёды спачатку пытае)
+assistant_right_reminders	Напаміны: ставіць
+assistant_right_folders	Папкі: ствараць і перайменоўваць
+assistant_right_appearance	Афармленне: тэма, колеры, шрыфт
+assistant_right_settings	Налады праграмы
+assistant_confirm	Пацвердзіць і працягнуць
+assistant_confirm_hint	Памочнік спыніўся і чакае вашага «так»: больш за пяць нататак за раз або сумы бюджэту.
+assistant_telegram	Telegram-бот
+assistant_telegram_hint	Ваш уласны бот, які працуе ўнутры Notio на гэтым камп’ютары: пішаце яму з тэлефона, і ён робіць тое ж, што чат. Словы вашых даручэнняў і адказаў праходзяць праз серверы Telegram; туды паказваюцца толькі нататкі з адзнакай «Можна ў Telegram». Працуе, пакуль уключаны гэты камп’ютар і Notio.
+assistant_telegram_key	Ключ бота (ад @BotFather)
+assistant_telegram_on	Бот уключаны
+assistant_telegram_checked	Ключ правільны: %1$s
+assistant_telegram_bind	Адпраўце боту гэты код са свайго Telegram, і ён будзе слухаць толькі вас: %1$s
+assistant_telegram_bound	Бот слухае толькі вас (ваш ідэнтыфікатар у Telegram: %1$s).
+assistant_telegram_unbind	Адвязаць
+assistant_telegram_locked	Адказваць, калі Notio заблакаваны
+assistant_telegram_locked_hint	Выключана: пакуль Notio заблакаваны, бот так і адказвае і нічога не робіць. Уключана: блакіроўка перастае абараняць тое, што адкрыта боту.
+assistant_telegram_outside	Дазволіць боту працаваць са знешняй мадэллю
+assistant_telegram_rights	Правы з Telegram
+assistant_telegram_rights_hint	Асобна ад правоў чата: што памочніку можна, калі даручэнне прыйшло з Telegram. Нічога, пакуль вы не дазволіце.
+assistant_access_telegram	Можна ў Telegram
+assistant_access_reminders	Напаміны ў Telegram
+assistant_bot_bound	Гатова: я слухаю толькі вас. Напішыце, што зрабіць з нататкамі. /undo адкочвае маю апошнюю змену, /yes пацвярджае тое, што чакае вашага «так».
+assistant_bot_locked	Notio на камп’ютары заблакаваны. Спачатку разблакуйце яго там.
+assistant_bot_outside_off	Мадэль — знешні сэрвіс, а боту працаваць з такім не дазволена.
+assistant_bot_failed	Даручэнне не выканалася. Паглядзіце ў Notio на камп’ютары.
+assistant_bot_changed	Зменена: %1$s. /undo адкочвае.
+assistant_bot_confirm	На гэта патрэбна ваша «так». Адпраўце /yes, каб працягнуць.
+assistant_bot_nothing_to_undo	Адкочваць няма чаго.
+assistant_bot_undone	Адкочана: %1$s
+assistant_bot_undo_conflict	Не адкочана: гэтыя нататкі вы мянялі пасля мяне: %1$s. Адкаціце ў Notio на камп’ютары.
+assistant_bot_help	Напішыце, што зрабіць з нататкамі, напрыклад: пакажы нататкі папкі Праца. /undo адкочвае маю апошнюю змену. /yes пацвярджае тое, што чакае вашага «так».
+assistant_bot_nothing_to_confirm	Нішто не чакае пацвярджэння.
+assistant_bot_not_ready	У Notio на камп’ютары не выбрана мадэль: Налады → Памочнік → Падключэнне.
+assistant_bot_reminder	Напамін: %1$s

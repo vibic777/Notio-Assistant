@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The installer in one of Notio's ten languages (D80). The pages of WiX itself come from its own translation of this culture;
+     these are the texts of jpackage's pages and ours. NotioLanguage is the language number Windows chooses the texts by. -->
+<WixLocalization Culture="fr-fr" Codepage="1252" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+  <String Id="NotioLanguage">1036</String>
+  <!-- The name in "Installed apps" and of the Start menu shortcut (D133): Russian has its own, the others the English one. -->
+  <String Id="NotioProductName">Notio by vibic</String>
+  <String Id="MainFeatureTitle">Composant principal</String>
+  <String Id="DowngradeErrorMessage">Une version plus récente de [ProductName] est déjà installée. Le retour à une version antérieure est désactivé. Le programme d'installation va se fermer.</String>
+  <String Id="DisallowUpgradeErrorMessage">Une version plus ancienne de [ProductName] est déjà installée. Les mises à niveau sont désactivées. Le programme d'installation va se fermer.</String>
+  <String Id="ShortcutPromptDlg_Title">Installation de [ProductName]</String>
+  <String Id="ShortcutPromptDlgTitle">{\WixUI_Font_Title}Raccourcis</String>
+  <String Id="ShortcutPromptDlgBannerBitmap">WixUI_Bmp_Banner</String>
+  <String Id="ShortcutPromptDlgDescription">Sélectionnez les raccourcis à créer.</String>
+  <String Id="ShortcutPromptDlgDesktopShortcutControlLabel">Créer un raccourci sur le bureau</String>
+  <String Id="ShortcutPromptDlgStartMenuShortcutControlLabel">Créer un raccourci dans le menu Démarrer</String>
+  <String Id="InstallDirNotEmptyDlg_Title">Installation de [ProductName]</String>
+  <String Id="InstallDirNotEmptyDlgInstallDirExistMessage">Le dossier [INSTALLDIR] existe déjà. Voulez-vous tout de même installer dans ce dossier ?</String>
+  <String Id="ContextMenuCommandLabel">Ouvrir avec [ProductName]</String>
+  <String Id="OsConditionMessage">[ProductName] [ProductVersion] ne prend pas en charge cette version de Windows</String>
+  <String Id="LaunchAppCheckbox">Lancer Notio</String>
+</WixLocalization>

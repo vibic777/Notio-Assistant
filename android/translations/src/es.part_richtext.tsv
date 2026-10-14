@@ -1,0 +1,18 @@
+text_mode_label	Modo:
+text_mode_markdown	Markdown
+text_mode_rich	Con formato
+text_mode_to_markdown_title	¿Pasar a Markdown?
+text_mode_to_markdown_message	La negrita, la cursiva, el tachado y las listas se conservan. Los colores, tamaños, subrayado, superíndices y subíndices, alineación y sangrías no existen en Markdown y se quitarán. Deshacer los recupera mientras la nota esté abierta.
+rich_underline	Subrayado
+rich_superscript	Superíndice
+rich_subscript	Subíndice
+rich_size	Tamaño del texto
+rich_text_color	Color del texto
+rich_background	Resaltado
+rich_color_auto	Automático
+rich_indent_less	Reducir sangría
+rich_indent_more	Aumentar sangría
+rich_align_left	Alinear a la izquierda
+rich_align_center	Centrar
+rich_align_right	Alinear a la derecha
+rich_clear	Borrar formato

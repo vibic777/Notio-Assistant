@@ -1,0 +1,50 @@
+action_close	Закрыць
+media_default_name	Запіс %1$d
+media_empty_photo	Фота пакуль няма. Націсніце «Зрабіць фота».
+media_empty_video	Відэа пакуль няма. Націсніце «Запісаць відэа».
+media_empty_screen	Запісаў экрана пакуль няма. Націсніце «Запісаць экран».
+media_take_photo	Зрабіць фота
+media_record_video	Запісаць відэа
+media_record_screen	Запісаць экран
+media_full_screen	На ўвесь экран
+media_place	Месца: %1$s
+media_delete_title	Выдаліць гэты запіс?
+media_delete_message	Запіс трапіць у кошык, адтуль яго можна вярнуць.
+rec_channel	Запіс экрана
+rec_notification_title	Notio вядзе запіс
+rec_notification_text	Націсніце «Стоп», каб скончыць і захаваць запіс.
+rec_action_stop	Стоп
+rec_processing	Захоўваю запіс…
+rec_saved	Запіс захаваны ў нататцы.
+rec_failed	Не ўдалося захаваць запіс.
+rec_recording	Ідзе запіс…
+rec_start	Запіс
+rec_sound	Гук
+rec_sound_none	Без гуку
+rec_sound_mic	Мікрафон
+rec_sound_system	Гук тэлефона
+rec_sound_both	Мікрафон + гук тэлефона
+rec_floating_hint	Каб над іншымі вокнамі была плаваючая кнопка «Стоп», дазвольце «Паверх іншых вокнаў». Без гэтага спыняйце запіс у апавяшчэнні.
+rec_floating_allow	Дазволіць плаваючую кнопку
+camera_back	Асноўная камера
+camera_front	Франтальная камера
+camera_other	Іншая камера
+camera_choose	Камера
+camera_failed	Камера не змагла гэта зрабіць.
+camera_saved_count	Захавана: %1$d
+overlay_title	Накладанні
+overlay_hint	Накладваюцца на кожнае новае фота або відэа. Ужо зробленае не мяняецца.
+overlay_stamp	Дата і час
+overlay_geo	Месца (каардынаты)
+overlay_geo_hint	Патрэбна дазвол на месцазнаходжанне; яго просяць пры здымцы або запісе.
+overlay_text	Тэкст (подпіс)
+overlay_text_field	Тэкст для паказу
+overlay_image	Малюнак (лагатып, подпіс)
+overlay_pick_image	Абраць малюнак
+overlay_remove_image	Прыбраць малюнак
+overlay_color	Колер
+overlay_size	Памер: %1$d
+overlay_width	Шырыня: %1$d%%
+overlay_opacity	Непразрыстасць: %1$d%%
+overlay_plate	Падкладка (выкл. = празрысты фон)
+overlay_position	Становішча

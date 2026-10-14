@@ -1,0 +1,20 @@
+note_type_task	Attività
+folder_kind_notes	Cartella di note
+folder_kind_tasks	Cartella di attività
+dialog_new_task_title	Nuova attività
+bg_slot_note_task	Attività
+task_done	Fatta
+task_overdue	In ritardo
+task_in_progress	In corso
+task_done_tick	Fatta
+task_from	Dal %1$s
+task_until	Fino al %1$s
+task_start	Inizio
+task_end	Fine
+task_not_set	Non impostato
+task_comment	Commento
+task_description	Descrizione
+task_no_description	Ancora nessuna descrizione.
+task_no_reminder	Nessun promemoria.
+task_reminder	Promemoria…
+task_end_before_start	La fine non può precedere l’inizio.

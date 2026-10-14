@@ -1,0 +1,5 @@
+settings_preview	ノートカードのプレビュー
+settings_preview_hint	カードに表示するノートの行数（縦に並べて表示）。音声・写真・動画ノートでは各項目の名前です。
+settings_preview_0	プレビューなし
+settings_preview_1	1行
+settings_preview_2	2行

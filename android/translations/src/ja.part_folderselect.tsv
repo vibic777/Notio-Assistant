@@ -1,0 +1,3 @@
+home_delete_many_title	選択したノートを削除しますか？
+home_delete_many_message	選択したノート：%1$d件。ごみ箱に移動します。そこから戻せます。
+home_notes_moved_to_trash	ごみ箱に移動：%1$d件。上部のごみ箱アイコンから戻せます。

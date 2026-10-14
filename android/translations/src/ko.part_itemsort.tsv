@@ -1,0 +1,10 @@
+sort_button	정렬: %1$s
+sort_key_sum	금액
+sort_key_goal	목표
+sort_key_remainder	잔액
+sort_key_progress	진행률(목표 대비 비율)
+sort_key_quantity	수량
+sort_key_price	단가
+sort_key_cost	비용
+sort_key_unit	단위
+sort_key_done	완료 / 미완료

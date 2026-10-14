@@ -1,0 +1,6 @@
+assistant_telegram_code_until	代码有效至 %1$s。
+assistant_telegram_code_gone	代码已失效：已过十分钟，或已输错五次。请获取新代码。
+assistant_telegram_new_code	新代码
+assistant_telegram_bound_who	机器人只听这个 Telegram 账号：%1$s（编号 %2$s）。
+assistant_telegram_strangers	其他人给机器人发过 %1$s 次消息，最近一次在 %2$s。机器人没有回复他们。
+assistant_telegram_bind_hint	任何人都能按名字找到机器人，所以由 Notio 自己决定听谁的：发送代码的那个账号。Notio 记住的是该 Telegram 账号的编号，而不是名字：改名或改 @用户名都不会改变它。代码有效十分钟，输错五次即失效，因此无法猜中。机器人对其他人完全不回复，连拒绝也不发；有多少人发过消息会显示在这里。另外请禁止机器人加入群组：在 @BotFather 中发送 /setjoingroups，选择机器人，然后选 Disable。“解除绑定”会忘记该账号并给出新代码。

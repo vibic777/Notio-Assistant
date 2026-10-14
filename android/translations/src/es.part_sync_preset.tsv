@@ -1,0 +1,4 @@
+sync_preset_ask	Preguntar cada vez
+sync_preset_folders_chosen	Elegidas: %1$d
+sync_preset_choose_folders	Elegir carpetas…
+sync_preset_hint	Lo que se fija en una conexión no se pregunta al sincronizar. Un reemplazo siempre se muestra antes de empezar.

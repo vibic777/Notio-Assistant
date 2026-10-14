@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Texts of the desktop-only functions (AGENT.md D45); not from the Android app, kept by hand in all ten languages. -->
+<resources>
+    <string name="desktop_window">창</string>
+    <string name="desktop_close_to_tray">닫기 버튼으로 트레이에 최소화</string>
+    <string name="desktop_close_to_tray_hint">Notio는 트레이에 남고 알림은 계속 울립니다. 트레이 아이콘 메뉴(오른쪽 클릭)의 종료로 끝냅니다.</string>
+    <string name="desktop_close_to_tray_notice">Notio가 트레이에서 계속 실행 중입니다. 끝내려면 아이콘을 오른쪽 클릭하고 종료를 선택하세요.</string>
+    <string name="desktop_single_instance">Notio를 두 번 실행하지 않기</string>
+    <string name="desktop_single_instance_hint">Notio를 다시 실행하면 열린 창이 앞으로 나옵니다. 다음 실행부터 적용됩니다.</string>
+    <string name="desktop_floating_stop_hint">끄면 메모에서 또는 트레이 아이콘 메뉴(오른쪽 클릭)에서 녹화를 멈춥니다.</string>
+    <string name="desktop_auto_start">Windows와 함께 시작</string>
+    <string name="desktop_auto_start_hint">Windows에 로그인하면 Notio가 백그라운드에서 시작되어 처음부터 알림이 울립니다.</string>
+    <string name="desktop_auto_start_unavailable">설치형 또는 포터블 Notio에서 사용할 수 있습니다.</string>
+    <string name="desktop_auto_start_tray">트레이에서 시작</string>
+    <string name="desktop_previous">이전</string>
+    <string name="desktop_next">다음</string>
+    <string name="desktop_render">창 그리기</string>
+    <string name="desktop_render_auto">자동</string>
+    <string name="desktop_render_software">호환(그래픽 카드 없이)</string>
+    <string name="desktop_render_hint">Notio를 다시 시작하면 적용됩니다. ‘자동’은 가상 또는 기본 디스플레이 어댑터에서는 그래픽 카드 없이 그립니다(카드를 쓰면 창이 끊기기 때문). 현재: %1$s. 디스플레이 어댑터: %2$s.</string>
+    <string name="desktop_damaged">Notio를 시작할 수 없습니다. 프로그램 파일이 없거나 손상되었습니다. Notio를 다시 설치하세요. 메모와 설정은 그대로 유지됩니다.</string>
+    <string name="desktop_not_answering">Notio가 이미 실행 중이지만 응답하지 않습니다. 작업 관리자에서 Notio를 종료한 후 다시 시작하세요.</string>
+</resources>

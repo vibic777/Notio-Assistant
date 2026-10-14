@@ -1,0 +1,20 @@
+drawing_tool_shape	도형
+drawing_tool_text	텍스트
+drawing_tool_eyedropper	스포이트
+drawing_shape_filled	채우기
+drawing_eyedropper_hint	그림을 눌러 색을 가져옵니다.
+drawing_text_hint	텍스트를 넣을 곳을 누르세요.
+drawing_brush_opacity	불투명도
+drawing_brush_softness	부드러움
+drawing_brush_round	둥근 펜
+drawing_brush_nib	납작 펜
+drawing_brush_angle	각도
+drawing_shape_square	정사각형
+drawing_shape_circle	원
+drawing_shape_rhombus	마름모
+drawing_shape_pentagon	오각형
+drawing_shape_hexagon	육각형
+drawing_shape_star	별
+drawing_shape_double_arrow	양방향 화살표
+drawing_text_label	텍스트
+drawing_edit_text	텍스트 편집

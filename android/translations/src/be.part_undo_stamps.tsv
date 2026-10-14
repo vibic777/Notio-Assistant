@@ -1,0 +1,17 @@
+color_family_red	Чырвоныя
+color_family_orange	Аранжавыя
+color_family_yellow	Жоўтыя
+color_family_green	Зялёныя
+color_family_cyan	Блакітныя
+color_family_blue	Сінія
+color_family_purple	Фіялетавыя
+color_family_pink	Ружовыя
+color_family_neutral	Шэрыя, чорныя і белыя
+color_family_none	Без свайго колеру
+editor_redo	Паўтарыць
+budget_log_undone	Апошняя змена адменена
+budget_log_redone	Адмененая змена паўторана
+settings_undo	Крокаў адмены
+settings_undo_hint	На колькі змен назад адступае стрэлка «Адмяніць» у тэксце, спісе, бюджэце, малюнку, чарцяжы і раскладзе; «Паўтарыць» вяртае іх. Памятаецца, пакуль нататка адкрыта.
+settings_footer_stamps	Штампы ўнізе нататкі
+settings_footer_stamps_hint	Выберыце від нататкі і ўключыце, ці паказваць у праглядзе пасля ўсяго змесціва, калі нататка створана і калі зменена. Дата і час пішуцца так, як выбрана ў «Мова і фарматы».

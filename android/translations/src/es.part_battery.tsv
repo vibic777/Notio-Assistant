@@ -1,0 +1,13 @@
+settings_battery	Batería
+battery_economy	Ahorro de batería
+battery_economy_hint	Los recordatorios pueden llegar unos minutos tarde; las animaciones decorativas están desactivadas.
+battery_exact_on	Los recordatorios exactos están permitidos
+battery_exact_off	Sin acceso exacto los recordatorios pueden retrasarse
+battery_restricted_on	El trabajo en segundo plano está restringido por el sistema
+battery_restricted_off	El trabajo en segundo plano no está restringido
+battery_exempt_on	La optimización de batería del sistema está desactivada para Notio
+battery_exempt_off	Se aplica la optimización de batería del sistema
+battery_open_settings	Ajustes de batería
+battery_open_exact	Recordatorios exactos
+battery_check_again	Comprobar de nuevo
+battery_note	Los permisos son opcionales. Notio también funciona cuando el teléfono restringe la batería: los recordatorios suenan; solo una grabación se detiene al salir de la aplicación. El fabricante del teléfono puede restringir más el segundo plano.

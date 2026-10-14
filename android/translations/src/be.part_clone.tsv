@@ -1,0 +1,4 @@
+action_clone	Кланаваць
+note_clone_suffix	_клон%1$d
+note_cloned	Створаны клон: «%1$s»
+error_clone_failed	Не ўдалося кланаваць нататку

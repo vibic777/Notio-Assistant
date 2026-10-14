@@ -1,0 +1,24 @@
+budget_currency_button	Valuta: %1$s
+budget_currency_none	nessuna
+budget_currency_title	Valuta di questo budget
+budget_currency_hint	Una valuta per tutto il budget: viene scritta dopo ogni somma. Aggiungi le tue in Impostazioni → Note ed esportazione → Valute.
+settings_currencies	Valute
+settings_currencies_hint	L’elenco delle valute in cui si può tenere un budget. Aggiungi le tue a quelle integrate.
+settings_currencies_open	Apri l’elenco delle valute
+currencies_title	Valute
+currencies_hint	Ogni nota di budget ha una sua valuta, scritta dopo tutte le somme. Le valute integrate non si possono eliminare; puoi aggiungere le tue.
+currencies_custom_section	Le mie valute
+currencies_built_in_section	Valute integrate
+currencies_none	Non hai ancora aggiunto nessuna valuta.
+currencies_add	Aggiungi valuta
+currencies_add_title	Nuova valuta
+currencies_name_label	Simbolo o codice (fino a 8 caratteri)
+currencies_added	«%1$s» aggiunta
+currencies_deleted	«%1$s» eliminata
+currencies_delete	Elimina valuta
+currencies_delete_title	Eliminare la valuta?
+currencies_delete_message	«%1$s» verrà tolta dall’elenco.
+error_currency_name	Inserisci un simbolo o un codice da 1 a 8 caratteri
+error_currency_duplicate	Questa valuta è già nell’elenco
+error_currency_in_use	Un budget usa ancora questa valuta
+error_currency_built_in	Una valuta integrata non si può eliminare

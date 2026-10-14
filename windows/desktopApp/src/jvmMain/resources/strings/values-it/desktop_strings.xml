@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Texts of the desktop-only functions (AGENT.md D45); not from the Android app, kept by hand in all ten languages. -->
+<resources>
+    <string name="desktop_window">Finestra</string>
+    <string name="desktop_close_to_tray">Il pulsante Chiudi riduce nell’area di notifica</string>
+    <string name="desktop_close_to_tray_hint">Notio resta nell’area di notifica e i promemoria continuano a suonare; Esci nel menu dell’icona (clic destro) lo chiude.</string>
+    <string name="desktop_close_to_tray_notice">Notio è ancora in esecuzione nell’area di notifica. Per chiuderlo, fai clic destro sulla sua icona e scegli Esci.</string>
+    <string name="desktop_single_instance">Non avviare un secondo Notio</string>
+    <string name="desktop_single_instance_hint">Avviare di nuovo Notio porta in primo piano la finestra aperta. Vale dal prossimo avvio.</string>
+    <string name="desktop_floating_stop_hint">Senza di esso la registrazione si ferma nella nota o dal menu dell’icona nell’area di notifica (clic destro).</string>
+    <string name="desktop_auto_start">Avvia con Windows</string>
+    <string name="desktop_auto_start_hint">Notio si avvia in background all’accesso a Windows, così i promemoria suonano fin dall’inizio.</string>
+    <string name="desktop_auto_start_unavailable">Disponibile in Notio installato o portatile.</string>
+    <string name="desktop_auto_start_tray">Avvia nell’area di notifica</string>
+    <string name="desktop_previous">Precedente</string>
+    <string name="desktop_next">Successiva</string>
+    <string name="desktop_render">Disegno della finestra</string>
+    <string name="desktop_render_auto">Automatico</string>
+    <string name="desktop_render_software">Compatibile (senza scheda grafica)</string>
+    <string name="desktop_render_hint">Vale dal riavvio di Notio. «Automatico» disegna senza la scheda grafica su una scheda video virtuale o di base, dove con essa la finestra va a scatti. Ora: %1$s. Schede video: %2$s.</string>
+    <string name="desktop_damaged">Notio non può avviarsi: alcuni file del programma mancano o sono danneggiati. Installare di nuovo Notio. Le note e le impostazioni restano al loro posto.</string>
+    <string name="desktop_not_answering">Notio è già in esecuzione, ma non risponde. Terminare Notio in Gestione attività e avviarlo di nuovo.</string>
+</resources>

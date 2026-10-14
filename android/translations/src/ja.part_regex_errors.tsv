@@ -1,0 +1,9 @@
+search_err_at	式の誤り（%1$d 文字目）：%2$s
+search_err_nothing_to_repeat	「%1$s」は直前のものを繰り返しますが、前に何もありません。記号そのものは \\%1$s、「任意の文字列」は .* と書きます。
+search_err_unclosed_group	この「(」が閉じていません。「)」を足すか、括弧そのものなら \\( と書きます。
+search_err_unmatched_close	この「)」に対応する「(」がありません。削除するか、括弧そのものなら \\) と書きます。
+search_err_unclosed_class	この「[」が閉じていません。「]」を足すか、括弧そのものなら \\[ と書きます。
+search_err_bad_brace	「{」は {2} や {1,3} のような回数でなければなりません。括弧そのものなら \\{ と書きます。
+search_err_trailing_backslash	最後の「\\」の後に何もありません。バックスラッシュそのものは \\\\ と書きます。
+search_err_bad_range	範囲 %1$s が逆順です。a-z や 0-9 のように小さい方から書きます。
+search_err_other	この式を読み取れません。この付近の括弧や * + ? { } を確認してください。

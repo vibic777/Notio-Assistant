@@ -1,0 +1,11 @@
+drawing_sheet_size	Памер ліста
+drawing_sheet_width	Шырыня
+drawing_sheet_height	Вышыня
+drawing_sheet_pixels	= %1$d × %2$d пікс.
+drawing_sheet_too_small	Не менш за %1$d пікс. з кожнага боку.
+drawing_sheet_too_large	Занадта вялікі: не больш за %1$d пікс. па баку і %2$d × %3$d пікс. усяго.
+drawing_sheet_ppi	мм і см — па %1$d пікселяў на цалю.
+drawing_sheet_note	Малюнак застаецца ў левым верхнім куце: большы ліст дадасць пустое месца, меншы абрэжа малюнак за краем (фігуры вектарнага слоя захоўваюцца). Крокі адмены растравага слоя да гэтага моманту ўліваюцца ў малюнак.
+drawing_unit_px	пікс.
+drawing_unit_mm	мм
+drawing_unit_cm	см

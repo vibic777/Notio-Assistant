@@ -1,0 +1,17 @@
+color_family_red	Rossi
+color_family_orange	Arancioni
+color_family_yellow	Gialli
+color_family_green	Verdi
+color_family_cyan	Azzurri
+color_family_blue	Blu
+color_family_purple	Viola
+color_family_pink	Rosa
+color_family_neutral	Grigi, nero e bianco
+color_family_none	Senza colore proprio
+editor_redo	Ripeti
+budget_log_undone	Ultima modifica annullata
+budget_log_redone	Modifica annullata ripristinata
+settings_undo	Passaggi di annullamento
+settings_undo_hint	Quante modifiche indietro annulla la freccia Annulla di testo, elenco, budget, disegno, progetto o programma; Ripeti le ripristina. Vale finché la nota è aperta.
+settings_footer_stamps	Date in fondo alla nota
+settings_footer_stamps_hint	Scegli un tipo di nota e se la sua vista mostra, dopo tutto il contenuto, quando è stata creata e modificata l'ultima volta. Data e ora come in Lingua e formati.

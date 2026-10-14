@@ -1,0 +1,7 @@
+rec_restricted_title	Notio è limitato in background
+rec_restricted_text	Le impostazioni della batteria del telefono non lasciano lavorare Notio in background: una registrazione si ferma appena esci dall’app. In Impostazioni → App → Notio → Batteria scegli «Senza restrizioni» (su Samsung togli anche Notio dalle «App in sospensione»).
+rec_restricted_open	Apri le impostazioni
+rec_restricted_anyway	Registra comunque
+rec_restricted_stopped	Android ha fermato la registrazione: Notio è limitato in background (batteria). Scegli «Senza restrizioni» in Impostazioni → App → Notio → Batteria.
+settings_background_ok	Background: consentito
+settings_background_restricted	Background: limitato — le registrazioni si fermano quando esci dall’app

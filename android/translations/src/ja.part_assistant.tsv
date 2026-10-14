@@ -1,0 +1,49 @@
+assistant_title	アシスタント
+assistant_hint	自分のモデル（LM Studio など）を通じて、言葉で Notio を操作します。オンにするまではオフで、オフの間はアプリにアシスタントは存在しません。
+assistant_setup	アシスタントを設定
+assistant_connection	接続
+assistant_url	モデルのアドレス
+assistant_url_hint	ポートを含む完全なアドレス。例: http://127.0.0.1:1234/v1
+assistant_key	キー（サーバーが要求する場合）
+assistant_check	確認
+assistant_check_ok	接続しました。モデル数: %1$d
+assistant_model	モデル
+assistant_place_this	このコンピューター: ノートの本文は外に出ません。
+assistant_place_home	ホームネットワーク: ノートの本文は暗号化されずにネットワーク経由で別の自分のコンピューターへ送られます。
+assistant_place_outside	外部サービス: ノートの本文が自分のデバイスの外に出ます。「外部モデルに渡してよい」が付いたノートだけが渡されます。
+assistant_rights	アシスタントの権限
+assistant_rights_hint	アシスタントに何を許可するか。許可するまでは何もできません。
+assistant_rights_all_on	すべて許可
+assistant_rights_all_off	すべて禁止
+assistant_right_read	読む: 一覧、検索、本文
+assistant_right_create	ノートを作成
+assistant_right_edit	本文とタイトルを変更
+assistant_right_move	移動と並べ替え
+assistant_right_trash	ゴミ箱へ移動
+assistant_right_screen	フォルダーとノートを画面で開く
+assistant_rights_never	何をオンにしても決して与えられないもの: アシスタント自身の権限、ノートへのアクセス、ロックとパスワード、暗号化、デバイスのペアリング、ゴミ箱を空にすること。
+assistant_access	ノートへのアクセス
+assistant_access_hint	アシスタントに開いていないノートやフォルダーは、アシスタントにとって存在しません。一覧にも検索にも件数にも現れません。開くまではすべて閉じています。
+assistant_access_external	外部モデルに渡してよい
+assistant_access_apply	すべてのノートに適用
+assistant_access_applied	変更したノート: %1$d
+assistant_access_count	開いている: %1$d / %2$d
+assistant_access_notes	フォルダーのノート
+assistant_journal	アシスタントの履歴
+assistant_journal_hint	何かを変更した依頼と、その前の状態です。「ロールバック」はノートを元に戻し、アシスタントが作成したものをゴミ箱へ移します。
+assistant_journal_empty	まだ何もありません。
+assistant_rollback	ロールバック
+assistant_rolled_back	ロールバック済み
+assistant_rollback_conflict	アシスタントの後にあなたが変更したノート: %1$s。ロールバックするとあなたの変更が上書きされます。
+assistant_rollback_force	それでもロールバック
+assistant_journal_clear	履歴を消去
+assistant_chat	アシスタントとのチャット
+assistant_chat_field	やることを書いてください
+assistant_send	送信
+assistant_stop	停止
+assistant_working	モデルが処理中…
+assistant_changed	変更したノート: %1$d
+assistant_not_ready	先にアドレスを入力してモデルを選んでください: 設定 → アシスタント → 接続。
+assistant_no_rights	アシスタントにはまだ何も許可されていません: 設定 → アシスタント → 権限。
+help_assistant_title	アシスタント
+help_assistant_body	アシスタントを使うと、自分のコンピューターで動くモデル（LM Studio など）を通じて、言葉で Notio を操作できます。「設定 → アシスタント」でオンにするまではオフです。接続: ポートを含むモデルの完全なアドレスと、サーバーが要求する場合はキー。「確認」でサーバーが応答するか、どのモデルがあるかが分かります。権限: アシスタントに何を許可するか（読む、ノートの作成、本文の変更、移動と並べ替え、ゴミ箱への移動）。チェックを入れるまでは何も許可されません。ノートへのアクセス: フォルダーやノートは、スイッチをオンにしたときだけアシスタントに開かれます。閉じているものはアシスタントにとって存在しません。「すべてのノートに適用」は、フォルダーの選択をその中のすべてのノートに設定します。チャットはメイン画面上部のボタンです。やることを書くと、何かを変更した回答の下に「ロールバック」が表示されます。履歴にはそのような依頼とその前の状態が保存され、「ロールバック」はノートを元に戻し、アシスタントが作成したものをゴミ箱へ移します。アシスタントは何も完全には削除せず、自分の権限、ノートへのアクセス、ロック、パスワードを変更することもありません。モデルは間違えることがあるので、行った内容を確認してください。権限には、タグ・色・ピン留め、リストの項目、タスクの状態と日付、予算の金額、リマインダー、フォルダー、外観、アプリの一部の設定も含まれます。アシスタントは、1 回の依頼で 5 件を超えるノートを変更する前と、予算の金額を変更する前に停止して確認を待ちます。「確認して続行」を押してください。ノートとフォルダーのメニューには「アシスタントに開く」と「アシスタントに閉じる」があります。Telegram ボット: このコンピューターの Notio 内で動く自分専用のボットです。@BotFather から得たキーを貼り付け、Notio に表示されるコードをボットに送ると、あなただけに応答します。「Telegram からの権限」でボット専用の権限を与え、ボットが見てよいノートに「Telegram で使用可」を付けてください。Telegram では /undo で直前の変更を元に戻し、/yes で承認します。ノートの「リマインダーを Telegram へ」は、リマインダーが鳴ったときにノートのタイトルをボットに送ります。ボットとやり取りする文面は Telegram のサーバーを通ります。ボットが誰に応答するかは Telegram ではなく Notio が決めます。コードを送った Telegram アカウントの番号で、名前を変えても変わりません。コードの有効期間は 10 分で、5 回間違えると無効になります。「新しいコード」で別のコードが出ます。ページには連携したアカウントの名前と番号、他の人が何回書き込んだかが表示されます。「Telegram からの権限」には「すべて許可」と「すべて禁止」があります。「再起動後もチャットを残す」をオフにしない限り、チャットは再起動後も残ります。メッセージにマウスを合わせるとコピーや削除ができます。「チャットを消去」はすべてのメッセージを削除しますが、ノートと履歴は残ります。自分のボットプログラム（TelegramBot）がすでにボットを読んでいる場合は「自分のボットプログラム（TelegramBot）経由」を選びます。Notio が 12 文字のコードを作り、表示・非表示・コピー・新しいコードのボタンが付きます。ボットの管理者が /admin → Notio で入力し、利用者は /notio とコードを送ってから /n と依頼を送ります。ボットは Notio でチェックした人にだけ応答します。

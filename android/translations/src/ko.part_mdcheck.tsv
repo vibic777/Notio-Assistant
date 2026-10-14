@@ -1,0 +1,4 @@
+md_check_delete_cd	줄 삭제
+md_check_delete_title	이 줄을 삭제할까요?
+md_check_delete_text	'%1$s' 줄이 메모에서 삭제됩니다. 실행 취소로 되돌릴 수 있습니다.
+md_check_delete_text_sub	'%1$s' 줄과 그 아래 줄들이 메모에서 삭제됩니다. 실행 취소로 되돌릴 수 있습니다.

@@ -1,0 +1,21 @@
+# D239: folders of tasks and the task kind
+note_type_task	Task	Задача	Задача	Tâche	Aufgabe	Tarea	Attività	任务	タスク	작업
+folder_kind_notes	Folder of notes	Папка заметок	Папка нататак	Dossier de notes	Notizordner	Carpeta de notas	Cartella di note	笔记文件夹	ノートのフォルダー	메모 폴더
+folder_kind_tasks	Folder of tasks	Папка задач	Папка задач	Dossier de tâches	Aufgabenordner	Carpeta de tareas	Cartella di attività	任务文件夹	タスクのフォルダー	작업 폴더
+dialog_new_task_title	New task	Новая задача	Новая задача	Nouvelle tâche	Neue Aufgabe	Nueva tarea	Nuova attività	新建任务	新しいタスク	새 작업
+bg_slot_note_task	Task	Задача	Задача	Tâche	Aufgabe	Tarea	Attività	任务	タスク	작업
+task_done	Done	Выполнена	Выканана	Terminée	Erledigt	Hecha	Fatta	已完成	完了	완료
+task_overdue	Overdue	Просрочена	Пратэрмінавана	En retard	Überfällig	Atrasada	In ritardo	已逾期	期限切れ	기한 지남
+task_in_progress	In progress	В работе	У рабоце	En cours	In Arbeit	En curso	In corso	进行中	進行中	진행 중
+task_done_tick	Done	Выполнена	Выканана	Terminée	Erledigt	Hecha	Fatta	已完成	完了	완료
+task_from	From %1$s	С %1$s	З %1$s	À partir du %1$s	Ab %1$s	Desde %1$s	Dal %1$s	自 %1$s 起	%1$s から	%1$s부터
+task_until	Until %1$s	До %1$s	Да %1$s	Jusqu’au %1$s	Bis %1$s	Hasta %1$s	Fino al %1$s	至 %1$s	%1$s まで	%1$s까지
+task_start	Start	Начало	Пачатак	Début	Beginn	Inicio	Inizio	开始	開始	시작
+task_end	End	Конец	Канец	Fin	Ende	Fin	Fine	结束	終了	끝
+task_not_set	Not set	Не задано	Не зададзена	Non défini	Nicht gesetzt	Sin definir	Non impostato	未设置	未設定	설정 안 됨
+task_comment	Comment	Комментарий	Каментарый	Commentaire	Kommentar	Comentario	Commento	备注	コメント	설명
+task_description	Description	Описание	Апісанне	Description	Beschreibung	Descripción	Descrizione	描述	説明	내용
+task_no_description	No description yet.	Описания пока нет.	Апісання пакуль няма.	Pas encore de description.	Noch keine Beschreibung.	Aún no hay descripción.	Ancora nessuna descrizione.	暂无描述。	説明はまだありません。	아직 내용이 없습니다.
+task_no_reminder	No reminder.	Напоминания нет.	Напаміну няма.	Aucun rappel.	Keine Erinnerung.	Sin recordatorio.	Nessun promemoria.	没有提醒。	リマインダーはありません。	알림이 없습니다.
+task_reminder	Reminder…	Напоминание…	Напамін…	Rappel…	Erinnerung…	Recordatorio…	Promemoria…	提醒…	リマインダー…	알림…
+task_end_before_start	The end cannot be before the start.	Конец не может быть раньше начала.	Канец не можа быць раней за пачатак.	La fin ne peut pas précéder le début.	Das Ende kann nicht vor dem Beginn liegen.	El fin no puede ser anterior al inicio.	La fine non può precedere l’inizio.	结束不能早于开始。	終了を開始より前にはできません。	끝은 시작보다 앞설 수 없습니다.

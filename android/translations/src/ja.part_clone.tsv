@@ -1,0 +1,4 @@
+action_clone	複製
+note_clone_suffix	_複製%1$d
+note_cloned	複製を作成しました：「%1$s」
+error_clone_failed	ノートを複製できませんでした

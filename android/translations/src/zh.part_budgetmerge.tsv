@@ -1,0 +1,31 @@
+budget_kind_title	预算类型
+budget_kind_account	账户
+budget_kind_income	收入
+budget_kind_expense	支出
+budget_kind_hint	收入或支出会一次性并入账户：其条目加到账户中（支出则减去），之后移入回收站。
+budget_merge_target	并入
+budget_merge_target_none	选择账户
+budget_merge_no_accounts	还没有“账户”类型的预算：请先创建一个。
+budget_merge_when	时间
+budget_merge_when_none	未设置（仅“立即并入”）
+budget_merge_clear_time	清除时间
+budget_merge_sum	金额
+budget_merge_goal	目标
+budget_merge_same	相同条目：加到同名条目上
+budget_merge_all	转入全部条目：其余条目在账户中新建
+budget_merge_by_name	按条目名称
+budget_merge_by_path	按分组 / 条目
+budget_merge_match	条目匹配方式
+budget_merge_now	立即并入
+budget_merge_now_confirm	条目将并入“%1$s”，此预算移入回收站。可在账户日志中撤销。
+budget_merge_status	%1$s · 将于 %3$s 并入“%2$s”
+budget_merge_status_no_time	%1$s · 按“立即并入”并入“%2$s”
+budget_merge_status_no_target	%1$s · 未选择账户：不会执行
+budget_merge_done	已并入“%1$s”：修改 %2$d 条，新增 %3$d 条。此预算已在回收站。
+budget_merge_no_target	请先选择账户。
+budget_merge_target_missing	所选账户已删除或不再是账户。
+budget_log_merged	并入：“%1$s”——修改 %2$d 条，新增 %3$d 条
+budget_log_merged_into	已并入“%1$s”
+budget_log_merge_undone	已撤销“%1$s”的并入
+budget_merge_undo	撤销并入
+budget_merge_undo_confirm	账户将恢复到并入“%1$s”之前的状态，“%1$s”也会从回收站恢复（其时间会被清除）。

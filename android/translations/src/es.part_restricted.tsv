@@ -1,0 +1,7 @@
+rec_restricted_title	Notio está restringido en segundo plano
+rec_restricted_text	Los ajustes de batería del teléfono no dejan a Notio trabajar en segundo plano: una grabación se detiene en cuanto sale de la app. En Ajustes → Aplicaciones → Notio → Batería elija «Sin restricciones» (en Samsung quite también Notio de «Aplicaciones en suspensión»).
+rec_restricted_open	Abrir ajustes
+rec_restricted_anyway	Grabar de todos modos
+rec_restricted_stopped	Android detuvo la grabación: Notio está restringido en segundo plano (batería). Elija «Sin restricciones» en Ajustes → Aplicaciones → Notio → Batería.
+settings_background_ok	Segundo plano: permitido
+settings_background_restricted	Segundo plano: restringido — las grabaciones se detienen al salir de la app

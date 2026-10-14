@@ -1,0 +1,5 @@
+budget_delete_restorable	Si può ripristinare dal registro del budget.
+budget_log_restore	Ripristina
+budget_log_was_restored	Ripristinato
+budget_log_restored	«%1$s» ripristinato
+budget_log_restore_failed	Impossibile ripristinare: è già nel budget.

@@ -1,0 +1,156 @@
+lock_method_pin	Codice PIN
+lock_pin	Codice PIN
+lock_pin_again	Codice PIN di nuovo
+lock_pin_enter	Inserisci il tuo codice PIN
+lock_pin_choose	Scegli un codice PIN (4-8 cifre)
+lock_pin_confirm	Inseriscilo di nuovo per confermare
+lock_attempts_title	Politica dei tentativi errati
+lock_attempts_hint	Quanti tentativi errati sono gratuiti prima che l'app ti faccia aspettare, quanto dura quell'attesa all'inizio, e cosa succede se i tentativi errati continuano.
+lock_free_tries	Tentativi gratuiti
+lock_base_wait	Prima attesa (secondi)
+lock_max_attempts	Limite (0 = disattivato)
+lock_max_attempts_hint	Totale tentativi errati di fila prima che si applichi la scelta qui sotto. 0 significa nessun limite: solo l'attesa qui sopra, per sempre.
+lock_lockout_mode_title	Dopo il limite
+lock_lockout_recovery	Blocca i tentativi, solo recupero
+lock_lockout_wipe	Cancella i dati dell'app
+lock_lockout_wipe_active_warning	Troppi tentativi errati cancelleranno tutti i dati Notio su questo telefono. Non si può annullare.
+lock_attempts_saved	Salvato
+lock_wipe_confirm_title	Cancellare i dati dopo troppi tentativi errati?
+lock_wipe_confirm_message	Se questo è attivo, raggiungere il limite sopra cancella ogni cartella, nota e impostazione su questo telefono — all'istante, senza ulteriore avviso, e non si può annullare. Attivalo solo se capisci e vuoi davvero questo.
+lock_wipe_confirm_field	Digita %1$s per confermare
+lock_wipe_confirm_button	Attiva la cancellazione
+lock_wipe_confirm_phrase	CANCELLA
+lock_locked_out	Troppi tentativi errati. Usa "L'ho dimenticata" qui sotto per rientrare.
+lock_wiped	Troppi tentativi errati: i dati Notio su questo telefono sono stati cancellati.
+settings_db_encryption	Crittografia del database
+settings_db_encryption_hint	Cifra l’intero file del database su questo telefono. Attivarla o disattivarla converte il file sul posto: non si perde nulla, ma l’app deve riavviarsi dopo.
+db_encryption_enable	Cifra il database
+db_encryption_password_field	Password del database
+db_encryption_password_warning	L’app ha generato questa password da sola e la conserva qui perché tu possa copiarla. Senza di essa non si può aprire un file di database esportato, né questo stesso file su un telefono privo della chiave di questa app.
+db_encryption_copied	Password copiata
+db_encryption_copy_error	Copia il testo dell'errore
+db_encryption_error_copied	Testo dell'errore copiato
+db_encryption_email_button	Invia la password via e-mail
+db_encryption_email_confirm_title	Inviare la password del database via e-mail?
+db_encryption_email_confirm_message	La password verrà inviata in chiaro a %1$s, l’indirizzo di recupero indicato in Impostazioni → Blocco dell'app → Recupero via e-mail. Chiunque abbia accesso a quella casella potrebbe leggere i tuoi dati cifrati.
+db_encryption_email_not_configured	Configura prima il recupero via e-mail: Impostazioni → Blocco dell'app → Recupero via e-mail (SMTP).
+db_encryption_email_sent	Password inviata via e-mail
+db_encryption_mail_subject	Password del database Notio
+db_encryption_mail_body	Questa è la password con cui è cifrato il database di Notio su questo telefono:\n\n%1$s\n\nConservala in un luogo sicuro. Senza di essa non è possibile aprire un file di database copiato o esportato.
+db_encryption_enable_failed	Impossibile cifrare il database. Non è stato modificato nulla.
+db_encryption_disable_failed	Impossibile decifrare il database. Non è stato modificato nulla.
+db_encryption_busy_title	Conversione del database
+db_encryption_busy_message	Può richiedere un momento. Non chiudere l’app finché questa finestra non scompare.
+db_encryption_restart_title	Riavvio necessario
+db_encryption_restart_message	Il database è stato convertito. Notio deve riavviarsi per usarlo.
+db_encryption_restart_now	Riavvia ora
+db_encryption_confirm_on_title	Cifrare il database?
+db_encryption_confirm_on_message	Il file del database viene convertito sul posto, nessun dato va perso. Una versione precedente dell’app, o un normale strumento SQLite, non potranno più aprire il file direttamente — ma un backup fatto con «Esporta» sopra si aprirà comunque con qualsiasi versione. L’app si riavvierà.
+db_encryption_confirm_off_title	Disattivare la crittografia del database?
+db_encryption_confirm_off_message	Il file del database torna alla forma normale, nessun dato va perso. L’app si riavvierà.
+db_file_transfer_hint	Esporta il file del database così com’è, oppure sostituiscilo con quello di un altro telefono. A differenza del backup sopra, questo file si apre solo in Notio: normale se la cifratura è disattivata, o con la password sopra se è attivata.
+db_file_export	Esporta file del database
+db_file_export_done	File del database esportato
+db_file_export_failed	Impossibile esportare il file del database
+db_file_import	Importa file del database
+db_file_import_confirm_title	Sostituire tutti i dati?
+db_file_import_confirm_message	Importare un file di database sostituisce tutto ciò che si trova ora su questo telefono: ogni cartella, nota e impostazione. Non si può annullare. Se il file è cifrato, la sua password verrà chiesta più sotto.
+db_file_import_failed	Questo non è un file di database di Notio, oppure è danneggiato.
+action_copy	Copia
+action_continue	Continua
+action_later	Più tardi
+transfer_error_too_large	Il backup è troppo grande per la memoria di questo dispositivo. Non è stato modificato nulla.
+drawing_bg	Sfondo del foglio
+drawing_bg_color	Colore
+drawing_bg_transparent	Trasparente
+drawing_bg_transparency	Trasparenza: %1$d%%
+drawing_bg_note	100 % significa nessuno sfondo: l’immagine viene salvata e condivisa come PNG con trasparenza. Lo sfondo sta sotto il disegno: la gomma lo rimostra e il secchiello riempie il foglio vuoto.
+status_title_tasks	Attività
+status_tasks	Attività: %1$d · aperte: %2$d
+status_tasks_overdue	scadute: %1$d
+reminders_cancel_title	Annullare il promemoria?
+reminders_cancel_message	«%1$s»: il promemoria non suonerà più e passa tra quelli conclusi. Non si può annullare; per usarlo di nuovo, imposta un nuovo orario con Modifica.
+reminders_cancel_keep	Tieni
+reminder_switch_on	Attiva il promemoria
+reminder_switch_off	Disattiva il promemoria
+reminder_status_off	Disattivato
+budget_show_amounts	Mostra gli importi nascosti
+budget_hide_amounts	Nascondi di nuovo gli importi
+budget_layout_hide_sums	Nascondi le somme (asterischi finché non si tocca l’occhio)
+budget_layout_hide_goals	Nascondi gli obiettivi (asterischi finché non si tocca l’occhio)
+zoom_out_cd	Riduci
+zoom_in_cd	Ingrandisci
+zoom_level_cd	Zoom %1$d%%, tocca per la dimensione normale
+tags_add_tag	Aggiungi etichetta
+tags_add_confirm	Aggiungi
+tags_created	Etichetta «%1$s» aggiunta
+settings_card_tint	Colore delle schede
+settings_card_tint_hint	Quanto intensamente le schede di note e cartelle mostrano il loro colore. Il testo diventa chiaro o scuro da solo per restare leggibile.
+settings_card_tint_value	Intensità: %1$d%%
+settings_card_tint_sample	Una nota
+settings_card_tint_sample_line	Ecco come appare una scheda
+folder_ready_notes	Cartella
+folder_ready_tasks	Attività
+units_rename_title	Rinomina unità
+units_renamed	Unità rinominata: %1$s
+currencies_rename_title	Rinomina valuta
+currencies_renamed	«%1$s» rinominata
+comment_add_cd	Aggiungi un commento
+sync_address_line	Indirizzo: %1$s
+sync_address_unknown	Indirizzo: non ancora noto
+sync_address_edit	Indirizzo…
+sync_address_title	Indirizzo di «%1$s»
+sync_address_host	Indirizzo IP o nome
+sync_address_port	Porta
+sync_address_invalid	Inserisci un indirizzo IP come 192.168.1.153 (o un nome del dispositivo) e una porta da 1 a 65535.
+sync_address_hint	Se il Wi-Fi ha dato all’altro dispositivo un nuovo indirizzo e non viene trovato da solo, inserisci l’indirizzo e la porta che mostra in cima alla sua pagina Sincronizzazione. L’abbinamento resta com’è: la chiave non cambia e un dispositivo a quell’indirizzo senza la chiave viene rifiutato, non gli viene inviato nulla.
+sync_address_saved	Indirizzo salvato: %1$s
+drawing_tools_top	Strumenti in alto
+drawing_tools_left	Strumenti a sinistra
+drawing_tools_side	Dove sono gli strumenti
+budget_log_undo	Annulla
+budget_log_was_undone	Annullato
+budget_log_undo_title	Annullare questa modifica?
+budget_log_undo_message	La modifica viene annullata della sua stessa differenza: le modifiche fatte dopo restano come sono.
+budget_log_undo_added_message	La voce o il gruppo viene eliminato, con tutto ciò che contiene ora.
+budget_log_undo_failed	Questa modifica non si può più annullare: la voce non c’è più o il valore uscirebbe dai limiti.
+budget_log_op_undone_value	Annullato: «%1$s» %2$s → %3$s
+budget_log_op_undone_rename	Annullato: è tornato il nome «%1$s»
+budget_log_op_undone_added	Annullato: «%1$s» di nuovo eliminato
+help_tasks_title	Attività: stato e priorità
+help_tasks_body	In una cartella di attività ogni attività ha uno stato: Creata, In coda, Pianificata, In corso, In pausa, Rimandata, In attesa, In verifica, Completata, Chiusa o Annullata. Lo stato è un pulsante con la sua icona — sulla scheda dell'attività, in Visualizza e in Modifica; premilo e scegli dall'elenco. Completata, Chiusa e Annullata concludono un'attività: non è più in ritardo. Accanto allo stato c'è la priorità: un numero intero da 0 a 65535, solo cifre, oppure vuoto. L'ordinamento di una cartella di attività ha Stato e Priorità; i chip sopra le attività lasciano solo quelle degli stati scelti, e gli stessi chip sono nella ricerca delle note. La spunta accanto allo stato è «Completata»: si trova sulla scheda di un’attività, nella vista e nella modifica. Con la spunta l’attività diventa Fatta; senza, riprende lo stato che aveva prima. I chip «Non completate» e «Completate» sopra le attività e nella ricerca delle note lasciano solo quelle attività, e l’ordinamento di una cartella di attività ha «Completata»: prima vengono le attività ancora aperte. Questi due chip sono icone: una casella vuota è «Non completate», una casella spuntata è «Completate»; le parole compaiono come suggerimento dell’icona. Il cestino alla fine della riga di un’attività — sulla scheda e nella vista — elimina l’attività: prima chiede conferma, poi l’attività va nel cestino, da cui si può ripristinare. I due fogli accanto copiano l’attività come testo.
+help_income_title	Entrate e uscite ricorrenti
+help_income_body	Un'entrata o un'uscita viene unita al suo conto all'ora impostata in Modifica. «Ripetizione» sceglie la frequenza: una volta, ogni giorno, ogni settimana nei giorni scelti, ogni mese o ogni anno. Un'unione ricorrente resta nella sua cartella e attende la prossima scadenza; un mese senza quel giorno prende il suo ultimo giorno; le scadenze perse con Notio chiuso vengono unite al prossimo avvio. «Unisci ora» unisce subito e non sposta la scadenza. Due caselle decidono se contano maiuscole e minuscole: con esse «Cassa» e «cassa» sono una voce o un gruppo, senza di esse due.
+budget_merge_repeat	Ripetizione
+budget_merge_repeat_none	Una volta
+budget_merge_repeat_daily	Ogni giorno
+budget_merge_repeat_weekly	Ogni settimana
+budget_merge_repeat_monthly	Ogni mese
+budget_merge_repeat_yearly	Ogni anno
+budget_merge_repeat_hint	Viene unito più volte a partire dall'ora indicata sopra, a quella stessa ora, e resta nella sua cartella. Un mese senza quel giorno prende il suo ultimo giorno. Le scadenze perse mentre Notio era chiuso vengono unite al prossimo avvio.
+budget_merge_case_items	Ignora maiuscole e minuscole nei nomi delle voci (Cassa = cassa)
+budget_merge_case_groups	Ignora maiuscole e minuscole nei nomi dei gruppi
+task_state	Stato
+task_state_created	Creata
+task_state_queued	In coda
+task_state_planned	Pianificata
+task_state_in_progress	In corso
+task_state_paused	In pausa
+task_state_postponed	Rimandata
+task_state_waiting	In attesa
+task_state_review	In verifica
+task_state_done	Completata
+task_state_closed	Chiusa
+task_state_cancelled	Annullata
+task_priority	Priorità
+task_priority_value	Priorità: %1$s
+task_priority_hint	Un numero intero da 0 a 65535, solo cifre. Vuoto: nessuna priorità.
+sort_key_status	Stato
+sort_key_priority	Priorità
+sync_service_channel	Pronto per la sincronizzazione
+sync_service_title	Pronto per la sincronizzazione
+sync_service_text	Notio attende una sincronizzazione dai dispositivi associati.
+sync_service_off	Disattiva
+sync_question_channel	Richieste di sincronizzazione
+sync_question_title	%1$s chiede una sincronizzazione
+sync_question_text	Tocca per rispondere in Notio.

@@ -1,0 +1,11 @@
+drawing_sheet_size	Tamaño de la hoja
+drawing_sheet_width	Ancho
+drawing_sheet_height	Alto
+drawing_sheet_pixels	= %1$d × %2$d px
+drawing_sheet_too_small	Al menos %1$d px por lado.
+drawing_sheet_too_large	Demasiado grande: como máximo %1$d px por lado y %2$d × %3$d px en total.
+drawing_sheet_ppi	mm y cm a %1$d píxeles por pulgada.
+drawing_sheet_note	La imagen queda arriba a la izquierda: una hoja mayor añade espacio vacío y una menor recorta el dibujo que sobra (las formas de una capa vectorial se conservan). Los pasos de deshacer de la capa de dibujo hasta ahora se funden en ella.
+drawing_unit_px	px
+drawing_unit_mm	mm
+drawing_unit_cm	cm

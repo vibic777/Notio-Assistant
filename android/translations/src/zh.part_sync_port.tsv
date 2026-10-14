@@ -1,0 +1,12 @@
+sync_port_auto	端口：自动选择
+sync_port_auto_other	端口 %1$s 被其他程序占用，已改用空闲端口：%2$s
+sync_port_manual	端口：%1$s，手动设置
+sync_port_busy	端口 %1$s 被其他程序占用：本设备不接受连接。请选择其他端口或“自动”。
+sync_port_edit	本设备的端口…
+sync_port_title	连接端口
+sync_port_automatic	自动
+sync_port_own	自定义端口
+sync_port_range	请输入 1024 到 65535 之间的端口。
+sync_port_free	端口 %1$s 空闲。
+sync_port_taken	端口 %1$s 目前被其他程序占用。如果保留它，在端口空闲之前本设备不接受连接。
+sync_port_hint	自动时，Notio 使用端口 %1$s，若被占用则使用任意空闲端口。自定义端口用于防火墙或路由器的规则。已配对的设备在网络中找到本设备时会自行获知新端口；若某台设备找不到，请在该设备上用“地址…”更正端口。

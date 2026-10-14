@@ -1,0 +1,10 @@
+sort_key_tags	Etiquetas
+sort_key_type	Tipo
+sort_key_count	Número de notas
+sort_key_created_date	Creada: día
+sort_key_created_time	Creada: hora del día
+sort_key_updated_date	Cambiada: día
+sort_key_updated_time	Cambiada: hora del día
+cd_drag_handle	Arrastrar para mover
+stamp_created	Creada: %1$s
+stamp_modified	Modificada: %1$s

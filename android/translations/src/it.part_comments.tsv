@@ -1,0 +1,11 @@
+action_comment	Commento…
+comment_title_note	Commento alla nota
+comment_title_folder	Commento alla cartella
+comment_label	Commento
+comment_counter	%1$d / %2$d
+comment_hint	La scheda mostra i primi 16 caratteri della prima riga (se l’interruttore in Impostazioni → Aspetto è attivo). Lascia vuoto per rimuovere il commento.
+settings_comments	Commenti sulle schede
+settings_comments_hint	Ogni nota e cartella può avere un breve commento (menu ⋮ → Commento). La scheda ne mostra i primi 16 caratteri nell’ultima riga.
+settings_comments_notes	Mostra sulle schede delle note
+settings_comments_folders	Mostra sulle schede delle cartelle
+budget_layout_comments	Mostra i commenti (primi 16 caratteri)

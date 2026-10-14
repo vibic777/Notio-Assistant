@@ -1,0 +1,10 @@
+sort_button	Sort: %1$s	Сортировка: %1$s	Сартаванне: %1$s	Tri : %1$s	Sortierung: %1$s	Orden: %1$s	Ordinamento: %1$s	排序：%1$s	並べ替え：%1$s	정렬: %1$s
+sort_key_sum	Sum	Сумма	Сума	Somme	Summe	Suma	Somma	金额	金額	금액
+sort_key_goal	Goal	Цель	Мэта	Objectif	Ziel	Objetivo	Obiettivo	目标	目標	목표
+sort_key_remainder	Remainder	Остаток	Астатак	Reste	Rest	Resto	Resto	余额	残り	잔액
+sort_key_progress	Progress (share of the goal)	Выполнение (доля цели)	Выкананне (доля мэты)	Avancement (part de l’objectif)	Fortschritt (Anteil am Ziel)	Progreso (parte del objetivo)	Avanzamento (quota dell’obiettivo)	进度（目标完成比例）	達成度（目標に対する割合）	진행률(목표 대비 비율)
+sort_key_quantity	Quantity	Количество	Колькасць	Quantité	Menge	Cantidad	Quantità	数量	数量	수량
+sort_key_price	Price of one	Цена за штуку	Цана за штуку	Prix unitaire	Preis pro Stück	Precio unitario	Prezzo unitario	单价	単価	단가
+sort_key_cost	Cost	Стоимость	Кошт	Coût	Kosten	Coste	Costo	费用	費用	비용
+sort_key_unit	Unit	Единица измерения	Адзінка вымярэння	Unité	Einheit	Unidad	Unità	单位	単位	단위
+sort_key_done	Done / not done	Готово / не готово	Гатова / не гатова	Fait / pas fait	Erledigt / offen	Hecho / pendiente	Fatto / da fare	已完成 / 未完成	完了 / 未完了	완료 / 미완료

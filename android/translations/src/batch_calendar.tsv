@@ -1,0 +1,7 @@
+# D236: the calendar
+calendar_title	Calendar	Календарь	Каляндар	Calendrier	Kalender	Calendario	Calendario	日历	カレンダー	달력
+calendar_today	Today	Сегодня	Сёння	Aujourd’hui	Heute	Hoy	Oggi	今天	今日	오늘
+calendar_previous	Previous month	Предыдущий месяц	Папярэдні месяц	Mois précédent	Voriger Monat	Mes anterior	Mese precedente	上个月	前の月	이전 달
+calendar_next	Next month	Следующий месяц	Наступны месяц	Mois suivant	Nächster Monat	Mes siguiente	Mese successivo	下个月	次の月	다음 달
+calendar_day_empty	Nothing on this day.	На этот день ничего нет.	На гэты дзень нічога няма.	Rien ce jour-là.	An diesem Tag nichts.	Nada este día.	Niente in questo giorno.	这一天没有安排。	この日は何もありません。	이 날에는 아무것도 없습니다.
+calendar_reminders_cd	Reminders: %1$d	Напоминаний: %1$d	Напамінаў: %1$d	Rappels : %1$d	Erinnerungen: %1$d	Recordatorios: %1$d	Promemoria: %1$d	提醒：%1$d	リマインダー：%1$d	알림: %1$d

@@ -1,0 +1,24 @@
+budget_currency_button	Moneda: %1$s
+budget_currency_none	ninguna
+budget_currency_title	Moneda de este presupuesto
+budget_currency_hint	Una moneda para todo el presupuesto: se escribe tras cada suma. Añade las tuyas en Ajustes → Notas y exportación → Monedas.
+settings_currencies	Monedas
+settings_currencies_hint	La lista de monedas en las que se puede llevar un presupuesto. Añade las tuyas a las integradas.
+settings_currencies_open	Abrir la lista de monedas
+currencies_title	Monedas
+currencies_hint	Cada nota de presupuesto tiene una moneda propia, que se escribe tras todas sus sumas. Las monedas integradas no se pueden eliminar; puedes añadir las tuyas.
+currencies_custom_section	Mis monedas
+currencies_built_in_section	Monedas integradas
+currencies_none	Aún no has añadido ninguna moneda.
+currencies_add	Añadir moneda
+currencies_add_title	Nueva moneda
+currencies_name_label	Signo o código (hasta 8 caracteres)
+currencies_added	«%1$s» añadida
+currencies_deleted	«%1$s» eliminada
+currencies_delete	Eliminar moneda
+currencies_delete_title	¿Eliminar la moneda?
+currencies_delete_message	«%1$s» se quitará de la lista.
+error_currency_name	Introduce un signo o código de 1 a 8 caracteres
+error_currency_duplicate	Esta moneda ya está en la lista
+error_currency_in_use	Un presupuesto aún usa esta moneda
+error_currency_built_in	Una moneda integrada no se puede eliminar

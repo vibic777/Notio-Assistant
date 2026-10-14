@@ -1,0 +1,4 @@
+# D146 (the branch 'assistant'): which key sends a request of the chat
+assistant_chat_options	Chat	Чат	Чат	Discussion	Chat	Chat	Chat	对话	チャット	채팅
+assistant_send_ctrl_enter	Ctrl+Enter sends, Enter starts a new line	Ctrl+Enter отправляет, Enter — новая строка	Ctrl+Enter адпраўляе, Enter — новы радок	Ctrl+Entrée envoie, Entrée passe à la ligne	Strg+Eingabe sendet, Eingabe beginnt eine neue Zeile	Ctrl+Intro envía, Intro empieza una línea nueva	Ctrl+Invio invia, Invio va a capo	Ctrl+Enter 发送，Enter 换行	Ctrl+Enter で送信、Enter で改行	Ctrl+Enter로 보내기, Enter로 줄 바꿈
+assistant_send_enter	Enter sends, Shift+Enter starts a new line	Enter отправляет, Shift+Enter — новая строка	Enter адпраўляе, Shift+Enter — новы радок	Entrée envoie, Maj+Entrée passe à la ligne	Eingabe sendet, Umschalt+Eingabe beginnt eine neue Zeile	Intro envía, Mayús+Intro empieza una línea nueva	Invio invia, Maiusc+Invio va a capo	Enter 发送，Shift+Enter 换行	Enter で送信、Shift+Enter で改行	Enter로 보내기, Shift+Enter로 줄 바꿈

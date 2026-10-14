@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Notio by vibic
+Name[ru]=Нотио от Вибик
+GenericName=Notes
+Comment=Notio by vibic
+Exec=Notio
+Icon=notio
+Categories=Office;
+Terminal=false

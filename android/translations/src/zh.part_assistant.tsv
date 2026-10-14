@@ -1,0 +1,49 @@
+assistant_title	助手
+assistant_hint	通过你自己的模型（例如 LM Studio）用文字操控 Notio。在你开启之前处于关闭状态；关闭时应用中完全没有助手。
+assistant_setup	设置助手
+assistant_connection	连接
+assistant_url	模型地址
+assistant_url_hint	带端口的完整地址，例如 http://127.0.0.1:1234/v1
+assistant_key	密钥（如果服务器要求）
+assistant_check	检查
+assistant_check_ok	已连接。模型数：%1$d
+assistant_model	模型
+assistant_place_this	本机：笔记文本不会离开这台电脑。
+assistant_place_home	家庭网络：笔记文本通过网络发送到你的另一台电脑，未加密。
+assistant_place_outside	外部服务：笔记文本会离开你的设备。只向它提供标有“可交给外部模型”的笔记。
+assistant_rights	助手的权限
+assistant_rights_hint	助手总体上可以做什么。在你允许之前，什么都不能做。
+assistant_rights_all_on	全部允许
+assistant_rights_all_off	全部禁止
+assistant_right_read	读取：列表、搜索、文本
+assistant_right_create	创建笔记
+assistant_right_edit	修改文本和标题
+assistant_right_move	移动和排序
+assistant_right_trash	移到回收站
+assistant_right_screen	在屏幕上打开文件夹和笔记
+assistant_rights_never	无论开启了什么都永远不会授予：助手自身的权限、笔记的访问权限、锁定和密码、加密、设备配对、清空回收站。
+assistant_access	笔记访问权限
+assistant_access_hint	助手未获准进入的笔记或文件夹对它来说并不存在：不会列出、搜不到、也不计数。在你开放之前，一切都是关闭的。
+assistant_access_external	可交给外部模型
+assistant_access_apply	应用到所有笔记
+assistant_access_applied	已更改笔记：%1$d
+assistant_access_count	已开放：%1$d / %2$d
+assistant_access_notes	文件夹中的笔记
+assistant_journal	助手日志
+assistant_journal_hint	每一条造成更改的请求，以及更改前的状态。“回滚”会把笔记恢复原样，并把助手创建的内容移到回收站。
+assistant_journal_empty	暂无记录。
+assistant_rollback	回滚
+assistant_rolled_back	已回滚
+assistant_rollback_conflict	你在助手之后修改过这些笔记：%1$s。回滚会覆盖你的更改。
+assistant_rollback_force	仍然回滚
+assistant_journal_clear	清空日志
+assistant_chat	与助手对话
+assistant_chat_field	写下要做的事
+assistant_send	发送
+assistant_stop	停止
+assistant_working	模型正在处理…
+assistant_changed	已更改笔记：%1$d
+assistant_not_ready	请先填写地址并选择模型：设置 → 助手 → 连接。
+assistant_no_rights	尚未允许助手做任何事：设置 → 助手 → 权限。
+help_assistant_title	助手
+help_assistant_body	助手让你通过运行在自己电脑上的模型（例如 LM Studio）用文字操控 Notio。在“设置 → 助手”中开启之前，它处于关闭状态。连接：带端口的完整模型地址，以及服务器要求时的密钥；“检查”会显示服务器是否响应以及有哪些模型。权限：助手总体上可以做什么——读取、创建笔记、修改文本、移动和排序、移到回收站；在你勾选之前什么都不允许。笔记访问权限：只有当你打开文件夹或笔记的开关时，它才对助手开放；关闭的内容对它来说并不存在。“应用到所有笔记”会把文件夹的选择应用到其中每一条笔记。对话入口是主屏幕顶部的按钮：写下要做的事；在造成更改的回答下方有“回滚”。日志保存每一条这样的请求以及更改前的状态；“回滚”会把笔记恢复原样，并把助手创建的内容移到回收站。助手绝不会永久删除任何内容，也不会更改自己的权限、笔记的访问权限、锁定或密码。模型可能出错，请检查它做了什么。权限还包括标签、颜色和置顶，清单的条目，任务的状态和日期，预算的金额，提醒，文件夹，外观以及应用的部分设置。在一次请求中更改超过五条笔记之前，以及更改预算的任何金额之前，助手都会停下并等待你的确认：点按“确认并继续”。笔记和文件夹的菜单中有“对助手开放”和“对助手关闭”。Telegram 机器人：你自己的机器人，运行在这台电脑的 Notio 中。粘贴从 @BotFather 获得的密钥，把 Notio 显示的代码发给机器人，它就只听你的；在“来自 Telegram 的权限”中为它单独设置权限，并用“可用于 Telegram”标记它可以看到的笔记。在 Telegram 中，/undo 回滚它上一次的更改，/yes 表示确认。笔记上的“提醒发到 Telegram”会在提醒响起时把笔记标题发给机器人。你与机器人交换的文字会经过 Telegram 的服务器。机器人听谁的由 Notio 决定，而不是 Telegram：发送代码的 Telegram 账号的编号，改名不会改变它。代码有效十分钟，输错五次即失效；“新代码”会给出另一个。页面上显示已绑定账号的名字和编号，以及有多少陌生人发过消息。“来自 Telegram 的权限”中有“全部允许”和“全部禁止”。除非关闭“重启后保留聊天”，聊天在重启后会保留。将鼠标指向一条消息即可复制或删除它；“清空聊天”会删除所有消息，笔记和日志会保留。如果你自己的机器人程序（TelegramBot）已经在读取机器人，请选择“通过你的机器人程序”：Notio 会生成 12 个字符的代码，并提供显示、隐藏、复制和新代码按钮；机器人管理员在 /admin → Notio 中输入它；用户发送 /notio 和代码，然后用 /n 加请求，机器人只回复你在 Notio 中勾选的人。

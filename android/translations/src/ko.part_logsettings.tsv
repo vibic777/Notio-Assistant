@@ -1,0 +1,10 @@
+app_log_keep	앱 로그 기록
+app_log_keep_hint	충돌은 원인을 찾을 수 있도록 항상 기록됩니다.
+app_log_level	기록할 수준
+app_log_level_hint	DEBUG — 개발자용 세부 정보, INFO — 앱이 한 일, WARN — 경고, ERROR — 앱이 넘긴 오류, CRITICAL — 작업이 사라진 경우, FATAL — 충돌(항상 기록).
+app_log_clear_period	자동으로 지우기
+app_log_clear_never	안 함
+app_log_clear_daily	매일
+app_log_clear_weekly	매주
+app_log_clear_monthly	매월
+app_log_size_note	어떤 경우에도 로그는 약 0.5MB를 넘지 않습니다.

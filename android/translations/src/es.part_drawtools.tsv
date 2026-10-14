@@ -1,0 +1,20 @@
+drawing_tool_shape	Formas
+drawing_tool_text	Texto
+drawing_tool_eyedropper	Cuentagotas
+drawing_shape_filled	Relleno
+drawing_eyedropper_hint	Toque el dibujo para tomar su color.
+drawing_text_hint	Toque donde debe ir el texto.
+drawing_brush_opacity	Opacidad
+drawing_brush_softness	Difuminado
+drawing_brush_round	Punta redonda
+drawing_brush_nib	Plumilla plana
+drawing_brush_angle	Ángulo
+drawing_shape_square	Cuadrado
+drawing_shape_circle	Círculo
+drawing_shape_rhombus	Rombo
+drawing_shape_pentagon	Pentágono
+drawing_shape_hexagon	Hexágono
+drawing_shape_star	Estrella
+drawing_shape_double_arrow	Flecha doble
+drawing_text_label	Texto
+drawing_edit_text	Editar texto

@@ -1,0 +1,12 @@
+budget_adjust_set	入力
+budget_adjust_new_value	新しい値
+budget_adjust_negative	結果は0未満にできません
+list_change_quantity	数量
+list_change_price	価格
+list_adjust_quantity_title	数量を変更
+list_adjust_price_title	価格を変更
+list_adjust_current_quantity	現在の数量：%1$s
+list_adjust_current_price	現在の価格：%1$s
+list_adjust_not_set	未設定（0として扱います）
+list_adjust_invalid	0より大きい数を小数点以下3桁まで入力してください
+list_adjust_invalid_set	小数点以下3桁までの数を入力してください

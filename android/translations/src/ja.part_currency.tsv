@@ -1,0 +1,24 @@
+budget_currency_button	通貨：%1$s
+budget_currency_none	なし
+budget_currency_title	この予算の通貨
+budget_currency_hint	予算全体で1つの通貨を使い、すべての金額の後ろに表示されます。独自の通貨は「設定 → ノートとエクスポート → 通貨」で追加できます。
+settings_currencies	通貨
+settings_currencies_hint	予算で使える通貨の一覧です。内蔵の通貨のほかに独自の通貨を追加できます。
+settings_currencies_open	通貨の一覧を開く
+currencies_title	通貨
+currencies_hint	各予算ノートには通貨が1つあり、すべての金額の後ろに表示されます。内蔵の通貨は削除できません。独自の通貨を追加できます。
+currencies_custom_section	自分の通貨
+currencies_built_in_section	内蔵の通貨
+currencies_none	独自の通貨はまだありません。
+currencies_add	通貨を追加
+currencies_add_title	新しい通貨
+currencies_name_label	記号またはコード（8文字まで）
+currencies_added	「%1$s」を追加しました
+currencies_deleted	「%1$s」を削除しました
+currencies_delete	通貨を削除
+currencies_delete_title	通貨を削除しますか？
+currencies_delete_message	「%1$s」を一覧から削除します。
+error_currency_name	1〜8文字の記号またはコードを入力してください
+error_currency_duplicate	この通貨はすでに一覧にあります
+error_currency_in_use	この通貨はまだ予算で使われています
+error_currency_built_in	内蔵の通貨は削除できません

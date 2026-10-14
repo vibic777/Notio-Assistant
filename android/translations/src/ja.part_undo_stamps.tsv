@@ -1,0 +1,17 @@
+color_family_red	赤
+color_family_orange	オレンジ
+color_family_yellow	黄
+color_family_green	緑
+color_family_cyan	水色
+color_family_blue	青
+color_family_purple	紫
+color_family_pink	ピンク
+color_family_neutral	グレー・黒・白
+color_family_none	独自の色なし
+editor_redo	やり直す
+budget_log_undone	直前の変更を取り消しました
+budget_log_redone	取り消した変更をやり直しました
+settings_undo	元に戻せる回数
+settings_undo_hint	テキスト、リスト、予算、描画、設計図、スケジュールで「元に戻す」矢印が戻れる変更の数です。「やり直す」で戻せます。メモを開いている間だけ保持されます。
+settings_footer_stamps	メモ下部のタイムスタンプ
+settings_footer_stamps_hint	メモの種類を選び、表示画面の最後に作成日時と最終変更日時を表示するかを設定します。日付と時刻の書式は「言語と形式」に従います。

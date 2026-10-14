@@ -1,0 +1,10 @@
+app_log_keep	Tenere un registro dell’app
+app_log_keep_hint	Un arresto anomalo viene sempre annotato, per trovarne la causa.
+app_log_level	Livelli da annotare
+app_log_level_hint	DEBUG — dettagli per lo sviluppatore; INFO — cosa ha fatto l’app; WARN — avvisi; ERROR — errori superati; CRITICAL — ciò che ha perso il tuo lavoro; FATAL — arresti anomali, sempre annotati.
+app_log_clear_period	Cancellare da solo
+app_log_clear_never	mai
+app_log_clear_daily	ogni giorno
+app_log_clear_weekly	ogni settimana
+app_log_clear_monthly	ogni mese
+app_log_size_note	In ogni caso il registro non occupa più di circa mezzo megabyte.

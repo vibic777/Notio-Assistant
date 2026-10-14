@@ -1,0 +1,5 @@
+# D234: blueprint order to the front / back and layers to the top / bottom
+drawing_to_front	Bring to front	На передний план	На пярэдні план	Mettre au premier plan	In den Vordergrund	Traer al frente	Porta in primo piano	置于顶层	最前面へ	맨 앞으로 가져오기
+drawing_to_back	Send to back	На задний план	На задні план	Mettre à l’arrière-plan	In den Hintergrund	Enviar al fondo	Porta in secondo piano	置于底层	最背面へ	맨 뒤로 보내기
+layer_top	Move to the top	В самый верх	У самы верх	Tout en haut	Ganz nach oben	Subir del todo	Sposta in cima	移到最上	一番上へ	맨 위로 이동
+layer_bottom	Move to the bottom	В самый низ	У самы ніз	Tout en bas	Ganz nach unten	Bajar del todo	Sposta in fondo	移到最下	一番下へ	맨 아래로 이동

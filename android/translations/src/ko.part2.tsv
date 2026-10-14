@@ -1,0 +1,336 @@
+note_color_title	메모 색상
+note_color_hint	이 메모의 색상을 고르거나, “폴더 색상”을 골라 폴더의 색을 사용하세요.
+note_color_none	폴더 색상
+folder_icon_hint	여기를 누른 다음 키보드의 이모지 키를 눌러 이모지(예: 📚, 🏠)를 고르세요. 이모지 하나가 가장 보기 좋으며, 짧은 단어도 됩니다. 비워 두면 이름의 첫 글자가 표시됩니다.
+help_emoji_title	폴더 이모지와 색상
+help_emoji_body	폴더 카드에는 이모지나 짧은 단어를 표시할 수 있습니다. 폴더를 편집(카드의 ⋮)하고 “아이콘 또는 이모지” 입력란을 누른 다음, 키보드의 이모지 키(스페이스바 옆)를 눌러 그림을 고르세요. 키보드에 이모지 키가 없으면 키보드 설정에서 이모지를 켜거나 복사해 둔 이모지를 붙여 넣으세요. 입력란이 비어 있으면 이름의 첫 글자가 표시됩니다. 색상: 메모는 ⋮ → 색상에서 자신만의 색을 가질 수 있고(준비된 색 또는 직접 만든 RGB 색), “폴더 색상”을 고르면 폴더의 색으로 돌아갑니다. 앱 전체의 색상 테마는 설정에서 고릅니다.
+list_view_empty	이 목록은 비어 있습니다. 편집 탭을 열어 항목을 추가하세요.
+budget_group_label	그룹
+search_open	검색
+search_scope_notes	메모
+search_scope_folders	폴더
+search_hint_notes	제목과 본문에서 검색
+search_hint_folders	이름으로 폴더 검색
+search_clear	지우기
+search_no_tags	아직 태그가 없습니다. 메모의 ⋮ 메뉴 → 태그에서 태그를 추가한 뒤 여기서 걸러 보세요.
+search_found	찾음: %1$d
+search_no_results	찾은 항목이 없습니다
+action_tags	태그
+tags_dialog_title	이 메모의 태그
+tags_new_hint	새 태그
+tags_add	추가
+tags_none_yet	아직 태그가 없습니다. 위에 입력해 보세요.
+error_tag_name	1자에서 32자 사이의 태그를 입력하세요
+error_tag_duplicate	이미 있는 태그입니다
+settings_tags	태그
+settings_tags_hint	메모에 붙이는 라벨입니다. 메모 하나에 태그를 여러 개 붙이고 태그로 검색할 수 있습니다.
+settings_tags_open	태그 관리
+tags_title	태그
+tags_hint	태그는 메모의 ⋮ 메뉴 → 태그에서 붙입니다. 여기서는 태그 이름을 바꾸거나 모든 메모에서 삭제할 수 있습니다.
+tags_none_yet_manage	아직 태그가 없습니다.
+tags_rename	이름 바꾸기
+tags_rename_title	태그 이름 바꾸기
+tags_delete	태그 삭제
+tags_delete_title	이 태그를 삭제할까요?
+tags_renamed	태그 이름을 바꿨습니다: %1$s
+tags_deleted	태그를 삭제했습니다: %1$s
+plural:tags_used_by:other	메모 %1$d개
+plural:tags_delete_message:other	“%1$s” 태그가 메모 %2$d개에서 제거됩니다. 메모 자체는 그대로 남습니다.
+audio_default_name	녹음 %1$d
+audio_clip_menu	녹음 옵션
+audio_edit	이름과 설명
+audio_edit_title	녹음 상세 정보
+audio_name_label	이름
+audio_comment_label	설명
+audio_export_clip	이 녹음 내보내기
+audio_delete_title	이 녹음을 삭제할까요?
+audio_delete_message	“%1$s”은(는) 휴지통으로 이동하며 거기서 이 노트로 되돌릴 수 있습니다.
+export_format_audio_zip	모든 녹음 (.zip)
+list_mode_quantity	수량
+list_mode_price	가격
+list_price	개당 가격
+list_summary_title	합계
+list_summary_none	수량과 가격을 추가하면 합계를 볼 수 있습니다.
+list_summary_quantity	수량: %1$s
+list_summary_price	가격: %1$s
+export_format_txt	일반 텍스트 (.txt)
+export_format_pdf	PDF 문서 (.pdf)
+help_price_title	가격 목록
+help_price_body	목록에서 편집 탭을 열고 수량 대신 가격을 선택하세요. 그러면 각 항목에 개당 가격과 가격 단위가 함께 생기며, 가격 단위는 수량과 같은 단위(루블, 유로, 심지어 킬로그램)에서 고릅니다. 항목의 금액은 수량 × 가격입니다. 50짜리 사과 2개면 100입니다. 목록 끝에는 단위별 수량의 합계와 가격 단위별 금액의 합계(예: 5개와 400루블)가 표시됩니다. “단위별 합계” 줄에는 그 단위 항목들의 금액도 함께 표시됩니다.
+help_search_title	검색과 태그
+help_search_body	메인 화면 위쪽의 돋보기로 검색을 엽니다. “메모”(모든 폴더의 메모 제목, 본문, 태그에서 검색)와 “폴더”(이름으로 폴더 찾기)를 전환할 수 있습니다. 단어를 여러 개 입력하면 모두 찾아져야 합니다. 검색창 아래에서 태그를 누르면 그 태그를 모두 가진 메모만 남습니다. 메모에 태그를 붙이려면 ⋮ 메뉴 → 태그에서 태그를 체크하거나 새로 입력하세요. 메모 하나에 태그를 몇 개든 붙일 수 있습니다. 설정 → 태그 관리에서 태그 이름을 바꾸거나 삭제합니다.
+help_export_title	메모 내보내기
+help_export_body	메모를 열고 ⋮ 메뉴 → 내보내기를 사용하세요. Markdown 메모: Markdown(문법 포함), 일반 텍스트, PDF(둘 다 읽는 그대로의 글을 담음). 목록: 전용 JSON 파일(모든 수량과 가격이 그대로 돌아옴), Markdown, 일반 텍스트, PDF. 예산, 그림, 오디오에는 각각의 형식이 있습니다. 녹음이 여러 개인 오디오 메모는 모두 하나의 .zip으로 내보내며 파일 이름은 “메모 제목 - 녹음 이름”입니다. 녹음 하나만은 그 녹음의 ⋮ 메뉴에서 내보냅니다.
+search_close	검색 취소
+theme_black	검정
+theme_gray	회색
+theme_white	흰색
+search_scope_tags	태그
+search_hint_tags	태그 이름으로 검색
+settings_font_size	글꼴 크기
+settings_font_size_hint	앱 전체의 글자 크기를 바꿉니다. 시스템 설정의 글꼴 크기에 더해집니다.
+font_small	작게
+font_normal	보통
+font_medium	중간
+font_large	크게
+font_extra_large	아주 크게
+zoom_normal	보통
+action_done	완료
+sort_title	정렬
+sort_hint	고정한 노트는 항상 맨 앞에 오고, 마지막에 고정한 노트가 맨 위에 옵니다.
+sort_notes	이 폴더의 노트
+sort_folders	폴더
+sort_key_manual	내 순서
+sort_key_updated	수정일
+sort_key_created	생성일
+sort_key_name	이름
+sort_key_color	색상
+sort_ascending	오름차순
+sort_descending	내림차순
+folder_move_earlier	앞으로 이동
+folder_move_later	뒤로 이동
+featured_menu	대표 메모…
+featured_title	“%1$s”의 대표 메모
+featured_hint	폴더 카드에 이 메모가 표시됩니다. 예산이라면 합계, 목표, 잔액도 표시할 수 있습니다.
+featured_none	없음
+featured_layout	표시할 양
+featured_layout_title	제목
+featured_layout_compact	간략히
+featured_layout_full	전체
+featured_metrics	표시
+featured_metric_sum	합계
+featured_metric_goal	목표
+featured_metric_remainder	잔액
+featured_only_budget	합계, 목표, 잔액은 예산 메모에만 있습니다.
+settings_backgrounds	배경
+settings_backgrounds_hint	앱 전체, 폴더 카드, 각 메모 유형 뒤에 색상이나 그림을 설정합니다.
+settings_backgrounds_open	배경 선택
+bg_title	배경
+bg_hint	각 위치에 색상이나 PNG/JPG 그림을 고르세요. 그림은 글자가 잘 보이도록 약간 어둡게 표시되며, 단색은 그대로 그려지므로 글자에 어울리는 색을 고르세요. 그림은 이 휴대폰에만 저장되고 백업에 포함되지 않습니다.
+bg_slot_app	앱 전체
+bg_slot_folders	폴더 카드
+bg_slot_note_text	Markdown 메모
+bg_slot_note_list	목록
+bg_slot_note_budget	예산
+bg_slot_note_drawing	그림
+bg_slot_note_blueprint	도면
+bg_slot_note_audio	오디오 메모
+bg_state_default	기본값
+bg_state_color	색상
+bg_state_image	그림
+bg_colour	색상…
+bg_picture	그림…
+bg_reset	초기화
+bg_error	이 그림을 사용할 수 없습니다. PNG 또는 JPG 파일을 고르세요.
+note_type_blueprint	도면
+layers_title	레이어
+layer_default_name	레이어 %1$d
+layer_add	레이어 추가
+layer_show	표시
+layer_hide	숨기기
+layer_lock	잠금
+layer_unlock	잠금 해제
+layer_rename	이름 바꾸기
+layer_name_label	레이어 이름
+layer_up	위로 이동
+layer_down	아래로 이동
+layer_move_shape_here	선택한 도형을 여기로 이동
+layer_delete_title	이 레이어를 삭제할까요?
+layer_delete_message	레이어에 있는 도형도 함께 삭제됩니다. 되돌릴 수 없습니다.
+layer_cannot_draw	선택한 레이어가 숨겨져 있거나 잠겨 있습니다. 그리려면 다른 레이어를 고르세요.
+action_reminders	알림
+reminders_title	알림
+reminders_add	알림 추가
+reminders_edit	알림 편집
+reminders_empty	아직 알림이 없습니다. “알림 추가”를 누르세요.
+reminders_cancel	알림 취소
+reminders_delete_title	이 알림을 삭제할까요?
+reminders_delete_message	“%1$s”의 알림이 삭제됩니다. 메모는 그대로 남습니다.
+reminders_exact_hint	Android가 이 앱에 정확한 알람을 허용하지 않아 알림이 조금 늦게 울릴 수 있습니다. 시스템 설정에서 이 앱에 “알람 및 리마인더”를 허용하세요.
+reminders_exact_open	시스템 설정 열기
+reminder_note	메모
+reminder_pick_note	메모 선택
+reminder_sound	소리
+reminder_vibration	진동
+reminder_popup	팝업
+reminder_confirm_short	확인 필요
+reminder_repeat_short	%1$d분마다 반복
+reminder_sound_long	소리 재생
+reminder_vibration_long	진동
+reminder_popup_long	팝업 표시
+reminder_confirm_long	확인 요청
+reminder_repeat_long	확인할 때까지 반복
+reminder_every_minutes	%1$d분
+reminder_status_scheduled	시간 대기 중
+reminder_status_fired	울림
+reminder_status_waiting	확인 대기 중
+reminder_status_done	완료
+reminder_status_cancelled	취소됨
+reminder_error_past	시간은 미래여야 합니다
+reminder_error_repeat	“확인할 때까지 반복”에는 “확인 요청”과 반복 간격이 필요합니다
+settings_lock	앱 잠금
+settings_lock_hint	앱을 열 때 비밀번호, 패턴 또는 로그인을 요구합니다.
+settings_lock_open	잠금 설정
+lock_settings_title	앱 잠금
+lock_title	잠김
+lock_intro	잠금을 켜면 앱을 열 때마다, 그리고 아래에서 정한 시간이 지난 뒤에 잠금 해제를 요구합니다. 이메일 복구를 설정하지 않는 한 어떤 것도 휴대폰 밖으로 나가지 않으며, 이 휴대폰에는 비밀 정보의 해시(변환된 형태)만 저장됩니다.
+lock_status_off	잠금이 꺼져 있습니다
+lock_status_on	잠금이 켜져 있습니다: %1$s
+lock_method_password	비밀번호
+lock_method_pattern	패턴
+lock_method_login	로그인과 비밀번호
+lock_biometric_option	지문 또는 얼굴로도 잠금 해제
+lock_biometric_title	잠금 해제
+lock_use_biometric	지문 또는 얼굴 사용
+lock_timeout_title	앱을 벗어난 뒤 이 시간이 지나면 다시 요구
+lock_timeout_immediate	즉시
+lock_timeout_30s	30초
+lock_timeout_1m	1분
+lock_timeout_5m	5분
+lock_timeout_15m	15분
+lock_timeout_never	앱을 시작할 때만
+lock_question_title	보안 질문(잊어버린 비밀 정보 복구용)
+lock_question_none	질문 없음
+lock_q1	첫 반려동물의 이름은 무엇이었나요?
+lock_q2	태어난 도시는 어디인가요?
+lock_q3	어머니의 결혼 전 성은 무엇인가요?
+lock_q4	첫 학교의 이름은 무엇이었나요?
+lock_q5	가장 좋아하는 책은 무엇인가요?
+lock_answer	답
+lock_warning_no_recovery	질문이 없으면 잊어버린 비밀 정보를 복구할 수 없습니다. 그 경우 앱을 다시 설치하는 것이 유일한 방법이며, 이 휴대폰의 모든 것이 삭제됩니다(이전에 만든 백업 파일은 가져올 수 있습니다).
+lock_recovery_on	보안 질문이 설정되어 있습니다.
+lock_recovery_off	보안 질문이 없습니다. 잊어버린 비밀 정보는 복구할 수 없습니다.
+lock_secure_hint	잠금이 켜져 있는 동안에는 스크린샷과 최근 앱 목록의 화면이 차단됩니다.
+lock_turn_on	잠금 켜기
+lock_turn_off	잠금 끄기
+lock_change	비밀번호 또는 패턴 변경
+lock_current	먼저 현재 것을 입력하세요.
+lock_new	이제 새 것을 입력하세요.
+lock_next	다음
+lock_unlock	잠금 해제
+lock_login	로그인
+lock_password	비밀번호
+lock_password_again	비밀번호 다시 입력
+lock_password_differs	두 비밀번호가 서로 다릅니다
+lock_new_password_hint	새 비밀번호를 정하세요:
+lock_pattern_draw	점을 4개 이상 잇는 패턴을 그리세요
+lock_pattern_again	같은 패턴을 다시 그리세요
+lock_pattern_unlock	패턴을 그리세요
+lock_pattern_short	서로 다른 점을 4개 이상 이으세요
+lock_pattern_differs	두 패턴이 서로 다릅니다. 처음부터 다시 하세요.
+lock_error_length	비밀번호는 4자에서 64자여야 합니다
+lock_error_login	1자에서 32자 사이의 로그인 이름을 입력하세요
+lock_error_answer	질문에 대한 답을 입력하세요
+lock_no_recovery	보안 질문이 설정되어 있지 않아 복구할 수 없습니다.
+lock_wrong	틀렸습니다.
+lock_wrong_answer	답이 틀렸습니다
+lock_blocked	잘못된 시도가 너무 많습니다. %1$d초 기다리세요.
+lock_blocked_short	잘못된 시도가 너무 많습니다. 잠시 기다리세요.
+lock_forgot	잊어버렸어요
+plural:lock_tries_left:other	잠시 멈추기 전까지 %1$d번 더 시도할 수 있습니다.
+home_more_actions	정렬 및 가져오기
+help_blueprint_title	그림과 도면
+help_blueprint_body	그림은 연필, 붓, 지우개, 채우기로 원하는 색을 칠하는 캔버스입니다. 도면은 도형(도형 도구: 직사각형, 정사각형, 타원, 원, 삼각형, 마름모, 오각형, 육각형, 별, 선, 화살표, 채우기 선택; 그리고 텍스트)으로 이루어지며 선택, 이동, 모양 변경, 채우기를 할 수 있고 레이어 위에 놓입니다. 편집에서 “레이어”를 누르면 그릴 레이어를 고르고, 레이어를 숨기거나 잠그고, 위아래로 옮기고, 이름을 바꾸거나 삭제하고, 새 레이어를 추가할 수 있습니다. 도형은 그 레이어의 ⋮ 메뉴에서 다른 레이어로 옮길 수 있습니다. 이전 버전에서 만든 그림은 도형이 유지되지만 지금은 볼 수만 있고 바꿀 수는 없습니다. 둘 다 먼저 보기 상태로 열리며, + 및 − 버튼이나 두 손가락으로 확대·축소하고 확대한 캔버스는 두 손가락으로 움직입니다. 선택한 도형은 한 단계씩 앞뒤로, 또는 바로 맨 앞이나 맨 뒤로 옮길 수 있고, 레이어는 한 칸씩 위아래로, 또는 맨 위나 맨 아래로 옮길 수 있습니다. 도구 패널의 반쯤 채워진 사각형 아이콘으로 용지 배경을 정합니다: 색과 투명도가 있는 「투명」(100 % = 배경 없음). 그림은 이 배경과 함께 저장되고 공유됩니다. 선택한 도형에는 아이콘이 있습니다: 휴지통은 삭제, 두 장의 종이는 복제, 겹친 사각형은 한 단계 앞/뒤로, 선을 향한 화살표는 맨 앞/맨 뒤로 옮깁니다. 레이어에는 눈(표시/숨김)과 자물쇠(잠김/풀림)가 있고, 플러스가 있는 더미는 레이어를 추가합니다.
+help_zoom_title	확대와 글꼴 크기
+help_zoom_body	텍스트, 목록, 예산 노트는 위쪽의 “보기”·“편집” 옆에 − 와 + 버튼이 있고 두 손가락으로 벌려서도 확대할 수 있습니다: 그 노트의 글자가 커지거나 작아지며, 퍼센트를 누르면 원래대로 돌아갑니다. 그림과 도면은 같은 버튼으로 시트 자체를 확대·축소합니다. 노트에 머무는 동안 배율이 유지됩니다. 앱 전체는 설정 → 모양 → 글자 크기에서 고르며, 시스템 설정의 글자 크기에 더해집니다. 그림과 도면의 시트는 메모 전체에 놓입니다. 핀치나 − / +로 확대·축소하고(영역보다 작게도), 두 손가락으로 옮깁니다. 확대 비율을 탭하면 시트 전체가 빈 부분에 맞춰집니다. 편집에서는 도구 패널이 시트 위에 아래 또는 오른쪽에 놓이며(패널의 틀 아이콘으로 전환), 화살표 아이콘으로 둥근 버튼 하나로 접습니다. 시트는 버튼을 가리지 않습니다. 도구 패널의 틀 아이콘으로 시트 크기를 정합니다: 16:9, 9:16, 4:3, 3:4 또는 px, mm, cm로 원하는 너비와 높이(인치당 150픽셀). 그림은 왼쪽 위에 남습니다. 도구 패널의 띠가 있는 틀 아이콘으로 패널 위치(아래, 오른쪽, 위, 왼쪽)를 고릅니다. 선택은 기억됩니다.
+help_sort_title	정렬과 대표 메모
+help_sort_body	메인 화면 위쪽의 ⋮ 메뉴에 ‘정렬’이 있습니다. 노트는 수정일, 생성일, 이름, 색상으로, 폴더는 내 순서, 이름, 날짜, 색상으로 오름차순 또는 내림차순 정렬할 수 있습니다. 고정한 노트는 항상 맨 앞에 오고, 마지막에 고정한 노트가 맨 위입니다. ‘내 순서’에서는 네 방향 화살표 손잡이로 폴더와 노트를 끌어 옮길 수 있고, 폴더 카드의 ⋮ 메뉴로도 앞뒤로 옮길 수 있습니다. 각 폴더는 자신의 노트 정렬을 기억합니다.
+help_backgrounds_title	배경
+help_backgrounds_body	설정 → 배경에서 앱 전체, 폴더 카드, 각 메모 유형에 색상이나 휴대폰의 PNG/JPG 그림을 지정할 수 있습니다. 그림은 글자가 잘 보이도록 약간 어둡게 표시되고, 단색은 그대로 사용되므로 글자에 어울리는 색을 고르세요(초기화하면 기본값으로 돌아갑니다). 그림은 이 휴대폰에만 저장되며 백업에 포함되지 않고, 색상은 포함됩니다.
+help_reminders_title	알림
+help_reminders_body	메인 화면 위쪽의 시계 아이콘(또는 메모의 ⋮ 메뉴에 있는 “알림”)으로 알림을 엽니다. 알림을 추가하려면 메모, 날짜와 시간, 그리고 알리는 방식을 고르세요. 멜로디(휴대폰 소리 또는 내 오디오 파일, 음량과 점점 커지는 효과 설정 가능), 진동, 팝업, 확인 요청, 확인할 때까지 몇 분마다 반복하기가 있습니다. “알람처럼 반복”은 N분마다 X번 더 울립니다. 알림은 매일, 선택한 요일, 또는 매달 특정한 날에 다시 울리게 할 수 있습니다(그날이 없는 달은 건너뜁니다). 알림을 편집, 취소, 삭제할 수 있고 확인을 기다리는 알림은 완료를 누르면 됩니다. Android 13 이상은 한 번 알림 허용을 묻고, 휴대폰이 정확한 알람을 허용하지 않으면 화면의 안내가 이를 설명하고 설정을 열어 주며, 그때는 알림이 조금 늦게 올 수 있습니다. 삭제한 메모의 알림은 취소됩니다. 시계 옆의 달력 아이콘을 누르면 한 달이 열리고, 알림이 있는 날마다 종이 표시됩니다(반복 알림은 해당하는 모든 날에). 날짜를 누르면 메모 이름이 말풍선과 달 아래 목록에 나타나고, 이름을 누르면 메모가 열립니다. 화살표나 밀기로 달을 바꾸고, 오늘을 누르면 이번 달로 돌아옵니다. 캘린더의 돋보기는 모든 달에서 메모 이름으로 알림과 예산 합치기를 찾습니다: 찾은 항목은 날짜와 함께 목록으로 보이며, 탭하거나 화살표로 그날을 표시합니다. 아직 울릴 알림의 카드에는 켜기/끄기 스위치가 있습니다: 끄면 시간과 설정은 그대로지만 울리지 않고, 다시 켜면 돌아옵니다(반복 알림은 다음 날에). 「취소」는 먼저 확인합니다. 알림을 탭하면 그 날의 캘린더가 알림을 테두리로 표시해 열리고, 거기서 탭하면 메모나 작업이 열립니다. 알림 카드의 아이콘: 체크는 「완료」, 연필은 편집, 사선이 그어진 종은 취소, 휴지통은 삭제입니다(뒤의 둘은 먼저 묻습니다). Notio를 설치한 직후에는 모든 알림이 꺼져 있습니다. 알림 페이지 맨 위의 스위치로 켜세요. 알림을 추가하려고 할 때도 안내합니다. 응답 없이 반복해서 울리면 화면을 켜 두는 시간이 점점 짧아집니다. 처음에는 1분, 다음은 15초, 그 뒤로는 5초씩입니다. 멜로디는 평소대로 울립니다.
+help_lock_title	앱 잠금
+help_lock_body	설정 → 앱 잠금에서 비밀번호, 3×3 패턴, 또는 로그인과 비밀번호를 고르세요. 휴대폰이 지원하면 지문이나 얼굴 잠금 해제를 추가할 수 있습니다. 이는 더 빠른 방법을 더할 뿐이며 비밀번호나 패턴은 항상 남습니다. 앱이 백그라운드에 있을 수 있는 시간은 미리 준비된 값이나 분·초를 자유롭게 입력(“기타…”)해서 정합니다. 비밀 정보를 잊었을 때는 세 가지 방법으로 돌아올 수 있으며 모두 선택 사항입니다. 보안 질문에 답하기, 내 SMTP 서버로 이메일에 보내는 코드(앱에는 자체 서버가 없습니다), 또는 인증 앱의 코드(QR 코드)입니다. 아무 방법도 없으면 잊어버린 비밀 정보는 복구할 수 없으며, 앱을 다시 설치하는 것이 유일한 방법이고 휴대폰의 모든 것이 삭제됩니다(그 뒤 백업 파일을 가져오세요). 다섯 번 틀리면 앱이 기다리게 하며, 매번 더 길어집니다. 비밀 정보는 해시(변환된 형태)만 앱의 비공개 저장소에 보관되고 백업에는 절대 들어가지 않습니다. 잠금이 켜져 있는 동안에는 스크린샷과 최근 앱 목록의 화면이 차단됩니다. 복구 코드가 담긴 메일에는 이 기기에 암호화된 데이터베이스의 비밀번호와 백업 비밀번호가 있으면 함께 들어갑니다. 데이터를 되찾기 위한 마지막 수단입니다. ‘잊어버렸어요’를 누르고 코드를 요청할 때만 전송되며, 사용한 뒤에는 삭제하세요.
+channel_reminders_generic	알림
+reminder_sound_default	기본 알림음
+reminder_melody	멜로디: %1$s
+reminder_sound_play	들어보기
+reminder_sound_system	휴대폰 소리…
+reminder_sound_file	내 파일 (mp3…)…
+reminder_sound_reset	기본 소리
+reminder_sound_bad_file	이 파일을 멜로디로 사용할 수 없습니다. 25MB 이하의 오디오 파일(mp3, m4a, ogg, wav)을 고르세요.
+lock_recovery_choose	어떻게 다시 들어가시겠어요?
+lock_recovery_question_option	보안 질문에 답하기
+lock_recovery_email_option	내 이메일로 코드 보내기
+lock_recovery_totp_option	내 인증 앱 사용
+smtp_code_subject	Notio: 복구 코드
+smtp_code_body	Notio 앱 잠금의 복구 코드: %1$s\n\n이 코드는 %2$d분 동안, 한 번만 사용할 수 있습니다. 요청하지 않으셨다면 이 메시지를 무시하세요.
+lock_code_wrong	코드가 틀렸습니다
+lock_code_expired	코드가 만료되었습니다. 새 코드를 요청하세요
+mail_error_not_configured	이메일 설정이 완료되지 않았습니다.
+mail_error_connection	메일 서버에 연결할 수 없습니다. 서버 이름, 포트, 인터넷 연결을 확인하세요.
+mail_error_timeout	메일 서버가 제때 응답하지 않았습니다.
+mail_error_tls	보안 연결에 실패했습니다. 암호화 유형과 포트(STARTTLS는 587, SSL/TLS는 465)를 확인하세요.
+mail_error_auth	서버가 로그인 이름 또는 비밀번호를 거부했습니다.
+mail_error_rejected	서버가 메시지를 거부했습니다.
+mail_error_protocol	서버가 예상하지 못한 응답을 보냈습니다.
+lock_email_wait	다른 코드를 요청하려면 %1$d초 기다리세요.
+lock_email_intro	일회용 코드가 %1$s(으)로 전송됩니다.
+lock_email_send	코드 보내기
+lock_email_send_again	새 코드 보내기
+lock_email_code	이메일로 받은 코드
+lock_totp_recover_intro	인증 앱에 지금 표시된 6자리 코드를 입력하세요.
+lock_totp_code	6자리 코드
+lock_timeout_custom	기타…
+lock_timeout_custom_value	%1$d분 %2$d초
+lock_timeout_custom_title	백그라운드 시간
+lock_minutes	분
+lock_seconds	초
+lock_timeout_invalid	분과 초를 입력하세요. 초는 0에서 59, 전체는 최대 23시간 59분 59초입니다.
+lock_recovery_section	복구
+lock_recovery_hint	비밀번호를 잊었을 때 다시 들어가는 방법: 보안 질문, 이메일로 받는 코드, 인증 앱. 하나만 또는 모두 설정할 수 있습니다.
+lock_email_status_on	이메일 복구가 켜져 있습니다: %1$s
+lock_email_status_off	이메일 복구가 설정되어 있지 않습니다.
+lock_totp_status_on	인증 앱이 설정되어 있습니다.
+lock_totp_status_off	인증 앱이 설정되어 있지 않습니다.
+lock_recovery_change	복구 옵션 변경
+lock_question_change	보안 질문…
+lock_email_setup	이메일 복구 (SMTP)…
+lock_totp_setup	인증 앱 설정…
+lock_totp_manage	인증 앱…
+smtp_intro	코드는 사용자의 메일 서버로 전송됩니다. 앱에는 자체 서버가 없습니다. 메일 제공업체가 발송용(SMTP)으로 알려 주는 내용을 입력하세요. 비밀번호는 이 휴대폰에 암호화되어 저장됩니다.
+smtp_host	서버 (SMTP), 예: smtp.example.com
+smtp_security	암호화
+smtp_sec_none	없음
+smtp_sec_starttls	STARTTLS
+smtp_sec_ssl	SSL/TLS
+smtp_none_warning	암호화하지 않으면 비밀번호와 코드가 읽을 수 있는 상태로 네트워크를 지나갑니다. 신뢰할 수 있는 네트워크나 로컬 서버에서만 사용하세요.
+smtp_port	포트
+smtp_user	로그인(사용자 이름)
+smtp_password	비밀번호
+smtp_from	보내는 주소(로그인이 주소라면 비워 두세요)
+smtp_to	코드를 받을 주소(내 이메일)
+smtp_invalid	서버, 포트, 그리고 올바른 이메일 주소 두 개를 입력하세요.
+smtp_test	테스트 이메일 보내기
+smtp_test_ok	테스트 메시지를 보냈습니다. 받은편지함을 확인하세요.
+smtp_test_subject	Notio: 테스트 메시지
+smtp_test_body	Notio by vibic에서 보낸 테스트 메시지입니다. 이 메시지를 읽을 수 있다면 앱 잠금의 이메일 복구가 작동하는 것입니다.
+smtp_remove	제거
+lock_totp_account	앱 잠금
+lock_totp_title	인증 앱
+lock_totp_replace_hint	이미 키가 설정되어 있습니다. 새 키를 저장하면 교체됩니다.
+lock_totp_scan	이 QR 코드를 인증 앱(Google Authenticator, Microsoft Authenticator, Aegis 등)으로 스캔하거나 키를 직접 입력한 다음, 앱에 표시되는 6자리 코드를 입력하세요.
+lock_totp_remove	제거
+reminder_error_recurrence	요일을 하나 이상 고르거나 1에서 31 사이의 날짜를 고르세요
+reminder_error_sound	음량은 10에서 100 % 사이, 점점 커지는 시간은 최대 5분이어야 합니다
+rem_volume	음량: %1$d %%
+rem_volume_hint	휴대폰의 알람 음량을 기준으로 합니다.
+rem_ramp_title	멜로디가 점점 커지는 시간
+rem_ramp_off	끔
+rem_ramp_secs	%1$d초
+rem_extra_title	알람처럼 반복
+rem_extra_hint	처음 울린 뒤 확인하지 않으면 몇 분마다 이 횟수만큼 다시 울립니다. 0 = 추가로 울리지 않음.
+rem_extra_count	추가로 울리는 횟수 (x)
+rem_extra_every	간격(분)
+rem_repeat_title	다시 알림
+rem_rec_none	한 번만
+rem_rec_daily	매일
+rem_rec_weekdays	선택한 요일
+rem_rec_monthly	매달
+rem_month_day	날짜 (1-31)
+rem_month_skip_hint	그날이 없는 달은 건너뜁니다(31일은 4월을, 30일은 2월을 건너뜁니다).
+reminder_extra_short	%2$d분마다 %1$d번 더
+reminder_recurs_daily	매일
+reminder_recurs_weekly	%1$s
+reminder_recurs_monthly	매달 %1$d일
+reminder_action_silence	음소거

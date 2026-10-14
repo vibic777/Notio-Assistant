@@ -1,0 +1,24 @@
+budget_log_button	Журнал змен
+budget_log_title	Журнал змен
+budget_log_empty	Пакуль нічога не змянялася. Тут будуць запісвацца даданне артыкулаў і змена іх значэнняў.
+budget_log_save_txt	Захаваць у файл TXT
+budget_log_save_pdf	Захаваць у файл PDF
+budget_log_clear	Ачысціць журнал
+budget_log_clear_title	Ачысціць журнал?
+budget_log_clear_message	Усе запісы журнала гэтага бюджэту будуць выдалены. Сам бюджэт не зменіцца. Адмяніць нельга.
+budget_log_export_title	Журнал змен бюджэту «%1$s»
+budget_log_export_done	Журнал захаваны
+budget_log_export_failed	Не ўдалося захаваць журнал
+budget_log_file_name	Журнал бюджэту
+budget_log_not_set	не задана
+budget_log_item_added	Дададзены артыкул «%1$s» у «%2$s»
+budget_log_group_added	Дададзена група «%1$s» у «%2$s»
+budget_log_sum	«%1$s»: сума %2$s → %3$s
+budget_log_sum_delta	«%1$s»: сума %2$s → %3$s (%4$s)
+budget_log_sum_set	«%1$s»: уведзена сума %3$s (было %2$s)
+budget_log_goal	«%1$s»: мэта %2$s → %3$s
+budget_log_quantity	«%1$s»: колькасць %2$s → %3$s
+budget_log_renamed	Перайменавана: «%2$s» → «%1$s»
+budget_log_moved	«%1$s» перанесена з «%2$s» у «%3$s»
+budget_log_deleted	Выдалена: «%1$s»
+budget_log_deleted_tree	Выдалена група «%1$s» разам з усім унутры

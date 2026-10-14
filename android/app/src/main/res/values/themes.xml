@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The UI is Jetpack Compose only; this theme just provides the window/system defaults. -->
+    <style name="Theme.NoteBudget" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- The error window (D224): only its dialog is seen, over whatever is on the screen. -->
+    <style name="Theme.NoteBudget.Error" parent="android:Theme.Translucent.NoTitleBar" />
+</resources>

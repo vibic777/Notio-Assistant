@@ -1,0 +1,56 @@
+settings_cat_general	Lingua e formati
+settings_cat_general_hint	Lingua, data e ora
+settings_cat_appearance	Aspetto
+settings_cat_appearance_hint	Tema, colori, dimensione del testo, sfondi
+settings_cat_notes	Note ed esportazione
+settings_cat_notes_hint	Tag, unità, nomi dei file esportati
+settings_cat_security	Sicurezza e privacy
+settings_cat_security_hint	Blocco dell’app, notifiche dei promemoria
+settings_cat_trash	Cestino
+settings_cat_trash_hint	Per quanto tempo si conserva ciò che è eliminato
+settings_cat_data	Backup e ripristino
+settings_cat_data_hint	Esporta, importa, password del backup
+settings_cat_about	Guida e informazioni
+settings_cat_about_hint	Guida, versione, sviluppatore
+settings_search_hint	Cerca nelle impostazioni
+settings_search_none	Nessun risultato. Prova un’altra parola.
+settings_datetime	Formato di data e ora
+settings_datetime_hint	Come si scrivono data e ora ovunque: su note, cartelle e registrazioni.
+settings_date_label	Data
+settings_time_label	Ora
+format_system	Come nel telefono
+settings_example	Esempio: %1$s
+settings_export_naming	Nomi dei file esportati
+settings_export_naming_hint	Come si chiama un file esportato: scegli le parti e come scrivere data e ora. I due punti non si possono usare nel nome di un file.
+naming_note_title	Titolo della nota
+naming_item_title	Titolo della registrazione o foto (nelle note multiple)
+naming_date	Data
+naming_time	Ora
+naming_source	Data e ora provengono da
+naming_source_export	Il momento dell’esportazione
+naming_source_created	La creazione della nota
+naming_source_modified	L’ultima modifica della nota
+naming_date_format	Data nel nome
+naming_time_format	Ora nel nome
+naming_twelve_hour	Formato a 12 ore con AM / PM
+naming_sep_none	nessuno
+naming_joiner	Tra le parti del nome
+naming_join_space	spazio
+naming_example	Esempio: %1$s
+naming_example_note	Viaggio
+naming_example_item	Foto 1
+settings_backup_password	Password del backup
+settings_backup_password_hint	Proteggi con una password i backup esportati. Senza, un backup è un normale file che chiunque può aprire.
+backup_password_enable	Proteggi i backup con password
+backup_password_field	Password
+backup_password_warning	Conservala con cura: un backup con la password dimenticata non si può aprire, non c’è recupero.
+backup_password_save	Salva password
+backup_password_saved	Password salvata. I nuovi backup ne sono protetti.
+backup_password_type_first	Scrivi una password e salvala.
+import_password_title	Backup protetto
+import_password_hint	Questo backup è protetto da una password. Inseriscila per continuare.
+transfer_error_password_required	Questo backup è protetto da una password.
+transfer_error_wrong_password	La password è errata. Non è stato modificato nulla.
+password_show	Mostra
+password_hide	Nascondi
+trash_open_settings	Impostazioni del cestino

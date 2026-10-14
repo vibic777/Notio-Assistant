@@ -1,0 +1,6 @@
+backup_busy_title	Backup in corso
+backup_busy_message	Un backup grande può richiedere alcuni minuti: l’app copia ogni foto, video e registrazione. Non chiudere l’app e non bloccare il telefono finché questa finestra non scompare.
+backup_busy_files	File completati: %1$d
+backup_busy_files_of	File completati: %1$d di %2$d
+backup_export_partial	Backup salvato, ma %1$d file sono stati esclusi perché troppo grandi per il formato (oltre 2 GB, o il backup supererebbe 3,5 GB).
+backup_import_files_skipped	%1$d file del backup non sono stati ripristinati (danneggiati o non quello che dichiarano).

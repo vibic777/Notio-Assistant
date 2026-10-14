@@ -1,0 +1,4 @@
+sync_preset_ask	Chiedi ogni volta
+sync_preset_folders_chosen	Scelte: %1$d
+sync_preset_choose_folders	Scegli cartelle…
+sync_preset_hint	Ciò che è impostato per una connessione non viene chiesto durante la sincronizzazione. Una sostituzione viene sempre mostrata prima di iniziare.

@@ -1,0 +1,4 @@
+md_check_delete_cd	删除此行
+md_check_delete_title	删除这一行？
+md_check_delete_text	“%1$s”将从笔记中删除。撤销可恢复。
+md_check_delete_text_sub	“%1$s”及其下方的行将从笔记中删除。撤销可恢复。

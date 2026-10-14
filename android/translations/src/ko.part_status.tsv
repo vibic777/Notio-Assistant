@@ -1,0 +1,5 @@
+status_title	알림이 켜져 있습니다
+status_text	활성: %1$d · 다음: %2$s
+channel_reminder_status	설정된 알림
+settings_status_notification	알림이나 작업이 있는 동안 표시
+settings_status_notification_hint	알림이나 작업이 하나라도 있는 동안 조용한 알림이 알림창에 남습니다: 알림 수와 다음 알림 시각, 작업 수, 진행 중·기한 지난 작업 수.

@@ -1,0 +1,16 @@
+note_type_schedule	Расклад
+schedule_empty	Пакуль пуста. Адкрыйце «Праўка» і дадайце час.
+schedule_add_item	Дадаць час
+schedule_add_calc	Дадаць вылічальнік
+schedule_item_hint	Што адбываецца
+schedule_calc_hint	Што лічыць вылічальнік
+schedule_calc_default	Вылічальнік
+schedule_from	Ад
+schedule_to	Да
+schedule_pick_item	абярыце час
+schedule_no_items	Спачатку дадайце час
+schedule_clear_time	Без часу
+schedule_unknown	?
+schedule_duration_hm	%1$d гадз %2$d хв
+schedule_duration_h	%1$d гадз
+schedule_duration_m	%1$d хв

@@ -1,0 +1,5 @@
+status_title	Recordatorios activados
+status_text	Activos: %1$d · próximo: %2$s
+channel_reminder_status	Recordatorios programados
+settings_status_notification	Notificación mientras haya recordatorios o tareas
+settings_status_notification_hint	Una notificación silenciosa queda en la barra mientras haya al menos un recordatorio o una tarea: cuántos recordatorios y cuándo suena el próximo, cuántas tareas, cuántas abiertas y vencidas.

@@ -1,0 +1,10 @@
+sort_button	Orden: %1$s
+sort_key_sum	Suma
+sort_key_goal	Objetivo
+sort_key_remainder	Resto
+sort_key_progress	Progreso (parte del objetivo)
+sort_key_quantity	Cantidad
+sort_key_price	Precio unitario
+sort_key_cost	Coste
+sort_key_unit	Unidad
+sort_key_done	Hecho / pendiente

@@ -1,0 +1,20 @@
+note_type_task	Tarea
+folder_kind_notes	Carpeta de notas
+folder_kind_tasks	Carpeta de tareas
+dialog_new_task_title	Nueva tarea
+bg_slot_note_task	Tarea
+task_done	Hecha
+task_overdue	Atrasada
+task_in_progress	En curso
+task_done_tick	Hecha
+task_from	Desde %1$s
+task_until	Hasta %1$s
+task_start	Inicio
+task_end	Fin
+task_not_set	Sin definir
+task_comment	Comentario
+task_description	Descripción
+task_no_description	Aún no hay descripción.
+task_no_reminder	Sin recordatorio.
+task_reminder	Recordatorio…
+task_end_before_start	El fin no puede ser anterior al inicio.

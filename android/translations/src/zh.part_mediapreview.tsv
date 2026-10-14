@@ -1,0 +1,8 @@
+settings_media_preview	卡片上的图片
+settings_media_preview_hint	照片、视频或屏幕录制笔记的卡片除名称外显示什么。绘图和图纸只有一张图，所以只有开或关。
+settings_media_preview_none	不显示图片
+settings_media_preview_first	第一张照片或画面
+settings_media_preview_deck	扑克牌堆：第一张、最后一张和随机一张
+settings_drawing_preview	绘图和图纸
+settings_drawing_preview_on	在卡片上显示图片
+settings_drawing_preview_off	不显示

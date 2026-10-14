@@ -1,0 +1,156 @@
+lock_method_pin	PINコード
+lock_pin	PINコード
+lock_pin_again	PINコード（確認）
+lock_pin_enter	PINコードを入力してください
+lock_pin_choose	PINコードを決めてください（4〜8桁）
+lock_pin_confirm	確認のためもう一度入力してください
+lock_attempts_title	誤入力の制限
+lock_attempts_hint	何回まで誤入力が無料で許され、その後の待ち時間が何秒から始まり、誤入力が続くとどうなるか。
+lock_free_tries	無料の試行回数
+lock_base_wait	最初の待ち時間（秒）
+lock_max_attempts	上限（0 = 無効）
+lock_max_attempts_hint	連続した誤入力の合計回数。これを超えると下の選択が適用されます。0は上限なし（常に上の待ち時間だけ）を意味します。
+lock_lockout_mode_title	上限を超えたら
+lock_lockout_recovery	入力をブロックし、復旧のみ許可
+lock_lockout_wipe	アプリのデータを消去する
+lock_lockout_wipe_active_warning	誤入力が多すぎると、この端末のNotioのデータがすべて消去されます。元に戻せません。
+lock_attempts_saved	保存しました
+lock_wipe_confirm_title	誤入力が多すぎたらデータを消去しますか？
+lock_wipe_confirm_message	これをオンにすると、上の上限に達した瞬間に、この端末のすべてのフォルダ・メモ・設定が即座に消去されます。それ以上の警告はなく、元に戻せません。これを理解した上で本当に望む場合のみオンにしてください。
+lock_wipe_confirm_field	確認のため %1$s と入力してください
+lock_wipe_confirm_button	消去をオンにする
+lock_wipe_confirm_phrase	消去
+lock_locked_out	誤入力が多すぎます。下の「忘れました」から入り直してください。
+lock_wiped	誤入力が多すぎたため、この端末のNotioのデータは消去されました。
+settings_db_encryption	データベースの暗号化
+settings_db_encryption_hint	この端末上のデータベースファイル全体を暗号化します。オンとオフの切り替えはファイルをその場で変換するだけで、データは失われませんが、その後アプリの再起動が必要です。
+db_encryption_enable	データベースを暗号化する
+db_encryption_password_field	データベースのパスワード
+db_encryption_password_warning	このパスワードはアプリが自動生成し、コピーできるようここに保存しています。これがないと、書き出したデータベースファイルや、このアプリの鍵を持たない端末上の同じファイルは開けません。
+db_encryption_copied	パスワードをコピーしました
+db_encryption_copy_error	エラーの文章をコピー
+db_encryption_error_copied	エラーの文章をコピーしました
+db_encryption_email_button	パスワードをメールで送る
+db_encryption_email_confirm_title	データベースのパスワードをメールで送りますか？
+db_encryption_email_confirm_message	パスワードは平文のまま、設定 → アプリロック → メールでの復旧 で指定した復旧用アドレス %1$s に送信されます。このメールボックスにアクセスできる人は誰でも、暗号化されたデータを読めるようになります。
+db_encryption_email_not_configured	先にメールでの復旧を設定してください：設定 → アプリロック → メールでの復旧 (SMTP)。
+db_encryption_email_sent	パスワードをメールで送信しました
+db_encryption_mail_subject	Notioデータベースのパスワード
+db_encryption_mail_body	これは、この端末のNotioデータベースを暗号化しているパスワードです：\n\n%1$s\n\n大切に保管してください。これがないと、コピーまたは書き出したデータベースファイルを開けません。
+db_encryption_enable_failed	データベースを暗号化できませんでした。何も変更されていません。
+db_encryption_disable_failed	データベースの暗号化を解除できませんでした。何も変更されていません。
+db_encryption_busy_title	データベースを変換中
+db_encryption_busy_message	しばらく時間がかかることがあります。このウィンドウが消えるまでアプリを閉じないでください。
+db_encryption_restart_title	再起動が必要です
+db_encryption_restart_message	データベースの変換が完了しました。使用するにはNotioの再起動が必要です。
+db_encryption_restart_now	今すぐ再起動
+db_encryption_confirm_on_title	データベースを暗号化しますか？
+db_encryption_confirm_on_message	データベースファイルはその場で変換され、データは失われません。古いバージョンのアプリや通常のSQLiteツールでは、このファイルを直接開けなくなります。ただし上の「エクスポート」で作成したバックアップは、どのバージョンでも引き続き開けます。アプリは再起動します。
+db_encryption_confirm_off_title	データベースの暗号化をオフにしますか？
+db_encryption_confirm_off_message	データベースファイルは通常の形式に戻され、データは失われません。アプリは再起動します。
+db_file_transfer_hint	データベースファイルをそのまま書き出すか、別の端末のファイルに置き換えます。上のバックアップと異なり、このファイルはNotioでしか開けません。暗号化がオフなら通常のファイル、オンなら上のパスワードが必要です。
+db_file_export	データベースファイルを書き出す
+db_file_export_done	データベースファイルを書き出しました
+db_file_export_failed	データベースファイルを書き出せませんでした
+db_file_import	データベースファイルを読み込む
+db_file_import_confirm_title	すべてのデータを置き換えますか？
+db_file_import_confirm_message	データベースファイルを読み込むと、この端末にある現在のすべてのデータ(フォルダー、ノート、設定)が置き換えられます。元に戻すことはできません。ファイルが暗号化されている場合、下でパスワードを尋ねます。
+db_file_import_failed	これはNotioのデータベースファイルではないか、破損しています。
+action_copy	コピー
+action_continue	続ける
+action_later	後で
+transfer_error_too_large	バックアップが大きすぎて、この端末のメモリでは開けません。何も変更されていません。
+drawing_bg	用紙の背景
+drawing_bg_color	色
+drawing_bg_transparent	透明
+drawing_bg_transparency	透明度: %1$d%%
+drawing_bg_note	100 % は背景なし：画像は透明な PNG として保存・共有されます。背景は絵の下にあるため、消しゴムで再び現れ、塗りつぶしは空の用紙を塗ります。
+status_title_tasks	タスク
+status_tasks	タスク: %1$d · 未完了: %2$d
+status_tasks_overdue	期限切れ: %1$d
+reminders_cancel_title	リマインダーを取り消しますか？
+reminders_cancel_message	「%1$s」: リマインダーはもう鳴らず、終了済みに移ります。元に戻せません。再び使うには「編集」で新しい時刻を設定してください。
+reminders_cancel_keep	残す
+reminder_switch_on	リマインダーをオン
+reminder_switch_off	リマインダーをオフ
+reminder_status_off	オフ
+budget_show_amounts	隠した金額を表示
+budget_hide_amounts	金額を再び隠す
+budget_layout_hide_sums	合計を隠す（目をタップするまで ***）
+budget_layout_hide_goals	目標を隠す（目をタップするまで ***）
+zoom_out_cd	縮小
+zoom_in_cd	拡大
+zoom_level_cd	倍率 %1$d%%、タップで標準サイズ
+tags_add_tag	タグを追加
+tags_add_confirm	追加
+tags_created	タグ「%1$s」を追加しました
+settings_card_tint	カードの色
+settings_card_tint_hint	メモとフォルダのカードがどれだけ強く色を表示するか。文字は読みやすいよう自動で明るく／暗くなります。
+settings_card_tint_value	濃さ: %1$d%%
+settings_card_tint_sample	メモ
+settings_card_tint_sample_line	カードの見え方
+folder_ready_notes	フォルダ
+folder_ready_tasks	タスク
+units_rename_title	単位の名前を変更
+units_renamed	単位の名前を変更しました: %1$s
+currencies_rename_title	通貨の名前を変更
+currencies_renamed	「%1$s」に名前を変更しました
+comment_add_cd	コメントを追加
+sync_address_line	アドレス: %1$s
+sync_address_unknown	アドレス: まだ不明
+sync_address_edit	アドレス…
+sync_address_title	「%1$s」のアドレス
+sync_address_host	IP アドレスまたは名前
+sync_address_port	ポート
+sync_address_invalid	192.168.1.153 のような IP アドレス（またはデバイス名）と 1〜65535 のポートを入力してください。
+sync_address_hint	Wi-Fi が相手のデバイスに新しいアドレスを割り当て、自動で見つからない場合は、相手の「同期」ページ上部に表示されるアドレスとポートを入力してください。ペアリングはそのままです。鍵は変わらず、そのアドレスにいる鍵のないデバイスは拒否されるので、何も送信されません。
+sync_address_saved	アドレスを保存しました: %1$s
+drawing_tools_top	ツールを上に
+drawing_tools_left	ツールを左に
+drawing_tools_side	ツールの位置
+budget_log_undo	取り消す
+budget_log_was_undone	取り消し済み
+budget_log_undo_title	この変更を取り消しますか？
+budget_log_undo_message	変更はその差分だけ戻されます。後から行った変更はそのまま残ります。
+budget_log_undo_added_message	項目またはグループは、現在の中身ごと削除されます。
+budget_log_undo_failed	この変更はもう取り消せません。項目がないか、値が範囲外になります。
+budget_log_op_undone_value	取り消し: 「%1$s」 %2$s → %3$s
+budget_log_op_undone_rename	取り消し: 名前「%1$s」に戻りました
+budget_log_op_undone_added	取り消し: 「%1$s」を再び削除しました
+help_tasks_title	タスク: ステータスと優先度
+help_tasks_body	タスクフォルダーでは、各タスクにステータスがあります: 作成済み、順番待ち、予定、進行中、一時停止、延期、待機中、確認中、完了、クローズ、キャンセル。ステータスはアイコン付きのボタンで、タスクのカード、表示、編集にあります。押して一覧から選びます。完了、クローズ、キャンセルはタスクを終了させ、期限切れにはなりません。ステータスの横に優先度があります: 0〜65535 の整数（数字のみ）、または空欄。タスクフォルダーの並べ替えにはステータスと優先度があります。タスクの上のチップで選んだステータスのタスクだけを表示でき、同じチップがノートの検索にもあります。ステータスの横のチェックは「完了」です。タスクのカード、表示、編集のどこにもあります。チェックを付けるとタスクは「完了」になり、外すと以前のステータスに戻ります。タスクの上とノート検索にある「未完了」「完了」のチップでその種類のタスクだけに絞り込めます。タスクフォルダーの並べ替えには「完了」があり、未完了のタスクが先に並びます。この2つのチップはアイコンです。空の四角が「未完了」、チェック入りの四角が「完了」で、言葉はアイコンのヒントとして表示されます。タスクの行の末尾にあるゴミ箱（カードと表示画面）でタスクを削除します。先に確認があり、タスクはゴミ箱に移動して、そこから復元できます。隣の 2 枚の紙のアイコンはタスクをテキストとしてコピーします。
+help_income_title	繰り返す収入と支出
+help_income_body	収入または支出は、編集で設定した日時に口座へ統合されます。「繰り返し」で頻度を選びます: 1 回のみ、毎日、毎週（選んだ曜日）、毎月、毎年。繰り返す統合はフォルダーに残り、次の日時を待ちます。その日がない月は月末日になります。Notio を閉じていた間に過ぎた分は次回の起動時に統合されます。「今すぐ統合」はすぐに統合し、日時は動かしません。2 つのチェックで名前の大文字と小文字を区別するかを決めます: オンなら「Cash」と「cash」は同じ項目またはグループ、オフなら別になります。
+budget_merge_repeat	繰り返し
+budget_merge_repeat_none	1 回のみ
+budget_merge_repeat_daily	毎日
+budget_merge_repeat_weekly	毎週
+budget_merge_repeat_monthly	毎月
+budget_merge_repeat_yearly	毎年
+budget_merge_repeat_hint	上の日時から同じ時刻に繰り返し統合され、フォルダーに残ります。その日がない月は月末日になります。Notio を閉じていた間に過ぎた分は次回の起動時に統合されます。
+budget_merge_case_items	項目名の大文字と小文字を区別しない（Cash = cash）
+budget_merge_case_groups	グループ名の大文字と小文字を区別しない
+task_state	ステータス
+task_state_created	作成済み
+task_state_queued	順番待ち
+task_state_planned	予定
+task_state_in_progress	進行中
+task_state_paused	一時停止
+task_state_postponed	延期
+task_state_waiting	待機中
+task_state_review	確認中
+task_state_done	完了
+task_state_closed	クローズ
+task_state_cancelled	キャンセル
+task_priority	優先度
+task_priority_value	優先度: %1$s
+task_priority_hint	0〜65535 の整数（数字のみ）。空欄は優先度なし。
+sort_key_status	ステータス
+sort_key_priority	優先度
+sync_service_channel	同期の待機
+sync_service_title	同期を待機中
+sync_service_text	Notio はペアリング済みのデバイスからの同期を待っています。
+sync_service_off	オフにする
+sync_question_channel	同期の確認
+sync_question_title	%1$s が同期を求めています
+sync_question_text	タップして Notio で応答します。

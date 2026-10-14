@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Texts of the desktop-only functions (AGENT.md D45); not from the Android app, kept by hand in all ten languages. -->
+<resources>
+    <string name="desktop_window">Fenêtre</string>
+    <string name="desktop_close_to_tray">Le bouton Fermer réduit dans la zone de notification</string>
+    <string name="desktop_close_to_tray_hint">Notio reste dans la zone de notification et les rappels continuent de sonner ; Quitter dans le menu de l’icône (clic droit) le ferme.</string>
+    <string name="desktop_close_to_tray_notice">Notio fonctionne toujours dans la zone de notification. Pour le fermer, faites un clic droit sur son icône et choisissez Quitter.</string>
+    <string name="desktop_single_instance">Ne pas lancer un second Notio</string>
+    <string name="desktop_single_instance_hint">Relancer Notio affiche la fenêtre déjà ouverte. Prend effet au prochain démarrage.</string>
+    <string name="desktop_floating_stop_hint">Sans lui, l’enregistrement s’arrête dans la note ou depuis le menu de l’icône de la zone de notification (clic droit).</string>
+    <string name="desktop_auto_start">Démarrer avec Windows</string>
+    <string name="desktop_auto_start_hint">Notio démarre en arrière-plan à l’ouverture de session Windows, les rappels sonnent dès le début.</string>
+    <string name="desktop_auto_start_unavailable">Disponible dans Notio installé ou portable.</string>
+    <string name="desktop_auto_start_tray">Démarrer dans la zone de notification</string>
+    <string name="desktop_previous">Précédente</string>
+    <string name="desktop_next">Suivante</string>
+    <string name="desktop_render">Affichage de la fenêtre</string>
+    <string name="desktop_render_auto">Automatique</string>
+    <string name="desktop_render_software">Compatible (sans carte graphique)</string>
+    <string name="desktop_render_hint">S’applique au redémarrage de Notio. « Automatique » dessine sans la carte graphique sur un adaptateur d’affichage virtuel ou de base, où la fenêtre saccade avec elle. Actuellement : %1$s. Adaptateurs d’affichage : %2$s.</string>
+    <string name="desktop_damaged">Notio ne peut pas démarrer : des fichiers du programme sont manquants ou endommagés. Réinstallez Notio. Vos notes et réglages sont conservés.</string>
+    <string name="desktop_not_answering">Notio est déjà en cours, mais ne répond pas. Fermez Notio dans le Gestionnaire des tâches et relancez-le.</string>
+</resources>

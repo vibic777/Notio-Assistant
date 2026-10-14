@@ -1,0 +1,3 @@
+# D262: a comment on a + / − change of a budget item
+budget_adjust_comment	Comment (optional, goes into the log)	Комментарий (необязательно, пишется в журнал)	Каментарый (неабавязкова, пішацца ў журнал)	Commentaire (facultatif, va dans le journal)	Kommentar (optional, kommt ins Protokoll)	Comentario (opcional, va al registro)	Commento (facoltativo, va nel registro)	备注（可选，写入日志）	コメント（任意、ログに記録）	설명(선택, 로그에 기록)
+budget_log_with_comment	%1$s — “%2$s”	%1$s — «%2$s»	%1$s — «%2$s»	%1$s — « %2$s »	%1$s — „%2$s“	%1$s — «%2$s»	%1$s — «%2$s»	%1$s ——“%2$s”	%1$s ——「%2$s」	%1$s — “%2$s”

@@ -1,0 +1,7 @@
+media_select	Абраць
+media_select_all	Абраць усе
+media_clear_selection	Зняць вылучэнне
+media_delete_selected	Выдаліць (%1$d)
+media_selected_count	Абрана: %1$d з %2$d
+media_delete_many_title	Выдаліць абранае?
+media_delete_many_message	Абранае (%1$d) трапіць у кошык, адтуль гэта можна вярнуць.

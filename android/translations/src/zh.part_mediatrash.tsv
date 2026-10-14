@@ -1,0 +1,11 @@
+trash_media_from_note	来自笔记“%1$s”
+trash_media_note_in_trash	笔记“%1$s”在回收站中：请先恢复笔记
+trash_media_note_gone	笔记“%1$s”已被永久删除：无法放回，只能导出
+trash_media_file_missing	此文件已不在这部手机上：无法恢复或导出。
+trash_media_cannot_restore_trash	请先从回收站恢复笔记。
+trash_media_cannot_restore_gone	笔记已不存在：此项目只能导出。
+trash_media_cannot_restore_file	文件缺失：无法恢复。
+trash_export	导出
+trash_purge_media_title	永久删除此项目？
+trash_purge_media_body	“%1$s”及其文件将被永久删除，无法撤销。
+settings_backup_media_note	回收站中的照片、视频和录制内容不会放入备份，只保存它们的列表。在这部手机上导入后，只要文件还在，就能恢复。

@@ -1,0 +1,18 @@
+text_mode_label	Modalità:
+text_mode_markdown	Markdown
+text_mode_rich	Formattato
+text_mode_to_markdown_title	Passare a Markdown?
+text_mode_to_markdown_message	Grassetto, corsivo, barrato ed elenchi restano. Colori, dimensioni, sottolineato, apici e pedici, allineamento e rientri non esistono in Markdown e saranno rimossi. Annulla li ripristina finché la nota è aperta.
+rich_underline	Sottolineato
+rich_superscript	Apice
+rich_subscript	Pedice
+rich_size	Dimensione del testo
+rich_text_color	Colore del testo
+rich_background	Evidenziatore
+rich_color_auto	Automatico
+rich_indent_less	Riduci rientro
+rich_indent_more	Aumenta rientro
+rich_align_left	Allinea a sinistra
+rich_align_center	Centra
+rich_align_right	Allinea a destra
+rich_clear	Cancella formattazione

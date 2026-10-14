@@ -1,0 +1,8 @@
+# D238: search inside a note
+note_search_open	Find in the note	Найти в заметке	Знайсці ў нататцы	Chercher dans la note	In der Notiz suchen	Buscar en la nota	Cerca nella nota	在笔记中查找	ノート内を検索	메모에서 찾기
+note_search_hint	Find in the note	Найти в заметке	Знайсці ў нататцы	Chercher dans la note	In der Notiz suchen	Buscar en la nota	Cerca nella nota	在笔记中查找	ノート内を検索	메모에서 찾기
+note_search_count	%1$d / %2$d	%1$d / %2$d	%1$d / %2$d	%1$d / %2$d	%1$d / %2$d	%1$d / %2$d	%1$d / %2$d	%1$d / %2$d	%1$d / %2$d	%1$d / %2$d
+note_search_none	No matches	Не найдено	Не знойдзена	Aucun résultat	Keine Treffer	Sin resultados	Nessun risultato	未找到	見つかりません	결과 없음
+note_search_previous	Previous match	Предыдущее совпадение	Папярэдняе супадзенне	Résultat précédent	Voriger Treffer	Resultado anterior	Risultato precedente	上一个	前の一致	이전 결과
+note_search_next	Next match	Следующее совпадение	Наступнае супадзенне	Résultat suivant	Nächster Treffer	Resultado siguiente	Risultato successivo	下一个	次の一致	다음 결과
+note_search_close	Close the search	Закрыть поиск	Закрыць пошук	Fermer la recherche	Suche schließen	Cerrar la búsqueda	Chiudi la ricerca	关闭搜索	検索を閉じる	검색 닫기

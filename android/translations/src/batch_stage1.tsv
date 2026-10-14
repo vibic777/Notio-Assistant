@@ -1,0 +1,10 @@
+sort_key_tags	Tags	Теги	Тэгі	Étiquettes	Tags	Etiquetas	Tag	标签	タグ	태그
+sort_key_type	Kind	Вид	Від	Type	Art	Tipo	Tipo	类型	種類	종류
+sort_key_count	Number of notes	Число заметок	Колькасць нататак	Nombre de notes	Anzahl der Notizen	Número de notas	Numero di note	笔记数量	ノートの数	노트 수
+sort_key_created_date	Created: day	Создано: день	Створана: дзень	Création : jour	Erstellt: Tag	Creada: día	Creata: giorno	创建：日期	作成：日	생성: 날짜
+sort_key_created_time	Created: time of day	Создано: время суток	Створана: час сутак	Création : heure	Erstellt: Uhrzeit	Creada: hora del día	Creata: ora del giorno	创建：时刻	作成：時刻	생성: 시각
+sort_key_updated_date	Changed: day	Изменено: день	Зменена: дзень	Modification : jour	Geändert: Tag	Cambiada: día	Modificata: giorno	修改：日期	変更：日	수정: 날짜
+sort_key_updated_time	Changed: time of day	Изменено: время суток	Зменена: час сутак	Modification : heure	Geändert: Uhrzeit	Cambiada: hora del día	Modificata: ora del giorno	修改：时刻	変更：時刻	수정: 시각
+cd_drag_handle	Drag to move	Перетащить	Перацягнуць	Faire glisser pour déplacer	Zum Verschieben ziehen	Arrastrar para mover	Trascina per spostare	拖动以移动	ドラッグして移動	끌어서 이동
+stamp_created	Created: %1$s	Создано: %1$s	Створана: %1$s	Créé : %1$s	Erstellt: %1$s	Creada: %1$s	Creata: %1$s	创建：%1$s	作成: %1$s	생성: %1$s
+stamp_modified	Changed: %1$s	Изменено: %1$s	Зменена: %1$s	Modifié : %1$s	Geändert: %1$s	Modificada: %1$s	Modificata: %1$s	修改：%1$s	変更: %1$s	수정: %1$s

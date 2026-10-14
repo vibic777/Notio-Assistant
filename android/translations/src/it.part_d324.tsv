@@ -1,0 +1,5 @@
+sync_nothing_changed	Non è stato trasferito nulla: i due dispositivi hanno già le stesse cose oppure le cartelle scelte non hanno note.
+sync_replace_folders_hint	Vengono sostituite solo le cartelle scelte: sul dispositivo che riceve diventano una copia esatta e le sue note di queste cartelle che l’altro dispositivo non ha vanno nel cestino. Le altre cartelle restano come sono.
+budget_each_sum	Ognuna: somma %1$s
+reminders_off_create_title	Promemoria disattivati
+reminders_off_create_hint	Su questo dispositivo tutti i promemoria sono disattivati, quindi uno nuovo non suonerebbe. Attiva prima i promemoria.

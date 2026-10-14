@@ -1,0 +1,20 @@
+note_type_task	任务
+folder_kind_notes	笔记文件夹
+folder_kind_tasks	任务文件夹
+dialog_new_task_title	新建任务
+bg_slot_note_task	任务
+task_done	已完成
+task_overdue	已逾期
+task_in_progress	进行中
+task_done_tick	已完成
+task_from	自 %1$s 起
+task_until	至 %1$s
+task_start	开始
+task_end	结束
+task_not_set	未设置
+task_comment	备注
+task_description	描述
+task_no_description	暂无描述。
+task_no_reminder	没有提醒。
+task_reminder	提醒…
+task_end_before_start	结束不能早于开始。

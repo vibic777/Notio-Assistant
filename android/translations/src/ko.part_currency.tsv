@@ -1,0 +1,24 @@
+budget_currency_button	통화: %1$s
+budget_currency_none	없음
+budget_currency_title	이 예산의 통화
+budget_currency_hint	예산 전체에 통화 하나를 사용하며 모든 금액 뒤에 표시됩니다. 직접 만든 통화는 설정 → 노트 및 내보내기 → 통화에서 추가하세요.
+settings_currencies	통화
+settings_currencies_hint	예산에 사용할 수 있는 통화 목록입니다. 기본 통화 외에 직접 추가할 수 있습니다.
+settings_currencies_open	통화 목록 열기
+currencies_title	통화
+currencies_hint	각 예산 노트에는 통화가 하나 있으며 모든 금액 뒤에 표시됩니다. 기본 통화는 삭제할 수 없고 직접 추가할 수 있습니다.
+currencies_custom_section	내 통화
+currencies_built_in_section	기본 통화
+currencies_none	아직 추가한 통화가 없습니다.
+currencies_add	통화 추가
+currencies_add_title	새 통화
+currencies_name_label	기호 또는 코드(최대 8자)
+currencies_added	“%1$s” 추가됨
+currencies_deleted	“%1$s” 삭제됨
+currencies_delete	통화 삭제
+currencies_delete_title	통화를 삭제할까요?
+currencies_delete_message	“%1$s”을(를) 목록에서 삭제합니다.
+error_currency_name	1~8자의 기호 또는 코드를 입력하세요
+error_currency_duplicate	이미 목록에 있는 통화입니다
+error_currency_in_use	아직 예산에서 사용 중인 통화입니다
+error_currency_built_in	기본 통화는 삭제할 수 없습니다

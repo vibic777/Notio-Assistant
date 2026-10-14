@@ -1,0 +1,8 @@
+settings_media_preview	カードの画像
+settings_media_preview_hint	写真・動画・画面録画ノートのカードに、名前のほかに何を表示するか。お絵かきと設計図は画像が1枚なので、オンかオフのみです。
+settings_media_preview_none	画像なし
+settings_media_preview_first	最初の写真またはフレーム
+settings_media_preview_deck	トランプのように重ねる：最初・最後・ランダムの1枚
+settings_drawing_preview	お絵かきと設計図
+settings_drawing_preview_on	カードに画像を表示
+settings_drawing_preview_off	表示しない

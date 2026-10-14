@@ -1,0 +1,31 @@
+budget_kind_title	Tipo di budget
+budget_kind_account	Conto
+budget_kind_income	Entrata
+budget_kind_expense	Uscita
+budget_kind_hint	Un’entrata o un’uscita si unisce una volta a un conto: le sue voci si aggiungono a quelle del conto (un’uscita si sottrae), poi va nel cestino.
+budget_merge_target	Unire in
+budget_merge_target_none	Scegli un conto
+budget_merge_no_accounts	Non c’è ancora un budget di tipo Conto: creane uno.
+budget_merge_when	Quando
+budget_merge_when_none	Non impostato (solo «Unisci ora»)
+budget_merge_clear_time	Togli l’ora
+budget_merge_sum	Somme
+budget_merge_goal	Obiettivi
+budget_merge_same	Stesse voci: aggiungere alla voce con lo stesso nome
+budget_merge_all	Trasferire tutte le voci: le altre vengono create nel conto
+budget_merge_by_name	per nome
+budget_merge_by_path	per gruppo / voce
+budget_merge_match	Abbinare le voci
+budget_merge_now	Unisci ora
+budget_merge_now_confirm	Le voci vanno in «%1$s», questo budget nel cestino. L’unione si annulla dal registro del conto.
+budget_merge_status	%1$s · si unisce a «%2$s» il %3$s
+budget_merge_status_no_time	%1$s · in «%2$s» con «Unisci ora»
+budget_merge_status_no_target	%1$s · nessun conto scelto: non succede nulla
+budget_merge_done	Unito a «%1$s»: %2$d voci cambiate, %3$d nuove. Questo budget è nel cestino.
+budget_merge_no_target	Scegli prima il conto.
+budget_merge_target_missing	Il conto scelto non esiste più o non è più un conto.
+budget_log_merged	Unione: «%1$s» — %2$d voci cambiate, %3$d nuove
+budget_log_merged_into	Unito a «%1$s»
+budget_log_merge_undone	L’unione di «%1$s» è stata annullata
+budget_merge_undo	Annulla l’unione
+budget_merge_undo_confirm	Il conto torna com’era prima dell’unione di «%1$s», e «%1$s» torna dal cestino (la sua ora viene tolta).

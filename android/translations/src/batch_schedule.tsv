@@ -1,0 +1,16 @@
+note_type_schedule	Schedule	Расписание	Расклад	Emploi du temps	Zeitplan	Horario	Programma	日程表	スケジュール	일정
+schedule_empty	Nothing here yet. Open Edit and add a time.	Пока пусто. Откройте «Правка» и добавьте время.	Пакуль пуста. Адкрыйце «Праўка» і дадайце час.	Rien pour l’instant. Ouvrez Modifier et ajoutez une heure.	Noch leer. Öffnen Sie Bearbeiten und fügen Sie eine Zeit hinzu.	Aún no hay nada. Abre Editar y añade una hora.	Ancora vuoto. Apri Modifica e aggiungi un orario.	还没有内容。打开“编辑”添加时间。	まだ何もありません。「編集」を開いて時刻を追加してください。	아직 비어 있습니다. “편집”을 열어 시간을 추가하세요.
+schedule_add_item	Add a time	Добавить время	Дадаць час	Ajouter une heure	Zeit hinzufügen	Añadir una hora	Aggiungi un orario	添加时间	時刻を追加	시간 추가
+schedule_add_calc	Add a calculator	Добавить вычислитель	Дадаць вылічальнік	Ajouter un calculateur	Rechner hinzufügen	Añadir un calculador	Aggiungi un calcolatore	添加计算器	計算を追加	계산기 추가
+schedule_item_hint	What happens	Что происходит	Што адбываецца	Ce qui se passe	Was geschieht	Qué ocurre	Cosa succede	内容	内容	내용
+schedule_calc_hint	What the calculator measures	Что считает вычислитель	Што лічыць вылічальнік	Ce que mesure le calculateur	Was der Rechner misst	Qué mide el calculador	Cosa misura il calcolatore	计算器测量的内容	計算の名前	계산기가 재는 것
+schedule_calc_default	Calculator	Вычислитель	Вылічальнік	Calculateur	Rechner	Calculador	Calcolatore	计算器	計算	계산기
+schedule_from	From	От	Ад	De	Von	Desde	Da	从	開始	시작
+schedule_to	To	До	Да	À	Bis	Hasta	A	到	終了	끝
+schedule_pick_item	choose a time	выберите время	абярыце час	choisir une heure	Zeit wählen	elige una hora	scegli un orario	选择时间	時刻を選ぶ	시간 선택
+schedule_no_items	Add a time first	Сначала добавьте время	Спачатку дадайце час	Ajoutez d’abord une heure	Fügen Sie zuerst eine Zeit hinzu	Primero añade una hora	Aggiungi prima un orario	请先添加时间	先に時刻を追加してください	먼저 시간을 추가하세요
+schedule_clear_time	No time	Без времени	Без часу	Sans heure	Keine Zeit	Sin hora	Nessun orario	清除时间	時刻なし	시간 없음
+schedule_unknown	?	?	?	?	?	?	?	?	?	?
+schedule_duration_hm	%1$d h %2$d min	%1$d ч %2$d мин	%1$d гадз %2$d хв	%1$d h %2$d min	%1$d Std. %2$d Min.	%1$d h %2$d min	%1$d h %2$d min	%1$d 小时 %2$d 分钟	%1$d時間%2$d分	%1$d시간 %2$d분
+schedule_duration_h	%1$d h	%1$d ч	%1$d гадз	%1$d h	%1$d Std.	%1$d h	%1$d h	%1$d 小时	%1$d時間	%1$d시간
+schedule_duration_m	%1$d min	%1$d мин	%1$d хв	%1$d min	%1$d Min.	%1$d min	%1$d min	%1$d 分钟	%1$d分	%1$d분

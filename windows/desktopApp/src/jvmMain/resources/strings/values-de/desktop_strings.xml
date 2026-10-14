@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Texts of the desktop-only functions (AGENT.md D45); not from the Android app, kept by hand in all ten languages. -->
+<resources>
+    <string name="desktop_window">Fenster</string>
+    <string name="desktop_close_to_tray">Die Schaltfläche Schließen minimiert in den Infobereich</string>
+    <string name="desktop_close_to_tray_hint">Notio bleibt im Infobereich und Erinnerungen klingeln weiter; Beenden im Menü des Symbols (Rechtsklick) beendet es.</string>
+    <string name="desktop_close_to_tray_notice">Notio läuft im Infobereich weiter. Zum Beenden das Symbol mit der rechten Maustaste anklicken und Beenden wählen.</string>
+    <string name="desktop_single_instance">Kein zweites Notio starten</string>
+    <string name="desktop_single_instance_hint">Ein erneuter Start von Notio holt das offene Fenster nach vorn. Gilt ab dem nächsten Start.</string>
+    <string name="desktop_floating_stop_hint">Ohne ihn wird die Aufnahme in der Notiz oder über das Menü des Symbols im Infobereich (Rechtsklick) beendet.</string>
+    <string name="desktop_auto_start">Mit Windows starten</string>
+    <string name="desktop_auto_start_hint">Notio startet bei der Anmeldung an Windows im Hintergrund, damit Erinnerungen von Anfang an klingeln.</string>
+    <string name="desktop_auto_start_unavailable">Verfügbar im installierten oder portablen Notio.</string>
+    <string name="desktop_auto_start_tray">Im Infobereich starten</string>
+    <string name="desktop_previous">Zurück</string>
+    <string name="desktop_next">Weiter</string>
+    <string name="desktop_render">Fensterdarstellung</string>
+    <string name="desktop_render_auto">Automatisch</string>
+    <string name="desktop_render_software">Kompatibel (ohne Grafikkarte)</string>
+    <string name="desktop_render_hint">Gilt nach dem Neustart von Notio. „Automatisch“ zeichnet ohne Grafikkarte auf einem virtuellen oder einfachen Anzeigeadapter, wo das Fenster mit ihr ruckelt. Jetzt: %1$s. Anzeigeadapter: %2$s.</string>
+    <string name="desktop_damaged">Notio kann nicht starten: Programmdateien fehlen oder sind beschädigt. Installieren Sie Notio erneut. Ihre Notizen und Einstellungen bleiben erhalten.</string>
+    <string name="desktop_not_answering">Notio läuft bereits, antwortet aber nicht. Beenden Sie Notio im Task-Manager und starten Sie es erneut.</string>
+</resources>

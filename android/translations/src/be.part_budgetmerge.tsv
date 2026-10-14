@@ -1,0 +1,31 @@
+budget_kind_title	Від бюджэту
+budget_kind_account	Рахунак
+budget_kind_income	Прыход
+budget_kind_expense	Расход
+budget_kind_hint	Прыход або расход адзін раз зліваецца з рахункам: яго артыкулы дадаюцца да артыкулаў рахунку (расход адымаецца), пасля чаго ён ідзе ў кошык.
+budget_merge_target	Куды зліваць
+budget_merge_target_none	Выберыце рахунак
+budget_merge_no_accounts	Бюджэтаў-рахункаў пакуль няма: стварыце бюджэт віду «Рахунак».
+budget_merge_when	Калі
+budget_merge_when_none	Не зададзена (толькі «Зліць зараз»)
+budget_merge_clear_time	Прыбраць час
+budget_merge_sum	Сумы
+budget_merge_goal	Мэты
+budget_merge_same	Аднолькавыя артыкулы: дадаваць да артыкула з тым жа імем
+budget_merge_all	Пераносіць усе артыкулы: астатнія ствараюцца ў рахунку
+budget_merge_by_name	па імені артыкула
+budget_merge_by_path	па шляху група / артыкул
+budget_merge_match	Супастаўляць артыкулы
+budget_merge_now	Зліць зараз
+budget_merge_now_confirm	Артыкулы пойдуць у «%1$s», гэты бюджэт — у кошык. Зліццё можна адмяніць з журнала рахунку.
+budget_merge_status	%1$s · зліваецца з рахункам «%2$s» %3$s
+budget_merge_status_no_time	%1$s · у «%2$s» па кнопцы «Зліць зараз»
+budget_merge_status_no_target	%1$s · рахунак не выбраны: нічога не адбудзецца
+budget_merge_done	Зліта з рахункам «%1$s»: зменена артыкулаў %2$d, новых %3$d. Гэты бюджэт у кошыку.
+budget_merge_no_target	Спачатку выберыце рахунак.
+budget_merge_target_missing	Выбраны рахунак выдалены або больш не з’яўляецца рахункам.
+budget_log_merged	Зліццё: «%1$s» — зменена артыкулаў %2$d, новых %3$d
+budget_log_merged_into	Зліта з рахункам «%1$s»
+budget_log_merge_undone	Зліццё «%1$s» адменена
+budget_merge_undo	Адмяніць зліццё
+budget_merge_undo_confirm	Рахунак вернецца да стану да зліцця «%1$s», а «%1$s» вернецца з кошыка (час зліцця будзе скінуты).

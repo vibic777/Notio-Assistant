@@ -1,0 +1,10 @@
+reminder_action_snooze	Паўтарыць праз %1$d хв
+alarm_dismiss	Адключыць
+alarm_open_note	Адкрыць нататку
+reminder_snoozed_until	Адкладзена да %1$s
+settings_alarm	Будзільнік напамінкаў
+settings_alarm_hint	Напамінак уключае экран і паказвае кнопкі «Адкласці» і «Адхіліць» паверх экрана блакіроўкі, як будзільнік.
+settings_snooze	Працягласць адкладвання
+settings_snooze_minutes	%1$d хв
+settings_fullscreen_hint	Тэлефон не дазваляе Notio адкрываць будзільнік паверх экрана блакіроўкі. Дазвольце гэта ў наладах праграмы, інакш будзе толькі апавяшчэнне.
+settings_fullscreen_open	Дазволіць экран будзільніка

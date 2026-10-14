@@ -1,0 +1,24 @@
+budget_log_button	変更履歴
+budget_log_title	変更履歴
+budget_log_empty	まだ変更はありません。項目の追加や値の変更がここに記録されます。
+budget_log_save_txt	TXTファイルに保存
+budget_log_save_pdf	PDFファイルに保存
+budget_log_clear	履歴を消去
+budget_log_clear_title	履歴を消去しますか？
+budget_log_clear_message	この予算の履歴がすべて削除されます。予算自体は変わりません。元に戻せません。
+budget_log_export_title	予算「%1$s」の変更履歴
+budget_log_export_done	履歴を保存しました
+budget_log_export_failed	履歴を保存できませんでした
+budget_log_file_name	予算の履歴
+budget_log_not_set	未設定
+budget_log_item_added	項目「%1$s」を「%2$s」に追加
+budget_log_group_added	グループ「%1$s」を「%2$s」に追加
+budget_log_sum	「%1$s」：金額 %2$s → %3$s
+budget_log_sum_delta	「%1$s」：金額 %2$s → %3$s（%4$s）
+budget_log_sum_set	「%1$s」：金額を%3$sに入力（変更前 %2$s）
+budget_log_goal	「%1$s」：目標 %2$s → %3$s
+budget_log_quantity	「%1$s」：数量 %2$s → %3$s
+budget_log_renamed	「%2$s」を「%1$s」に名前変更
+budget_log_moved	「%1$s」を「%2$s」から「%3$s」へ移動
+budget_log_deleted	「%1$s」を削除
+budget_log_deleted_tree	グループ「%1$s」を中身ごと削除

@@ -1,0 +1,21 @@
+# Gradle / build
+.gradle/
+.kotlin/
+build/
+/local.properties
+
+# IDE
+.idea/
+*.iml
+
+# Signing / secrets (never commit)
+*.jks
+*.keystore
+*.p12
+*.pem
+*.pfx
+
+# Installers
+/dist/
+*.msi
+*.exe

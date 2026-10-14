@@ -1,0 +1,4 @@
+settings_notices	Messaggi in fondo allo schermo
+settings_notices_hint	I messaggi brevi come «Spostato nel cestino» scompaiono da soli dopo questo tempo; puoi anche farne scorrere via uno di lato. 0 — non mostrarli affatto: in tal caso non ci sarà nemmeno «Annulla».
+settings_notices_value	%1$d s
+settings_notices_off	Non mostrare

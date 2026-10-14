@@ -1,0 +1,20 @@
+drawing_tool_shape	Forme
+drawing_tool_text	Testo
+drawing_tool_eyedropper	Contagocce
+drawing_shape_filled	Riempito
+drawing_eyedropper_hint	Tocca il disegno per prenderne il colore.
+drawing_text_hint	Tocca dove mettere il testo.
+drawing_brush_opacity	Opacità
+drawing_brush_softness	Sfumatura
+drawing_brush_round	Punta tonda
+drawing_brush_nib	Pennino piatto
+drawing_brush_angle	Angolo
+drawing_shape_square	Quadrato
+drawing_shape_circle	Cerchio
+drawing_shape_rhombus	Rombo
+drawing_shape_pentagon	Pentagono
+drawing_shape_hexagon	Esagono
+drawing_shape_star	Stella
+drawing_shape_double_arrow	Doppia freccia
+drawing_text_label	Testo
+drawing_edit_text	Modifica testo

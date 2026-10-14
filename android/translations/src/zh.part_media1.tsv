@@ -1,0 +1,6 @@
+export_format_video	视频 (MP4)
+export_format_photo	照片 (JPEG)
+export_format_media_zip	笔记的全部文件 (ZIP)
+note_type_photo	照片
+note_type_video	相机录像
+note_type_screen	屏幕录制

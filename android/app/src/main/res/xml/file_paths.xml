@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Melodies chosen for reminders (D129): copied here, handed to the notification service through the provider. -->
+    <files-path name="reminder_sounds" path="reminder_sounds/" />
+    <!-- "Share" of a note (D216): the files of audio, photo and video notes, and pictures made for a share. Only the one
+         file shared gets a temporary read permission. -->
+    <files-path name="audio" path="audio/" />
+    <files-path name="media" path="media/" />
+    <cache-path name="shared" path="shared/" />
+</paths>

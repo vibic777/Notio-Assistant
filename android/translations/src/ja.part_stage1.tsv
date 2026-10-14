@@ -1,0 +1,10 @@
+sort_key_tags	タグ
+sort_key_type	種類
+sort_key_count	ノートの数
+sort_key_created_date	作成：日
+sort_key_created_time	作成：時刻
+sort_key_updated_date	変更：日
+sort_key_updated_time	変更：時刻
+cd_drag_handle	ドラッグして移動
+stamp_created	作成: %1$s
+stamp_modified	変更: %1$s

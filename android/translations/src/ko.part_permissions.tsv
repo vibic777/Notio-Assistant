@@ -1,0 +1,28 @@
+settings_cat_permissions	권한
+settings_cat_permissions_hint	이 휴대전화에서 Notio에 허용된 것: 허용 또는 회수
+perm_intro	Notio는 기능에 필요할 때만 권한을 요청합니다. 여기에서 각 권한을 미리 허용하거나 회수할 수 있습니다.
+perm_notifications	알림
+perm_notifications_why	알림 표시와 울림, 상태 줄, 동기화 질문
+perm_exact_alarms	정확한 알람
+perm_exact_alarms_why	알림이 정해진 분에 울립니다. 없으면 휴대전화가 더 늦게 울릴 수 있습니다
+perm_full_screen	잠금 화면 위의 알람
+perm_full_screen_why	팝업이 있는 알림이 화면을 켜고 잠긴 휴대전화에 창을 표시합니다
+perm_overlay	다른 앱 위에 표시
+perm_overlay_why	알람 창이 저절로 나타납니다. 녹음·녹화의 플로팅 중지 버튼, 동기화 질문
+perm_microphone	마이크
+perm_microphone_why	음성 메모, 동영상과 화면 녹화의 소리
+perm_camera	카메라
+perm_camera_why	사진 및 동영상 메모
+perm_location	위치
+perm_location_why	해당 표시를 켰을 때 사진이나 동영상에 기록되는 장소
+perm_state_on	허용됨
+perm_state_off	허용 안 됨
+perm_state_leaving	회수됨: Notio를 닫으면 사라집니다
+perm_allow	허용
+perm_revoke	회수
+perm_revoke_all	모든 권한 회수
+perm_open_settings	휴대전화 설정의 Notio
+perm_revoke_note	여기에서 회수한 권한은 Notio를 닫을 때 사라집니다. Android가 그때 권한을 거둡니다. 정확한 알람, 잠금 화면 위의 알람, 다른 앱 위에 표시는 휴대전화 설정의 스위치이며, 버튼을 누르면 열립니다.
+perm_revoke_note_old	이 Android 버전에서는 휴대전화 설정에서 권한을 회수합니다. 버튼을 누르면 설정의 Notio 페이지가 열립니다.
+help_permissions_title	권한
+help_permissions_body	휴대전화에서 설정 → 권한 은 Notio에 허용할 수 있는 모든 것을 보여 줍니다. 알림, 정확한 알람, 잠금 화면 위의 알람, 다른 앱 위에 표시, 마이크, 카메라, 위치입니다. 각 줄에는 그 권한의 용도와 허용 여부가 적혀 있습니다. ‘허용’은 권한을 줍니다. 휴대전화의 질문으로, 또는 설정에서만 바꿀 수 있는 권한은 휴대전화 설정 페이지에서 줍니다. ‘회수’는 권한을 거둡니다. 휴대전화가 물어본 권한은 Notio를 닫을 때 사라지고, 나머지는 버튼으로 열리는 휴대전화 설정에서 끕니다. ‘모든 권한 회수’는 이를 한 번에 처리합니다. 잃는 것은 없습니다. 권한이 필요한 기능이 다시 요청합니다. 컴퓨터에서는 Notio에 권한을 묻지 않습니다.

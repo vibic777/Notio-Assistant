@@ -1,0 +1,24 @@
+budget_currency_button	货币：%1$s
+budget_currency_none	无
+budget_currency_title	此预算的货币
+budget_currency_hint	整个预算使用一种货币，显示在每个金额之后。可在“设置 → 笔记与导出 → 货币”中添加自己的货币。
+settings_currencies	货币
+settings_currencies_hint	预算可以使用的货币列表。可在内置货币之外添加自己的货币。
+settings_currencies_open	打开货币列表
+currencies_title	货币
+currencies_hint	每个预算笔记有自己的一种货币，显示在它所有金额之后。内置货币不能删除，可以添加自己的货币。
+currencies_custom_section	我的货币
+currencies_built_in_section	内置货币
+currencies_none	您还没有添加任何货币。
+currencies_add	添加货币
+currencies_add_title	新货币
+currencies_name_label	符号或代码（最多8个字符）
+currencies_added	已添加“%1$s”
+currencies_deleted	已删除“%1$s”
+currencies_delete	删除货币
+currencies_delete_title	删除该货币？
+currencies_delete_message	“%1$s”将从列表中移除。
+error_currency_name	请输入1到8个字符的符号或代码
+error_currency_duplicate	该货币已在列表中
+error_currency_in_use	仍有预算在使用该货币
+error_currency_built_in	内置货币不能删除

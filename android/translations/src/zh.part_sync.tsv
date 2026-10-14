@@ -1,0 +1,98 @@
+settings_cat_sync	同步
+settings_cat_sync_hint	在同一 Wi-Fi 下的设备之间
+settings_sync	设备间同步
+settings_sync_hint	两台装有 Notio 的手机（或平板）连接同一 Wi-Fi，并都打开此页面。用代码连接一次，之后每次同步都使用保存的连接。所有数据加密后直接在设备间传输，不经过互联网和云；另一台设备在数据改变前会先询问。
+sync_wait	等待设备
+sync_find	查找设备
+sync_connections	连接
+sync_this_device	本设备：%1$s
+sync_not_listening	其他设备看不到
+sync_no_wifi	无 Wi-Fi：请将两台设备连接到同一网络
+sync_listening	此页面打开期间可见：%1$s
+sync_rename_device	设备名称
+sync_device_name	其他设备看到的名称
+sync_new_connection	新连接
+sync_roles_hint	仅首次连接需要：在一台设备上点“等待设备”（会显示代码），在另一台上点“查找设备”并输入该代码。
+sync_code_title	给另一台设备的代码
+sync_code_hint	在另一台设备上：设置 → 同步 → 查找设备，选择本设备并输入代码。等待中…
+sync_paired_with	已与 %1$s 连接
+sync_no_connections	暂无连接。
+sync_online	当前在线
+sync_offline	当前看不到（请在该设备上打开此页面）
+sync_last	上次同步：%1$s
+sync_never	尚未同步
+sync_sync	同步…
+sync_test	测试连接
+sync_testing	正在测试连接…
+sync_remove	删除
+sync_remove_title	删除与 %1$s 的连接？
+sync_remove_message	如果另一台设备当前可连接，连接会在两台设备上都删除，否则只在本机删除。笔记保持不变。若要再次同步，请用新代码连接。
+sync_removed_both	已在两台设备上删除连接
+sync_removed_here	已在本机删除连接（另一台设备不可连接）
+sync_log	同步日志
+sync_log_empty	暂无内容。
+sync_log_clear	清除
+sync_copy_report	复制
+sync_copied	已复制
+sync_pairing_progress	正在连接…
+sync_failed	未成功：%1$s
+sync_running	正在与 %1$s 同步…
+sync_status_receiving	正在接收另一台设备的数据…
+sync_status_sending	正在向另一台设备发送数据…
+sync_done_title	已与 %1$s 同步
+sync_received	本机收到：
+sync_sent	另一台设备收到：
+sync_stats	新文件夹 %1$d，新笔记 %2$d，已更新 %3$d，未变 %4$d，文件 %5$d
+sync_clock_warning	两台设备的时钟相差约 %1$s 分钟：合并按每次修改的时间进行，请在两台设备上设置正确时间。
+sync_test_ok	一切正常。
+sync_test_failed	第一个 ✗ 指出问题所在。
+sync_prompt_pair	与 %1$s 连接？
+sync_prompt_pair_hint	它输入了正确的代码。之后两台设备即可同步；每次同步都会在这里再次询问。
+sync_prompt_sync	%1$s 请求同步
+sync_prompt_send	数据从本设备发往对方；本机不会改变。
+sync_prompt_receive	数据从对方发到本设备。
+sync_prompt_both	数据双向传输。
+sync_mode_label	方式：
+sync_folders_label	文件夹：
+sync_all_folders	所有文件夹
+sync_replace_warning	替换会先删除接收设备上的全部数据。
+sync_allow	允许
+sync_deny	拒绝
+sync_manual_hint	不在列表中？请输入另一台设备上显示的地址。
+sync_address	地址
+sync_use_address	使用此地址
+sync_enter_code	输入 %1$s 上显示的代码：
+sync_code	代码
+sync_connect	连接
+sync_with	与 %1$s 同步
+sync_direction	方向
+sync_dir_send	从本设备到 %1$s
+sync_dir_receive	从 %1$s 到本设备
+sync_dir_both	双向
+sync_mode	方式
+sync_mode_merge	合并
+sync_mode_copies	作为副本添加
+sync_mode_replace	替换
+sync_mode_merge_hint	相同的笔记和文件夹会被对应，各自以较新的修改为准；缺少的会被添加。
+sync_mode_copies_hint	不覆盖任何内容：收到的全部作为新副本添加（可能出现重复）。
+sync_mode_replace_hint	接收设备将成为完全副本：其全部数据会先被删除。
+sync_replace_rule	仅单向时可替换。
+sync_folders	文件夹
+sync_refresh_folders	获取 %1$s 的文件夹
+sync_start	开始
+sync_step_network	本设备的 Wi-Fi
+sync_step_listening	此页面正在监听
+sync_step_find	找到另一台设备
+sync_step_connect	连接
+sync_step_handshake	加密与密钥
+sync_step_clock	时钟差
+sync_step_reply	响应
+sync_step_pairing	连接记录
+sync_err_not_found	找不到另一台设备：请在其上打开 设置 → 同步，并连接同一 Wi-Fi
+sync_err_not_waiting	另一台设备当前没有显示代码等待
+sync_err_unknown_pairing	另一台设备不认识此连接（已在那边删除？）：请在此删除并用代码重新连接
+sync_err_version	另一台设备的 Notio 版本不同：请同时更新
+sync_err_wrong_code	代码错误
+sync_err_denied	另一台设备已拒绝
+help_sync_title	设备间同步
+help_sync_body	设置 → 同步可在同一 Wi-Fi 下直接连接两台装有 Notio 的设备，不经过互联网和云；两台都需打开此页面。首次连接时，一台点“等待设备”并显示代码，另一台点“查找设备”，选择它（或输入地址）并输入代码；第一台确认。连接会保存在列表中：之后只需点“同步…”，选择方向（从本机、到本机或双向）、方式（合并——较新的修改为准；作为副本添加；替换——接收方成为完全副本，仅限单向；选择了文件夹时只替换这些文件夹）以及全部或选定的文件夹；另一台设备每次都会询问。“测试连接”逐步显示哪里不通；“删除”会断开连接。全部加密（AES-256-GCM，ECDH 交换密钥）；代码从不经网络发送。 如果 Wi-Fi 给另一台设备分配了新地址（今天是“.152”，明天是“.153”）且无法自动找到，请在已保存的连接上点按“地址…”，输入它在“同步”页面顶部显示的地址和端口。配对密钥不会改变：该地址上没有密钥的设备会被拒绝。如果在 Notio 打开期间网络发生了变化（由移动数据或 VPN 切换到 Wi-Fi），请点按“重新检查连接”：将重新读取本设备的地址和附近设备的列表。本设备等待连接的端口会自动选择；“本设备的端口…”可手动设置自己的端口（用于防火墙或路由器的规则），并显示它是空闲还是被其他程序占用。

@@ -1,0 +1,3 @@
+search_ignore_case	Aa 大文字小文字を区別しない
+search_regex	.* 正規表現
+search_regex_error	式に誤りがあります：%1$s

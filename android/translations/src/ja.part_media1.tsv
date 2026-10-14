@@ -1,0 +1,6 @@
+export_format_video	動画 (MP4)
+export_format_photo	写真 (JPEG)
+export_format_media_zip	ノートのすべてのファイル (ZIP)
+note_type_photo	写真
+note_type_video	カメラ動画
+note_type_screen	画面録画

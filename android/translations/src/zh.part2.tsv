@@ -1,0 +1,336 @@
+note_color_title	笔记颜色
+note_color_hint	为这条笔记选择颜色，或选择“文件夹颜色”以使用其所在文件夹的颜色。
+note_color_none	文件夹颜色
+folder_icon_hint	点按这里，然后按键盘上的表情键并选择一个表情符号，例如 📚 或 🏠。一个表情符号效果最好，简短的词也可以。留空时显示名称的第一个字。
+help_emoji_title	文件夹表情和颜色
+help_emoji_body	文件夹卡片上可以显示一个表情符号或一个简短的词。编辑文件夹（卡片上的 ⋮），点按“图标或表情符号”输入框，再按键盘上的表情键（在空格键旁边）并选择图片；如果键盘没有表情键，请在键盘设置中启用表情，或粘贴复制好的表情。输入框留空时显示名称的第一个字。颜色：可通过 ⋮ → 颜色为笔记设置自己的颜色（任意现成颜色或你自己的 RGB 颜色；“文件夹颜色”会恢复为文件夹的颜色），整个应用还可以在设置中选择颜色主题。
+list_view_empty	这个清单是空的。打开“编辑”标签页添加条目。
+budget_group_label	分组
+search_open	搜索
+search_scope_notes	笔记
+search_scope_folders	文件夹
+search_hint_notes	在标题和正文中搜索
+search_hint_folders	按名称搜索文件夹
+search_clear	清除
+search_no_tags	还没有标签。可在笔记的 ⋮ 菜单 → 标签中添加标签，然后在这里按标签筛选。
+search_found	找到：%1$d
+search_no_results	没有找到内容
+action_tags	标签
+tags_dialog_title	此笔记的标签
+tags_new_hint	新标签
+tags_add	添加
+tags_none_yet	还没有标签：请在上方输入一个。
+error_tag_name	请输入 1 到 32 个字符的标签
+error_tag_duplicate	此标签已存在
+settings_tags	标签
+settings_tags_hint	笔记的标记：可以给一条笔记添加任意数量的标签，并按标签搜索。
+settings_tags_open	管理标签
+tags_title	标签
+tags_hint	标签通过笔记的 ⋮ 菜单 → 标签添加。在这里可以重命名标签，或从所有笔记中删除它。
+tags_none_yet_manage	你还没有标签。
+tags_rename	重命名
+tags_rename_title	重命名标签
+tags_delete	删除标签
+tags_delete_title	删除这个标签？
+tags_renamed	标签已重命名：%1$s
+tags_deleted	标签已删除：%1$s
+plural:tags_used_by:other	%1$d 条笔记
+plural:tags_delete_message:other	“%1$s”将从 %2$d 条笔记中移除，笔记本身会保留。
+audio_default_name	录音 %1$d
+audio_clip_menu	录音选项
+audio_edit	名称和备注
+audio_edit_title	录音详情
+audio_name_label	名称
+audio_comment_label	备注
+audio_export_clip	导出此录音
+audio_delete_title	删除这段录音？
+audio_delete_message	“%1$s”将移入回收站，可从那里放回此笔记。
+export_format_audio_zip	全部录音 (.zip)
+list_mode_quantity	数量
+list_mode_price	价格
+list_price	单价
+list_summary_title	汇总
+list_summary_none	添加数量和价格即可查看汇总。
+list_summary_quantity	数量：%1$s
+list_summary_price	价格：%1$s
+export_format_txt	纯文本 (.txt)
+export_format_pdf	PDF 文档 (.pdf)
+help_price_title	价格清单
+help_price_body	在清单中打开“编辑”标签页，选择“价格”而不是“数量”。这样每个条目还会有单价和价格单位，价格单位与数量使用同一组单位（卢布、欧元，甚至千克）。条目的费用等于数量 × 单价：2 个苹果每个 50，合计 100。清单末尾会按单位汇总所有数量，并按价格单位汇总所有费用，例如 5 件和 400 卢布。“单位合计”行也会显示该单位下条目的费用。
+help_search_title	搜索和标签
+help_search_body	主屏幕顶部的放大镜可打开搜索。可在“笔记”（在所有文件夹中搜索笔记的标题、正文和标签）和“文件夹”（按名称查找文件夹）之间切换。输入多个词时，必须全部匹配。在搜索框下方点按标签，可以只保留同时含有这些标签的笔记。要给笔记加标签，请使用它的 ⋮ 菜单 → 标签：勾选标签或输入新的；一条笔记可以有任意数量的标签。设置 → 管理标签可重命名或删除标签。
+help_export_title	导出笔记
+help_export_body	打开笔记，使用其 ⋮ 菜单 → 导出。Markdown 笔记：Markdown（含语法）、纯文本或 PDF（后两者显示的是你阅读时看到的文字）。清单：专用的 JSON 文件（可带着所有数量和价格导回）、Markdown、纯文本或 PDF。预算、绘图和音频有各自的格式。包含多段录音的音频笔记会把它们全部导出为一个 .zip，文件名为“笔记标题 - 录音名称”；单段录音可从它自己的 ⋮ 菜单导出。
+search_close	取消搜索
+theme_black	黑色
+theme_gray	灰色
+theme_white	白色
+search_scope_tags	标签
+search_hint_tags	按标签名称搜索
+settings_font_size	字体大小
+settings_font_size_hint	更改整个应用的文字大小，会叠加在系统设置的字体大小之上。
+font_small	小
+font_normal	标准
+font_medium	中
+font_large	大
+font_extra_large	特大
+zoom_normal	标准
+action_done	完成
+sort_title	排序
+sort_hint	置顶的笔记始终排在最前，最后置顶的在最上面。
+sort_notes	此文件夹的笔记
+sort_folders	文件夹
+sort_key_manual	自定义顺序
+sort_key_updated	修改时间
+sort_key_created	创建时间
+sort_key_name	名称
+sort_key_color	颜色
+sort_ascending	升序
+sort_descending	降序
+folder_move_earlier	前移
+folder_move_later	后移
+featured_menu	精选笔记…
+featured_title	“%1$s”的精选笔记
+featured_hint	文件夹卡片会显示这条笔记。对于预算，还可以显示合计、目标和余额。
+featured_none	无
+featured_layout	显示多少内容
+featured_layout_title	标题
+featured_layout_compact	紧凑
+featured_layout_full	完整
+featured_metrics	显示
+featured_metric_sum	合计
+featured_metric_goal	目标
+featured_metric_remainder	余额
+featured_only_budget	合计、目标和余额仅适用于预算笔记。
+settings_backgrounds	背景
+settings_backgrounds_hint	为整个应用、文件夹卡片和每种笔记设置背景颜色或图片。
+settings_backgrounds_open	选择背景
+bg_title	背景
+bg_hint	为每个位置选择一种颜色或 PNG/JPG 图片。图片会略微调暗以保证文字清晰；纯色则按原样绘制，请选择与文字相配的颜色。图片只保存在这部手机上，不包含在备份中。
+bg_slot_app	整个应用
+bg_slot_folders	文件夹卡片
+bg_slot_note_text	Markdown 笔记
+bg_slot_note_list	清单
+bg_slot_note_budget	预算
+bg_slot_note_drawing	绘图
+bg_slot_note_blueprint	图纸
+bg_slot_note_audio	音频笔记
+bg_state_default	默认
+bg_state_color	颜色
+bg_state_image	图片
+bg_colour	颜色…
+bg_picture	图片…
+bg_reset	重置
+bg_error	无法使用这张图片。请选择 PNG 或 JPG 文件。
+note_type_blueprint	图纸
+layers_title	图层
+layer_default_name	图层 %1$d
+layer_add	添加图层
+layer_show	显示
+layer_hide	隐藏
+layer_lock	锁定
+layer_unlock	解锁
+layer_rename	重命名
+layer_name_label	图层名称
+layer_up	上移
+layer_down	下移
+layer_move_shape_here	将选中的图形移到这里
+layer_delete_title	删除这个图层？
+layer_delete_message	图层上的图形会随之一起删除。此操作无法撤销。
+layer_cannot_draw	所选图层已隐藏或锁定：请选择其他图层再绘制。
+action_reminders	提醒
+reminders_title	提醒
+reminders_add	添加提醒
+reminders_edit	编辑提醒
+reminders_empty	还没有提醒。点按“添加提醒”。
+reminders_cancel	取消提醒
+reminders_delete_title	删除这条提醒？
+reminders_delete_message	“%1$s”的提醒将被删除，笔记会保留。
+reminders_exact_hint	Android 未允许此应用使用精确闹钟，因此提醒可能会稍晚一些。请在系统设置中为此应用允许“闹钟和提醒”。
+reminders_exact_open	打开系统设置
+reminder_note	笔记
+reminder_pick_note	选择笔记
+reminder_sound	声音
+reminder_vibration	振动
+reminder_popup	弹窗
+reminder_confirm_short	需要确认
+reminder_repeat_short	每 %1$d 分钟重复
+reminder_sound_long	播放声音
+reminder_vibration_long	振动
+reminder_popup_long	显示弹窗
+reminder_confirm_long	要求确认
+reminder_repeat_long	重复直到确认
+reminder_every_minutes	%1$d 分钟
+reminder_status_scheduled	等待时间到来
+reminder_status_fired	已触发
+reminder_status_waiting	等待你的确认
+reminder_status_done	已完成
+reminder_status_cancelled	已取消
+reminder_error_past	时间必须在将来
+reminder_error_repeat	“重复直到确认”需要同时开启“要求确认”并设置重复间隔
+settings_lock	应用锁
+settings_lock_hint	打开应用时要求输入密码、图案或登录信息。
+settings_lock_open	设置应用锁
+lock_settings_title	应用锁
+lock_title	已锁定
+lock_intro	开启应用锁后，每次打开应用以及超过下面设置的时间后，应用都会要求解锁。除非你设置了邮件找回，否则任何内容都不会离开手机；这部手机上只保存密码的加密散列形式。
+lock_status_off	应用锁已关闭
+lock_status_on	应用锁已开启：%1$s
+lock_method_password	密码
+lock_method_pattern	图案
+lock_method_login	登录名和密码
+lock_biometric_option	同时允许使用指纹或面部解锁
+lock_biometric_title	解锁
+lock_use_biometric	使用指纹或面部
+lock_timeout_title	应用离开多久后再次询问
+lock_timeout_immediate	立即
+lock_timeout_30s	30 秒
+lock_timeout_1m	1 分钟
+lock_timeout_5m	5 分钟
+lock_timeout_15m	15 分钟
+lock_timeout_never	仅在应用启动时
+lock_question_title	安全问题（用于找回忘记的密码）
+lock_question_none	不设问题
+lock_q1	你的第一只宠物叫什么名字？
+lock_q2	你出生在哪个城市？
+lock_q3	你母亲的娘家姓是什么？
+lock_q4	你的第一所学校叫什么名字？
+lock_q5	你最喜欢的书是什么？
+lock_answer	答案
+lock_warning_no_recovery	不设问题的话，忘记的密码无法找回。此时唯一的办法是重新安装应用，这会删除这部手机上的所有内容（之前做的备份文件可以再导入）。
+lock_recovery_on	已设置安全问题。
+lock_recovery_off	未设置安全问题：忘记的密码无法找回。
+lock_secure_hint	开启应用锁期间，截屏和最近任务列表中的画面都会被屏蔽。
+lock_turn_on	开启应用锁
+lock_turn_off	关闭应用锁
+lock_change	更改密码或图案
+lock_current	请先输入当前的。
+lock_new	现在输入新的。
+lock_next	下一步
+lock_unlock	解锁
+lock_login	登录名
+lock_password	密码
+lock_password_again	再次输入密码
+lock_password_differs	两次输入的密码不一致
+lock_new_password_hint	请选择新密码：
+lock_pattern_draw	请绘制至少连接 4 个点的图案
+lock_pattern_again	请再次绘制相同的图案
+lock_pattern_unlock	请绘制你的图案
+lock_pattern_short	请至少连接 4 个不同的点
+lock_pattern_differs	两次图案不一致，请重新开始。
+lock_error_length	密码需要 4 到 64 个字符
+lock_error_login	请输入 1 到 32 个字符的登录名
+lock_error_answer	请输入问题的答案
+lock_no_recovery	未设置安全问题，因此无法找回。
+lock_wrong	不正确。
+lock_wrong_answer	答案不正确
+lock_blocked	错误次数过多，请等待 %1$d 秒。
+lock_blocked_short	错误次数过多，请稍等片刻。
+lock_forgot	我忘记了
+plural:lock_tries_left:other	暂停前还剩 %1$d 次尝试。
+home_more_actions	排序和导入
+help_blueprint_title	绘图和图纸
+help_blueprint_body	绘图是一张可以涂画的画布：铅笔、画笔、橡皮擦、油漆桶填充，任意颜色。图纸由图形（“形状”工具：矩形、正方形、椭圆、圆、三角形、菱形、五边形、六边形、星形、直线、箭头，可填充；以及文字）组成，可选择、移动、调整形状和填充，并放在图层上。在“编辑”中点按“图层”：选择要绘制的图层、隐藏或锁定图层、上移或下移、重命名或删除、添加新图层；图形可通过该图层的 ⋮ 菜单移到另一个图层。旧版本中制作的绘图会保留其图形，但现在只能查看，不能修改。两者都先以“查看”打开；可用 + 和 − 按钮或双指缩放，放大后用双指移动画布。 选中的图形可以上移或下移一层，也可以直接置于顶层或底层；图层可以上移或下移一位，也可以移到最上或最下。 工具面板上半填充方块的图标用于设置纸张背景：颜色，以及带透明度的“透明”（100 % = 无背景）。图片会带着此背景保存和分享。 选中的图形有图标：回收站删除，两张纸复制，叠放的方块前移或后移一层，指向横线的箭头移到最前或最后。图层显示眼睛（显示／隐藏）和锁（锁定／解锁）；带加号的叠层添加图层。
+help_zoom_title	缩放和字体大小
+help_zoom_body	文本、清单和预算笔记的顶部、“查看”和“编辑”旁边有 − 和 + 按钮，也可用双指缩放：这条笔记中的文字会变大或变小；点按百分比可恢复正常。绘图和图纸使用同样的按钮缩放画布本身。停留在该笔记期间会保持缩放。要调整整个应用，请在“设置 → 外观 → 字号”中选择大小，它会叠加在系统设置的字号上。 绘图和图纸的画布位于整个笔记中；双指缩放或 − / + 可缩放画布（也可小于区域），两指可移动；点按缩放比例可把整张画布放入空闲区域。编辑时工具面板位于画布上方，在底部或右侧（点面板上的边框图标切换），点箭头图标可收起为一个圆形按钮；画布从不遮挡按钮。 工具面板上的边框图标可设置画布尺寸：16:9、9:16、4:3、3:4，或以像素、毫米、厘米输入任意宽高（每英寸 150 像素）；图片保持在左上角。 工具面板上带条纹的边框图标用于选择面板位置：下方、右侧、上方或左侧；选择会被记住。
+help_sort_title	排序和精选笔记
+help_sort_body	主屏幕顶部的 ⋮ 菜单有“排序”：笔记可按修改日期、创建日期、名称或颜色排序，文件夹可按您自己的顺序、名称、日期或颜色排序，均可升序或降序。置顶的笔记始终排在最前，最后置顶的在最上面。选择“我的顺序”后，可拖动四向箭头把手来移动文件夹和笔记；文件夹卡片的 ⋮ 菜单也可将其前移或后移。每个文件夹记住自己的笔记排序。
+help_backgrounds_title	背景
+help_backgrounds_body	在设置 → 背景中，可以为整个应用、文件夹卡片和每种笔记设置颜色或手机中的 PNG/JPG 图片。图片会略微调暗以保证文字清晰；纯色按原样使用，请选择与文字相配的颜色（“重置”可恢复默认）。图片只保存在这部手机上，不包含在备份中；颜色则包含。
+help_reminders_title	提醒
+help_reminders_body	主屏幕顶部的时钟图标（或笔记 ⋮ 菜单中的“提醒”）可打开提醒。添加提醒：选择笔记、日期和时间，以及提醒方式：铃声（手机自带声音或你自己的音频文件，可设置音量和渐强）、振动、弹窗、要求确认，以及每隔几分钟重复直到你确认。“像闹钟一样重复”会每隔 N 分钟再响 X 次。提醒可以每天、在选定的星期几或每月的某一天重复（没有该日期的月份会被跳过）。可以编辑、取消或删除提醒，也可在它等待确认时点按“完成”。Android 13 及更高版本会一次性请求通知权限；如果手机未允许精确闹钟，屏幕上的提示会说明并打开设置，此时提醒可能会稍晚一些。已删除笔记的提醒会被取消。 时钟旁边的日历图标会打开一个月视图：有提醒的日子显示铃铛（重复提醒在每个重复日都显示）；点按某一天，会在气泡中和月份下方的列表中显示相关笔记名称，点按名称即可打开笔记。箭头或滑动可切换月份，“今天”可返回当前月份。 日历的放大镜按笔记名称在所有月份中查找提醒和预算并入：找到的项目连同日期列出，点击或使用箭头即可显示那一天。 尚未响起的提醒在卡片上有开关：关闭后保留时间和设置但不响；再次开启即恢复（重复提醒从下一个日期开始）。“取消”会先确认。点按提醒通知会打开当天的日历并框出该提醒，再点按即可打开笔记或任务。 提醒卡片上的图标：对勾表示“完成”，铅笔用于修改，划掉的铃铛用于取消，回收站用于删除（后两者会先询问）。 安装 Notio 后所有提醒均为关闭：请用“提醒”页面顶部的开关开启；尝试添加提醒时也会提示。无人应答而重复响铃时，屏幕点亮的时间会逐次缩短：先是一分钟，然后 15 秒，之后每次 5 秒；铃声照常播放。
+help_lock_title	应用锁
+help_lock_body	设置 → 应用锁：选择密码、3×3 图案，或登录名加密码。如果手机支持，可再添加指纹或面部解锁：它只是更快的方式，密码或图案始终保留。选择应用在后台停留多久后再次询问：可用预设值，也可以设置任意的分钟和秒数（“其他…”）。如果忘记了解锁方式，有三种找回办法，均为可选：回答安全问题、通过你自己的 SMTP 服务器发送到邮箱的验证码（应用没有自己的服务器），或身份验证器应用中的验证码（二维码）。一种都没设置时，忘记的密码无法找回；此时只能重新安装应用，这会删除手机上的所有内容（之后可导入备份文件）。连续错误五次后，应用会让你等待，每次等待更久。只保存密码的加密散列形式，存放在应用的私有存储中，绝不会进入备份。开启应用锁期间，截屏和最近任务列表中的画面都会被屏蔽。带有恢复码的邮件还会包含加密数据库的密码和备份的密码（如果本设备保存有它们）：这是找回数据的最后手段。只有在您点按“我忘记了”并请求恢复码时才会发送；用完后请删除该邮件。
+channel_reminders_generic	提醒
+reminder_sound_default	默认通知声音
+reminder_melody	铃声：%1$s
+reminder_sound_play	试听
+reminder_sound_system	手机声音…
+reminder_sound_file	我的文件 (mp3…)…
+reminder_sound_reset	默认声音
+reminder_sound_bad_file	无法将此文件用作铃声。请选择不超过 25 MB 的音频文件（mp3、m4a、ogg、wav）。
+lock_recovery_choose	你想如何重新进入？
+lock_recovery_question_option	回答我的安全问题
+lock_recovery_email_option	向我的邮箱发送验证码
+lock_recovery_totp_option	使用我的身份验证器应用
+smtp_code_subject	Notio：你的找回验证码
+smtp_code_body	你的 Notio 应用锁找回验证码：%1$s\n\n验证码有效期 %2$d 分钟，且只能使用一次。如果不是你本人请求的，请忽略此邮件。
+lock_code_wrong	验证码不正确
+lock_code_expired	验证码已过期：请重新获取
+mail_error_not_configured	邮件设置不完整。
+mail_error_connection	无法连接到邮件服务器。请检查服务器名称、端口和网络连接。
+mail_error_timeout	邮件服务器未在规定时间内响应。
+mail_error_tls	安全连接失败。请检查加密类型和端口（STARTTLS 用 587，SSL/TLS 用 465）。
+mail_error_auth	服务器拒绝了登录名或密码。
+mail_error_rejected	服务器拒绝了这封邮件。
+mail_error_protocol	服务器返回了意外的响应。
+lock_email_wait	请等待 %1$d 秒后再请求新的验证码。
+lock_email_intro	一次性验证码将发送到 %1$s。
+lock_email_send	发送验证码
+lock_email_send_again	发送新的验证码
+lock_email_code	邮件中的验证码
+lock_totp_recover_intro	请输入身份验证器应用现在显示的 6 位数字。
+lock_totp_code	6 位验证码
+lock_timeout_custom	其他…
+lock_timeout_custom_value	%1$d 分 %2$d 秒
+lock_timeout_custom_title	后台停留时间
+lock_minutes	分钟
+lock_seconds	秒
+lock_timeout_invalid	请输入分钟和秒：秒为 0 到 59，总时长最多 23 小时 59 分 59 秒。
+lock_recovery_section	找回方式
+lock_recovery_hint	忘记密码时重新进入的办法：安全问题、发送到邮箱的验证码、身份验证器应用。可以设置其中一种或全部。
+lock_email_status_on	邮件找回已开启：%1$s
+lock_email_status_off	尚未设置邮件找回。
+lock_totp_status_on	已设置身份验证器应用。
+lock_totp_status_off	尚未设置身份验证器应用。
+lock_recovery_change	更改找回选项
+lock_question_change	安全问题…
+lock_email_setup	邮件找回 (SMTP)…
+lock_totp_setup	设置身份验证器应用…
+lock_totp_manage	身份验证器应用…
+smtp_intro	验证码通过你自己的邮件服务器发送：应用没有自己的服务器。请填写邮件服务商提供的发信（SMTP）信息。密码会加密保存在这部手机上。
+smtp_host	服务器 (SMTP)，例如 smtp.example.com
+smtp_security	加密方式
+smtp_sec_none	无
+smtp_sec_starttls	STARTTLS
+smtp_sec_ssl	SSL/TLS
+smtp_none_warning	不加密时，密码和验证码会以明文在网络上传输。只应在可信网络或本地服务器上使用。
+smtp_port	端口
+smtp_user	登录名（用户名）
+smtp_password	密码
+smtp_from	发件人地址（如果登录名就是邮箱地址，可留空）
+smtp_to	验证码发送到（你的邮箱）
+smtp_invalid	请填写服务器、端口和两个有效的邮箱地址。
+smtp_test	发送测试邮件
+smtp_test_ok	测试邮件已发送，请查看你的邮箱。
+smtp_test_subject	Notio：测试邮件
+smtp_test_body	这是来自 Notio by vibic 的测试邮件。如果你能看到它，说明应用锁的邮件找回可以正常使用。
+smtp_remove	移除
+lock_totp_account	应用锁
+lock_totp_title	身份验证器应用
+lock_totp_replace_hint	已设置密钥。保存新的密钥会替换它。
+lock_totp_scan	请用身份验证器应用（Google Authenticator、Microsoft Authenticator、Aegis…）扫描这个二维码，或手动输入密钥，然后输入应用显示的 6 位验证码。
+lock_totp_remove	移除
+reminder_error_recurrence	请至少选择一个星期几，或选择 1 到 31 之间的一个日期
+reminder_error_sound	音量必须在 10% 到 100% 之间，渐强时间最多 5 分钟
+rem_volume	音量：%1$d %%
+rem_volume_hint	相对于手机闹钟的音量。
+rem_ramp_title	铃声渐强时长
+rem_ramp_off	关闭
+rem_ramp_secs	%1$d 秒
+rem_extra_title	像闹钟一样重复
+rem_extra_hint	第一次响铃后，除非你确认，提醒会每隔几分钟再响这么多次。0 = 不额外响铃。
+rem_extra_count	再响几次 (x)
+rem_extra_every	每隔（分钟）
+rem_repeat_title	重复
+rem_rec_none	仅一次
+rem_rec_daily	每天
+rem_rec_weekdays	在选定的日子
+rem_rec_monthly	每月
+rem_month_day	每月的日期 (1-31)
+rem_month_skip_hint	没有该日期的月份会被跳过（31 日会跳过 4 月，30 日会跳过 2 月）。
+reminder_extra_short	另响 %1$d 次，每 %2$d 分钟
+reminder_recurs_daily	每天
+reminder_recurs_weekly	在 %1$s
+reminder_recurs_monthly	每月 %1$d 日
+reminder_action_silence	静音

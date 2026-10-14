@@ -1,0 +1,4 @@
+md_check_delete_cd	Eliminar la línea
+md_check_delete_title	¿Eliminar esta línea?
+md_check_delete_text	«%1$s» se quita de la nota. Deshacer la recupera.
+md_check_delete_text_sub	«%1$s» y las líneas de debajo se quitan de la nota. Deshacer las recupera.

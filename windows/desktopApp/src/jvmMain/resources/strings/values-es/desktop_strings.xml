@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Texts of the desktop-only functions (AGENT.md D45); not from the Android app, kept by hand in all ten languages. -->
+<resources>
+    <string name="desktop_window">Ventana</string>
+    <string name="desktop_close_to_tray">El botón Cerrar minimiza a la bandeja</string>
+    <string name="desktop_close_to_tray_hint">Notio sigue en la bandeja y los recordatorios siguen sonando; Salir en el menú del icono (clic derecho) lo cierra.</string>
+    <string name="desktop_close_to_tray_notice">Notio sigue funcionando en la bandeja. Para cerrarlo, haga clic derecho en su icono y elija Salir.</string>
+    <string name="desktop_single_instance">No abrir un segundo Notio</string>
+    <string name="desktop_single_instance_hint">Abrir Notio de nuevo trae al frente la ventana abierta. Se aplica desde el próximo inicio.</string>
+    <string name="desktop_floating_stop_hint">Sin él, la grabación se detiene en la nota o desde el menú del icono de la bandeja (clic derecho).</string>
+    <string name="desktop_auto_start">Iniciar con Windows</string>
+    <string name="desktop_auto_start_hint">Notio se inicia en segundo plano al entrar en Windows, así los recordatorios suenan desde el principio.</string>
+    <string name="desktop_auto_start_unavailable">Disponible en Notio instalado o portátil.</string>
+    <string name="desktop_auto_start_tray">Iniciar en la bandeja</string>
+    <string name="desktop_previous">Anterior</string>
+    <string name="desktop_next">Siguiente</string>
+    <string name="desktop_render">Dibujo de la ventana</string>
+    <string name="desktop_render_auto">Automático</string>
+    <string name="desktop_render_software">Compatible (sin tarjeta gráfica)</string>
+    <string name="desktop_render_hint">Se aplica al reiniciar Notio. «Automático» dibuja sin la tarjeta gráfica en un adaptador de pantalla virtual o básico, donde con ella la ventana da tirones. Ahora: %1$s. Adaptadores de pantalla: %2$s.</string>
+    <string name="desktop_damaged">Notio no puede iniciarse: faltan archivos del programa o están dañados. Instale Notio de nuevo. Sus notas y ajustes se conservan.</string>
+    <string name="desktop_not_answering">Notio ya se está ejecutando, pero no responde. Finalice Notio en el Administrador de tareas e inícielo de nuevo.</string>
+</resources>

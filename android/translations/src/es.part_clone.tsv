@@ -1,0 +1,4 @@
+action_clone	Clonar
+note_clone_suffix	_clon%1$d
+note_cloned	Clon creado: «%1$s»
+error_clone_failed	No se pudo clonar la nota

@@ -1,0 +1,24 @@
+budget_log_button	변경 기록
+budget_log_title	변경 기록
+budget_log_empty	아직 변경된 내용이 없습니다. 항목 추가와 값 변경이 여기에 기록됩니다.
+budget_log_save_txt	TXT 파일로 저장
+budget_log_save_pdf	PDF 파일로 저장
+budget_log_clear	기록 지우기
+budget_log_clear_title	기록을 지울까요?
+budget_log_clear_message	이 예산의 모든 기록이 삭제됩니다. 예산 자체는 바뀌지 않습니다. 되돌릴 수 없습니다.
+budget_log_export_title	예산 “%1$s”의 변경 기록
+budget_log_export_done	기록을 저장했습니다
+budget_log_export_failed	기록을 저장하지 못했습니다
+budget_log_file_name	예산 기록
+budget_log_not_set	미설정
+budget_log_item_added	항목 “%1$s”을(를) “%2$s”에 추가
+budget_log_group_added	그룹 “%1$s”을(를) “%2$s”에 추가
+budget_log_sum	“%1$s”: 금액 %2$s → %3$s
+budget_log_sum_delta	“%1$s”: 금액 %2$s → %3$s (%4$s)
+budget_log_sum_set	“%1$s”: 금액 %3$s 입력(이전 %2$s)
+budget_log_goal	“%1$s”: 목표 %2$s → %3$s
+budget_log_quantity	“%1$s”: 수량 %2$s → %3$s
+budget_log_renamed	“%2$s”을(를) “%1$s”(으)로 이름 변경
+budget_log_moved	“%1$s”을(를) “%2$s”에서 “%3$s”(으)로 이동
+budget_log_deleted	“%1$s” 삭제
+budget_log_deleted_tree	그룹 “%1$s”을(를) 내용과 함께 삭제

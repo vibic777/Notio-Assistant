@@ -1,0 +1,38 @@
+assistant_right_marks	标签、颜色、置顶
+assistant_right_lists	清单：条目和勾选
+assistant_right_tasks	任务：状态和日期
+assistant_right_budget	预算：金额（总是先询问）
+assistant_right_reminders	提醒：设置
+assistant_right_folders	文件夹：创建和重命名
+assistant_right_appearance	外观：主题、颜色、字体
+assistant_right_settings	应用设置
+assistant_confirm	确认并继续
+assistant_confirm_hint	助手已停下并等待你的确认：一次超过五条笔记，或预算的金额。
+assistant_telegram	Telegram 机器人
+assistant_telegram_hint	你自己的机器人，运行在这台电脑的 Notio 中：从手机给它发消息，它能做与对话相同的事。你的请求和回答的文字会经过 Telegram 的服务器；那里只显示标有“可用于 Telegram”的笔记。只有在这台电脑和 Notio 开着时才工作。
+assistant_telegram_key	机器人密钥（来自 @BotFather）
+assistant_telegram_on	机器人已开启
+assistant_telegram_checked	密钥正确：%1$s
+assistant_telegram_bind	从你的 Telegram 把这个代码发给机器人，它就只听你的：%1$s
+assistant_telegram_bound	机器人只听你的（你的 Telegram ID：%1$s）。
+assistant_telegram_unbind	解除绑定
+assistant_telegram_locked	Notio 锁定时也回答
+assistant_telegram_locked_hint	关闭：Notio 锁定时，机器人会说明并且什么都不做。开启：锁定不再保护对机器人开放的内容。
+assistant_telegram_outside	允许机器人使用外部模型
+assistant_telegram_rights	来自 Telegram 的权限
+assistant_telegram_rights_hint	与对话的权限分开：当请求来自 Telegram 时助手可以做什么。在你允许之前，什么都不能做。
+assistant_access_telegram	可用于 Telegram
+assistant_access_reminders	提醒发到 Telegram
+assistant_bot_bound	完成：我只听你的。写下要对笔记做什么。/undo 回滚我上一次的更改，/yes 确认等待你同意的操作。
+assistant_bot_locked	电脑上的 Notio 已锁定。请先在那里解锁。
+assistant_bot_outside_off	模型是外部服务，而机器人未获准使用它。
+assistant_bot_failed	请求失败。请在电脑上的 Notio 中查看。
+assistant_bot_changed	已更改：%1$s。/undo 可回滚。
+assistant_bot_confirm	这需要你的确认。发送 /yes 继续。
+assistant_bot_nothing_to_undo	没有可回滚的内容。
+assistant_bot_undone	已回滚：%1$s
+assistant_bot_undo_conflict	未回滚：此后你修改过这些笔记：%1$s。请在电脑上的 Notio 中回滚。
+assistant_bot_help	写下要对笔记做什么，例如：显示“工作”文件夹中的笔记。/undo 回滚我上一次的更改。/yes 确认等待你同意的操作。
+assistant_bot_nothing_to_confirm	没有等待确认的操作。
+assistant_bot_not_ready	电脑上的 Notio 尚未选择模型：设置 → 助手 → 连接。
+assistant_bot_reminder	提醒：%1$s

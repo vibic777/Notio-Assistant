@@ -1,0 +1,5 @@
+budget_item_merge	合并到其他条目…
+budget_item_merge_hint	条目“%1$s”将被删除；下面选择的条目会保留，并获得此处开启的内容。
+budget_item_merge_into	保留的条目
+budget_item_merge_confirm	合并
+budget_log_item_merged	条目“%1$s”已合并到“%2$s”

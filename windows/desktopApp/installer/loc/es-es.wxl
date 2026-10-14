@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The installer in one of Notio's ten languages (D80). The pages of WiX itself come from its own translation of this culture;
+     these are the texts of jpackage's pages and ours. NotioLanguage is the language number Windows chooses the texts by. -->
+<WixLocalization Culture="es-es" Codepage="1252" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+  <String Id="NotioLanguage">3082</String>
+  <!-- The name in "Installed apps" and of the Start menu shortcut (D133): Russian has its own, the others the English one. -->
+  <String Id="NotioProductName">Notio by vibic</String>
+  <String Id="MainFeatureTitle">Componente principal</String>
+  <String Id="DowngradeErrorMessage">Ya está instalada una versión posterior de [ProductName]. No se permite instalar una versión anterior. El programa de instalación se cerrará.</String>
+  <String Id="DisallowUpgradeErrorMessage">Ya está instalada una versión anterior de [ProductName]. Las actualizaciones están desactivadas. El programa de instalación se cerrará.</String>
+  <String Id="ShortcutPromptDlg_Title">Instalación de [ProductName]</String>
+  <String Id="ShortcutPromptDlgTitle">{\WixUI_Font_Title}Accesos directos</String>
+  <String Id="ShortcutPromptDlgBannerBitmap">WixUI_Bmp_Banner</String>
+  <String Id="ShortcutPromptDlgDescription">Seleccione los accesos directos que desea crear.</String>
+  <String Id="ShortcutPromptDlgDesktopShortcutControlLabel">Crear acceso directo en el escritorio</String>
+  <String Id="ShortcutPromptDlgStartMenuShortcutControlLabel">Crear acceso directo en el menú Inicio</String>
+  <String Id="InstallDirNotEmptyDlg_Title">Instalación de [ProductName]</String>
+  <String Id="InstallDirNotEmptyDlgInstallDirExistMessage">La carpeta [INSTALLDIR] ya existe. ¿Desea instalar en esa carpeta de todos modos?</String>
+  <String Id="ContextMenuCommandLabel">Abrir con [ProductName]</String>
+  <String Id="OsConditionMessage">[ProductName] [ProductVersion] no es compatible con esta versión de Windows</String>
+  <String Id="LaunchAppCheckbox">Iniciar Notio</String>
+</WixLocalization>

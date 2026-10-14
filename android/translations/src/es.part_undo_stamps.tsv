@@ -1,0 +1,17 @@
+color_family_red	Rojos
+color_family_orange	Naranjas
+color_family_yellow	Amarillos
+color_family_green	Verdes
+color_family_cyan	Celestes
+color_family_blue	Azules
+color_family_purple	Morados
+color_family_pink	Rosas
+color_family_neutral	Grises, negro y blanco
+color_family_none	Sin color propio
+editor_redo	Rehacer
+budget_log_undone	Último cambio deshecho
+budget_log_redone	Cambio deshecho rehecho
+settings_undo	Pasos para deshacer
+settings_undo_hint	Cuántos cambios atrás deshace la flecha Deshacer de un texto, lista, presupuesto, dibujo, plano u horario; Rehacer los recupera. Se guarda mientras la nota está abierta.
+settings_footer_stamps	Marcas al final de la nota
+settings_footer_stamps_hint	Elija un tipo de nota y si su vista muestra, después de todo el contenido, cuándo se creó y cuándo se cambió por última vez. La fecha y la hora siguen Idioma y formatos.

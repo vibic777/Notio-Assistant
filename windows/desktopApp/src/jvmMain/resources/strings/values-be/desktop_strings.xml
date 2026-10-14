@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Texts of the desktop-only functions (AGENT.md D45); not from the Android app, kept by hand in all ten languages. -->
+<resources>
+    <string name="desktop_window">Акно</string>
+    <string name="desktop_close_to_tray">Кнопка «Закрыць» згортвае ў трэй</string>
+    <string name="desktop_close_to_tray_hint">Notio застаецца ў трэі, напаміны гучаць; «Выхад» у меню значка ў трэі (правая кнопка мышы) завяршае яго.</string>
+    <string name="desktop_close_to_tray_notice">Notio працягвае працаваць у трэі. Каб завяршыць, націсніце правай кнопкай на яго значок і выберыце «Выхад».</string>
+    <string name="desktop_single_instance">Не запускаць другі Notio</string>
+    <string name="desktop_single_instance_hint">Паўторны запуск Notio паказвае ўжо адкрытае акно. Дзейнічае з наступнага запуску.</string>
+    <string name="desktop_floating_stop_hint">Без яе запіс спыняецца ў нататцы або з меню значка ў трэі (правая кнопка мышы).</string>
+    <string name="desktop_auto_start">Запускаць разам з Windows</string>
+    <string name="desktop_auto_start_hint">Notio запускаецца ў фоне пры ўваходзе ў Windows, і напаміны гучаць з самага пачатку.</string>
+    <string name="desktop_auto_start_unavailable">Даступна ва ўсталяванай або партатыўнай версіі Notio.</string>
+    <string name="desktop_auto_start_tray">Запускаць згорнутым у трэй</string>
+    <string name="desktop_previous">Папярэдняя</string>
+    <string name="desktop_next">Наступная</string>
+    <string name="desktop_render">Адмалёўка акна</string>
+    <string name="desktop_render_auto">Аўтаматычна</string>
+    <string name="desktop_render_software">Сумяшчальная (без відэакарты)</string>
+    <string name="desktop_render_hint">Дзейнічае пасля перазапуску Notio. «Аўтаматычна» малюе без відэакарты на віртуальным або базавым відэаадаптары, дзе з ёй акно тузаецца. Зараз: %1$s. Відэаадаптары: %2$s.</string>
+    <string name="desktop_damaged">Notio не можа запусціцца: файлы праграмы адсутнічаюць або пашкоджаны. Усталюйце Notio нанова. Нататкі і налады застануцца на месцы.</string>
+    <string name="desktop_not_answering">Notio ўжо запушчаны, але не адказвае. Завяршыце Notio ў Дыспетчары задач і запусціце зноў.</string>
+</resources>

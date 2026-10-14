@@ -1,0 +1,3 @@
+home_delete_many_title	¿Eliminar las notas seleccionadas?
+home_delete_many_message	Notas seleccionadas: %1$d. Van a la papelera, desde donde puedes recuperarlas.
+home_notes_moved_to_trash	Movidas a la papelera: %1$d. Recupéralas con el icono de la papelera de arriba.

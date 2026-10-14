@@ -1,0 +1,11 @@
+action_comment	コメント…
+comment_title_note	ノートのコメント
+comment_title_folder	フォルダのコメント
+comment_label	コメント
+comment_counter	%1$d / %2$d
+comment_hint	カードには1行目の先頭16文字が表示されます（「設定 → 外観」のスイッチがオンの場合）。空にするとコメントが削除されます。
+settings_comments	カードのコメント
+settings_comments_hint	ノートやフォルダには短いコメントを付けられます（⋮メニュー → コメント）。カードの最後の行に先頭16文字を表示します。
+settings_comments_notes	ノートカードに表示
+settings_comments_folders	フォルダカードに表示
+budget_layout_comments	コメントを表示（先頭16文字）

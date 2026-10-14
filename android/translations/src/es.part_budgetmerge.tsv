@@ -1,0 +1,31 @@
+budget_kind_title	Tipo de presupuesto
+budget_kind_account	Cuenta
+budget_kind_income	Ingreso
+budget_kind_expense	Gasto
+budget_kind_hint	Un ingreso o un gasto se fusiona una vez con una cuenta: sus partidas se suman a las de la cuenta (un gasto se resta) y luego va a la papelera.
+budget_merge_target	Fusionar en
+budget_merge_target_none	Elegir una cuenta
+budget_merge_no_accounts	Aún no hay presupuestos de tipo Cuenta: cree uno.
+budget_merge_when	Cuándo
+budget_merge_when_none	Sin fijar (solo «Fusionar ahora»)
+budget_merge_clear_time	Quitar la hora
+budget_merge_sum	Sumas
+budget_merge_goal	Objetivos
+budget_merge_same	Mismas partidas: sumar a la partida del mismo nombre
+budget_merge_all	Transferir todas las partidas: las demás se crean en la cuenta
+budget_merge_by_name	por nombre
+budget_merge_by_path	por grupo / partida
+budget_merge_match	Emparejar partidas
+budget_merge_now	Fusionar ahora
+budget_merge_now_confirm	Las partidas van a «%1$s» y este presupuesto a la papelera. Se puede deshacer desde el registro de la cuenta.
+budget_merge_status	%1$s · se fusiona con «%2$s» el %3$s
+budget_merge_status_no_time	%1$s · en «%2$s» con «Fusionar ahora»
+budget_merge_status_no_target	%1$s · sin cuenta elegida: no pasa nada
+budget_merge_done	Fusionado con «%1$s»: %2$d partidas cambiadas, %3$d nuevas. Este presupuesto está en la papelera.
+budget_merge_no_target	Elija primero la cuenta.
+budget_merge_target_missing	La cuenta elegida ya no existe o ya no es una cuenta.
+budget_log_merged	Fusión: «%1$s» — %2$d partidas cambiadas, %3$d nuevas
+budget_log_merged_into	Fusionado con «%1$s»
+budget_log_merge_undone	Se deshizo la fusión de «%1$s»
+budget_merge_undo	Deshacer la fusión
+budget_merge_undo_confirm	La cuenta vuelve a como estaba antes de fusionar «%1$s», y «%1$s» vuelve de la papelera (su hora se borra).

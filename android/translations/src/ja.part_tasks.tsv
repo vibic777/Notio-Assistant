@@ -1,0 +1,20 @@
+note_type_task	タスク
+folder_kind_notes	ノートのフォルダー
+folder_kind_tasks	タスクのフォルダー
+dialog_new_task_title	新しいタスク
+bg_slot_note_task	タスク
+task_done	完了
+task_overdue	期限切れ
+task_in_progress	進行中
+task_done_tick	完了
+task_from	%1$s から
+task_until	%1$s まで
+task_start	開始
+task_end	終了
+task_not_set	未設定
+task_comment	コメント
+task_description	説明
+task_no_description	説明はまだありません。
+task_no_reminder	リマインダーはありません。
+task_reminder	リマインダー…
+task_end_before_start	終了を開始より前にはできません。

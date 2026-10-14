@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Texts of the desktop-only functions (AGENT.md D45); not from the Android app, kept by hand in all ten languages. -->
+<resources>
+    <string name="desktop_window">Окно</string>
+    <string name="desktop_close_to_tray">Кнопка «Закрыть» сворачивает в трей</string>
+    <string name="desktop_close_to_tray_hint">Notio остаётся в трее, напоминания звенят; «Выход» в меню значка в трее (правая кнопка мыши) завершает его.</string>
+    <string name="desktop_close_to_tray_notice">Notio продолжает работать в трее. Чтобы завершить, нажмите правой кнопкой на его значок и выберите «Выход».</string>
+    <string name="desktop_single_instance">Не запускать второй Notio</string>
+    <string name="desktop_single_instance_hint">Повторный запуск Notio показывает уже открытое окно. Действует со следующего запуска.</string>
+    <string name="desktop_floating_stop_hint">Без неё запись останавливается в заметке или из меню значка в трее (правая кнопка мыши).</string>
+    <string name="desktop_auto_start">Запускать вместе с Windows</string>
+    <string name="desktop_auto_start_hint">Notio запускается в фоне при входе в Windows, и напоминания звучат с самого начала.</string>
+    <string name="desktop_auto_start_unavailable">Доступно в установленной или портативной версии Notio.</string>
+    <string name="desktop_auto_start_tray">Запускать свёрнутым в трей</string>
+    <string name="desktop_previous">Предыдущая</string>
+    <string name="desktop_next">Следующая</string>
+    <string name="desktop_render">Отрисовка окна</string>
+    <string name="desktop_render_auto">Автоматически</string>
+    <string name="desktop_render_software">Совместимая (без видеокарты)</string>
+    <string name="desktop_render_hint">Действует после перезапуска Notio. «Автоматически» рисует без видеокарты на виртуальном или базовом видеоадаптере, где с ней окно дёргается. Сейчас: %1$s. Видеоадаптеры: %2$s.</string>
+    <string name="desktop_damaged">Notio не может запуститься: файлы программы отсутствуют или повреждены. Установите Notio заново. Заметки и настройки останутся на месте.</string>
+    <string name="desktop_not_answering">Notio уже запущен, но не отвечает. Завершите Notio в Диспетчере задач и запустите снова.</string>
+</resources>

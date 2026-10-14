@@ -1,0 +1,156 @@
+lock_method_pin	Código PIN
+lock_pin	Código PIN
+lock_pin_again	Código PIN otra vez
+lock_pin_enter	Introduce tu código PIN
+lock_pin_choose	Elige un código PIN (4-8 dígitos)
+lock_pin_confirm	Introdúcelo de nuevo para confirmar
+lock_attempts_title	Política de intentos fallidos
+lock_attempts_hint	Cuántos intentos fallidos son gratis antes de que la app te haga esperar, cuánto dura esa espera al principio, y qué pasa si siguen llegando intentos fallidos.
+lock_free_tries	Intentos gratis
+lock_base_wait	Primera espera (segundos)
+lock_max_attempts	Límite (0 = desactivado)
+lock_max_attempts_hint	Total de intentos fallidos seguidos antes de que se aplique la opción de abajo. 0 significa sin límite: solo la espera de arriba, siempre.
+lock_lockout_mode_title	Tras el límite
+lock_lockout_recovery	Bloquear intentos, solo recuperación
+lock_lockout_wipe	Borrar los datos de la app
+lock_lockout_wipe_active_warning	Demasiados intentos fallidos borrarán todos los datos de Notio de este teléfono. Esto no se puede deshacer.
+lock_attempts_saved	Guardado
+lock_wipe_confirm_title	¿Borrar los datos tras demasiados intentos fallidos?
+lock_wipe_confirm_message	Si esto está activado, al alcanzar el límite de arriba se borrarán todas las carpetas, notas y ajustes de este teléfono — al instante, sin más aviso, y no se puede deshacer. Actívalo solo si entiendes esto y realmente lo quieres.
+lock_wipe_confirm_field	Escribe %1$s para confirmar
+lock_wipe_confirm_button	Activar el borrado
+lock_wipe_confirm_phrase	BORRAR
+lock_locked_out	Demasiados intentos fallidos. Usa «Lo olvidé» abajo para volver a entrar.
+lock_wiped	Demasiados intentos fallidos: se borraron los datos de Notio de este teléfono.
+settings_db_encryption	Cifrado de la base de datos
+settings_db_encryption_hint	Cifra todo el archivo de la base de datos en este teléfono. Activarlo o desactivarlo convierte el archivo en el sitio: no se pierde nada, pero la app debe reiniciarse después.
+db_encryption_enable	Cifrar la base de datos
+db_encryption_password_field	Contraseña de la base de datos
+db_encryption_password_warning	La app generó esta contraseña por sí sola y la guarda aquí para que puedas copiarla. Sin ella no se puede abrir un archivo de base de datos exportado, ni este mismo archivo en un teléfono sin la clave de esta app.
+db_encryption_copied	Contraseña copiada
+db_encryption_copy_error	Copiar el texto del error
+db_encryption_error_copied	Texto del error copiado
+db_encryption_email_button	Enviar contraseña por correo
+db_encryption_email_confirm_title	¿Enviar la contraseña de la base de datos por correo?
+db_encryption_email_confirm_message	La contraseña se enviará en texto plano a %1$s, la dirección de recuperación indicada en Ajustes → Bloqueo de la aplicación → Recuperación por correo. Cualquiera con acceso a ese buzón podría leer tus datos cifrados.
+db_encryption_email_not_configured	Configura primero la recuperación por correo: Ajustes → Bloqueo de la aplicación → Recuperación por correo (SMTP).
+db_encryption_email_sent	Contraseña enviada por correo
+db_encryption_mail_subject	Contraseña de la base de datos de Notio
+db_encryption_mail_body	Esta es la contraseña que cifra la base de datos de Notio en este teléfono:\n\n%1$s\n\nGuárdala en un lugar seguro. Sin ella no se puede abrir un archivo de base de datos copiado o exportado.
+db_encryption_enable_failed	No se pudo cifrar la base de datos. No se cambió nada.
+db_encryption_disable_failed	No se pudo descifrar la base de datos. No se cambió nada.
+db_encryption_busy_title	Convirtiendo la base de datos
+db_encryption_busy_message	Esto puede tardar un momento. No cierres la app hasta que esta ventana desaparezca.
+db_encryption_restart_title	Reinicio necesario
+db_encryption_restart_message	La base de datos ya está convertida. Notio debe reiniciarse para usarla.
+db_encryption_restart_now	Reiniciar ahora
+db_encryption_confirm_on_title	¿Cifrar la base de datos?
+db_encryption_confirm_on_message	El archivo de la base de datos se convierte en el sitio; no se pierde ningún dato. Una versión anterior de la app, o un programa de SQLite corriente, ya no podrá abrir el archivo directamente, pero una copia hecha con «Exportar» arriba sigue abriéndose en cualquier versión. La app se reiniciará.
+db_encryption_confirm_off_title	¿Desactivar el cifrado de la base de datos?
+db_encryption_confirm_off_message	El archivo de la base de datos vuelve a su forma normal; no se pierde ningún dato. La app se reiniciará.
+db_file_transfer_hint	Exporta el archivo de la base de datos tal cual, o reemplázalo por uno de otro teléfono. A diferencia de la copia de arriba, este archivo solo se abre en Notio: normal si el cifrado está desactivado, o pidiendo la contraseña de arriba si está activado.
+db_file_export	Exportar archivo de base de datos
+db_file_export_done	Archivo de base de datos exportado
+db_file_export_failed	No se pudo exportar el archivo de base de datos
+db_file_import	Importar archivo de base de datos
+db_file_import_confirm_title	¿Reemplazar todos los datos?
+db_file_import_confirm_message	Importar un archivo de base de datos reemplaza todo lo que hay ahora en este teléfono: cada carpeta, nota y ajuste. Esto no se puede deshacer. Si el archivo está cifrado, su contraseña se pedirá abajo.
+db_file_import_failed	Esto no es un archivo de base de datos de Notio, o está dañado.
+action_copy	Copiar
+action_continue	Continuar
+action_later	Más tarde
+transfer_error_too_large	La copia de seguridad es demasiado grande para la memoria de este dispositivo. No se cambió nada.
+drawing_bg	Fondo de la hoja
+drawing_bg_color	Color
+drawing_bg_transparent	Transparente
+drawing_bg_transparency	Transparencia: %1$d%%
+drawing_bg_note	100 % significa sin fondo: la imagen se guarda y se comparte como PNG con transparencia. El fondo queda bajo el dibujo: el borrador lo vuelve a mostrar y el bote de pintura rellena la hoja vacía.
+status_title_tasks	Tareas
+status_tasks	Tareas: %1$d · abiertas: %2$d
+status_tasks_overdue	vencidas: %1$d
+reminders_cancel_title	¿Cancelar el recordatorio?
+reminders_cancel_message	«%1$s»: el recordatorio ya no sonará y pasará a los terminados. No se puede deshacer; para volver a usarlo, fija una hora nueva con Editar.
+reminders_cancel_keep	Mantener
+reminder_switch_on	Activar el recordatorio
+reminder_switch_off	Desactivar el recordatorio
+reminder_status_off	Desactivado
+budget_show_amounts	Mostrar los importes ocultos
+budget_hide_amounts	Ocultar de nuevo los importes
+budget_layout_hide_sums	Ocultar sumas (asteriscos hasta pulsar el ojo)
+budget_layout_hide_goals	Ocultar objetivos (asteriscos hasta pulsar el ojo)
+zoom_out_cd	Alejar
+zoom_in_cd	Acercar
+zoom_level_cd	Zoom %1$d%%, toca para tamaño normal
+tags_add_tag	Añadir etiqueta
+tags_add_confirm	Añadir
+tags_created	Etiqueta «%1$s» añadida
+settings_card_tint	Color de las tarjetas
+settings_card_tint_hint	Con qué fuerza las tarjetas de notas y carpetas muestran su color. El texto se vuelve claro u oscuro solo para seguir legible.
+settings_card_tint_value	Intensidad: %1$d%%
+settings_card_tint_sample	Una nota
+settings_card_tint_sample_line	Así se ve una tarjeta
+folder_ready_notes	Carpeta
+folder_ready_tasks	Tareas
+units_rename_title	Renombrar unidad
+units_renamed	Unidad renombrada: %1$s
+currencies_rename_title	Renombrar moneda
+currencies_renamed	«%1$s» renombrada
+comment_add_cd	Añadir un comentario
+sync_address_line	Dirección: %1$s
+sync_address_unknown	Dirección: aún desconocida
+sync_address_edit	Dirección…
+sync_address_title	Dirección de «%1$s»
+sync_address_host	Dirección IP o nombre
+sync_address_port	Puerto
+sync_address_invalid	Escribe una dirección IP como 192.168.1.153 (o un nombre de dispositivo) y un puerto de 1 a 65535.
+sync_address_hint	Si el Wi-Fi dio al otro dispositivo una dirección nueva y no se encuentra solo, escribe la dirección y el puerto que muestra arriba en su página de Sincronización. El emparejamiento sigue igual: la clave no cambia y un dispositivo en esa dirección sin la clave es rechazado, así que no se le envía nada.
+sync_address_saved	Dirección guardada: %1$s
+drawing_tools_top	Herramientas arriba
+drawing_tools_left	Herramientas a la izquierda
+drawing_tools_side	Dónde están las herramientas
+budget_log_undo	Deshacer
+budget_log_was_undone	Deshecho
+budget_log_undo_title	¿Deshacer este cambio?
+budget_log_undo_message	El cambio se revierte por su propia diferencia: los cambios hechos después se quedan como están.
+budget_log_undo_added_message	El elemento o grupo se elimina, con todo lo que contiene ahora.
+budget_log_undo_failed	Este cambio ya no se puede deshacer: el elemento ya no existe o el valor quedaría fuera de rango.
+budget_log_op_undone_value	Deshecho: «%1$s» %2$s → %3$s
+budget_log_op_undone_rename	Deshecho: vuelve el nombre «%1$s»
+budget_log_op_undone_added	Deshecho: «%1$s» eliminado de nuevo
+help_tasks_title	Tareas: estado y prioridad
+help_tasks_body	En una carpeta de tareas cada tarea tiene un estado: Creada, En cola, Planificada, En curso, En pausa, Aplazada, En espera, En revisión, Hecha, Cerrada o Cancelada. El estado es un botón con su icono — en la tarjeta de la tarea, en Ver y en Editar; púlselo y elija de la lista. Hecha, Cerrada y Cancelada terminan una tarea: ya no está atrasada. Junto al estado está la prioridad: un número entero de 0 a 65535, solo cifras, o vacío. El orden de una carpeta de tareas incluye Estado y Prioridad; los chips sobre las tareas dejan solo las tareas de los estados elegidos, y los mismos chips están en la búsqueda de notas. La marca junto al estado es «Completada»: está en la tarjeta de una tarea, en la vista y en la edición. Marcada, la tarea pasa a Hecha; sin marcar, recupera el estado que tenía antes. Las fichas «Sin completar» y «Completadas» sobre las tareas y en la búsqueda de notas dejan solo esas tareas, y la ordenación de una carpeta de tareas tiene «Completada»: primero van las tareas aún abiertas. Estos dos chips son iconos: una casilla vacía es «Sin completar» y una casilla marcada es «Completadas»; las palabras aparecen como ayuda del icono. La papelera al final de la línea de una tarea — en su tarjeta y en la vista — elimina la tarea: primero pregunta, y la tarea va a la papelera, de donde se puede restaurar. Las dos hojas de al lado copian la tarea como texto.
+help_income_title	Ingresos y gastos que se repiten
+help_income_body	Un ingreso o un gasto se fusiona con su cuenta a la hora fijada en Editar. «Repetición» elige la frecuencia: una vez, cada día, cada semana en los días elegidos, cada mes o cada año. Una fusión que se repite permanece en su carpeta y espera su próxima fecha; un mes sin ese día toma su último día; las fechas perdidas con Notio cerrado se fusionan en el siguiente inicio. «Fusionar ahora» fusiona al instante y no mueve la fecha. Dos casillas deciden si importan las mayúsculas: con ellas «Caja» y «caja» son una partida o un grupo, sin ellas dos.
+budget_merge_repeat	Repetición
+budget_merge_repeat_none	Una vez
+budget_merge_repeat_daily	Cada día
+budget_merge_repeat_weekly	Cada semana
+budget_merge_repeat_monthly	Cada mes
+budget_merge_repeat_yearly	Cada año
+budget_merge_repeat_hint	Se fusiona una y otra vez a partir de la hora indicada arriba, a esa misma hora, y permanece en su carpeta. Un mes sin ese día toma su último día. Las fechas perdidas mientras Notio estaba cerrado se fusionan en el siguiente inicio.
+budget_merge_case_items	Ignorar mayúsculas en los nombres de las partidas (Caja = caja)
+budget_merge_case_groups	Ignorar mayúsculas en los nombres de los grupos
+task_state	Estado
+task_state_created	Creada
+task_state_queued	En cola
+task_state_planned	Planificada
+task_state_in_progress	En curso
+task_state_paused	En pausa
+task_state_postponed	Aplazada
+task_state_waiting	En espera
+task_state_review	En revisión
+task_state_done	Hecha
+task_state_closed	Cerrada
+task_state_cancelled	Cancelada
+task_priority	Prioridad
+task_priority_value	Prioridad: %1$s
+task_priority_hint	Un número entero de 0 a 65535, solo cifras. Vacío: sin prioridad.
+sort_key_status	Estado
+sort_key_priority	Prioridad
+sync_service_channel	Listo para sincronizar
+sync_service_title	Listo para sincronizar
+sync_service_text	Notio espera una sincronización de sus dispositivos vinculados.
+sync_service_off	Desactivar
+sync_question_channel	Solicitudes de sincronización
+sync_question_title	%1$s solicita una sincronización
+sync_question_text	Toque para responder en Notio.

@@ -1,0 +1,5 @@
+budget_item_merge	Unisci a un’altra voce…
+budget_item_merge_hint	La voce «%1$s» verrà eliminata; la voce scelta qui sotto resta e riceve ciò che è attivato qui.
+budget_item_merge_into	La voce che resta
+budget_item_merge_confirm	Unisci
+budget_log_item_merged	Voce «%1$s» unita a «%2$s»

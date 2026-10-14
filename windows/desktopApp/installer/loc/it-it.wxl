@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The installer in one of Notio's ten languages (D80). The pages of WiX itself come from its own translation of this culture;
+     these are the texts of jpackage's pages and ours. NotioLanguage is the language number Windows chooses the texts by. -->
+<WixLocalization Culture="it-it" Codepage="1252" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+  <String Id="NotioLanguage">1040</String>
+  <!-- The name in "Installed apps" and of the Start menu shortcut (D133): Russian has its own, the others the English one. -->
+  <String Id="NotioProductName">Notio by vibic</String>
+  <String Id="MainFeatureTitle">Componente principale</String>
+  <String Id="DowngradeErrorMessage">È già installata una versione più recente di [ProductName]. Il downgrade è disattivato. Il programma di installazione verrà chiuso.</String>
+  <String Id="DisallowUpgradeErrorMessage">È già installata una versione precedente di [ProductName]. Gli aggiornamenti sono disattivati. Il programma di installazione verrà chiuso.</String>
+  <String Id="ShortcutPromptDlg_Title">Installazione di [ProductName]</String>
+  <String Id="ShortcutPromptDlgTitle">{\WixUI_Font_Title}Collegamenti</String>
+  <String Id="ShortcutPromptDlgBannerBitmap">WixUI_Bmp_Banner</String>
+  <String Id="ShortcutPromptDlgDescription">Selezionare i collegamenti da creare.</String>
+  <String Id="ShortcutPromptDlgDesktopShortcutControlLabel">Crea collegamento sul desktop</String>
+  <String Id="ShortcutPromptDlgStartMenuShortcutControlLabel">Crea collegamento nel menu Start</String>
+  <String Id="InstallDirNotEmptyDlg_Title">Installazione di [ProductName]</String>
+  <String Id="InstallDirNotEmptyDlgInstallDirExistMessage">La cartella [INSTALLDIR] esiste già. Installare comunque in questa cartella?</String>
+  <String Id="ContextMenuCommandLabel">Apri con [ProductName]</String>
+  <String Id="OsConditionMessage">[ProductName] [ProductVersion] non supporta questa versione di Windows</String>
+  <String Id="LaunchAppCheckbox">Avvia Notio</String>
+</WixLocalization>

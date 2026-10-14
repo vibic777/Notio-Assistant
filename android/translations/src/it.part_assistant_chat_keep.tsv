@@ -1,0 +1,5 @@
+assistant_chat_keep	Conserva la chat dopo il riavvio
+assistant_chat_keep_hint	La chat è conservata nella base di Notio su questo computer, cifrata insieme alle note, e non entra nei backup né nella sincronizzazione. Restano gli ultimi 500 messaggi. Il modello ricorda gli ultimi 20 messaggi, quindi dimentica anche un messaggio eliminato. Se lo disattivi, la chat conservata viene eliminata.
+assistant_chat_clear	Svuota la chat
+assistant_chat_clear_ask	Tutti i messaggi della chat saranno eliminati e non si potranno recuperare. Le note e il registro dell’assistente restano: ciò che ha modificato si può ancora annullare lì.
+assistant_chat_delete	Elimina il messaggio

@@ -1,0 +1,50 @@
+action_close	닫기
+media_default_name	항목 %1$d
+media_empty_photo	아직 사진이 없습니다. “사진 찍기”를 누르세요.
+media_empty_video	아직 영상이 없습니다. “영상 녹화”를 누르세요.
+media_empty_screen	아직 화면 녹화가 없습니다. “화면 녹화”를 누르세요.
+media_take_photo	사진 찍기
+media_record_video	영상 녹화
+media_record_screen	화면 녹화
+media_full_screen	전체 화면
+media_place	위치: %1$s
+media_delete_title	이 항목을 삭제할까요?
+media_delete_message	이 항목은 휴지통으로 이동하며 거기서 되돌릴 수 있습니다.
+rec_channel	화면 녹화
+rec_notification_title	Notio 녹화 중
+rec_notification_text	“중지”를 누르면 녹화를 마치고 저장합니다.
+rec_action_stop	중지
+rec_processing	녹화를 저장하는 중…
+rec_saved	녹화가 노트에 저장되었습니다.
+rec_failed	녹화를 저장하지 못했습니다.
+rec_recording	녹화 중…
+rec_start	녹화
+rec_sound	소리
+rec_sound_none	소리 없음
+rec_sound_mic	마이크
+rec_sound_system	휴대폰 소리
+rec_sound_both	마이크 + 휴대폰 소리
+rec_floating_hint	다른 창 위에 떠 있는 “중지” 버튼을 쓰려면 “다른 앱 위에 표시”를 허용하세요. 허용하지 않으면 알림에서 녹화를 중지하세요.
+rec_floating_allow	떠 있는 버튼 허용
+camera_back	후면 카메라
+camera_front	전면 카메라
+camera_other	기타 카메라
+camera_choose	카메라
+camera_failed	카메라가 작업을 수행하지 못했습니다.
+camera_saved_count	저장됨: %1$d
+overlay_title	오버레이
+overlay_hint	새로 만드는 모든 사진과 영상에 겹쳐집니다. 이미 만든 것은 바뀌지 않습니다.
+overlay_stamp	날짜 및 시간
+overlay_geo	위치(좌표)
+overlay_geo_hint	위치 권한이 필요하며 촬영·녹화할 때 요청합니다.
+overlay_text	텍스트(서명)
+overlay_text_field	표시할 텍스트
+overlay_image	이미지(로고, 서명)
+overlay_pick_image	이미지 선택
+overlay_remove_image	이미지 제거
+overlay_color	색상
+overlay_size	크기: %1$d
+overlay_width	너비: %1$d%%
+overlay_opacity	불투명도: %1$d%%
+overlay_plate	배경판(끔 = 투명)
+overlay_position	위치

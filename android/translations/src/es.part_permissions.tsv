@@ -1,0 +1,28 @@
+settings_cat_permissions	Permisos
+settings_cat_permissions_hint	Lo que Notio puede hacer en este teléfono: conceder o retirar
+perm_intro	Notio pide un permiso solo cuando una función lo necesita. Aquí cada permiso puede concederse de antemano y retirarse.
+perm_notifications	Notificaciones
+perm_notifications_why	Un recordatorio se muestra y suena; la línea de estado; la pregunta de una sincronización
+perm_exact_alarms	Alarmas exactas
+perm_exact_alarms_why	Un recordatorio suena en su minuto; sin esto el teléfono puede hacerlo sonar más tarde
+perm_full_screen	Alarma sobre la pantalla de bloqueo
+perm_full_screen_why	Un recordatorio con ventana enciende la pantalla y se muestra en un teléfono bloqueado
+perm_overlay	Mostrar sobre otras apps
+perm_overlay_why	La ventana de la alarma aparece sola; el botón flotante Detener de una grabación; la pregunta de una sincronización
+perm_microphone	Micrófono
+perm_microphone_why	Notas de voz; el sonido de un vídeo y de una grabación de pantalla
+perm_camera	Cámara
+perm_camera_why	Notas de foto y vídeo
+perm_location	Ubicación
+perm_location_why	El lugar escrito en una foto o un vídeo, cuando esa marca está activada
+perm_state_on	Permitido
+perm_state_off	No permitido
+perm_state_leaving	Retirado: desaparece al cerrar Notio
+perm_allow	Permitir
+perm_revoke	Retirar
+perm_revoke_all	Retirar todos los permisos
+perm_open_settings	Notio en los ajustes del teléfono
+perm_revoke_note	Un permiso retirado aquí desaparece al cerrar Notio: es entonces cuando Android lo quita. Las alarmas exactas, la alarma sobre la pantalla de bloqueo y mostrar sobre otras apps son interruptores de los ajustes del teléfono: el botón los abre.
+perm_revoke_note_old	En esta versión de Android un permiso se retira en los ajustes del teléfono: el botón abre allí la página de Notio.
+help_permissions_title	Permisos
+help_permissions_body	En el teléfono, Ajustes → Permisos muestra todo lo que se le puede permitir a Notio: las notificaciones, las alarmas exactas, la alarma sobre la pantalla de bloqueo, mostrar sobre otras apps, el micrófono, la cámara y la ubicación. Cada línea dice para qué sirve el permiso y si está concedido. Permitir lo concede — con la pregunta del propio teléfono, o en la página de ajustes del teléfono para los que solo allí se pueden cambiar. Retirar lo quita: un permiso por el que preguntó el teléfono desaparece al cerrar Notio, los demás se apagan en los ajustes del teléfono, que el botón abre. «Retirar todos los permisos» lo hace para todos a la vez. No se pierde nada: una función que necesita un permiso vuelve a pedirlo. En el ordenador no se le piden permisos a Notio.

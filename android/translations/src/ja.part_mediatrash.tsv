@@ -1,0 +1,11 @@
+trash_media_from_note	ノート「%1$s」から
+trash_media_note_in_trash	ノート「%1$s」はごみ箱にあります。先にノートを元に戻してください
+trash_media_note_gone	ノート「%1$s」は完全に削除されています。戻せず、エクスポートのみ可能です
+trash_media_file_missing	ファイルはこの端末にありません。復元もエクスポートもできません。
+trash_media_cannot_restore_trash	先にごみ箱からノートを元に戻してください。
+trash_media_cannot_restore_gone	ノートがないため、この項目はエクスポートのみ可能です。
+trash_media_cannot_restore_file	ファイルがないため復元できません。
+trash_export	エクスポート
+trash_purge_media_title	この項目を完全に削除しますか？
+trash_purge_media_body	「%1$s」とそのファイルは完全に削除されます。元に戻せません。
+settings_backup_media_note	ごみ箱にある写真・動画・録画・録音はバックアップに含まれず、一覧だけが保存されます。同じ端末でインポートすれば、ファイルが残っている限り復元できます。

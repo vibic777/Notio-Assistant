@@ -1,0 +1,21 @@
+# key	en	ru	be	fr	de	es	it	zh	ja	ko  (0.9.32: D212 drawing tools)
+drawing_tool_shape	Shapes	Фигуры	Фігуры	Formes	Formen	Formas	Forme	形状	図形	도형
+drawing_tool_text	Text	Текст	Тэкст	Texte	Text	Texto	Testo	文字	テキスト	텍스트
+drawing_tool_eyedropper	Eyedropper	Пипетка	Піпетка	Pipette	Pipette	Cuentagotas	Contagocce	取色器	スポイト	스포이트
+drawing_shape_filled	Filled	С заливкой	З заліўкай	Rempli	Gefüllt	Relleno	Riempito	填充	塗りつぶし	채우기
+drawing_eyedropper_hint	Tap the picture to take its colour.	Коснитесь рисунка, чтобы взять его цвет.	Дакраніцеся да малюнка, каб узяць яго колер.	Touchez l’image pour prendre sa couleur.	Tippen Sie auf das Bild, um seine Farbe zu übernehmen.	Toque el dibujo para tomar su color.	Tocca il disegno per prenderne il colore.	点按画面以取色。	絵をタップして色を取ります。	그림을 눌러 색을 가져옵니다.
+drawing_text_hint	Tap where the text should go.	Коснитесь места, где должен быть текст.	Дакраніцеся да месца, дзе павінен быць тэкст.	Touchez l’endroit où placer le texte.	Tippen Sie dorthin, wo der Text stehen soll.	Toque donde debe ir el texto.	Tocca dove mettere il testo.	点按要放置文字的位置。	文字を置く場所をタップします。	텍스트를 넣을 곳을 누르세요.
+drawing_brush_opacity	Opacity	Непрозрачность	Непразрыстасць	Opacité	Deckkraft	Opacidad	Opacità	不透明度	不透明度	불투명도
+drawing_brush_softness	Softness	Размытость	Размытасць	Flou	Weichheit	Difuminado	Sfumatura	柔和度	ぼかし	부드러움
+drawing_brush_round	Round tip	Круглая	Круглы	Pointe ronde	Runde Spitze	Punta redonda	Punta tonda	圆头	丸ペン	둥근 펜
+drawing_brush_nib	Flat nib	Перо с наклоном	Пяро з нахілам	Plume biseautée	Breite Feder	Plumilla plana	Pennino piatto	扁头笔	平ペン	납작 펜
+drawing_brush_angle	Angle	Наклон	Нахіл	Angle	Winkel	Ángulo	Angolo	角度	角度	각도
+drawing_shape_square	Square	Квадрат	Квадрат	Carré	Quadrat	Cuadrado	Quadrato	正方形	正方形	정사각형
+drawing_shape_circle	Circle	Круг	Круг	Cercle	Kreis	Círculo	Cerchio	圆形	円	원
+drawing_shape_rhombus	Rhombus	Ромб	Ромб	Losange	Raute	Rombo	Rombo	菱形	ひし形	마름모
+drawing_shape_pentagon	Pentagon	Пятиугольник	Пяцівугольнік	Pentagone	Fünfeck	Pentágono	Pentagono	五边形	五角形	오각형
+drawing_shape_hexagon	Hexagon	Шестиугольник	Шасцівугольнік	Hexagone	Sechseck	Hexágono	Esagono	六边形	六角形	육각형
+drawing_shape_star	Star	Звезда	Зорка	Étoile	Stern	Estrella	Stella	星形	星	별
+drawing_shape_double_arrow	Double arrow	Двусторонняя стрелка	Двухбаковая стрэлка	Double flèche	Doppelpfeil	Flecha doble	Doppia freccia	双向箭头	両方向矢印	양방향 화살표
+drawing_text_label	Text	Текст	Тэкст	Texte	Text	Texto	Testo	文字	テキスト	텍스트
+drawing_edit_text	Edit text	Изменить текст	Змяніць тэкст	Modifier le texte	Text ändern	Editar texto	Modifica testo	编辑文字	テキストを編集	텍스트 편집

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Texts of the desktop-only functions (AGENT.md D45); not from the Android app, kept by hand in all ten languages. -->
+<resources>
+    <string name="desktop_window">窗口</string>
+    <string name="desktop_close_to_tray">“关闭”按钮最小化到托盘</string>
+    <string name="desktop_close_to_tray_hint">Notio 留在托盘中，提醒照常响起；托盘图标菜单（右键）中的“退出”可结束它。</string>
+    <string name="desktop_close_to_tray_notice">Notio 仍在托盘中运行。要结束，请右键单击其图标并选择“退出”。</string>
+    <string name="desktop_single_instance">不启动第二个 Notio</string>
+    <string name="desktop_single_instance_hint">再次启动 Notio 会将已打开的窗口置于前面。下次启动时生效。</string>
+    <string name="desktop_floating_stop_hint">关闭后，可在笔记中或托盘图标菜单（右键）中停止录制。</string>
+    <string name="desktop_auto_start">随 Windows 启动</string>
+    <string name="desktop_auto_start_hint">登录 Windows 时 Notio 在后台启动，提醒从一开始就会响起。</string>
+    <string name="desktop_auto_start_unavailable">在已安装版或便携版 Notio 中可用。</string>
+    <string name="desktop_auto_start_tray">启动到托盘</string>
+    <string name="desktop_previous">上一个</string>
+    <string name="desktop_next">下一个</string>
+    <string name="desktop_render">窗口绘制</string>
+    <string name="desktop_render_auto">自动</string>
+    <string name="desktop_render_software">兼容（不使用显卡）</string>
+    <string name="desktop_render_hint">重新启动 Notio 后生效。“自动”在虚拟或基本显示适配器上不使用显卡绘制（使用显卡时窗口会卡顿）。当前：%1$s。显示适配器：%2$s。</string>
+    <string name="desktop_damaged">Notio 无法启动：程序文件缺失或已损坏。请重新安装 Notio。笔记和设置会保留。</string>
+    <string name="desktop_not_answering">Notio 已在运行，但没有响应。请在任务管理器中结束 Notio，然后重新启动。</string>
+</resources>
